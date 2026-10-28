@@ -89,7 +89,36 @@ def main():
         "## 데이터와 검증", "", "[전체 원시 요약 JSON](results/active-probe.json) · [독립 물리 감사](results/active-probe-integrity-checks.json) · [사후 실패 진단](results/active-probe-failure-diagnostics.json)", "",
         "사후 진단은 방법/임계값을 바꾸는 데 쓰지 않았다. 관측 잔차가 낮다는 이유로 정답 미래에 가까운 후보를 제거하는 경우와, 8개 압축 집합이 전체 집합의 최악 손상을 과소평가하는 경우를 기록한다. 가설 집합 안의 손상 제약은 참 물체의 안전 보장이 아니다."]
     (project/"docs/RESULTS.md").write_text("\n".join(lines)+"\n", encoding="utf-8")
-    write_json(result/"publication-manifest.json", {"scope": "Selected reports and media only. No weights, assets, observed clips or full execution data.", "files": manifest})
+    # Keep the original publication intact and add explicit scalar-stage exports.
+    scalar_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
+        "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
+        "continuous-risk-evaluation", "risk-reuse"]
+    for stage in scalar_stages:
+        names = ["report.json"]
+        if stage == "risk-reuse":
+            names += ["inputs.json", "config.json", "code-sha256.json", "analysis-summary.json"]
+        if stage == "continuous-risk-evaluation":
+            names += ["evaluation-rows.json", "analysis-summary.json"]
+        for name in names:
+            path = source/stage/name
+            target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
+            write_json(target, portable(json.loads(path.read_text(encoding="utf-8"))))
+            manifest.append({"source": str(path.relative_to(project)).replace("\\", "/"),
+                "source_sha256": sha(path), "published": str(target.relative_to(project)).replace("\\", "/"),
+                "published_sha256": sha(target), "transformation": "Runtime root replaced; numeric results unchanged"})
+        figure = source/stage/"comparison.png"
+        if figure.exists():
+            target = media/(stage+"-comparison.png");shutil.copy2(figure,target)
+            manifest.append({"source": str(figure.relative_to(project)).replace("\\", "/"),
+                "published": str(target.relative_to(project)).replace("\\", "/"), "sha256": sha(target)})
+    with (project/"docs/RESULTS.md").open("a",encoding="utf-8") as handle:
+        handle.write("\n## 후속 스칼라 관측·위험 검증 실험\n\n"
+            "[새 상태의 손상·예측 비교](CONTINUOUS_RISK_EVALUATION.md) · "
+            "[동일 판정의 계산 재사용](RISK_REUSE.md) · "
+            "[조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)\n\n"
+            "후속 단계는 합성 gap 값과 알려진 준정적 법칙을 사용한다. "
+            "이 페이지의 앞선 Gaussian 영상 실험과 관측·역학 조건이 다르다.\n")
+    write_json(result/"publication-manifest.json", {"scope": "Selected reports, public replay inputs and media only. No weights, assets, observed clips or full execution data.", "files": manifest})
     print(f"Published {len(manifest)} selected artifacts to docs/")
 
 

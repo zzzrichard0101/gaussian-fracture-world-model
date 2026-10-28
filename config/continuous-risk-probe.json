@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "source_report": "artifacts/action-ceiling-diagnostic/report.json",
+  "regression_episode": "ceiling-012-0-0-continuous_guard",
+  "reference_count": 2,
+  "cell_budget": 4095,
+  "small_budget": 1,
+  "warm_grid_side": 161,
+  "warm_point_count": 5,
+  "backtracking_steps": 8,
+  "additional_initial_contexts": 8,
+  "scope": "Conditional exact-rational box cover and feasible witnesses for the stable quasistatic scalar law. Targeted regression audit and paired counterfactual two-step action filtering, not a held-out method result or general 3D/dynamic/real safety claim. Gaussian samples may violate the declared bounded observation assumptions."
+}

@@ -1,5 +1,5 @@
 {
-  "scope": "Selected reports and media only. No weights, assets, observed clips or full execution data.",
+  "scope": "Selected reports, public replay inputs and media only. No weights, assets, observed clips or full execution data.",
   "files": [
     {
       "source": "artifacts/direct-benchmark/report.json",
@@ -125,6 +125,139 @@
       "source": "artifacts/active-probe/active-probe-futures.mp4",
       "published": "docs/media/active-probe-active-probe-futures.mp4",
       "sha256": "ebe74957cffd0d889495a999aa77f3a9d0d0049f1db5262fff21ce08b7e35ce0"
+    },
+    {
+      "source": "artifacts/compliant-pilot/report.json",
+      "source_sha256": "ccf13743e61f932ed918f62dbafb09e2359e9fae834bdab743bc25cad91a289a",
+      "published": "docs/results/compliant-pilot.json",
+      "published_sha256": "8815769b7dfb6a890fff71ea98eb0aa1216dd00f57b322df51bc4fd6fe4f8902",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/synthetic-filter-benchmark/report.json",
+      "source_sha256": "5a351f5ba90d1b82874dc60fe765dc7eadaf77b56511d45932aa920adfedcd9b",
+      "published": "docs/results/synthetic-filter-benchmark.json",
+      "published_sha256": "58c2196460aff0093c2cb25fd513175a4edcfd3b4aa38d3f060bff3d117b4955",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/synthetic-filter-benchmark/comparison.png",
+      "published": "docs/media/synthetic-filter-benchmark-comparison.png",
+      "sha256": "686667899c0375dca1f452c280a852e202832bcc6b554c497efc60ec67b28c67"
+    },
+    {
+      "source": "artifacts/bias-aware-filter/report.json",
+      "source_sha256": "d5a61074a0c5c9edf5298666d427e05958b22c8dd1c7d494125d544dc1083bab",
+      "published": "docs/results/bias-aware-filter.json",
+      "published_sha256": "1eaf6e199a82bd82fc2fb55b7047afc839f10662e78d0f06e6c22298293aadc4",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/bias-aware-filter/comparison.png",
+      "published": "docs/media/bias-aware-filter-comparison.png",
+      "sha256": "63fd948f64dc1a0173656ed2c1914a2f9987d24553205509444f3826a170bbe7"
+    },
+    {
+      "source": "artifacts/finite-damage-guard/report.json",
+      "source_sha256": "afd8866354c324289fb6766be85c2fe2558446bbc1872eed17c6f4ac8b75aa84",
+      "published": "docs/results/finite-damage-guard.json",
+      "published_sha256": "4834b0d581e5f3aac1661f71ba16d9512fe87f3fa74c6833093b552f4a5f49d4",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/finite-damage-guard/comparison.png",
+      "published": "docs/media/finite-damage-guard-comparison.png",
+      "sha256": "631ab63d8f5d037dab998a6c80ce00f4deebec862f26fe40d955e79e53b01fea"
+    },
+    {
+      "source": "artifacts/action-ceiling-diagnostic/report.json",
+      "source_sha256": "7e0ba745e90b1e9c272f6b3eaa2ed127a6c5cd2d71777f10bac695112db7bdaf",
+      "published": "docs/results/action-ceiling-diagnostic.json",
+      "published_sha256": "d388153d649ce603213d65de0dba4454b661518a2703945de303a9b0653bc65f",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/action-ceiling-diagnostic/comparison.png",
+      "published": "docs/media/action-ceiling-diagnostic-comparison.png",
+      "sha256": "352349ba49af1b6fb7525b887fa5b09532f51b138cf59236edf9214fe1803b51"
+    },
+    {
+      "source": "artifacts/continuous-risk-probe/report.json",
+      "source_sha256": "1baab5453fe6c398620f082617132379a41797e2190add1c66484272880e27eb",
+      "published": "docs/results/continuous-risk-probe.json",
+      "published_sha256": "1ee84d58b87ab0291fe4ea50b6871fcc1d84323435976a11a0c9bead2a045b17",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/continuous-risk-probe/comparison.png",
+      "published": "docs/media/continuous-risk-probe-comparison.png",
+      "sha256": "c3a9019403d74838780ed2e3f2b4b2e3485c5f9393db03ae8ca596b05e43fe55"
+    },
+    {
+      "source": "artifacts/continuous-risk-evaluation/report.json",
+      "source_sha256": "d74613ab365938a17c3971f192c390b7d086126d504db9d86fa7be9839476504",
+      "published": "docs/results/continuous-risk-evaluation.json",
+      "published_sha256": "3e5028130119e2a94d1ac5162af6dfe9c9a1aae84438f1dea634d60c96f84876",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/continuous-risk-evaluation/evaluation-rows.json",
+      "source_sha256": "cbf80a110ba8a99c721fed39748000f7980b380eddb8dd9d1ba67bc964538346",
+      "published": "docs/results/continuous-risk-evaluation-evaluation-rows.json",
+      "published_sha256": "478d3391a716c54ced53e04236aa9d9a7ea26fd38ec03aad48d934b5830c8df9",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/continuous-risk-evaluation/analysis-summary.json",
+      "source_sha256": "40e3214811e9ec69249451932db99a719dd550a1d2af8a88d23d76a59aa8ced0",
+      "published": "docs/results/continuous-risk-evaluation-analysis-summary.json",
+      "published_sha256": "b27b92cc35c2207314c7aed9eafe98bbd120a9ec8ff50e7ccda7d8ebb1b08987",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/continuous-risk-evaluation/comparison.png",
+      "published": "docs/media/continuous-risk-evaluation-comparison.png",
+      "sha256": "8b460b6274e90083bbe889880fefd79aa8153ff40b25ea8ea6914ec3b6234375"
+    },
+    {
+      "source": "artifacts/risk-reuse/report.json",
+      "source_sha256": "93b010a36efbd7986b3dccc02c35eb93d1894f518b47d489c9884ad74d44a99a",
+      "published": "docs/results/risk-reuse.json",
+      "published_sha256": "9709bde29664145489b03d404ec81883ce02b2157a036b1e684e526755ac4fc9",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/risk-reuse/inputs.json",
+      "source_sha256": "e26a3a36d5ac63374852c50def51a5e0cff628af3c297b75c31b188ccd142cc9",
+      "published": "docs/results/risk-reuse-inputs.json",
+      "published_sha256": "ceec9b206c7cadb73cff0ed296056a4c15f5a6c6a4196a568857ce3ef4c7b05e",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/risk-reuse/config.json",
+      "source_sha256": "7e58f2e76f999190b36923e7def05b3693019ee21b8a9cd70650ac761a6a4a8d",
+      "published": "docs/results/risk-reuse-config.json",
+      "published_sha256": "d32460ff000549a251ba7a3a006c0892f9ea6b04cc74608c446da2be8370da7a",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/risk-reuse/code-sha256.json",
+      "source_sha256": "9776b1c1f244fb26e9f69d634acdac27ecf5b6f782c3efe53143bf032479ddb6",
+      "published": "docs/results/risk-reuse-code-sha256.json",
+      "published_sha256": "6e7d81f29587f16ffc3eb1288f2fe687869a900f06c57e4bc879ee4185819f43",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/risk-reuse/analysis-summary.json",
+      "source_sha256": "5dfa2f3c49dbea1943b91ebe771eca0155bda6a1ccacc0ec831ae8fe6456cf20",
+      "published": "docs/results/risk-reuse-analysis-summary.json",
+      "published_sha256": "12f29e7535227944e102b815965d74a37e741738dd2cae694710cf01d6838b23",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/risk-reuse/comparison.png",
+      "published": "docs/media/risk-reuse-comparison.png",
+      "sha256": "fa8a55dba3d621cc50f163fb434c4d0593f184ce4d7de3c3d474da4b5f3edd6a"
     }
   ]
 }

@@ -115,3 +115,9 @@ DIRECT가 두 시험 모두 가장 작았다. 적응형 세분화의 새로운 �
 [전체 원시 요약 JSON](results/active-probe.json) · [독립 물리 감사](results/active-probe-integrity-checks.json) · [사후 실패 진단](results/active-probe-failure-diagnostics.json)
 
 사후 진단은 방법/임계값을 바꾸는 데 쓰지 않았다. 관측 잔차가 낮다는 이유로 정답 미래에 가까운 후보를 제거하는 경우와, 8개 압축 집합이 전체 집합의 최악 손상을 과소평가하는 경우를 기록한다. 가설 집합 안의 손상 제약은 참 물체의 안전 보장이 아니다.
+
+## 후속 스칼라 관측·위험 검증 실험
+
+[새 상태의 손상·예측 비교](CONTINUOUS_RISK_EVALUATION.md) · [동일 판정의 계산 재사용](RISK_REUSE.md) · [조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)
+
+후속 단계는 합성 gap 값과 알려진 준정적 법칙을 사용한다. 이 페이지의 앞선 Gaussian 영상 실험과 관측·역학 조건이 다르다.

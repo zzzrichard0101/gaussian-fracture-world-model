@@ -39,6 +39,6 @@ case "$command_name" in
   action-adapter) exec "$PYTHON" "$PROJECT_ROOT/scripts/action_adapter.py" "$@" ;;
   belief-state) exec "$PYTHON" "$PROJECT_ROOT/scripts/belief_state.py" "$@" ;;
   python) exec "$PYTHON" "$@" ;;
-  test) exec "$PYTHON" -m pytest "$PROJECT_ROOT/tests/test_world_model_io.py" "$PROJECT_ROOT/tests/test_action_adapter.py" "$PROJECT_ROOT/tests/test_belief_state.py" "$PROJECT_ROOT/tests/test_history_refinement.py" "$PROJECT_ROOT/tests/test_joint_state.py" "$PROJECT_ROOT/tests/test_hypothesis_selection.py" "$PROJECT_ROOT/tests/test_response_diversity_io.py" "$PROJECT_ROOT/tests/test_active_probe.py" "$PROJECT_ROOT/tests/test_fixture_reference.py" "$@" ;;
+  test) exec "$PYTHON" -m pytest "$PROJECT_ROOT/tests/test_world_model_io.py" "$PROJECT_ROOT/tests/test_action_adapter.py" "$PROJECT_ROOT/tests/test_belief_state.py" "$PROJECT_ROOT/tests/test_history_refinement.py" "$PROJECT_ROOT/tests/test_joint_state.py" "$PROJECT_ROOT/tests/test_hypothesis_selection.py" "$PROJECT_ROOT/tests/test_response_diversity_io.py" "$PROJECT_ROOT/tests/test_active_probe.py" "$PROJECT_ROOT/tests/test_fixture_reference.py" "$PROJECT_ROOT/tests/test_compliant_fixture.py" "$@" ;;
   *) echo "Usage: world-model.sh {bootstrap|run|rank|evaluate|action-adapter|belief-state|python|test}" >&2; exit 2 ;;
 esac

@@ -1,0 +1,2733 @@
+{
+  "status": "same_apparatus_sequence_feasibility_completed",
+  "run_directory": "<WM_RESEARCH_ROOT>/runs/20261028T091704543201Z-compliant-pilot",
+  "records": [
+    {
+      "dt": 4e-05,
+      "energy": 1.37,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": -3.1631981803701636e-109,
+          "velocity": -8.731513701225942e-104,
+          "maximum_opening": 0.0008804658215557129,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.004104931066043384,
+          "damping_heat": 5.478646252406214e-05
+        },
+        "hold_gap_m": 0.0008804647528544376,
+        "hold_damage": 0.9200004145826002,
+        "maximum_segment_energy_residual_j": 4.584354250380951e-11,
+        "first_failure": null,
+        "nominal_history_peak_m": 0.0008804627249357327,
+        "actual_history_error_m": 3.0966199801845534e-09
+      },
+      "weak": {
+        "label": "weak",
+        "before": {
+          "gap": -3.1631981803701636e-109,
+          "velocity": -8.731513701225942e-104,
+          "maximum_opening": 0.0008804658215557129,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.004104931066043384,
+          "damping_heat": 5.478646252406214e-05
+        },
+        "after": {
+          "gap": -1.9959190466567957e-109,
+          "velocity": -5.5094222705302833e-104,
+          "maximum_opening": 0.0008804658215557129,
+          "drive": 0.0,
+          "time": 5.500000000002162,
+          "step": 137500,
+          "actuator_work": 0.0041186375978211716,
+          "damping_heat": 6.849299430125671e-05
+        },
+        "hold_gap_m": 0.0005555568351344296,
+        "hold_damage": 0.9200004145826002,
+        "maximum_segment_energy_residual_j": 2.4669424489309755e-12,
+        "first_failure": null
+      },
+      "branches": {
+        "passive": {
+          "source_state_hash": "a8eece5cc7609589a20be925ce0f120103d37ee6dd5a9e2e47e3730b4432190f",
+          "probe": {
+            "label": "passive",
+            "before": {
+              "gap": -1.9959190466567957e-109,
+              "velocity": -5.5094222705302833e-104,
+              "maximum_opening": 0.0008804658215557129,
+              "drive": 0.0,
+              "time": 5.500000000002162,
+              "step": 137500,
+              "actuator_work": 0.0041186375978211716,
+              "damping_heat": 6.849299430125671e-05
+            },
+            "after": {
+              "gap": 0.0,
+              "velocity": 1.4e-322,
+              "maximum_opening": 0.0008804658215557129,
+              "drive": 0.0,
+              "time": 8.250000000020178,
+              "step": 206250,
+              "actuator_work": 0.0041186375978211716,
+              "damping_heat": 6.849299430125671e-05
+            },
+            "hold_gap_m": 0.0,
+            "hold_damage": 0.9200004145826002,
+            "maximum_segment_energy_residual_j": 0.0,
+            "first_failure": null
+          },
+          "future": {
+            "label": "future",
+            "before": {
+              "gap": 0.0,
+              "velocity": 1.4e-322,
+              "maximum_opening": 0.0008804658215557129,
+              "drive": 0.0,
+              "time": 8.250000000020178,
+              "step": 206250,
+              "actuator_work": 0.0041186375978211716,
+              "damping_heat": 6.849299430125671e-05
+            },
+            "after": {
+              "gap": 8.658954334490608e-106,
+              "velocity": -3.2066057784327224e-103,
+              "maximum_opening": 0.0035000110688097924,
+              "drive": 0.0,
+              "time": 11.000000000038193,
+              "step": 275000,
+              "actuator_work": 0.014401992887012355,
+              "damping_heat": 0.0007019928598755235
+            },
+            "hold_gap_m": 0.003500000000000009,
+            "hold_damage": 1.0,
+            "maximum_segment_energy_residual_j": 2.700703055288911e-10,
+            "first_failure": {
+              "time": 8.944320000024726,
+              "drive": 0.002753198248429242
+            }
+          }
+        },
+        "probe": {
+          "source_state_hash": "a8eece5cc7609589a20be925ce0f120103d37ee6dd5a9e2e47e3730b4432190f",
+          "probe": {
+            "label": "probe",
+            "before": {
+              "gap": -1.9959190466567957e-109,
+              "velocity": -5.5094222705302833e-104,
+              "maximum_opening": 0.0008804658215557129,
+              "drive": 0.0,
+              "time": 5.500000000002162,
+              "step": 137500,
+              "actuator_work": 0.0041186375978211716,
+              "damping_heat": 6.849299430125671e-05
+            },
+            "after": {
+              "gap": -1.4083518782741284e-107,
+              "velocity": 2.859388714015232e-104,
+              "maximum_opening": 0.0009853690776091173,
+              "drive": 0.0,
+              "time": 8.250000000020178,
+              "step": 206250,
+              "actuator_work": 0.004705006870447832,
+              "damping_heat": 0.00011047794624647662
+            },
+            "hold_gap_m": 0.0009853678815772368,
+            "hold_damage": 0.9325498495689842,
+            "maximum_segment_energy_residual_j": 8.508245323557428e-12,
+            "first_failure": null
+          },
+          "future": {
+            "label": "future",
+            "before": {
+              "gap": -1.4083518782741284e-107,
+              "velocity": 2.859388714015232e-104,
+              "maximum_opening": 0.0009853690776091173,
+              "drive": 0.0,
+              "time": 8.250000000020178,
+              "step": 206250,
+              "actuator_work": 0.004705006870447832,
+              "damping_heat": 0.00011047794624647662
+            },
+            "after": {
+              "gap": 8.658954334490608e-106,
+              "velocity": -3.2066057784327224e-103,
+              "maximum_opening": 0.0035000110688097924,
+              "drive": 0.0,
+              "time": 11.000000000038193,
+              "step": 275000,
+              "actuator_work": 0.014435358598843595,
+              "damping_heat": 0.0007353585675519683
+            },
+            "hold_gap_m": 0.003500000000000009,
+            "hold_damage": 1.0,
+            "maximum_segment_energy_residual_j": 2.671171218243673e-10,
+            "first_failure": {
+              "time": 8.944320000024726,
+              "drive": 0.002753198248429242
+            }
+          }
+        }
+      },
+      "probe_extra_damage_over_passive": 0.012549434986384056
+    },
+    {
+      "dt": 4e-05,
+      "energy": 2.63,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": -3.4466258043679197e-109,
+          "velocity": -1.0171099025989514e-103,
+          "maximum_opening": 0.0010257467890907317,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.004786161914406806,
+          "damping_heat": 6.772382331008856e-05
+        },
+        "hold_gap_m": 0.0010257442094843174,
+        "hold_damage": 0.9200005580063315,
+        "maximum_segment_energy_residual_j": 4.1885322467349884e-11,
+        "first_failure": null,
+        "nominal_history_peak_m": 0.0010257410296411857,
+        "actual_history_error_m": 5.759449545972642e-09
+      },
+      "weak": {
+        "label": "weak",
+        "before": {
+          "gap": -3.4466258043679197e-109,
+          "velocity": -1.0171099025989514e-103,
+          "maximum_opening": 0.0010257467890907317,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.004786161914406806,
+          "damping_heat": 6.772382331008856e-05
+        },
+        "after": {
+          "gap": -1.866740296029766e-109,
+          "velocity": -5.5088081754683574e-104,
+          "maximum_opening": 0.0010257467890907317,
+          "drive": 0.0,
+          "time": 5.500000000002162,
+          "step": 137500,
+          "actuator_work": 0.004799868468027397,
+          "damping_heat": 8.143037693007225e-05
+        },
+        "hold_gap_m": 0.0005555572778026588,
+        "hold_damage": 0.9200005580063315,
+        "maximum_segment_energy_residual_j": 2.466906887099718e-12,
+        "first_failure": null
+      },
+      "branches": {
+        "passive": {
+          "source_state_hash": "8b22d0747f4f96e13079398916f8161c642fa322d12f8b90e4fd196ea62d8569",
+          "probe": {
+            "label": "passive",
+            "before": {
+              "gap": -1.866740296029766e-109,
+              "velocity": -5.5088081754683574e-104,
+              "maximum_opening": 0.0010257467890907317,
+              "drive": 0.0,
+              "time": 5.500000000002162,
+              "step": 137500,
+              "actuator_work": 0.004799868468027397,
+              "damping_heat": 8.143037693007225e-05
+            },
+            "after": {
+              "gap": 0.0,
+              "velocity": 1.4e-322,
+              "maximum_opening": 0.0010257467890907317,
+              "drive": 0.0,
+              "time": 8.250000000020178,
+              "step": 206250,
+              "actuator_work": 0.004799868468027397,
+              "damping_heat": 8.143037693007225e-05
+            },
+            "hold_gap_m": 0.0,
+            "hold_damage": 0.9200005580063315,
+            "maximum_segment_energy_residual_j": 0.0,
+            "first_failure": null
+          },
+          "future": {
+            "label": "future",
+            "before": {
+              "gap": 0.0,
+              "velocity": 1.4e-322,
+              "maximum_opening": 0.0010257467890907317,
+              "drive": 0.0,
+              "time": 8.250000000020178,
+              "step": 206250,
+              "actuator_work": 0.004799868468027397,
+              "damping_heat": 8.143037693007225e-05
+            },
+            "after": {
+              "gap": 5.683444795811192e-106,
+              "velocity": -4.3371226159119457e-103,
+              "maximum_opening": 0.0030769339948149756,
+              "drive": 0.0,
+              "time": 11.000000000038193,
+              "step": 275000,
+              "actuator_work": 0.015703682140218913,
+              "damping_heat": 0.0005305495856994376
+            },
+            "hold_gap_m": 0.0030769262567662036,
+            "hold_damage": 0.9862501175547043,
+            "maximum_segment_energy_residual_j": 1.7404285391348084e-10,
+            "first_failure": null
+          }
+        },
+        "probe": {
+          "source_state_hash": "8b22d0747f4f96e13079398916f8161c642fa322d12f8b90e4fd196ea62d8569",
+          "probe": {
+            "label": "probe",
+            "before": {
+              "gap": -1.866740296029766e-109,
+              "velocity": -5.5088081754683574e-104,
+              "maximum_opening": 0.0010257467890907317,
+              "drive": 0.0,
+              "time": 5.500000000002162,
+              "step": 137500,
+              "actuator_work": 0.004799868468027397,
+              "damping_heat": 8.143037693007225e-05
+            },
+            "after": {
+              "gap": -3.0801214874204015e-109,
+              "velocity": -9.089533489481503e-104,
+              "maximum_opening": 0.0010257467890907317,
+              "drive": 0.0,
+              "time": 8.250000000020178,
+              "step": 206250,
+              "actuator_work": 0.004837184560259201,
+              "damping_heat": 0.00011874646916047533
+            },
+            "hold_gap_m": 0.000916669508374386,
+            "hold_damage": 0.9200005580063315,
+            "maximum_segment_energy_residual_j": 6.716241278403867e-12,
+            "first_failure": null
+          },
+          "future": {
+            "label": "future",
+            "before": {
+              "gap": -3.0801214874204015e-109,
+              "velocity": -9.089533489481503e-104,
+              "maximum_opening": 0.0010257467890907317,
+              "drive": 0.0,
+              "time": 8.250000000020178,
+              "step": 206250,
+              "actuator_work": 0.004837184560259201,
+              "damping_heat": 0.00011874646916047533
+            },
+            "after": {
+              "gap": 5.683444795811192e-106,
+              "velocity": -4.3371226159119457e-103,
+              "maximum_opening": 0.0030769339948149756,
+              "drive": 0.0,
+              "time": 11.000000000038193,
+              "step": 275000,
+              "actuator_work": 0.015740998232450728,
+              "damping_heat": 0.0005678656779298422
+            },
+            "hold_gap_m": 0.0030769262567662036,
+            "hold_damage": 0.9862501175547043,
+            "maximum_segment_energy_residual_j": 1.740428530461191e-10,
+            "first_failure": null
+          }
+        }
+      },
+      "probe_extra_damage_over_passive": 0.0
+    },
+    {
+      "dt": 2e-05,
+      "energy": 1.37,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 1.6009424224360115e-107,
+          "velocity": -9.412932396145119e-104,
+          "maximum_opening": 0.0008804658198811889,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.004104935465706034,
+          "damping_heat": 5.4790870324130075e-05
+        },
+        "hold_gap_m": 0.0008804647517578239,
+        "hold_damage": 0.9200004143584118,
+        "maximum_segment_energy_residual_j": 1.1484905040881621e-11,
+        "first_failure": null,
+        "nominal_history_peak_m": 0.0008804627249357327,
+        "actual_history_error_m": 3.094945456166842e-09
+      },
+      "weak": {
+        "label": "weak",
+        "before": {
+          "gap": 1.6009424224360115e-107,
+          "velocity": -9.412932396145119e-104,
+          "maximum_opening": 0.0008804658198811889,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.004104935465706034,
+          "damping_heat": 5.4790870324130075e-05
+        },
+        "after": {
+          "gap": 1.0101648050664852e-107,
+          "velocity": -5.939384756042451e-104,
+          "maximum_opening": 0.0008804658198811889,
+          "drive": 0.0,
+          "time": 5.500000000019097,
+          "step": 275000,
+          "actuator_work": 0.004118643107650651,
+          "damping_heat": 6.849851226870111e-05
+        },
+        "hold_gap_m": 0.000555556834442489,
+        "hold_damage": 0.9200004143584118,
+        "maximum_segment_energy_residual_j": 6.16909301420776e-13,
+        "first_failure": null
+      },
+      "branches": {
+        "passive": {
+          "source_state_hash": "9116e28f0bacef534401b99390427ecbf0c2cbbde90900f0f2bf556463b62af2",
+          "probe": {
+            "label": "passive",
+            "before": {
+              "gap": 1.0101648050664852e-107,
+              "velocity": -5.939384756042451e-104,
+              "maximum_opening": 0.0008804658198811889,
+              "drive": 0.0,
+              "time": 5.500000000019097,
+              "step": 275000,
+              "actuator_work": 0.004118643107650651,
+              "damping_heat": 6.849851226870111e-05
+            },
+            "after": {
+              "gap": 1.14e-322,
+              "velocity": -1.09574e-319,
+              "maximum_opening": 0.0008804658198811889,
+              "drive": 0.0,
+              "time": 8.25000000002601,
+              "step": 412500,
+              "actuator_work": 0.004118643107650651,
+              "damping_heat": 6.849851226870111e-05
+            },
+            "hold_gap_m": 1.14e-322,
+            "hold_damage": 0.9200004143584118,
+            "maximum_segment_energy_residual_j": 0.0,
+            "first_failure": null
+          },
+          "future": {
+            "label": "future",
+            "before": {
+              "gap": 1.14e-322,
+              "velocity": -1.09574e-319,
+              "maximum_opening": 0.0008804658198811889,
+              "drive": 0.0,
+              "time": 8.25000000002601,
+              "step": 412500,
+              "actuator_work": 0.004118643107650651,
+              "damping_heat": 6.849851226870111e-05
+            },
+            "after": {
+              "gap": 8.397112959620188e-106,
+              "velocity": -2.7370288313312665e-103,
+              "maximum_opening": 0.003500011067308857,
+              "drive": 0.0,
+              "time": 10.9999999999219,
+              "step": 550000,
+              "actuator_work": 0.014402049577493982,
+              "damping_heat": 0.0007020495808139403
+            },
+            "hold_gap_m": 0.0035000000000000083,
+            "hold_damage": 1.0,
+            "maximum_segment_energy_residual_j": 6.931483859107246e-11,
+            "first_failure": {
+              "time": 8.944299999999725,
+              "drive": 0.0027531081513277136
+            }
+          }
+        },
+        "probe": {
+          "source_state_hash": "9116e28f0bacef534401b99390427ecbf0c2cbbde90900f0f2bf556463b62af2",
+          "probe": {
+            "label": "probe",
+            "before": {
+              "gap": 1.0101648050664852e-107,
+              "velocity": -5.939384756042451e-104,
+              "maximum_opening": 0.0008804658198811889,
+              "drive": 0.0,
+              "time": 5.500000000019097,
+              "step": 275000,
+              "actuator_work": 0.004118643107650651,
+              "damping_heat": 6.849851226870111e-05
+            },
+            "after": {
+              "gap": -7.067555977674643e-108,
+              "velocity": -8.566879118904024e-104,
+              "maximum_opening": 0.0009853690758657386,
+              "drive": 0.0,
+              "time": 8.25000000002601,
+              "step": 412500,
+              "actuator_work": 0.004705015775626231,
+              "damping_heat": 0.0001104868595971774
+            },
+            "hold_gap_m": 0.0009853678804806229,
+            "hold_damage": 0.9325498493826294,
+            "maximum_segment_energy_residual_j": 2.1829482665935984e-12,
+            "first_failure": null
+          },
+          "future": {
+            "label": "future",
+            "before": {
+              "gap": -7.067555977674643e-108,
+              "velocity": -8.566879118904024e-104,
+              "maximum_opening": 0.0009853690758657386,
+              "drive": 0.0,
+              "time": 8.25000000002601,
+              "step": 412500,
+              "actuator_work": 0.004705015775626231,
+              "damping_heat": 0.0001104868595971774
+            },
+            "after": {
+              "gap": 8.397112959620188e-106,
+              "velocity": -2.7370288313312665e-103,
+              "maximum_opening": 0.003500011067308857,
+              "drive": 0.0,
+              "time": 10.9999999999219,
+              "step": 550000,
+              "actuator_work": 0.014435417981197022,
+              "damping_heat": 0.0007354179832061612
+            },
+            "hold_gap_m": 0.0035000000000000083,
+            "hold_damage": 1.0,
+            "maximum_segment_energy_residual_j": 6.824759160584115e-11,
+            "first_failure": {
+              "time": 8.944299999999725,
+              "drive": 0.0027531081513277136
+            }
+          }
+        }
+      },
+      "probe_extra_damage_over_passive": 0.01254943502421757
+    },
+    {
+      "dt": 2e-05,
+      "energy": 2.63,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 1.867596790173164e-107,
+          "velocity": -1.0967734790989577e-103,
+          "maximum_opening": 0.001025746787745889,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.004786167368472696,
+          "damping_heat": 6.772928389583603e-05
+        },
+        "hold_gap_m": 0.0010257442087418214,
+        "hold_damage": 0.9200005578760369,
+        "maximum_segment_energy_residual_j": 1.0578600495581014e-11,
+        "first_failure": null,
+        "nominal_history_peak_m": 0.0010257410296411857,
+        "actual_history_error_m": 5.758104703332614e-09
+      },
+      "weak": {
+        "label": "weak",
+        "before": {
+          "gap": 1.867596790173164e-107,
+          "velocity": -1.0967734790989577e-103,
+          "maximum_opening": 0.001025746787745889,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.004786167368472696,
+          "damping_heat": 6.772928389583603e-05
+        },
+        "after": {
+          "gap": 1.011516301226633e-107,
+          "velocity": -5.940277144934118e-104,
+          "maximum_opening": 0.001025746787745889,
+          "drive": 0.0,
+          "time": 5.500000000019097,
+          "step": 275000,
+          "actuator_work": 0.004799875032276377,
+          "damping_heat": 8.143694769926151e-05
+        },
+        "hold_gap_m": 0.0005555572774005142,
+        "hold_damage": 0.9200005578760369,
+        "maximum_segment_energy_residual_j": 6.168459840139029e-13,
+        "first_failure": null
+      },
+      "branches": {
+        "passive": {
+          "source_state_hash": "1f3f479a60c4959474a0b4e995dead6a4bb9a2df86ab23b43f4bea75e239886e",
+          "probe": {
+            "label": "passive",
+            "before": {
+              "gap": 1.011516301226633e-107,
+              "velocity": -5.940277144934118e-104,
+              "maximum_opening": 0.001025746787745889,
+              "drive": 0.0,
+              "time": 5.500000000019097,
+              "step": 275000,
+              "actuator_work": 0.004799875032276377,
+              "damping_heat": 8.143694769926151e-05
+            },
+            "after": {
+              "gap": 1.14e-322,
+              "velocity": -1.09574e-319,
+              "maximum_opening": 0.001025746787745889,
+              "drive": 0.0,
+              "time": 8.25000000002601,
+              "step": 412500,
+              "actuator_work": 0.004799875032276377,
+              "damping_heat": 8.143694769926151e-05
+            },
+            "hold_gap_m": 1.14e-322,
+            "hold_damage": 0.9200005578760369,
+            "maximum_segment_energy_residual_j": 0.0,
+            "first_failure": null
+          },
+          "future": {
+            "label": "future",
+            "before": {
+              "gap": 1.14e-322,
+              "velocity": -1.09574e-319,
+              "maximum_opening": 0.001025746787745889,
+              "drive": 0.0,
+              "time": 8.25000000002601,
+              "step": 412500,
+              "actuator_work": 0.004799875032276377,
+              "damping_heat": 8.143694769926151e-05
+            },
+            "after": {
+              "gap": 5.915745572328645e-106,
+              "velocity": -4.1158301063372513e-103,
+              "maximum_opening": 0.003076933992265631,
+              "drive": 0.0,
+              "time": 10.9999999999219,
+              "step": 550000,
+              "actuator_work": 0.0157037250269128,
+              "damping_heat": 0.0005305924741388696
+            },
+            "hold_gap_m": 0.0030769262560237176,
+            "hold_damage": 0.9862501175272554,
+            "maximum_segment_energy_residual_j": 4.413014918769331e-11,
+            "first_failure": null
+          }
+        },
+        "probe": {
+          "source_state_hash": "1f3f479a60c4959474a0b4e995dead6a4bb9a2df86ab23b43f4bea75e239886e",
+          "probe": {
+            "label": "probe",
+            "before": {
+              "gap": 1.011516301226633e-107,
+              "velocity": -5.940277144934118e-104,
+              "maximum_opening": 0.001025746787745889,
+              "drive": 0.0,
+              "time": 5.500000000019097,
+              "step": 275000,
+              "actuator_work": 0.004799875032276377,
+              "damping_heat": 8.143694769926151e-05
+            },
+            "after": {
+              "gap": 1.6690018970392994e-107,
+              "velocity": -9.801457289144225e-104,
+              "maximum_opening": 0.001025746787745889,
+              "drive": 0.0,
+              "time": 8.25000000002601,
+              "step": 412500,
+              "actuator_work": 0.004837194146981684,
+              "damping_heat": 0.00011875606240409375
+            },
+            "hold_gap_m": 0.0009166695077108462,
+            "hold_damage": 0.9200005578760369,
+            "maximum_segment_energy_residual_j": 1.6793962054340028e-12,
+            "first_failure": null
+          },
+          "future": {
+            "label": "future",
+            "before": {
+              "gap": 1.6690018970392994e-107,
+              "velocity": -9.801457289144225e-104,
+              "maximum_opening": 0.001025746787745889,
+              "drive": 0.0,
+              "time": 8.25000000002601,
+              "step": 412500,
+              "actuator_work": 0.004837194146981684,
+              "damping_heat": 0.00011875606240409375
+            },
+            "after": {
+              "gap": 5.915745572328645e-106,
+              "velocity": -4.1158301063372513e-103,
+              "maximum_opening": 0.003076933992265631,
+              "drive": 0.0,
+              "time": 10.9999999999219,
+              "step": 550000,
+              "actuator_work": 0.015741044141618116,
+              "damping_heat": 0.0005679115888436979
+            },
+            "hold_gap_m": 0.0030769262560237176,
+            "hold_damage": 0.9862501175272554,
+            "maximum_segment_energy_residual_j": 4.413014571824636e-11,
+            "first_failure": null
+          }
+        }
+      },
+      "probe_extra_damage_over_passive": 0.0
+    }
+  ],
+  "same_material_controls": [
+    {
+      "dt": 4e-05,
+      "spring": 10000.0,
+      "nominal_history_peak_m": 0.0,
+      "actual_history_peak_m": 0.0,
+      "nominal_history_reached_within_10um": true,
+      "prepared_damage": 0.0,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 0.0008396581523632913,
+      "trial_hold_damage": 0.9034914571655228,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "hold_gap_m": 0.0,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 0.0,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": -6.9986822548724515e-109,
+          "velocity": 8.017330498818035e-104,
+          "maximum_opening": 0.0008396599664179081,
+          "drive": 0.0,
+          "time": 5.500000000002162,
+          "step": 137500,
+          "actuator_work": 0.003840897523345165,
+          "damping_heat": 4.77694914189204e-05
+        },
+        "hold_gap_m": 0.0008396581523632913,
+        "hold_damage": 0.9034914571655228,
+        "maximum_segment_energy_residual_j": 3.8462353961488116e-11,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 4e-05,
+      "spring": 10000.0,
+      "nominal_history_peak_m": 0.001,
+      "actual_history_peak_m": 0.001000005140423995,
+      "nominal_history_reached_within_10um": true,
+      "prepared_damage": 0.9230774502971868,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 0.0009326114747789912,
+      "trial_hold_damage": 0.9230774502971868,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 7.392954435134818e-107,
+          "velocity": -1.1352943420983946e-103,
+          "maximum_opening": 0.001000005140423995,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.004681380670270342,
+          "damping_heat": 6.596969476669585e-05
+        },
+        "hold_gap_m": 0.0010000029799495035,
+        "hold_damage": 0.9230774502971868,
+        "maximum_segment_energy_residual_j": 4.688634810262604e-11,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 7.392954435134818e-107,
+          "velocity": -1.1352943420983946e-103,
+          "maximum_opening": 0.001000005140423995,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.004681380670270342,
+          "damping_heat": 6.596969476669585e-05
+        },
+        "after": {
+          "gap": 6.894733592761843e-107,
+          "velocity": -1.0587853755639617e-103,
+          "maximum_opening": 0.001000005140423995,
+          "drive": 0.0,
+          "time": 5.500000000002162,
+          "step": 137500,
+          "actuator_work": 0.004720005992117982,
+          "damping_heat": 0.0001045950166127756
+        },
+        "hold_gap_m": 0.0009326114747789912,
+        "hold_damage": 0.9230774502971868,
+        "maximum_segment_energy_residual_j": 6.951907799424006e-12,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 4e-05,
+      "spring": 10000.0,
+      "nominal_history_peak_m": 0.002,
+      "actual_history_peak_m": 0.0020000073008920503,
+      "nominal_history_reached_within_10um": true,
+      "prepared_damage": 0.9743591615606512,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 0.0013132672628545956,
+      "trial_hold_damage": 0.9743591615606512,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": -2.3239720809848856e-107,
+          "velocity": 1.818950333078892e-103,
+          "maximum_opening": 0.0020000073008920503,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.00997939890502077,
+          "damping_heat": 0.00023577172222991464
+        },
+        "hold_gap_m": 0.002000002979949497,
+        "hold_damage": 0.9743591615606512,
+        "maximum_segment_energy_residual_j": 9.6102876524784e-11,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": -2.3239720809848856e-107,
+          "velocity": 1.818950333078892e-103,
+          "maximum_opening": 0.0020000073008920503,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.00997939890502077,
+          "damping_heat": 0.00023577172222991464
+        },
+        "after": {
+          "gap": -1.525995953181903e-107,
+          "velocity": 1.1943821829944229e-103,
+          "maximum_opening": 0.0020000073008920503,
+          "drive": 0.0,
+          "time": 5.500000000002162,
+          "step": 137500,
+          "actuator_work": 0.010055989673195213,
+          "damping_heat": 0.00031236249040292227
+        },
+        "hold_gap_m": 0.0013132672628545956,
+        "hold_damage": 0.9743591615606512,
+        "maximum_segment_energy_residual_j": 1.3785096328322588e-11,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 4e-05,
+      "spring": 1000.0,
+      "nominal_history_peak_m": 0.0,
+      "actual_history_peak_m": 0.0,
+      "nominal_history_reached_within_10um": true,
+      "prepared_damage": 0.0,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 1.633663366336634e-05,
+      "trial_hold_damage": 0.0,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "hold_gap_m": 0.0,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 0.0,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 3.2429234028591277e-109,
+          "velocity": -2.3053358846658455e-106,
+          "maximum_opening": 1.633664835317308e-05,
+          "drive": 0.0,
+          "time": 5.500000000002162,
+          "step": 137500,
+          "actuator_work": 1.1852011388019432e-08,
+          "damping_heat": 1.1852011384988655e-08
+        },
+        "hold_gap_m": 1.633663366336634e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 2.1366372213171836e-15,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 4e-05,
+      "spring": 1000.0,
+      "nominal_history_peak_m": 0.001,
+      "actual_history_peak_m": 8.606252978594683e-05,
+      "nominal_history_reached_within_10um": false,
+      "prepared_damage": 0.0,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 1.633663366336634e-05,
+      "trial_hold_damage": 0.0,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 1.7083932145816444e-108,
+          "velocity": -1.214465990530798e-105,
+          "maximum_opening": 8.606252978594683e-05,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 3.2892308408434916e-07,
+          "damping_heat": 3.289230842582245e-07
+        },
+        "hold_gap_m": 8.60624523990861e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 5.947152492691288e-14,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 1.7083932145816444e-108,
+          "velocity": -1.214465990530798e-105,
+          "maximum_opening": 8.606252978594683e-05,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 3.2892308408434916e-07,
+          "damping_heat": 3.289230842582245e-07
+        },
+        "after": {
+          "gap": 3.2429234028591277e-109,
+          "velocity": -2.3053358846658455e-106,
+          "maximum_opening": 8.606252978594683e-05,
+          "drive": 0.0,
+          "time": 5.500000000002162,
+          "step": 137500,
+          "actuator_work": 3.407750954724536e-07,
+          "damping_heat": 3.4077509564320226e-07
+        },
+        "hold_gap_m": 1.633663366336634e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 2.136691431425808e-15,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 4e-05,
+      "spring": 1000.0,
+      "nominal_history_peak_m": 0.002,
+      "actual_history_peak_m": 7.0576351859862e-05,
+      "nominal_history_reached_within_10um": false,
+      "prepared_damage": 0.0,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 1.633663366336634e-05,
+      "trial_hold_damage": 0.0,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 1.400983226066e-108,
+          "velocity": -9.959337621359393e-106,
+          "maximum_opening": 7.0576351859862e-05,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 2.2119970801854478e-07,
+          "damping_heat": 2.2119970800648213e-07
+        },
+        "hold_gap_m": 7.057628839807064e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 3.9908180926584436e-14,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 1.400983226066e-108,
+          "velocity": -9.959337621359393e-106,
+          "maximum_opening": 7.0576351859862e-05,
+          "drive": 0.0,
+          "time": 2.749999999998024,
+          "step": 68750,
+          "actuator_work": 2.2119970801854478e-07,
+          "damping_heat": 2.2119970800648213e-07
+        },
+        "after": {
+          "gap": 3.2429234028591277e-109,
+          "velocity": -2.3053358846658455e-106,
+          "maximum_opening": 7.0576351859862e-05,
+          "drive": 0.0,
+          "time": 5.500000000002162,
+          "step": 137500,
+          "actuator_work": 2.3305171940655477e-07,
+          "damping_heat": 2.3305171939146874e-07
+        },
+        "hold_gap_m": 1.633663366336634e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 2.136908271860305e-15,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 2e-05,
+      "spring": 10000.0,
+      "nominal_history_peak_m": 0.0,
+      "actual_history_peak_m": 0.0,
+      "nominal_history_reached_within_10um": true,
+      "prepared_damage": 0.0,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 0.0008396581514868373,
+      "trial_hold_damage": 0.9034914569604028,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "hold_gap_m": 0.0,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 0.0,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": -1.1278942438770769e-107,
+          "velocity": 1.495341761658888e-104,
+          "maximum_opening": 0.0008396599650079062,
+          "drive": 0.0,
+          "time": 5.500000000019097,
+          "step": 275000,
+          "actuator_work": 0.0038409013711325274,
+          "damping_heat": 4.777334558401738e-05
+        },
+        "hold_gap_m": 0.0008396581514868373,
+        "hold_damage": 0.9034914569604028,
+        "maximum_segment_energy_residual_j": 9.502843824338303e-12,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 2e-05,
+      "spring": 10000.0,
+      "nominal_history_peak_m": 0.001,
+      "actual_history_peak_m": 0.001000005138912104,
+      "nominal_history_reached_within_10um": true,
+      "prepared_damage": 0.9230774501421225,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 0.0009326114739616033,
+      "trial_hold_damage": 0.9230774501421225,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 8.790542057850572e-107,
+          "velocity": -1.0964273189828796e-103,
+          "maximum_opening": 0.001000005138912104,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.004681385984098502,
+          "damping_heat": 6.597501561399232e-05
+        },
+        "hold_gap_m": 0.001000002979073046,
+        "hold_damage": 0.9230774501421225,
+        "maximum_segment_energy_residual_j": 1.1761494556061791e-11,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 8.790542057850572e-107,
+          "velocity": -1.0964273189828796e-103,
+          "maximum_opening": 0.001000005138912104,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.004681385984098502,
+          "damping_heat": 6.597501561399232e-05
+        },
+        "after": {
+          "gap": 8.198135962637825e-107,
+          "velocity": -1.0225376518315035e-103,
+          "maximum_opening": 0.001000005138912104,
+          "drive": 0.0,
+          "time": 5.500000000019097,
+          "step": 275000,
+          "actuator_work": 0.0047200144344488396,
+          "damping_heat": 0.00010460346596383193
+        },
+        "hold_gap_m": 0.0009326114739616033,
+        "hold_damage": 0.9230774501421225,
+        "maximum_segment_energy_residual_j": 1.738248434079992e-12,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 2e-05,
+      "spring": 10000.0,
+      "nominal_history_peak_m": 0.002,
+      "actual_history_peak_m": 0.0020000072987447245,
+      "nominal_history_reached_within_10um": true,
+      "prepared_damage": 0.974359161505592,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 0.0013132672622790831,
+      "trial_hold_damage": 0.974359161505592,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": -3.212699281725786e-107,
+          "velocity": -5.994958700228944e-104,
+          "maximum_opening": 0.0020000072987447245,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.009979417932431345,
+          "damping_heat": 0.00023579075991010366
+        },
+        "hold_gap_m": 0.002000002979073032,
+        "hold_damage": 0.974359161505592,
+        "maximum_segment_energy_residual_j": 2.4239028319217315e-11,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": -3.212699281725786e-107,
+          "velocity": -5.994958700228944e-104,
+          "maximum_opening": 0.0020000072987447245,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.009979417932431345,
+          "damping_heat": 0.00023579075991010366
+        },
+        "after": {
+          "gap": -2.109563252844232e-107,
+          "velocity": -3.936485636377002e-104,
+          "maximum_opening": 0.0020000072987447245,
+          "drive": 0.0,
+          "time": 5.500000000019097,
+          "step": 275000,
+          "actuator_work": 0.010056014904106098,
+          "damping_heat": 0.00031238773158431804
+        },
+        "hold_gap_m": 0.0013132672622790831,
+        "hold_damage": 0.974359161505592,
+        "maximum_segment_energy_residual_j": 3.4468296272738286e-12,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 2e-05,
+      "spring": 1000.0,
+      "nominal_history_peak_m": 0.0,
+      "actual_history_peak_m": 0.0,
+      "nominal_history_reached_within_10um": true,
+      "prepared_damage": 0.0,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 1.6336633663366327e-05,
+      "trial_hold_damage": 0.0,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "hold_gap_m": 0.0,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 0.0,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 2.248085778615607e-109,
+          "velocity": 4.2188232951099075e-106,
+          "maximum_opening": 1.6336648363962973e-05,
+          "drive": 0.0,
+          "time": 5.500000000019097,
+          "step": 275000,
+          "actuator_work": 1.1852971381279878e-08,
+          "damping_heat": 1.1852971392517216e-08
+        },
+        "hold_gap_m": 1.6336633663366327e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 5.436189692842319e-16,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 2e-05,
+      "spring": 1000.0,
+      "nominal_history_peak_m": 0.001,
+      "actual_history_peak_m": 8.606252984278868e-05,
+      "nominal_history_reached_within_10um": false,
+      "prepared_damage": 0.0,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 1.6336633663366327e-05,
+      "trial_hold_damage": 0.0,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 1.1843062609794374e-108,
+          "velocity": 2.2225036473361016e-105,
+          "maximum_opening": 8.606252984278868e-05,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 3.2894972643802377e-07,
+          "damping_heat": 3.289497268783691e-07
+        },
+        "hold_gap_m": 8.606245239908613e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 1.489260104126089e-14,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 1.1843062609794374e-108,
+          "velocity": 2.2225036473361016e-105,
+          "maximum_opening": 8.606252984278868e-05,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 3.2894972643802377e-07,
+          "damping_heat": 3.289497268783691e-07
+        },
+        "after": {
+          "gap": 2.248085778615607e-109,
+          "velocity": 4.2188232951099075e-106,
+          "maximum_opening": 8.606252984278868e-05,
+          "drive": 0.0,
+          "time": 5.500000000019097,
+          "step": 275000,
+          "actuator_work": 3.4080269781953256e-07,
+          "damping_heat": 3.4080269827088794e-07
+        },
+        "hold_gap_m": 1.6336633663366327e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 5.433479187411105e-16,
+        "first_failure": null
+      }
+    },
+    {
+      "dt": 2e-05,
+      "spring": 1000.0,
+      "nominal_history_peak_m": 0.002,
+      "actual_history_peak_m": 7.057635190647568e-05,
+      "nominal_history_reached_within_10um": false,
+      "prepared_damage": 0.0,
+      "prepared_failed": false,
+      "trial_hold_gap_m": 1.6336633663366327e-05,
+      "trial_hold_damage": 0.0,
+      "preparation": {
+        "label": "prepare",
+        "before": {
+          "gap": 0.0,
+          "velocity": 0.0,
+          "maximum_opening": 0.0,
+          "drive": 0.0,
+          "time": 0.0,
+          "step": 0,
+          "actuator_work": 0.0,
+          "damping_heat": 0.0
+        },
+        "after": {
+          "gap": 9.712010045796794e-109,
+          "velocity": 1.82258411189723e-105,
+          "maximum_opening": 7.057635190647568e-05,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 2.2121762522679263e-07,
+          "damping_heat": 2.212176250821629e-07
+        },
+        "hold_gap_m": 7.057628839807063e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 9.939965517347105e-15,
+        "first_failure": null
+      },
+      "trial": {
+        "label": "common_trial",
+        "before": {
+          "gap": 9.712010045796794e-109,
+          "velocity": 1.82258411189723e-105,
+          "maximum_opening": 7.057635190647568e-05,
+          "drive": 0.0,
+          "time": 2.750000000001081,
+          "step": 137500,
+          "actuator_work": 2.2121762522679263e-07,
+          "damping_heat": 2.212176250821629e-07
+        },
+        "after": {
+          "gap": 2.248085778615607e-109,
+          "velocity": 4.2188232951099075e-106,
+          "maximum_opening": 7.057635190647568e-05,
+          "drive": 0.0,
+          "time": 5.500000000019097,
+          "step": 275000,
+          "actuator_work": 2.3307059660860058e-07,
+          "damping_heat": 2.3307059647468288e-07
+        },
+        "hold_gap_m": 1.6336633663366327e-05,
+        "hold_damage": 0.0,
+        "maximum_segment_energy_residual_j": 5.433479187411105e-16,
+        "first_failure": null
+      }
+    }
+  ],
+  "weak_hold_gap_difference_mm": 4.429580251858953e-07,
+  "probe_hold_gap_difference_mm": 0.0686983727697767,
+  "convergence": [
+    {
+      "energy": 1.37,
+      "preparation_maximum_opening_difference_m": 1.6745240177112874e-12,
+      "probe_hold_gap_difference_m": 1.096613902115684e-12,
+      "future_failure_consistent": true
+    },
+    {
+      "energy": 2.63,
+      "preparation_maximum_opening_difference_m": 1.3448426400275437e-12,
+      "probe_hold_gap_difference_m": 6.635398610774224e-13,
+      "future_failure_consistent": true
+    }
+  ],
+  "checks": {
+    "all_matched_histories_prepared_remotely_within_10um": true,
+    "material_state_and_clock_never_reset_between_phases": true,
+    "passive_and_probe_start_from_exactly_same_state": true,
+    "future_targets_computed_after_each_own_probe_state": true,
+    "fine_future_separation_outcomes_differ": true,
+    "dt_failure_consistent": true
+  },
+  "camera_assumption_budget": [
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.005524271728019904,
+      "two_observation_difference_sigma_mm": 0.007812500000000002,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.023437500000000007,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.005524271728019904,
+      "two_observation_difference_sigma_mm": 0.007812500000000002,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.06343750000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.005524271728019904,
+      "two_observation_difference_sigma_mm": 0.007812500000000002,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.1234375,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.013810679320049757,
+      "two_observation_difference_sigma_mm": 0.019531250000000003,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.058593750000000014,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.013810679320049757,
+      "two_observation_difference_sigma_mm": 0.019531250000000003,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.09859375000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.013810679320049757,
+      "two_observation_difference_sigma_mm": 0.019531250000000003,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.15859375000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.027621358640099514,
+      "two_observation_difference_sigma_mm": 0.03906250000000001,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.11718750000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.027621358640099514,
+      "two_observation_difference_sigma_mm": 0.03906250000000001,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.15718750000000004,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.027621358640099514,
+      "two_observation_difference_sigma_mm": 0.03906250000000001,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.21718750000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.23437500000000006,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.27437500000000004,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.3343750000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.011048543456039808,
+      "two_observation_difference_sigma_mm": 0.015625000000000003,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.046875000000000014,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.011048543456039808,
+      "two_observation_difference_sigma_mm": 0.015625000000000003,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.08687500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.011048543456039808,
+      "two_observation_difference_sigma_mm": 0.015625000000000003,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.14687500000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.027621358640099514,
+      "two_observation_difference_sigma_mm": 0.03906250000000001,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.11718750000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.027621358640099514,
+      "two_observation_difference_sigma_mm": 0.03906250000000001,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.15718750000000004,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.027621358640099514,
+      "two_observation_difference_sigma_mm": 0.03906250000000001,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.21718750000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.23437500000000006,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.27437500000000004,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.3343750000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.11048543456039805,
+      "two_observation_difference_sigma_mm": 0.15625000000000003,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.4687500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.11048543456039805,
+      "two_observation_difference_sigma_mm": 0.15625000000000003,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.5087500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.11048543456039805,
+      "two_observation_difference_sigma_mm": 0.15625000000000003,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.5687500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.022097086912079615,
+      "two_observation_difference_sigma_mm": 0.03125000000000001,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.09375000000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.022097086912079615,
+      "two_observation_difference_sigma_mm": 0.03125000000000001,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.13375000000000004,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.022097086912079615,
+      "two_observation_difference_sigma_mm": 0.03125000000000001,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.19375000000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.23437500000000006,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.27437500000000004,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.05524271728019903,
+      "two_observation_difference_sigma_mm": 0.07812500000000001,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.3343750000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.11048543456039805,
+      "two_observation_difference_sigma_mm": 0.15625000000000003,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.4687500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.11048543456039805,
+      "two_observation_difference_sigma_mm": 0.15625000000000003,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.5087500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.11048543456039805,
+      "two_observation_difference_sigma_mm": 0.15625000000000003,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.5687500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.2209708691207961,
+      "two_observation_difference_sigma_mm": 0.31250000000000006,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.9375000000000002,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.2209708691207961,
+      "two_observation_difference_sigma_mm": 0.31250000000000006,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.9775000000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1280,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.2209708691207961,
+      "two_observation_difference_sigma_mm": 0.31250000000000006,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 1.0375000000000003,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0036828478186799354,
+      "two_observation_difference_sigma_mm": 0.005208333333333334,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.015625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0036828478186799354,
+      "two_observation_difference_sigma_mm": 0.005208333333333334,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.055625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0036828478186799354,
+      "two_observation_difference_sigma_mm": 0.005208333333333334,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.115625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.0390625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.07906250000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.1390625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.078125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.11812500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.178125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.15625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.19625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.25625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.007365695637359871,
+      "two_observation_difference_sigma_mm": 0.010416666666666668,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.03125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.007365695637359871,
+      "two_observation_difference_sigma_mm": 0.010416666666666668,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.07125000000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.007365695637359871,
+      "two_observation_difference_sigma_mm": 0.010416666666666668,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.13125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.078125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.11812500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.178125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.15625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.19625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.25625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.3125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.3525,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.4125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.014731391274719742,
+      "two_observation_difference_sigma_mm": 0.020833333333333336,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.0625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.014731391274719742,
+      "two_observation_difference_sigma_mm": 0.020833333333333336,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.10250000000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.014731391274719742,
+      "two_observation_difference_sigma_mm": 0.020833333333333336,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.1625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.15625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.19625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.25625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.3125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.3525,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.4125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.1473139127471974,
+      "two_observation_difference_sigma_mm": 0.20833333333333334,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.1473139127471974,
+      "two_observation_difference_sigma_mm": 0.20833333333333334,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.665,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 1920,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.1473139127471974,
+      "two_observation_difference_sigma_mm": 0.20833333333333334,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.725,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0018414239093399677,
+      "two_observation_difference_sigma_mm": 0.002604166666666667,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.0078125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0018414239093399677,
+      "two_observation_difference_sigma_mm": 0.002604166666666667,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.0478125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0018414239093399677,
+      "two_observation_difference_sigma_mm": 0.002604166666666667,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.1078125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.004603559773349919,
+      "two_observation_difference_sigma_mm": 0.006510416666666667,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.01953125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.004603559773349919,
+      "two_observation_difference_sigma_mm": 0.006510416666666667,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.05953125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.004603559773349919,
+      "two_observation_difference_sigma_mm": 0.006510416666666667,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.11953125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.0390625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.07906250000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.1390625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.078125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.11812500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 50.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.178125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0036828478186799354,
+      "two_observation_difference_sigma_mm": 0.005208333333333334,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.015625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0036828478186799354,
+      "two_observation_difference_sigma_mm": 0.005208333333333334,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.055625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.0036828478186799354,
+      "two_observation_difference_sigma_mm": 0.005208333333333334,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.115625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.0390625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.07906250000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.009207119546699838,
+      "two_observation_difference_sigma_mm": 0.013020833333333334,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.1390625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.078125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.11812500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.178125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.15625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.19625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 100.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.25625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.007365695637359871,
+      "two_observation_difference_sigma_mm": 0.010416666666666668,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.03125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": true
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.007365695637359871,
+      "two_observation_difference_sigma_mm": 0.010416666666666668,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.07125000000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.1,
+      "single_gap_sigma_mm": 0.007365695637359871,
+      "two_observation_difference_sigma_mm": 0.010416666666666668,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.13125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.078125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.11812500000000001,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.25,
+      "single_gap_sigma_mm": 0.018414239093399676,
+      "two_observation_difference_sigma_mm": 0.026041666666666668,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.178125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.15625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.19625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 0.5,
+      "single_gap_sigma_mm": 0.03682847818679935,
+      "two_observation_difference_sigma_mm": 0.052083333333333336,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.25625,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.0,
+      "required_difference_mm": 0.3125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.02,
+      "required_difference_mm": 0.3525,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    },
+    {
+      "width_px": 3840,
+      "field_of_view_mm": 200.0,
+      "marker_sigma_px": 1.0,
+      "single_gap_sigma_mm": 0.0736569563735987,
+      "two_observation_difference_sigma_mm": 0.10416666666666667,
+      "per_observation_bias_bound_mm": 0.05,
+      "required_difference_mm": 0.4125,
+      "predicted_signal_mm": 0.0686983727697767,
+      "meets_assumed_separation_budget": false
+    }
+  ],
+  "seconds": 11.126379412999086,
+  "limitations": [
+    "Illustrative known constitutive law and fixture; no real specimen or camera measurements.",
+    "This is a forward task-feasibility test, not a new inverse method, posterior estimator, policy or held-out method result.",
+    "Matched controls differ in both material and history; their event difference does not isolate history causally.",
+    "Stable same-material monotonic separation threshold is not made history dependent by this model.",
+    "Assumed independent Gaussian marker error and a per-observation bounded bias define the precision budget. Static video repeatability cannot establish the bias bound.",
+    "Additional D below 0.02 on these two examples is not a guarantee over unknown states."
+  ],
+  "real_camera_gate_passed": false,
+  "novel_method_validated": false
+}

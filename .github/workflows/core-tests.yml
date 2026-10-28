@@ -30,3 +30,13 @@ jobs:
           tests/test_active_probe.py
           tests/test_fixture_reference.py
           tests/test_response_diversity_io.py
+          tests/test_compliant_fixture.py
+          tests/test_compliant_inference.py
+          tests/test_measurement_bias.py
+          tests/test_damage_guard.py
+          tests/test_action_ceiling.py
+          tests/test_continuous_risk.py
+          tests/test_verified_policy.py
+          tests/test_risk_reuse.py
+          tests/test_continuous_risk_evaluation.py
+          tests/test_camera_measurement.py

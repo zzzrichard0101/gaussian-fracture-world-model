@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "fixture": {"spring": 10000.0, "mass": 0.02, "damping": 18.0},
+  "dt_levels": [0.00004, 0.00002],
+  "law_config": "config/cohesive-probe.json",
+  "energies": [1.37, 2.63],
+  "matched_stiffness_ratio": 0.08,
+  "weak_drive_m": 0.001,
+  "probe_drive_m": 0.00165,
+  "future_drive_m": 0.0035,
+  "same_material_history_targets_m": [0.0, 0.001, 0.002],
+  "soft_fixture_spring": 1000.0,
+  "cycle": {"ramp": 1.0, "hold": 0.25, "rest": 0.5},
+  "camera": {"resolutions_width": [1280, 1920, 3840], "fields_of_view_mm": [50.0, 100.0, 200.0], "marker_sigma_px": [0.1, 0.25, 0.5, 1.0], "bounded_bias_mm": [0.0, 0.02, 0.05], "required_sigma_multiple": 3.0},
+  "scope": "Feasibility only: remote-drive preparation, observation, probe and future continue the same physical state in the same apparatus. No posterior inference, Gaussian rendering, real-camera validation or novelty claim.",
+  "protocol": [
+    "Freeze these illustrative parameters before running; they are not calibrated material or hardware measurements.",
+    "Always start from virgin state, prepare with remote drive only, unload and rest. Never overwrite gap, velocity or maximum opening to make a target match.",
+    "Nominal preparation commands may fail to reach their intended local history. Record the actual state and the miss explicitly, including the soft-fixture negative control.",
+    "Continue weak/probe/future cycles without resetting material history or clock. Passive and probed branches clone the same post-weak state.",
+    "Separate same-material history effects from joint material/history ambiguity. Monotonic separation displacement for the stable single-interface law is not a history-specific target.",
+    "Camera precision tables propagate assumed pixel error and systematic floor; they are not measured accuracy or hardware recommendations."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "repeat_timings": [
+    {
+      "repeat": 0,
+      "cold_seconds": 55.574817856017035,
+      "reuse_seconds": 39.37590031389118,
+      "speedup_ratio": 1.411391673917133
+    },
+    {
+      "repeat": 1,
+      "cold_seconds": 56.31153662804718,
+      "reuse_seconds": 39.8607148749652,
+      "speedup_ratio": 1.4127076447245064
+    }
+  ],
+  "median_paired_episode_speedup": 1.3381425503005437,
+  "observation_constraint_reduction_fraction": 0.6508091281281039,
+  "scope": "Repeated timings of reused development traces, not independent predictive or hardware replications."
+}

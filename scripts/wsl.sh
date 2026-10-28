@@ -46,7 +46,7 @@ case "$command_name" in
     uv pip install --python "$PYTHON" --no-build-isolation --no-deps -e "$WM_SOURCE_ROOT/gaussian-splatting/submodules/simple-knn"
     uv pip freeze --python "$PYTHON" > "$PROJECT_ROOT/requirements/sim.lock.txt"
     ;;
-  doctor|smoke|fetch-asset|asset-check|first-impact|impact-report|analyze-separation|replay-transfer|stateful-probe|resume-impact|checkpoint-probe|history-pilot|fracture-probe|cohesive-probe|cohesive-inverse|history-refinement|direct-benchmark|joint-damage-material|response-diversity|active-probe)
+  doctor|smoke|fetch-asset|asset-check|first-impact|impact-report|analyze-separation|replay-transfer|stateful-probe|resume-impact|checkpoint-probe|history-pilot|fracture-probe|cohesive-probe|cohesive-inverse|history-refinement|direct-benchmark|joint-damage-material|response-diversity|active-probe|compliant-pilot|synthetic-filter-benchmark)
     exec "$PYTHON" "$PROJECT_ROOT/scripts/${command_name//-/_}.py" "$@"
     ;;
   python)
@@ -61,5 +61,5 @@ case "$command_name" in
     cd "$WM_SOURCE_ROOT"
     exec "$PYTHON" "$script_path" "$@"
     ;;
-  *) echo "Usage: bash scripts/wsl.sh {bootstrap|doctor|smoke|fetch-asset|asset-check|first-impact|impact-report|analyze-separation|replay-transfer|stateful-probe|resume-impact|checkpoint-probe|history-pilot|fracture-probe|cohesive-probe|cohesive-inverse|history-refinement|direct-benchmark|joint-damage-material|response-diversity|active-probe|test|python|upstream} [args...]" >&2; exit 2 ;;
+  *) echo "Usage: bash scripts/wsl.sh {bootstrap|doctor|smoke|fetch-asset|asset-check|first-impact|impact-report|analyze-separation|replay-transfer|stateful-probe|resume-impact|checkpoint-probe|history-pilot|fracture-probe|cohesive-probe|cohesive-inverse|history-refinement|direct-benchmark|joint-damage-material|response-diversity|active-probe|compliant-pilot|synthetic-filter-benchmark|test|python|upstream} [args...]" >&2; exit 2 ;;
 esac

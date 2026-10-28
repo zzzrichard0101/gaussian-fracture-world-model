@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "source_report": "artifacts/synthetic-filter-benchmark/report.json",
+  "parameter_bounds": [[1.2, 3.0], [0.0009, 0.0023]],
+  "grid_side": 81,
+  "subset_size": 8,
+  "damage_cap": 0.02,
+  "noise_multiple": 3.0,
+  "bias_bound_m": 0.00015,
+  "bias_sigma_m": 0.00005,
+  "weak_drive_m": 0.001,
+  "actions_m": [0.0, 0.001, 0.0012, 0.00135, 0.0015, 0.00165, 0.00185],
+  "fixed_probes_m": [0.00165, 0.00185],
+  "decision_rounds": 2,
+  "gap_noise_sigma_m": [0.000005, 0.00002, 0.00005],
+  "actual_bias_m": [0.0, 0.00003, -0.00003],
+  "minimum_information_score": 0.00000001,
+  "seed": 20261030,
+  "policies": ["rest_only", "fixed_probe", "top8_guard", "full_guard", "witness_guard", "full_guard_info8"],
+  "scope": "Standard finite-grid set estimation, cumulative damage guard, simple full-scan witnesses, and disagreement-based sequential design. Same known stable scalar law; synthetic zero/weak observations initialize all policies. Gaussian data can violate the assumed bounded error set. No continuous safety, real-world safety, new algorithm or novelty claim."
+}

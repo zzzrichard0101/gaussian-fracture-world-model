@@ -1,0 +1,6 @@
+{
+  "repetitions": 2,
+  "mode_order": "alternating per episode, reversed each repetition",
+  "timing": "proposal, public warm bank, all solves/replays, selected proof JSON write; excludes equality checks and final cold replay",
+  "scope": "Same existing public traces; exact semantic equivalence, engineering cache baseline; no novelty claim."
+}

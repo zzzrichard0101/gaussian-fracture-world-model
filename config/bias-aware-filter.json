@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "source_report": "artifacts/synthetic-filter-benchmark/report.json",
+  "bias_sigma_m": 0.00005,
+  "sensitivity_bias_sigma_m": [0.00001, 0.00005, 0.0001],
+  "grid_side": 81,
+  "refinement_side": 321,
+  "observation_modes": ["independent", "inflated", "shared"],
+  "additional_synthetic_zero_load_calibration": true,
+  "seed": 20261029,
+  "scope": "Paired diagnostic on unchanged earlier observations. One constant Gaussian nuisance bias per sequence; same assumption for zero and nonzero bias cases. No oracle offset supplied, no hyperparameter selection using truth, no novelty or calibration guarantee."
+}

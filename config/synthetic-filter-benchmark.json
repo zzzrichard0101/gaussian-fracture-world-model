@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "seed": 20261028,
+  "law_config": "config/cohesive-probe.json",
+  "fixture": {"spring": 10000.0, "mass": 0.02, "damping": 18.0},
+  "parameter_bounds": [[1.2, 3.0], [0.0009, 0.0023]],
+  "random_in_prior_cases": 12,
+  "matched_energies": [1.37, 1.83, 2.27, 2.63],
+  "matched_stiffness_ratios": [0.06, 0.08, 0.10],
+  "out_of_prior_parameters": [[3.3, 0.0018], [1.8, 0.0026]],
+  "protocols": {"repeated_weak": [0.001, 0.001, 0.001], "fixed_probe": [0.001, 0.00165, 0.00185]},
+  "gap_noise_sigma_m": [0.000005, 0.00002, 0.00005],
+  "observation_scenarios": {"matched": 0.0, "unmodelled_constant_bias": 0.00003},
+  "grid_sides": [7, 41, 81],
+  "hard_sigma_multiple": 3.0,
+  "smc": {"particles": 128, "replicates": 3, "move_steps": 2, "move_scale": 0.08, "global_probability": 0.1},
+  "future_drives_m": [0.0026, 0.0031, 0.0035],
+  "dynamic_audit": {"dt_levels": [0.00004, 0.00002], "cycle": {"ramp": 1.0, "hold": 0.25, "rest": 0.5}, "case_indices": [0, 3, 8, 15], "maximum_hold_gap_error_m": 0.000001},
+  "scope": "Analytical quasistatic stable-branch diagnostic, scalar gap observations, fixed interventions, known constitutive law and fixture. No images, neural world model, calibrated material, continuous risk bound or novelty claim. Uniform parameter prior is in Gc and unobserved preparation-drive amplitude, not damage."
+}

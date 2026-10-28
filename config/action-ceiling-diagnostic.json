@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "source_report": "artifacts/synthetic-filter-benchmark/report.json",
+  "guard_config": "config/finite-damage-guard.json",
+  "grid_side": 161,
+  "audit_side": 321,
+  "gap_noise_sigma_m": [0.000001, 0.000005, 0.00002, 0.00005],
+  "actual_bias_m": [0.0, 0.00003],
+  "policies": ["rest_only", "full_guard", "continuous_guard"],
+  "seed": 20261031,
+  "pair_noise_sigma_m": [0.000001, 0.000005, 0.00002, 0.00005],
+  "pair_bias_bounds_m": [0.0, 0.00015],
+  "oracle_wide_drive_m": 0.0023,
+  "counterexample_replay": {"dt_levels": [0.00004, 0.00002], "cycle": {"ramp": 1.0, "hold": 0.25, "rest": 0.5}, "maximum_damage_difference": 0.0001, "grid_sides": [161, 321, 641]},
+  "scope": "Same known 26 synthetic parameter settings. New paired noise scaled with actual sigma. Compare coarse actions to exact finite-ensemble variance-proxy action maximization, not exact task information. Pair-only true-state diagnostics are labeled oracle references and are never supplied to executable policies. No continuous-parameter risk bound, real-camera precision claim or untouched confirmatory test."
+}
