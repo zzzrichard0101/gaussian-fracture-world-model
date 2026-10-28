@@ -1,0 +1,13 @@
+{
+  "split_frame": 10,
+  "until_frame": 30,
+  "tolerances": {
+    "position_rms_dx": 0.05,
+    "velocity_rms_impact_speed": 0.02,
+    "Jp_relative_rms": 0.1,
+    "trial_F_relative_rms": 0.05,
+    "total_F_relative_rms": 0.1,
+    "image_mae_255": 2.0
+  },
+  "note": "Declared before the nonlinear checkpoint experiment. GPU atomic reductions need not be bitwise reproducible after stepping. Two fresh resumes measure a small repeat baseline, not a statistical confidence interval."
+}

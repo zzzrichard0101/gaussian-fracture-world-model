@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "run_directory": "<WM_RESEARCH_ROOT>/runs/20261028T070455534314Z-active-probe",
+  "recorded_source_snapshots_and_current_hashes_match": true,
+  "all_updated_hypotheses_keep_their_own_material_and_exact_probe_evolved_state": true,
+  "published_observations_exactly_match_frozen_policy_requests": true,
+  "original_pool_and_compression_seals_unchanged": true,
+  "independent_action_specific_truth_trajectories_checked": 3,
+  "maximum_continuous_scalar_truth_gap_difference_m": 0.0,
+  "new_branch_hypotheses_checked": 1,
+  "maximum_scalar_new_branch_difference_across_state_fields": 1.0744738432322265e-12,
+  "new_branch_excludes_private_truth_and_test_plans": true
+}

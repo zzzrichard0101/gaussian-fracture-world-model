@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "base_config": "config/stateful-impact.json",
+  "frames": 60,
+  "analysis_stride": 4,
+  "render_stride": 10,
+  "render_width": 256,
+  "cases": [
+    {"id": "stable-seed10-g96", "constitutive_adapter": "scaled-nacc-ray-hardening-v2", "overrides": {}},
+    {"id": "stable-seed3e9-g96", "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"seed_reinforcement": {"beta": 3000000000.0}}}},
+    {"id": "stable-seed3e9-g96-repeat", "repeat_of": "stable-seed3e9-g96", "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"seed_reinforcement": {"beta": 3000000000.0}}}},
+    {"id": "stable-seed3e9-g96-halfdt", "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"max_substep_dt": 0.00005, "cfl": 0.15, "seed_reinforcement": {"beta": 3000000000.0}}}},
+    {"id": "stable-seed3e9-g128", "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"grid": 128, "max_particles": 300000, "seed_reinforcement": {"beta": 3000000000.0}}}},
+    {"id": "stable-seed3e9-g192", "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"grid": 192, "max_particles": 700000, "seed_reinforcement": {"beta": 3000000000.0}}}},
+    {"id": "stable-source-nearer-g192", "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"preprocessing": {"opacity_threshold": 0.0}, "physics": {"grid": 192, "max_particles": 700000,
+       "material": {"beta": 1.0}, "floor": {"height": 0.0}, "seed_reinforcement": {"beta": 3000000000.0}}}}
+  ],
+  "notes": [
+    "Experimental corrected ray hardening; source return-map F and stress are retained. Not exact upstream reproduction.",
+    "Captured finite input regression and Decimal geometric ray reference passed before this sweep.",
+    "No Jp opacity culling, arbitrary particle deletion, hidden-state reset or initial crack.",
+    "Checkpoints refuse experimental constitutive overrides until solver/runtime integration is validated.",
+    "Source-nearer combines multiple changes. Two repeat samples are not confidence intervals.",
+    "Spatially disconnected components alone do not establish calibrated brittle fracture."
+  ]
+}

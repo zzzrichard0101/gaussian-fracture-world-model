@@ -1,0 +1,8 @@
+{
+  "GaussianFluent": {
+    "url": "https://github.com/HB-pencil-zero/GaussianFluent.git",
+    "commit": "de7e10675b9dce58952241087bb15cce9bc3f6ef",
+    "gaussian_splatting_commit": "11b81b5096742e2f59fa016ec4c9b602cce44b77",
+    "simple_knn_commit": "44f764299fa305faf6ec5ebd99939e0508331503"
+  }
+}

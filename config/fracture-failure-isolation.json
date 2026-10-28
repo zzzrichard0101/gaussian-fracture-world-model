@@ -1,0 +1,12 @@
+{
+  "version": 1, "base_config": "config/stateful-impact.json", "frames": 60,
+  "analysis_stride": 4, "render_stride": 10, "render_width": 256,
+  "cases": [
+    {"id": "stable-seed3e9-total", "audit_each_step": true, "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"seed_reinforcement": {"beta": 3000000000.0}}}},
+    {"id": "stable-seed3e9-trial", "audit_each_step": true, "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"seed_reinforcement": {"beta": 3000000000.0}}, "render": {"deformation": "trial"}}}
+  ],
+  "notes": ["Isolate physical failure from the accumulated-G inverse-elastic guard. Trial rendering is diagnostic only, not restored history transfer.",
+            "Experimental material adapter; no supported checkpoint or fracture-accuracy claim."]
+}

@@ -1,0 +1,363 @@
+{
+  "status": "fixture_checks_passed",
+  "run_directory": "<WM_RESEARCH_ROOT>/runs/20261027T132311352641Z-cohesive-probe",
+  "config": {
+    "version": 1,
+    "law": {
+      "area": 0.01,
+      "tensile_stiffness": 10000000.0,
+      "compressive_stiffness": 100000000.0,
+      "peak_traction": 1000.0,
+      "fracture_energy": 2.0
+    },
+    "mass_left": 1.0,
+    "mass_right": 1.0,
+    "width": 0.1,
+    "dt_levels": [
+      2e-05,
+      1e-05,
+      5e-06,
+      2.5e-06
+    ],
+    "duration": 0.18,
+    "sample_interval": 0.0004,
+    "prehistory_duration": 1.0,
+    "prehistory_samples": 4000,
+    "observation_times": [
+      0.0,
+      0.004,
+      0.008
+    ],
+    "render_interval": 0.002,
+    "cases": [
+      {
+        "id": "pristine",
+        "prehistory_peak": 0.0,
+        "impulses": [
+          {
+            "id": "common-impact",
+            "time": 0.012,
+            "left": 0.245,
+            "right": 0.0
+          }
+        ]
+      },
+      {
+        "id": "preloaded",
+        "prehistory_peak": 0.002,
+        "impulses": [
+          {
+            "id": "common-impact",
+            "time": 0.012,
+            "left": 0.245,
+            "right": 0.0
+          }
+        ]
+      },
+      {
+        "id": "break-recontact",
+        "prehistory_peak": 0.0,
+        "impulses": [
+          {
+            "id": "strong-impact",
+            "time": 0.012,
+            "left": 0.6,
+            "right": 0.0
+          },
+          {
+            "id": "closing-impulse",
+            "time": 0.07,
+            "left": 0.55,
+            "right": -0.55
+          }
+        ]
+      }
+    ],
+    "render": {
+      "width": 384,
+      "fps": 15,
+      "camera_eye": [
+        1.28,
+        0.5,
+        1.05
+      ],
+      "camera_target": [
+        1.03,
+        1.0,
+        0.75
+      ],
+      "vertical_fov_degrees": 40.0,
+      "background": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gaussians_per_axis": 15
+    },
+    "thresholds": {
+      "maximum_relative_energy_residual": 0.002,
+      "maximum_momentum_residual": 1e-10,
+      "finest_pair_max_position_difference_m": 2e-06,
+      "finest_pair_failure_time_difference_s": 1e-05,
+      "future_pair_final_gap_difference_min_m": 0.005,
+      "raw_observation_max_difference": 0.0
+    },
+    "sources": [
+      "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEITNRefMap/simaitn-c-cohesivebehavior.htm",
+      "https://mooseframework.inl.gov/docs/doxygen/modules/classBilinearMixedModeCohesiveZoneModel.html"
+    ],
+    "scope": "Mode-I, two rigid blocks, one prescribed bonded interface, 1D translations, compression penalty contact. Illustrative SI parameters, no material calibration. Existing cohesive law; no new fracture/world model."
+  },
+  "checks": {
+    "energy_balance": true,
+    "momentum": true,
+    "irreversible_damage": true,
+    "finest_pair_position_tolerance": true,
+    "same_failure_outcome_across_dt": true,
+    "finest_pair_failure_timing": true,
+    "same_raw_observations": true,
+    "different_future_outcomes": true,
+    "contact_after_failure": true
+  },
+  "finest_results": {
+    "pristine": {
+      "status": "completed",
+      "case": {
+        "id": "pristine",
+        "prehistory_peak": 0.0,
+        "impulses": [
+          {
+            "id": "common-impact",
+            "time": 0.012,
+            "left": 0.245,
+            "right": 0.0
+          }
+        ]
+      },
+      "dt": 2.5e-06,
+      "steps": 72000,
+      "first_failure_elapsed": null,
+      "post_failure_contact_steps": 0,
+      "damage_monotone": true,
+      "final_damage": 0.9750271276464229,
+      "final_gap_m": 0.0017732239033107777,
+      "max_energy_residual_j": 4.818600874215151e-08,
+      "energy_scale_j": 0.030012499999999998,
+      "prehistory_energy_residual_j": 0.0,
+      "max_relative_energy_residual": 1.605531320021708e-06,
+      "max_momentum_residual": 3.941291737419306e-15,
+      "minimum_sampled_gap_m": -0.00017186237566489682,
+      "event_log": [
+        {
+          "id": "common-impact",
+          "time": 1.0119999999995457,
+          "step": 8800,
+          "kinetic_work": 0.030012499999999998,
+          "momentum_increment": 0.245
+        }
+      ],
+      "release_state": {
+        "x_left": -0.05,
+        "x_right": 0.05,
+        "v_left": 0.0,
+        "v_right": 0.0,
+        "maximum_opening": 0.0,
+        "time": 1.0,
+        "step_index": 4000,
+        "external_work": 0.0
+      }
+    },
+    "preloaded": {
+      "status": "completed",
+      "case": {
+        "id": "preloaded",
+        "prehistory_peak": 0.002,
+        "impulses": [
+          {
+            "id": "common-impact",
+            "time": 0.012,
+            "left": 0.245,
+            "right": 0.0
+          }
+        ]
+      },
+      "dt": 2.5e-06,
+      "steps": 72000,
+      "first_failure_elapsed": 0.03563,
+      "post_failure_contact_steps": 0,
+      "damage_monotone": true,
+      "final_damage": 1.0,
+      "final_gap_m": 0.023899805003784635,
+      "max_energy_residual_j": 4.966284627289097e-08,
+      "energy_scale_j": 0.03975608697536937,
+      "prehistory_energy_residual_j": 2.768220371679453e-09,
+      "max_relative_energy_residual": 1.2491884903979424e-06,
+      "max_momentum_residual": 1.7763568394002505e-15,
+      "minimum_sampled_gap_m": -0.00017186237566489682,
+      "event_log": [
+        {
+          "id": "common-impact",
+          "time": 1.0119999999995457,
+          "step": 8800,
+          "kinetic_work": 0.030012499999999998,
+          "momentum_increment": 0.245
+        }
+      ],
+      "release_state": {
+        "x_left": -0.05,
+        "x_right": 0.05,
+        "v_left": 0.0,
+        "v_right": 0.0,
+        "maximum_opening": 0.002,
+        "time": 1.0,
+        "step_index": 4000,
+        "external_work": 0.009743586975369372
+      }
+    },
+    "break-recontact": {
+      "status": "completed",
+      "case": {
+        "id": "break-recontact",
+        "prehistory_peak": 0.0,
+        "impulses": [
+          {
+            "id": "strong-impact",
+            "time": 0.012,
+            "left": 0.6,
+            "right": 0.0
+          },
+          {
+            "id": "closing-impulse",
+            "time": 0.07,
+            "left": 0.55,
+            "right": -0.55
+          }
+        ]
+      },
+      "dt": 2.5e-06,
+      "steps": 72000,
+      "first_failure_elapsed": 0.021455000000000002,
+      "post_failure_contact_steps": 888,
+      "damage_monotone": true,
+      "final_damage": 1.0,
+      "final_gap_m": 0.031836710293185716,
+      "max_energy_residual_j": 4.289843661686721e-07,
+      "energy_scale_j": 0.19146679225239144,
+      "prehistory_energy_residual_j": 0.0,
+      "max_relative_energy_residual": 2.2405157631887677e-06,
+      "max_momentum_residual": 5.440092820663267e-15,
+      "minimum_sampled_gap_m": -0.00042088745060799015,
+      "event_log": [
+        {
+          "id": "strong-impact",
+          "time": 1.0119999999995457,
+          "step": 8800,
+          "kinetic_work": 0.18,
+          "momentum_increment": 0.6
+        },
+        {
+          "id": "closing-impulse",
+          "time": 1.06999999999735,
+          "step": 32000,
+          "kinetic_work": 0.011466792252391445,
+          "momentum_increment": 0.0
+        }
+      ],
+      "release_state": {
+        "x_left": -0.05,
+        "x_right": 0.05,
+        "v_left": 0.0,
+        "v_right": 0.0,
+        "maximum_opening": 0.0,
+        "time": 1.0,
+        "step_index": 4000,
+        "external_work": 0.0
+      }
+    }
+  },
+  "time_refinement": {
+    "pristine": [
+      {
+        "coarse_dt": 2e-05,
+        "fine_dt": 1e-05,
+        "max_position_difference_m": 5.2214139056872e-07,
+        "failure_time_difference_s": null
+      },
+      {
+        "coarse_dt": 1e-05,
+        "fine_dt": 5e-06,
+        "max_position_difference_m": 1.810521001038845e-07,
+        "failure_time_difference_s": null
+      },
+      {
+        "coarse_dt": 5e-06,
+        "fine_dt": 2.5e-06,
+        "max_position_difference_m": 1.2021856635180406e-07,
+        "failure_time_difference_s": null
+      }
+    ],
+    "preloaded": [
+      {
+        "coarse_dt": 2e-05,
+        "fine_dt": 1e-05,
+        "max_position_difference_m": 4.559562971837017e-07,
+        "failure_time_difference_s": 1.0000000000003062e-05
+      },
+      {
+        "coarse_dt": 1e-05,
+        "fine_dt": 5e-06,
+        "max_position_difference_m": 2.4339812035312214e-07,
+        "failure_time_difference_s": 0.0
+      },
+      {
+        "coarse_dt": 5e-06,
+        "fine_dt": 2.5e-06,
+        "max_position_difference_m": 1.2326501794279743e-07,
+        "failure_time_difference_s": 0.0
+      }
+    ],
+    "break-recontact": [
+      {
+        "coarse_dt": 2e-05,
+        "fine_dt": 1e-05,
+        "max_position_difference_m": 1.1960099169268379e-06,
+        "failure_time_difference_s": 0.0
+      },
+      {
+        "coarse_dt": 1e-05,
+        "fine_dt": 5e-06,
+        "max_position_difference_m": 3.6543924462895117e-07,
+        "failure_time_difference_s": 5.000000000001531e-06
+      },
+      {
+        "coarse_dt": 5e-06,
+        "fine_dt": 2.5e-06,
+        "max_position_difference_m": 2.820703961133042e-07,
+        "failure_time_difference_s": 0.0
+      }
+    ]
+  },
+  "gaussian_observations": {
+    "raw_observation_max_absolute_difference": {
+      "rgb": 0.0,
+      "depth": 0.0,
+      "object_alpha": 0.0
+    },
+    "render_level": 3,
+    "render_dt": 2.5e-06,
+    "gaussians_per_block": 3375,
+    "opacity_deletion_enabled": false
+  },
+  "wall_seconds": 10.644017213999177,
+  "mpm_fracture_gate_b_passed": false,
+  "inverse_algorithm_implemented": false,
+  "limitations": [
+    "One prescribed bonded interface and one translational DOF per rigid block; no arbitrary 3D crack path.",
+    "Local dynamics are evaluated in CPU float64; GPU is used for Gaussian observation generation.",
+    "Positive fixture result validates this reduced model only; it does not validate the earlier MPM backend.",
+    "Existing bilinear cohesive law, ideal guides, finite penalty contact, no friction/rotation/bulk elasticity.",
+    "Preset illustrative SI coefficients; no experimental calibration or claim of novel fracture physics.",
+    "Same-image hidden-state ambiguity is a known mechanics effect and a positive control, not research novelty.",
+    "Dedicated reduced-state JSON supports free-dynamics restart; full scheduled checkpoint integration is not implemented."
+  ]
+}

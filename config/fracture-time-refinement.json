@@ -1,0 +1,14 @@
+{
+  "version": 1, "base_config": "config/stateful-impact.json", "frames": 60,
+  "analysis_stride": 4, "render_stride": 10, "render_width": 256,
+  "cases": [
+    {"id": "stable-seed3e9-g96-quarterdt", "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"max_substep_dt": 0.000025, "cfl": 0.075, "seed_reinforcement": {"beta": 3000000000.0}}}},
+    {"id": "stable-seed3e9-g96-eighthdt", "constitutive_adapter": "scaled-nacc-ray-hardening-v2",
+     "overrides": {"physics": {"max_substep_dt": 0.0000125, "cfl": 0.0375, "seed_reinforcement": {"beta": 3000000000.0}}}}
+  ],
+  "notes": ["Follow-up time refinement after base-vs-half dt differed more than repeated base runs.",
+    "Compare to the completed half-dt case in 20261027T125253133605Z-fracture-probe.",
+    "Same geometry, beta, material, boundaries and render settings; explicit dt and CFL change together.",
+    "Finite rollouts and no large separation do not validate physical fracture."]
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_runs": ["20261028T052334653812Z-history-refinement", "20261028T053039987318Z-history-refinement"],
+  "methods": ["direct49", "directL49"],
+  "budget": 49,
+  "optimizer": {"eps": 0.0001, "maxiter": 1000, "vol_tol": 1e-30, "len_tol": 1e-15},
+  "scope": "Frozen DIRECT and DIRECT-L comparison on the same earlier informative test observations; no search tuning after outcome access.",
+  "protocol": [
+    "Use public RGB-D prefixes only during optimization. Select best actually evaluated accepted state, never scipy result.x after truncation.",
+    "A callback counter stops physical observation evaluations at 49. SciPy 1.12 can surface a callback exception as SystemError; accept that termination only if our own budget flag was set.",
+    "Charge every objective callback, including cached/duplicate locations. Record distinct parameter locations and actual cache misses separately.",
+    "Retain earlier methods and new baseline results regardless of which wins. This comparison reuses prior test observations as a benchmark extension, not a fresh holdout claim."
+  ]
+}

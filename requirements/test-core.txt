@@ -1,0 +1,5 @@
+# CPU-only material law, inference-contract and planner tests. No CUDA or model weights.
+numpy==1.26.4
+scipy==1.12.0
+h5py==3.10.0
+pytest==8.3.5

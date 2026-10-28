@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "base_data_config": "config/action-adapter.json",
+  "seed": 91283,
+  "history_counts": {"train": 48, "validation": 16, "test": 24},
+  "history_peak_min_m": 0.00012,
+  "history_peak_max_m": 0.00288,
+  "pca_dimensions": 16,
+  "training_seeds": [17, 29, 43],
+  "models": ["learned_rgbd", "learned_vjepa"],
+  "hidden_width": 64,
+  "epochs": 400,
+  "learning_rate": 0.001,
+  "weight_decay": 0.001,
+  "residual_logit_bound": 1.0,
+  "prior_pseudocount_per_candidate": 1.0,
+  "temperature_grid": {"log10_min": -5, "log10_max": 0, "count": 61},
+  "probability_floor_for_state_ce": 1e-12,
+  "nominal_candidate_band_mass": 0.9,
+  "demo_model": "learned_vjepa/seed-17",
+  "custom_branches": [
+    {"id": "low", "impact": 0.15, "impact_time": 0.036},
+    {"id": "high", "impact": 0.42, "impact_time": 0.036},
+    {"id": "delayed", "impact": 0.325, "impact_time": 0.052}
+  ],
+  "scope": "Observation-only weights over reachable reduced-physics states, preserved across counterfactual impact plans. Not a calibrated continuous posterior or a novel/general 3D world model.",
+  "protocol": [
+    "Generate fresh history groups, disjoint from both earlier action-head datasets; fit preprocessing on training prefixes only.",
+    "Supervise state weights with barycentric discretization of training history peaks. Validation state targets select energy temperature and epochs. No future response labels are used to fit weights.",
+    "Masked empirical-prior energy weights form a baseline. Small bounded residual networks may reweight accepted states; no correction is allowed when all observation scores are identical.",
+    "Belief inference accepts only prefix evidence, observed probe and frozen prefix features; future impacts, bank indices and response labels are prohibited inputs.",
+    "Seal weights and full candidate states at the observation cutoff before reading a future plan. Continue each candidate without clearing hidden history.",
+    "Keep candidate trajectories and failure events separate. Mixture means are statistical summaries, never a new simulated state or rendered physical trajectory.",
+    "Report MAP trajectory error, mixture-mean error, path energy score, marginal CRPS, failure Brier, entropy and measured candidate-band coverage.",
+    "All methods share candidates and simulator budget; finite candidate bands are not confidence guarantees. Reserve any later design changes for new holdouts."
+  ]
+}

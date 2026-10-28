@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "family": "V-JEPA 2",
+  "architecture": "ViT-L/16 encoder + pretrained masked latent predictor",
+  "source_url": "https://github.com/facebookresearch/vjepa2.git",
+  "source_commit": "204698b45b3712590f06245fbfba32d3be539812",
+  "weights_url": "https://dl.fbaipublicfiles.com/vjepa2/vitl.pt",
+  "weights_relative_path": "models/vjepa2/vitl.pt",
+  "weights_bytes": 5127726842,
+  "weights_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+  "source_experiment": "/home/richard/research/world-model-research/runs/20261027T140706166321Z-cohesive-inverse",
+  "image_size": 256,
+  "observation_slots": 8,
+  "context_slots": 4,
+  "frames_per_slot": 2,
+  "patch_size": 16,
+  "tubelet_size": 2,
+  "predictor_mask_index": 1,
+  "precision": "bfloat16_autocast_float32_parameters",
+  "roi_dilation_patches": 1,
+  "filler_invariance_tolerance": 0.00001,
+  "role": "Frozen latent prediction prior for ranking reachable physics candidates; numeric forces remain in physics.",
+  "notes": [
+    "Run both encoder and learned predictor; encoder-only feature extraction does not satisfy this integration.",
+    "Published masked-video objective is not a native force-conditioned causal rollout model. Future-only masking here is an experimental inference protocol.",
+    "Four observed RGB slots are repeated twice each so no temporal tubelet crosses the context/future boundary.",
+    "Rank stage reads only prefix, generated candidate clips and prefix RGB-D residuals. Real heldout suffix and physical truth are evaluated after sealing.",
+    "Hybrid ranks the prefix-RGB-D accepted set by the learned prior, with no fitted weight or truth-based tuning.",
+    "RGB-D-only, learned-prior ranking and combined ranking all share the physics candidate bank. None is a standalone force-conditioned V-JEPA video decoder.",
+    "Official hub at the pinned revision contains a localhost test URL; instantiate without automatic download and load the explicit official HTTPS checkpoint with audited keys."
+  ],
+  "sources": ["https://github.com/facebookresearch/vjepa2", "https://huggingface.co/facebook/vjepa2-vitl-fpc64-256"]
+}

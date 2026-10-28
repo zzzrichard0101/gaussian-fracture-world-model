@@ -1,0 +1,24 @@
+# Torch is installed separately from the official CUDA 11.8 wheel index.
+# Upstream's conflicting GUI/headless OpenCV pair is replaced by headless only.
+numpy==1.24.1
+scipy==1.12.0
+h5py==3.10.0
+opencv-python-headless==4.9.0.80
+Pillow==10.2.0
+plyfile==1.0.3
+PyMCubes==0.1.4
+pymeshlab==2023.12.post1
+setuptools==68.0.0
+wheel==0.43.0
+pip==24.0
+ninja==1.11.1.1
+packaging==24.2
+taichi==1.5.0
+warp-lang==0.10.1
+tqdm==4.66.1
+open3d==0.18.0
+scikit-learn==1.3.2
+matplotlib==3.7.5
+einops==0.8.0
+huggingface-hub==0.26.5
+pytest==8.3.5

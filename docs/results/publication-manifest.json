@@ -1,0 +1,130 @@
+{
+  "scope": "Selected reports and media only. No weights, assets, observed clips or full execution data.",
+  "files": [
+    {
+      "source": "artifacts/direct-benchmark/report.json",
+      "source_sha256": "c3a899e070b43839044776a976f438261544ae5b46ec910e8accfb58cafc833b",
+      "published": "docs/results/direct-benchmark.json",
+      "published_sha256": "b9f1d1747fc41067b8cd3e39485ab3c59270a3eb71f008cd99bf50f60afeb815",
+      "transformation": "Machine-specific runtime root replaced in strings only; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/joint-damage-material/report.json",
+      "source_sha256": "89f957fb1690db3df5f9b51e43911efff3742af6490e1747975bcd69768566e4",
+      "published": "docs/results/joint-damage-material.json",
+      "published_sha256": "15152ef1eae19a0dfe341e6ff8fa833e386b10759d4982e26234053f7f19c453",
+      "transformation": "Machine-specific runtime root replaced in strings only; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/response-diversity/report.json",
+      "source_sha256": "9a53cbc166297fd4633a881a3b4c21f7fa59dc7fcef691833efc3020b14facf1",
+      "published": "docs/results/response-diversity.json",
+      "published_sha256": "3b5536aaec44bfed4a406ccbba261e3b3ef3f798dfa110f386667494e340f838",
+      "transformation": "Machine-specific runtime root replaced in strings only; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/active-probe/report.json",
+      "source_sha256": "71359ea57277d065438e3407f33c3edd5969799ccb9f2633efedb7ad91eaf52d",
+      "published": "docs/results/active-probe.json",
+      "published_sha256": "182d9f93dcfe27c2f614b1b3425b31a5c126d6028d584e82dbb5c09b9b6c7b6c",
+      "transformation": "Machine-specific runtime root replaced in strings only; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/world-model/report.json",
+      "source_sha256": "43720f9f387551fc1a48296a8396d20a7565d42763282ca8e754e8d8ae5b54cb",
+      "published": "docs/results/world-model.json",
+      "published_sha256": "1ff4a64b7404828f281f999896f4048e481f59e371d50baca734d12f827e9aa6",
+      "transformation": "Machine-specific runtime root replaced in strings only; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/action-adapter/report.json",
+      "source_sha256": "f26c1a64dc05f8334e20c35a4f14e4db715d6f6acf072be744b30bd1e3ebb74f",
+      "published": "docs/results/action-adapter.json",
+      "published_sha256": "936f94ea44eddfc75ec2dfa62c3088a11665352631a5f49d00506bfb037ba183",
+      "transformation": "Machine-specific runtime root replaced in strings only; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/belief-state/report.json",
+      "source_sha256": "ce77f98a64c0af787faad7c1e5800e640458ef868b951864a0d6f4936269cf18",
+      "published": "docs/results/belief-state.json",
+      "published_sha256": "7ad5a09dc8fa626e144b99c364227c8d916fbf3d6392c69ab68596d7770b055b",
+      "transformation": "Machine-specific runtime root replaced in strings only; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/cohesive-probe/report.json",
+      "source_sha256": "5191cbc5946014883d33ef3398b127b377fe401ec4c410964f61b566cf227610",
+      "published": "docs/results/cohesive-probe.json",
+      "published_sha256": "133c528d55e5b3d2da30a80627bf8d6a0334639e0f87233b307f875935493b76",
+      "transformation": "Machine-specific runtime root replaced in strings only; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/active-probe/integrity-checks.json",
+      "source_sha256": "52ee66eef57c22068697ca2831768aba598640d8cb4c2a3f9d4413323d42aae7",
+      "published": "docs/results/active-probe-integrity-checks.json",
+      "published_sha256": "bd1c38839d83867c4a711eff1f0e0806ee4489620f913264f72d3081599347e7"
+    },
+    {
+      "source": "artifacts/active-probe/failure-diagnostics.json",
+      "source_sha256": "405bb3890891046bb1bd6cb586d37aad57b521c8a2bc616aa714e4c1c558120f",
+      "published": "docs/results/active-probe-failure-diagnostics.json",
+      "published_sha256": "e2f8c08ecd380563aaf17b260a00e423a6307f170808d937fb9697e8dfd4233a"
+    },
+    {
+      "source": "artifacts/response-diversity/integrity-checks.json",
+      "source_sha256": "9d6302924a764420787a4879b42b76cf5af661f3af4a0662f26cba6012d607a4",
+      "published": "docs/results/response-diversity-integrity-checks.json",
+      "published_sha256": "b3213a7157049dd4ef07a0928e66fe32a6aac45c077d83edf7bc06be935008bc"
+    },
+    {
+      "source": "artifacts/joint-damage-material/integrity-checks.json",
+      "source_sha256": "4386c88d31cc9d37ffba8b6b63fc491929fdb0255368b8b7c4da7f27513bc2ca",
+      "published": "docs/results/joint-damage-material-integrity-checks.json",
+      "published_sha256": "e92457337c284d3ace520e97245d6daea5bac9a0028b8846adcf531ee8b26989"
+    },
+    {
+      "source": "artifacts/direct-benchmark/direct-comparison.png",
+      "published": "docs/media/direct-benchmark-direct-comparison.png",
+      "sha256": "dadb00045724b7d678d8ea95dce0e48cf5d2cccecb118e253d50566f58a6ee8c"
+    },
+    {
+      "source": "artifacts/joint-damage-material/joint-comparison.png",
+      "published": "docs/media/joint-damage-material-joint-comparison.png",
+      "sha256": "df1d14fa71a83551eb8cbea4e0fff5f06ec622b8cde940a6ae57f1232f0479c3"
+    },
+    {
+      "source": "artifacts/joint-damage-material/prediction-end.png",
+      "published": "docs/media/joint-damage-material-prediction-end.png",
+      "sha256": "d8f3159e6f5260c25e66ec06897fefb00b04910d9b103682057a6d92ae055f0e"
+    },
+    {
+      "source": "artifacts/joint-damage-material/matched-observation-futures.mp4",
+      "published": "docs/media/joint-damage-material-matched-observation-futures.mp4",
+      "sha256": "45868da87a9d72696259030b6bbd9ee6d82823bfa2acfa9de09fb342aa07552a"
+    },
+    {
+      "source": "artifacts/response-diversity/compression-comparison.png",
+      "published": "docs/media/response-diversity-compression-comparison.png",
+      "sha256": "066695cc5c609d14059a013def13943c0a9259faf73c6ab188add2458620e861"
+    },
+    {
+      "source": "artifacts/response-diversity/compressed-futures.mp4",
+      "published": "docs/media/response-diversity-compressed-futures.mp4",
+      "sha256": "2ccae671e9d0c19f785bb133155d3fcfbc9164e6ac97100095e4379d6067a294"
+    },
+    {
+      "source": "artifacts/active-probe/active-comparison.png",
+      "published": "docs/media/active-probe-active-comparison.png",
+      "sha256": "3082d60ef13b47d26548653958be670c8cb742162522d5ae08cf48d554cf6c50"
+    },
+    {
+      "source": "artifacts/active-probe/prediction-end.png",
+      "published": "docs/media/active-probe-prediction-end.png",
+      "sha256": "eea71c89eefefdcd6f3eb7b8ead9849fcc517432eda0f26bcedcea3847b4b382"
+    },
+    {
+      "source": "artifacts/active-probe/active-probe-futures.mp4",
+      "published": "docs/media/active-probe-active-probe-futures.mp4",
+      "sha256": "ebe74957cffd0d889495a999aa77f3a9d0d0049f1db5262fff21ce08b7e35ce0"
+    }
+  ]
+}

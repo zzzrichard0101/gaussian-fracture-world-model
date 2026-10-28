@@ -1,0 +1,46 @@
+{
+  "name": "watermelon-floor-small",
+  "seed": 42,
+  "asset": "watermelon",
+  "preprocessing": {
+    "opacity_threshold": 0.02,
+    "rotation_xyz_degrees": [0.0, 0.0, 0.0],
+    "object_extent": 1.0,
+    "simulation_center": [1.0, 1.0, 1.0]
+  },
+  "physics": {
+    "grid": 64,
+    "domain_size": 2.0,
+    "particles_per_occupied_cell": 4,
+    "max_particles": 100000,
+    "material": {
+      "material": "watermelon",
+      "E": 2000.0,
+      "nu": 0.38,
+      "density": 1.0,
+      "friction_angle": 45.0,
+      "beta": 1.0,
+      "xi": 3.0,
+      "hardening": 1.0,
+      "alpha_0": -0.04,
+      "g": [0.0, 0.0, -15.0]
+    },
+    "initial_velocity": [0.0, 0.0, -6.0],
+    "floor": {"height": 0.2, "surface": "sticky", "friction": 0.0},
+    "transfer": "apic",
+    "frame_dt": 0.01,
+    "max_substep_dt": 0.0001,
+    "cfl": 0.3,
+    "frames": 30
+  },
+  "render": {
+    "width": 512,
+    "fps": 30,
+    "camera_eye": [2.7, -1.8, 1.8],
+    "camera_target": [1.0, 1.0, 0.65],
+    "vertical_fov_degrees": 45.0,
+    "background": [1.0, 1.0, 1.0],
+    "history_opacity_culling": false
+  },
+  "units": "Normalized simulation units; E and density are upstream demo values, not calibrated SI measurements."
+}

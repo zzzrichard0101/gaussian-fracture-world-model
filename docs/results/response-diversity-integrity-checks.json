@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "run_directory": "<WM_RESEARCH_ROOT>/runs/20261028T070125902042Z-response-diversity",
+  "source_snapshots_and_current_source_hashes_match": true,
+  "pool_and_compression_seals_unchanged_after_deployment": true,
+  "deployment_did_not_read_private_labels_or_test_plan": true,
+  "physical_deployment_trajectories": 8,
+  "all_selected_materials_and_cutoff_states_checked": true,
+  "maximum_scalar_difference_across_state_fields": 1.1006751066133802e-12,
+  "new_impulse": {
+    "magnitude": 0.245,
+    "time": 0.044
+  }
+}

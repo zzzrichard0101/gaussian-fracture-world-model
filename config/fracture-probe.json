@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "base_config": "config/stateful-impact.json",
+  "frames": 60,
+  "analysis_stride": 4,
+  "render_stride": 10,
+  "render_width": 256,
+  "cases": [
+    {"id": "control-g96", "overrides": {}},
+    {"id": "beta1-g96", "overrides": {"physics": {"material": {"beta": 1.0}}}},
+    {"id": "floor0-g96", "overrides": {"physics": {"floor": {"height": 0.0}}}},
+    {"id": "seed3e9-g96", "audit_each_step": true, "overrides": {"physics": {"seed_reinforcement": {"beta": 3000000000.0}}}},
+    {"id": "all-gaussians-g96", "connectivity": false,
+     "overrides": {"physics": {"particles_per_occupied_cell": 2000000, "max_particles": 1500000}}},
+    {"id": "control-g128", "overrides": {"physics": {"grid": 128, "max_particles": 300000}}},
+    {"id": "control-g192", "overrides": {"physics": {"grid": 192, "max_particles": 700000}}},
+    {"id": "source-nearer-g192", "overrides": {"preprocessing": {"opacity_threshold": 0.0},
+      "physics": {"grid": 192, "max_particles": 700000, "material": {"beta": 1.0}, "floor": {"height": 0.0}}}}
+  ],
+  "notes": [
+    "No Jp opacity culling, arbitrary particle deletion, hidden-state reset or initial crack.",
+    "One-factor cases plus an explicitly combined source-nearer case; not an exact upstream reproduction.",
+    "Connectivity disabled for the full Gaussian case to avoid quadratic dense point graph memory; separation there is unassessed.",
+    "A positive spatial separation diagnostic still requires repeats, grid/dt checks and physical fracture validation."
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "status": "pretrained_integration_checks_passed",
+  "run_directory": "<WM_RESEARCH_ROOT>/runs/20261027T144148050017Z-world-model",
+  "checks": {
+    "official_pretrained_encoder_and_predictor_loaded": true,
+    "strict_future_filler_invariance": true,
+    "ranking_sealed_before_reference_read": true,
+    "all_finite": true
+  },
+  "model": {
+    "version": 1,
+    "family": "V-JEPA 2",
+    "architecture": "ViT-L/16 encoder + pretrained masked latent predictor",
+    "source_url": "https://github.com/facebookresearch/vjepa2.git",
+    "source_commit": "204698b45b3712590f06245fbfba32d3be539812",
+    "weights_url": "https://dl.fbaipublicfiles.com/vjepa2/vitl.pt",
+    "weights_relative_path": "models/vjepa2/vitl.pt",
+    "weights_bytes": 5127726842,
+    "weights_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "source_experiment": "<WM_RESEARCH_ROOT>/runs/20261027T140706166321Z-cohesive-inverse",
+    "image_size": 256,
+    "observation_slots": 8,
+    "context_slots": 4,
+    "frames_per_slot": 2,
+    "patch_size": 16,
+    "tubelet_size": 2,
+    "predictor_mask_index": 1,
+    "precision": "bfloat16_autocast_float32_parameters",
+    "roi_dilation_patches": 1,
+    "filler_invariance_tolerance": 1e-05,
+    "role": "Frozen latent prediction prior for ranking reachable physics candidates; numeric forces remain in physics.",
+    "notes": [
+      "Run both encoder and learned predictor; encoder-only feature extraction does not satisfy this integration.",
+      "Published masked-video objective is not a native force-conditioned causal rollout model. Future-only masking here is an experimental inference protocol.",
+      "Four observed RGB slots are repeated twice each so no temporal tubelet crosses the context/future boundary.",
+      "Rank stage reads only prefix, generated candidate clips and prefix RGB-D residuals. Real heldout suffix and physical truth are evaluated after sealing.",
+      "Hybrid ranks the prefix-RGB-D accepted set by the learned prior, with no fitted weight or truth-based tuning.",
+      "RGB-D-only, learned-prior ranking and combined ranking all share the physics candidate bank. None is a standalone force-conditioned V-JEPA video decoder.",
+      "Official hub at the pinned revision contains a localhost test URL; instantiate without automatic download and load the explicit official HTTPS checkpoint with audited keys."
+    ],
+    "sources": [
+      "https://github.com/facebookresearch/vjepa2",
+      "https://huggingface.co/facebook/vjepa2-vitl-fpc64-256"
+    ]
+  },
+  "runtime": {
+    "schema": "pretrained-vjepa-ranking-1",
+    "config": {
+      "version": 1,
+      "family": "V-JEPA 2",
+      "architecture": "ViT-L/16 encoder + pretrained masked latent predictor",
+      "source_url": "https://github.com/facebookresearch/vjepa2.git",
+      "source_commit": "204698b45b3712590f06245fbfba32d3be539812",
+      "weights_url": "https://dl.fbaipublicfiles.com/vjepa2/vitl.pt",
+      "weights_relative_path": "models/vjepa2/vitl.pt",
+      "weights_bytes": 5127726842,
+      "weights_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+      "source_experiment": "<WM_RESEARCH_ROOT>/runs/20261027T140706166321Z-cohesive-inverse",
+      "image_size": 256,
+      "observation_slots": 8,
+      "context_slots": 4,
+      "frames_per_slot": 2,
+      "patch_size": 16,
+      "tubelet_size": 2,
+      "predictor_mask_index": 1,
+      "precision": "bfloat16_autocast_float32_parameters",
+      "roi_dilation_patches": 1,
+      "filler_invariance_tolerance": 1e-05,
+      "role": "Frozen latent prediction prior for ranking reachable physics candidates; numeric forces remain in physics.",
+      "notes": [
+        "Run both encoder and learned predictor; encoder-only feature extraction does not satisfy this integration.",
+        "Published masked-video objective is not a native force-conditioned causal rollout model. Future-only masking here is an experimental inference protocol.",
+        "Four observed RGB slots are repeated twice each so no temporal tubelet crosses the context/future boundary.",
+        "Rank stage reads only prefix, generated candidate clips and prefix RGB-D residuals. Real heldout suffix and physical truth are evaluated after sealing.",
+        "Hybrid ranks the prefix-RGB-D accepted set by the learned prior, with no fitted weight or truth-based tuning.",
+        "RGB-D-only, learned-prior ranking and combined ranking all share the physics candidate bank. None is a standalone force-conditioned V-JEPA video decoder.",
+        "Official hub at the pinned revision contains a localhost test URL; instantiate without automatic download and load the explicit official HTTPS checkpoint with audited keys."
+      ],
+      "sources": [
+        "https://github.com/facebookresearch/vjepa2",
+        "https://huggingface.co/facebook/vjepa2-vitl-fpc64-256"
+      ]
+    },
+    "pretrained_load_audit": {
+      "encoder": {
+        "checkpoint_fields": 292,
+        "missing_keys": [],
+        "ignored_position_buffers": [],
+        "parameters": 303885312
+      },
+      "predictor": {
+        "checkpoint_fields": 160,
+        "missing_keys": [],
+        "ignored_position_buffers": [],
+        "parameters": 22086016
+      },
+      "target_encoder": {
+        "checkpoint_fields": 292,
+        "missing_keys": [],
+        "ignored_position_buffers": [],
+        "parameters": 303885312
+      }
+    },
+    "samples": [
+      {
+        "sample": "sample-00",
+        "rgbd_best_index": 0,
+        "rgbd_accepted_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "learned_prior_index": 0,
+        "hybrid_index": 0,
+        "candidate_energies": [
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          },
+          {
+            "full_mae": 0.570032000541687,
+            "roi_mae": 0.5731205344200134
+          }
+        ],
+        "prediction_shape": [
+          1,
+          1024,
+          1024
+        ],
+        "unknown_filler_max_absolute_change": 0.0,
+        "context_times": [
+          0.0,
+          0.004,
+          0.008,
+          0.012
+        ],
+        "latent_horizon_times": [
+          0.016,
+          0.02,
+          0.024,
+          0.028
+        ],
+        "real_suffix_read": false,
+        "private_physics_read": false
+      },
+      {
+        "sample": "sample-01",
+        "rgbd_best_index": 3,
+        "rgbd_accepted_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "learned_prior_index": 0,
+        "hybrid_index": 2,
+        "candidate_energies": [
+          {
+            "full_mae": 0.5706098079681396,
+            "roi_mae": 0.5736278891563416
+          },
+          {
+            "full_mae": 0.5706793069839478,
+            "roi_mae": 0.5742464661598206
+          },
+          {
+            "full_mae": 0.5712072849273682,
+            "roi_mae": 0.5736546516418457
+          },
+          {
+            "full_mae": 0.571590781211853,
+            "roi_mae": 0.5748008489608765
+          },
+          {
+            "full_mae": 0.5704947710037231,
+            "roi_mae": 0.5740312933921814
+          },
+          {
+            "full_mae": 0.5705333948135376,
+            "roi_mae": 0.5740607380867004
+          },
+          {
+            "full_mae": 0.5708881616592407,
+            "roi_mae": 0.5740612149238586
+          },
+          {
+            "full_mae": 0.5709251165390015,
+            "roi_mae": 0.5746700763702393
+          },
+          {
+            "full_mae": 0.5709038376808167,
+            "roi_mae": 0.5748124718666077
+          },
+          {
+            "full_mae": 0.571047306060791,
+            "roi_mae": 0.574985146522522
+          },
+          {
+            "full_mae": 0.5710159540176392,
+            "roi_mae": 0.5744289755821228
+          },
+          {
+            "full_mae": 0.5713411569595337,
+            "roi_mae": 0.5744180679321289
+          },
+          {
+            "full_mae": 0.5716013312339783,
+            "roi_mae": 0.5744386315345764
+          }
+        ],
+        "prediction_shape": [
+          1,
+          1024,
+          1024
+        ],
+        "unknown_filler_max_absolute_change": 0.0,
+        "context_times": [
+          0.0,
+          0.004,
+          0.008,
+          0.012
+        ],
+        "latent_horizon_times": [
+          0.016,
+          0.02,
+          0.024,
+          0.028
+        ],
+        "real_suffix_read": false,
+        "private_physics_read": false
+      },
+      {
+        "sample": "sample-02",
+        "rgbd_best_index": 0,
+        "rgbd_accepted_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "learned_prior_index": 0,
+        "hybrid_index": 0,
+        "candidate_energies": [
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          },
+          {
+            "full_mae": 0.5706356763839722,
+            "roi_mae": 0.5726991891860962
+          }
+        ],
+        "prediction_shape": [
+          1,
+          1024,
+          1024
+        ],
+        "unknown_filler_max_absolute_change": 0.0,
+        "context_times": [
+          0.0,
+          0.004,
+          0.008,
+          0.012
+        ],
+        "latent_horizon_times": [
+          0.016,
+          0.02,
+          0.024,
+          0.028
+        ],
+        "real_suffix_read": false,
+        "private_physics_read": false
+      },
+      {
+        "sample": "sample-03",
+        "rgbd_best_index": 8,
+        "rgbd_accepted_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "learned_prior_index": 2,
+        "hybrid_index": 2,
+        "candidate_energies": [
+          {
+            "full_mae": 0.570218563079834,
+            "roi_mae": 0.5734775066375732
+          },
+          {
+            "full_mae": 0.5704628229141235,
+            "roi_mae": 0.5734791159629822
+          },
+          {
+            "full_mae": 0.5704005360603333,
+            "roi_mae": 0.572812557220459
+          },
+          {
+            "full_mae": 0.5707710981369019,
+            "roi_mae": 0.5737174153327942
+          },
+          {
+            "full_mae": 0.5706689953804016,
+            "roi_mae": 0.57319575548172
+          },
+          {
+            "full_mae": 0.5705810189247131,
+            "roi_mae": 0.5736103057861328
+          },
+          {
+            "full_mae": 0.5709822177886963,
+            "roi_mae": 0.5738477110862732
+          },
+          {
+            "full_mae": 0.570801317691803,
+            "roi_mae": 0.5742154717445374
+          },
+          {
+            "full_mae": 0.570749044418335,
+            "roi_mae": 0.5734299421310425
+          },
+          {
+            "full_mae": 0.5709130764007568,
+            "roi_mae": 0.5735468864440918
+          },
+          {
+            "full_mae": 0.5703312754631042,
+            "roi_mae": 0.5731127858161926
+          },
+          {
+            "full_mae": 0.5704996585845947,
+            "roi_mae": 0.5729836821556091
+          },
+          {
+            "full_mae": 0.5709247589111328,
+            "roi_mae": 0.5730915069580078
+          }
+        ],
+        "prediction_shape": [
+          1,
+          1024,
+          1024
+        ],
+        "unknown_filler_max_absolute_change": 0.0,
+        "context_times": [
+          0.0,
+          0.004,
+          0.008,
+          0.012
+        ],
+        "latent_horizon_times": [
+          0.016,
+          0.02,
+          0.024,
+          0.028
+        ],
+        "real_suffix_read": false,
+        "private_physics_read": false
+      }
+    ],
+    "wall_seconds_including_model_load": 15.022209495997231,
+    "torch": "2.7.1+cu128",
+    "cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 4090",
+    "torch_peak_allocated_mib": 2488.35986328125,
+    "torch_peak_reserved_mib": 2564.0,
+    "free_device_memory_before_mib": 22992.0,
+    "note": "Prediction and all selections made before reading heldout real suffix/physical reference."
+  },
+  "results": [
+    {
+      "sample": "sample-00",
+      "observation_protocol": "stationary",
+      "latent_prediction_mae": {
+        "full_mae": 0.552584707736969,
+        "roi_mae": 0.5513292551040649
+      },
+      "latent_persistence_mae": {
+        "full_mae": 0.6652341485023499,
+        "roi_mae": 0.6542797088623047
+      },
+      "frozen_rgb_suffix_latent_mae": {
+        "full_mae": 0.5130958557128906,
+        "roi_mae": 0.3819292187690735
+      },
+      "physical_future_results": {
+        "rgbd_prefix": {
+          "candidate_index": 0,
+          "history_peak": 0.0,
+          "future_gap_rmse_m": 0.001238583338187568,
+          "fully_separated": false
+        },
+        "learned_prior_ranking": {
+          "candidate_index": 0,
+          "history_peak": 0.0,
+          "future_gap_rmse_m": 0.001238583338187568,
+          "fully_separated": false
+        },
+        "hybrid": {
+          "candidate_index": 0,
+          "history_peak": 0.0,
+          "future_gap_rmse_m": 0.001238583338187568,
+          "fully_separated": false
+        }
+      }
+    },
+    {
+      "sample": "sample-01",
+      "observation_protocol": "fixed-small-impulse",
+      "latent_prediction_mae": {
+        "full_mae": 0.552770733833313,
+        "roi_mae": 0.5515214204788208
+      },
+      "latent_persistence_mae": {
+        "full_mae": 0.664053201675415,
+        "roi_mae": 0.652437686920166
+      },
+      "frozen_rgb_suffix_latent_mae": {
+        "full_mae": 0.5154763460159302,
+        "roi_mae": 0.3903855085372925
+      },
+      "physical_future_results": {
+        "rgbd_prefix": {
+          "candidate_index": 3,
+          "history_peak": 0.00075,
+          "future_gap_rmse_m": 0.0008187505720170431,
+          "fully_separated": false
+        },
+        "learned_prior_ranking": {
+          "candidate_index": 0,
+          "history_peak": 0.0,
+          "future_gap_rmse_m": 0.0010745744234124173,
+          "fully_separated": false
+        },
+        "hybrid": {
+          "candidate_index": 2,
+          "history_peak": 0.0005,
+          "future_gap_rmse_m": 0.0013971810594759306,
+          "fully_separated": false
+        }
+      }
+    },
+    {
+      "sample": "sample-02",
+      "observation_protocol": "stationary",
+      "latent_prediction_mae": {
+        "full_mae": 0.5541808009147644,
+        "roi_mae": 0.5538437962532043
+      },
+      "latent_persistence_mae": {
+        "full_mae": 0.6644289493560791,
+        "roi_mae": 0.6502645015716553
+      },
+      "frozen_rgb_suffix_latent_mae": {
+        "full_mae": 0.5226792097091675,
+        "roi_mae": 0.3909609913825989
+      },
+      "physical_future_results": {
+        "rgbd_prefix": {
+          "candidate_index": 0,
+          "history_peak": 0.0,
+          "future_gap_rmse_m": 0.010301211974873143,
+          "fully_separated": false
+        },
+        "learned_prior_ranking": {
+          "candidate_index": 0,
+          "history_peak": 0.0,
+          "future_gap_rmse_m": 0.010301211974873143,
+          "fully_separated": false
+        },
+        "hybrid": {
+          "candidate_index": 0,
+          "history_peak": 0.0,
+          "future_gap_rmse_m": 0.010301211974873143,
+          "fully_separated": false
+        }
+      }
+    },
+    {
+      "sample": "sample-03",
+      "observation_protocol": "fixed-small-impulse",
+      "latent_prediction_mae": {
+        "full_mae": 0.5542877316474915,
+        "roi_mae": 0.5550174713134766
+      },
+      "latent_persistence_mae": {
+        "full_mae": 0.6640955209732056,
+        "roi_mae": 0.6474748253822327
+      },
+      "frozen_rgb_suffix_latent_mae": {
+        "full_mae": 0.5216038227081299,
+        "roi_mae": 0.39466530084609985
+      },
+      "physical_future_results": {
+        "rgbd_prefix": {
+          "candidate_index": 8,
+          "history_peak": 0.002,
+          "future_gap_rmse_m": 5.830332609137826e-05,
+          "fully_separated": true
+        },
+        "learned_prior_ranking": {
+          "candidate_index": 2,
+          "history_peak": 0.0005,
+          "future_gap_rmse_m": 0.013279528418444285,
+          "fully_separated": false
+        },
+        "hybrid": {
+          "candidate_index": 2,
+          "history_peak": 0.0005,
+          "future_gap_rmse_m": 0.013279528418444285,
+          "fully_separated": false
+        }
+      }
+    }
+  ],
+  "new_method_validated": false,
+  "force_conditioned_world_model_alone_comparison_completed": false,
+  "evaluation_code_sha256": "b1c2d405824bbc1c6c83baeb3ccc82c63c58ddb17a24d681c54d4e0ea01e9a7c",
+  "evaluation_revision_note": "Frozen-last-RGB control added after initial evaluation to check whether the feature-persistence baseline was too weak. Sealed candidate selections were not changed.",
+  "limitations": [
+    "Frozen masked-latent prediction protocol; not a native numeric-force-conditioned world model.",
+    "No pixel decoder. Physics candidates and Gaussian renderer supply physical trajectories/images.",
+    "All three physical-future ranking variants share the same physics bank and same four-frame context.",
+    "Model-alone metric is latent prediction vs persistence on a no-new-action suffix, not standalone impulse-to-video prediction.",
+    "Target embeddings attend to the complete clip; repeating masked-context embeddings is a weaker control than encoding a prefix plus frozen-RGB suffix in that same representation.",
+    "Only four synthetic reduced-interface sequences. Natural-video pretraining, 16-frame repeated input and short physical time scales create domain shift.",
+    "Integration, loading and no-future-input checks are not proof of improved forecasting or novelty."
+  ]
+}

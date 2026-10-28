@@ -1,0 +1,459 @@
+{
+  "scope": "Post-hoc diagnostics only; no trial re-selection, parameter tuning or new validation claim.",
+  "guarded_decisions": [
+    {
+      "case": "case-000",
+      "pool": "uniform49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-000",
+      "pool": "uniform49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-000",
+      "pool": "direct49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-000",
+      "pool": "direct49",
+      "state_set": "response8",
+      "selected_action": 0.2,
+      "positive_gain_feasible_actions": 1,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.14489729605395074
+    },
+    {
+      "case": "case-001",
+      "pool": "uniform49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-001",
+      "pool": "uniform49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-001",
+      "pool": "direct49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-001",
+      "pool": "direct49",
+      "state_set": "response8",
+      "selected_action": 0.2,
+      "positive_gain_feasible_actions": 1,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.14489729605395074
+    },
+    {
+      "case": "case-002",
+      "pool": "uniform49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-002",
+      "pool": "uniform49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-002",
+      "pool": "direct49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-002",
+      "pool": "direct49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-003",
+      "pool": "uniform49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-003",
+      "pool": "uniform49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-003",
+      "pool": "direct49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-003",
+      "pool": "direct49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-004",
+      "pool": "uniform49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-004",
+      "pool": "uniform49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-004",
+      "pool": "direct49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-004",
+      "pool": "direct49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-005",
+      "pool": "uniform49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-005",
+      "pool": "uniform49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-005",
+      "pool": "direct49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-005",
+      "pool": "direct49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-006",
+      "pool": "uniform49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-006",
+      "pool": "uniform49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-006",
+      "pool": "direct49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-006",
+      "pool": "direct49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-007",
+      "pool": "uniform49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-007",
+      "pool": "uniform49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-007",
+      "pool": "direct49",
+      "state_set": "full",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    },
+    {
+      "case": "case-007",
+      "pool": "direct49",
+      "state_set": "response8",
+      "selected_action": 0.0,
+      "positive_gain_feasible_actions": 0,
+      "selected_max_damage_with_planning_set": 0.0,
+      "selected_max_damage_with_full_set": 0.0
+    }
+  ],
+  "filter_summaries": [
+    {
+      "pool": "uniform49",
+      "state_set": "full",
+      "policy": "none",
+      "before_nearest_candidate_rmse_mm": 0.6102577670987972,
+      "after_nearest_candidate_rmse_mm": 1.3410214376041028,
+      "evaluation_nearest_candidate_removed_fraction": 0.5416666666666666,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "uniform49",
+      "state_set": "full",
+      "policy": "weak",
+      "before_nearest_candidate_rmse_mm": 2.0090673172502176,
+      "after_nearest_candidate_rmse_mm": 2.2874358510504624,
+      "evaluation_nearest_candidate_removed_fraction": 0.6666666666666666,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "uniform49",
+      "state_set": "full",
+      "policy": "strong",
+      "before_nearest_candidate_rmse_mm": 0.18951620406056566,
+      "after_nearest_candidate_rmse_mm": 1.2685664630163416,
+      "evaluation_nearest_candidate_removed_fraction": 0.375,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "uniform49",
+      "state_set": "full",
+      "policy": "guarded",
+      "before_nearest_candidate_rmse_mm": 0.6102577670987972,
+      "after_nearest_candidate_rmse_mm": 1.3410214376041028,
+      "evaluation_nearest_candidate_removed_fraction": 0.5416666666666666,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "uniform49",
+      "state_set": "response8",
+      "policy": "none",
+      "before_nearest_candidate_rmse_mm": 0.9979169172045967,
+      "after_nearest_candidate_rmse_mm": 4.101631966589841,
+      "evaluation_nearest_candidate_removed_fraction": 0.5833333333333334,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "uniform49",
+      "state_set": "response8",
+      "policy": "weak",
+      "before_nearest_candidate_rmse_mm": 2.3365924913009057,
+      "after_nearest_candidate_rmse_mm": 3.9378634502040257,
+      "evaluation_nearest_candidate_removed_fraction": 0.5,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "uniform49",
+      "state_set": "response8",
+      "policy": "strong",
+      "before_nearest_candidate_rmse_mm": 1.08548444848359,
+      "after_nearest_candidate_rmse_mm": 4.796571241585813,
+      "evaluation_nearest_candidate_removed_fraction": 0.625,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "uniform49",
+      "state_set": "response8",
+      "policy": "guarded",
+      "before_nearest_candidate_rmse_mm": 0.9979169172045967,
+      "after_nearest_candidate_rmse_mm": 4.101631966589841,
+      "evaluation_nearest_candidate_removed_fraction": 0.5833333333333334,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "direct49",
+      "state_set": "full",
+      "policy": "none",
+      "before_nearest_candidate_rmse_mm": 0.7693958855911188,
+      "after_nearest_candidate_rmse_mm": 2.6197466786236774,
+      "evaluation_nearest_candidate_removed_fraction": 0.375,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "direct49",
+      "state_set": "full",
+      "policy": "weak",
+      "before_nearest_candidate_rmse_mm": 2.142734538683795,
+      "after_nearest_candidate_rmse_mm": 2.9973097094388703,
+      "evaluation_nearest_candidate_removed_fraction": 0.4166666666666667,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "direct49",
+      "state_set": "full",
+      "policy": "strong",
+      "before_nearest_candidate_rmse_mm": 0.27612259995716854,
+      "after_nearest_candidate_rmse_mm": 0.8637992980630148,
+      "evaluation_nearest_candidate_removed_fraction": 0.3333333333333333,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "direct49",
+      "state_set": "full",
+      "policy": "guarded",
+      "before_nearest_candidate_rmse_mm": 0.7693958855911188,
+      "after_nearest_candidate_rmse_mm": 2.6197466786236774,
+      "evaluation_nearest_candidate_removed_fraction": 0.375,
+      "guarded_passive_choices": 8,
+      "guarded_episodes_without_positive_feasible_gain": 8
+    },
+    {
+      "pool": "direct49",
+      "state_set": "response8",
+      "policy": "none",
+      "before_nearest_candidate_rmse_mm": 1.3258433965783272,
+      "after_nearest_candidate_rmse_mm": 4.144239927103709,
+      "evaluation_nearest_candidate_removed_fraction": 0.5833333333333334,
+      "guarded_passive_choices": 6,
+      "guarded_episodes_without_positive_feasible_gain": 6
+    },
+    {
+      "pool": "direct49",
+      "state_set": "response8",
+      "policy": "weak",
+      "before_nearest_candidate_rmse_mm": 2.9221663146440413,
+      "after_nearest_candidate_rmse_mm": 5.184687041453505,
+      "evaluation_nearest_candidate_removed_fraction": 0.7916666666666666,
+      "guarded_passive_choices": 6,
+      "guarded_episodes_without_positive_feasible_gain": 6
+    },
+    {
+      "pool": "direct49",
+      "state_set": "response8",
+      "policy": "strong",
+      "before_nearest_candidate_rmse_mm": 0.8240657742131801,
+      "after_nearest_candidate_rmse_mm": 5.683805803468562,
+      "evaluation_nearest_candidate_removed_fraction": 0.5,
+      "guarded_passive_choices": 6,
+      "guarded_episodes_without_positive_feasible_gain": 6
+    },
+    {
+      "pool": "direct49",
+      "state_set": "response8",
+      "policy": "guarded",
+      "before_nearest_candidate_rmse_mm": 1.14347007276864,
+      "after_nearest_candidate_rmse_mm": 4.865597322777481,
+      "evaluation_nearest_candidate_removed_fraction": 0.5833333333333334,
+      "guarded_passive_choices": 6,
+      "guarded_episodes_without_positive_feasible_gain": 6
+    }
+  ],
+  "limitations": [
+    "Full-set predicted damage is itself not a true-state safety guarantee.",
+    "Nearest-to-truth candidate removal is a privileged evaluation diagnosis and cannot guide deployed filtering."
+  ]
+}

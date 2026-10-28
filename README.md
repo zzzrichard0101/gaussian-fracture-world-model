@@ -1,0 +1,180 @@
+# Gaussian Fracture World Model
+
+**관측으로 재료·손상 이력의 여러 가설을 유지하고, 새 충격의 결과를 물리 계산과 Gaussian 영상으로 예측하는 연구 프로토타입.**
+
+물체는 비슷하게 보여도 과거 하중과 재료에 따라 다음 충격의 결과가 달라진다. 이 프로젝트는 관측에 맞는 여러 물리 상태를 보존하고, 필요한 추가 관측과 미래 계산을 연결한다.
+
+현재 주요 실험은 **두 강체 블록·접합면 하나·1차원 병진 운동**이다. Gaussian은 영상 표현, 표준 cohesive/contact 법칙은 물리 계산에 사용한다. 일반 3D 균열이나 새로운 학습 월드모델을 완성한 결과는 아니다. **좋아진 결과와 실패한 결과를 함께 공개한다.**
+
+[전체 결과표](docs/RESULTS.md) · [재현 안내](docs/REPRODUCING.md) · [구현 기록](IMPLEMENTATION.md) · [연구 판단](RESEARCH_DIRECTION.md)
+
+![Core checks](https://github.com/zzzrichard0101/gaussian-fracture-world-model/actions/workflows/core-tests.yml/badge.svg)
+
+## 파이프라인
+
+```mermaid
+flowchart TB
+    subgraph observation["1. 관측에서 가능한 물리 상태 만들기"]
+        direction LR
+        A["Gaussian RGB-D 관측"] --> B["재료·과거 하중 후보"]
+        B --> C["유효한 하중 이력 재생"]
+        C --> D["관측에 맞는 상태 집합 저장"]
+    end
+    subgraph planning["2. 계산할 미래와 추가 관측 선택"]
+        direction LR
+        E["후보별 가상 충격 계산"] --> F["다양한 반응의 8개 상태 선택"]
+        F --> G["예상 관측 차이·추가 손상 비교"]
+        G --> H["추가 충격 또는 수동 관측 선택"]
+    end
+    subgraph prediction["3. 새 관측으로 갱신하고 다음 충격 예측"]
+        direction LR
+        I["선택한 충격 후 RGB-D 관측"] --> J["원래 후보 안에서 정합 갱신"]
+        J --> K["재료·손상·속도를 이어 물리 계산"]
+        K --> L["후보별 틈·박리 사건·Gaussian 영상"]
+    end
+    D --> E
+    H --> I
+```
+
+각 후보에는 위치·속도·최대 벌어짐 이력·누적 외부 일·물리 시계·재료 값이 있다. 관측과 충격 이후에도 이를 초기화하지 않는다. 여러 후보를 평균한 값을 하나의 물리 상태로 사용하지 않는다.
+
+## 구현 범위
+
+| 구성요소 | 하는 일 | 현재 상태 |
+| --- | --- | --- |
+| 순방향 물리 | 손상, 분리, 분리 후 압축 접촉 | 축약 문제의 분석해·시간 간격 검증 |
+| 상태 추정 | 관측에 맞는 재료·하중 이력 탐색 | 균일·DIRECT·무작위 기준선 구현 |
+| 상태 집합 압축 | 가능한 미래를 소수 상태로 요약 | 8개 상태 선택·재사용 가능 |
+| 능동 관측 | 관측 차이와 손상으로 충격 선택 | 폐루프 구현, 예측 개선 미확보 |
+| 새 외력 질의 | 저장한 상태에서 충격 크기·시각 변경 | 실행 및 독립 물리 대조 완료 |
+| V-JEPA 2 연결 | frozen encoder/predictor로 선택·학습 보조 | 실행 완료, 추가 이득 미확인 |
+
+아래 주요 실험은 **신경망 없이 물리·Gaussian 파이프라인만** 사용한다. V-JEPA 실험은 [별도 보고서](docs/results/world-model.json)에 있다.
+
+## 왜 여러 상태를 남기나
+
+재료와 과거 최대 벌어짐이 다르지만 작은 움직임에 대한 강성이 같은 상태 쌍을 구성했다. 약한 충격의 RGB·깊이·alpha가 8쌍 모두 정확히 같았는데, 이후 3개 충격의 24개 쌍 비교 중 8개에서는 최종 박리 여부가 달랐다.
+
+![같은 초기 관측에 대응하는 다른 실제 미래](docs/media/joint-damage-material-prediction-end.png)
+
+설계한 합성 대조군이다. 새로운 역학 현상의 발견은 아니며, 이 관측만으로 상태 하나를 유일하게 맞히겠다는 목표가 성립하지 않음을 확인하는 기준이다.
+
+## 결과 1 — 표준 DIRECT가 기존 탐색법보다 좋았다
+
+한 개의 미지 하중 파라미터를 같은 49회 관측 평가 예산으로 추정했다. 오차는 미래 접합면 틈의 RMSE이며 낮을수록 좋다.
+
+| 방법 | 첫 시험 | 추가 시험 |
+| --- | ---: | ---: |
+| 균일 탐색 49 | 0.612mm | 2.428mm |
+| 여러 구간 세분화 49 | 0.336mm | 0.322mm |
+| **DIRECT 49** | **0.262mm** | **0.117mm** |
+
+세분화는 균일 탐색보다 나았지만, 표준 전역 최적화보다 좋은 새 탐색법이라는 근거는 없었다. 앞선 시험 관측을 재사용한 기준선 확장이다.
+
+## 결과 2 — 다양한 미래를 남기는 것과 정답을 잘 맞히는 것은 달랐다
+
+49개 후보를 생성한 뒤 관측에 맞는 후보에서 8개를 고른다. `반응 다양성`은 가상 충격의 틈 궤적·박리 여부를 기준으로 기존 farthest-first k-center 방식을 사용한다.
+
+| 균일 후보에서의 선택법 | 전체 미래의 표현 오차: 약한 관측 | 전체 미래의 표현 오차: 강한 관측 |
+| --- | ---: | ---: |
+| 관측 오차가 작은 8개 | 5.533mm | 12.890mm |
+| 파라미터가 다양한 8개 | 5.461mm | 7.499mm |
+| **반응이 다양한 8개** | **3.470mm** | **4.497mm** |
+
+표현 오차는 **전체 후보의 가능한 곡선들을 8개가 얼마나 잘 대표하는지**다. 정답 예측 오차가 아니다. 정답에 가까운 후보를 남기는 지표에서는 관측 오차 순서가 더 좋은 조건도 많았다. 후보 범위는 보정된 신뢰구간이 아니다.
+
+![상태 압축 비교](docs/media/response-diversity-compression-comparison.png)
+
+## 결과 3 — 손상 제한 관측은 구현됐지만 개선에는 실패했다
+
+추가 충격은 물체를 바꾼다. 각 충격을 받은 물체의 정답을 따로 만들고, **같은 충격 조건에서 새 관측 전·후**를 비교했다.
+
+아래는 DIRECT 전체 후보 조건이다. 8개 재료·이력 상태에 미래 충격 3개씩을 평가했다. `추가 손상 D`는 추가 충격 없이 같은 시간 동안 진행한 경우에 대한 0~1 손상도 증가다.
+
+| 정책 | 새 관측 전 RMSE | 새 관측 후 RMSE | 평균 추가 손상 D | 손상 증가 0.02 초과 |
+| --- | ---: | ---: | ---: | ---: |
+| 충격 없이 관측 | 4.605mm | 5.028mm | 0.0000 | 0/8 |
+| 고정 약한 충격 | 6.409mm | 6.659mm | 0.0000 | 0/8 |
+| 고정 강한 충격 | 8.482mm | 5.658mm | 0.0664 | 6/8 |
+| 후보 간 불일치 최대화 | 6.807mm | 5.751mm | 0.0360 | 2/8 |
+| 손상 제한 + 과제 관련 관측 차이 | 4.605mm | 5.028mm | 0.0000 | 0/8 |
+
+**손상 제한 정책은 이 조건에서 모두 충격 없이 관측하기를 선택했다.** 일부 다른 조건에서는 비영 충격을 골랐지만 일반적인 예측 개선은 없었다. 강한 충격이 예측을 개선한 조건도 있으나 손상 비용이 컸다. 균일 전체 후보에서는 강한 충격의 관측 후 오차도 커졌다. 무작위 3개 seed와 모든 조건은 [전체 표](docs/RESULTS.md)에 공개했다.
+
+사후 진단에서 정답 미래에 가까운 후보가 관측 잔차 필터로 제거되는 경우도 확인했다. 후보 수 감소가 정확도 개선을 뜻하지 않는다. 손상 제한은 **현재 후보 집합 안의 검사**이며 참 물체의 안전 보장이 아니다. 결과를 본 뒤 임계값을 조정하지 않았다.
+
+![능동 관측 결과](docs/media/active-probe-active-comparison.png)
+
+## 영상으로 보기
+
+사전에 지정한 첫 시험 사례다. 정답을 보고 잘 나온 장면을 고르지 않았다.
+
+![선택한 관측 이후 정답과 관측 전후 대표 예측](docs/media/active-probe-prediction-end.png)
+
+[능동 관측 MP4](docs/media/active-probe-active-probe-futures.mp4) · [8개 상태 압축 MP4](docs/media/response-diversity-compressed-futures.mp4) · [같은 관측·다른 파괴 미래 MP4](docs/media/joint-damage-material-matched-observation-futures.mp4)
+
+## 실행하기
+
+검증한 환경은 **RTX 4090 24GB, Windows + Ubuntu WSL2**다. CUDA Toolkit 11.8, `uv`, C++ 빌드 도구와 `ffmpeg`가 필요하다. Ubuntu WSL에서 저장소 폴더로 이동해 실행한다.
+
+```bash
+bash scripts/wsl.sh bootstrap
+bash scripts/wsl.sh doctor
+bash scripts/wsl.sh test -q
+
+# 작은 순방향 검증부터 시작
+bash scripts/wsl.sh cohesive-probe
+
+# 각각 데이터를 생성하는 독립 실험
+bash scripts/wsl.sh joint-damage-material
+bash scripts/wsl.sh response-diversity
+bash scripts/wsl.sh active-probe
+```
+
+PowerShell에서는 `bash scripts/wsl.sh` 대신 `.\scripts\run-wsl.ps1`을 쓴다. 최신 물리 파이프라인에 대형 V-JEPA 가중치·수박 에셋은 필요하지 않다. 실행 중 출력되는 `OUTPUT=...` 경로로 새 충격을 질의한다.
+
+```bash
+bash scripts/wsl.sh python scripts/active_probe_branch.py \
+  --run /absolute/path/to/your-active-probe-run \
+  --impact 0.275 --impact-time 0.064
+```
+
+새 관측에 맞는 후보가 없으면 예측을 강제로 만들지 않고 실패로 보고한다.
+
+CUDA 없이 핵심 법칙·탐색·관측 입력 차단을 검사하려면 다음을 실행한다. GitHub Actions도 같은 핵심 테스트를 실행한다.
+
+```bash
+python -m pip install -r requirements/test-core.txt
+python -m pytest -q tests/test_cohesive.py tests/test_cohesive_inference.py \
+  tests/test_budgeted_direct.py tests/test_joint_state.py \
+  tests/test_hypothesis_selection.py tests/test_active_probe.py \
+  tests/test_fixture_reference.py tests/test_response_diversity_io.py
+```
+
+환경 차이·과거 실험 재현·감사 명령은 [재현 안내](docs/REPRODUCING.md)에 있다.
+
+## 검증 범위와 남은 일
+
+로컬 전체 테스트 **90개**, 별도 환경의 관련 테스트 **39개**를 통과했다. 추가 관측을 받은 물체의 정답 궤적을 독립 scalar 계산과 대조한 틈 차이는 0이었다. 저장 상태에서 새 충격을 계산한 독립 대조의 상태 필드 최대 차이는 약 1.1×10⁻¹²였다. 구현 일치 검사이며 예측 정확도나 실물 검증을 뜻하지 않는다.
+
+- 관측·추가 충격·미래 충격을 이어도 재료와 내부 이력이 유지되는지 독립 계산과 대조했다.
+- 정책은 새 관측 전에, 상태 갱신은 평가 충격·정답 전에 해시로 고정한다. 비공개 실험 파일 읽기도 단계별로 제한한다.
+- 실물 RGB-D, 일반 형상·카메라·재료, 임의 3D 균열 경로는 미검증이다.
+- 가상 충격 계산 비용이 있으므로 8개 압축으로 전체 실행이 빨라졌다고 주장하지 않는다.
+- 표준 재료 법칙·DIRECT·집합 압축·실험 설계 원리 자체의 신규성을 주장하지 않는다. **논문 기여와 일반적 성능 우수성은 아직 확보하지 못했다.**
+
+다음 과제는 관측 필터가 필요한 미래 가설을 버리는 문제와 압축 집합이 최악 손상을 보존하지 못하는 문제다. 현재 결과는 고정하고 후속 설계는 새 보류 조건에서 비교해야 한다.
+
+## 저장소 구성
+
+| 경로 | 내용 |
+| --- | --- |
+| `wmfracture/` | 재료 법칙, 배치 물리, 후보 선택, 관측 정책 |
+| `scripts/` | 환경·실험·새 충격 질의·독립 감사 |
+| `config/` | 실행 전에 고정한 설정과 비교 규약 |
+| `tests/` | 물리·저장/재개·입력 격리 테스트 |
+| `docs/results/` | 결과 JSON과 공개 파일 해시 |
+| `docs/media/` | 그림·결과 영상 |
+| `docs/EXPERIMENT_LOG.md` | 초기 환경부터의 상세 실험 기록 |
+
+모델 가중치·원본 에셋·관측 원본·전체 실행 폴더·외부 저장소는 포함하지 않는다. 실행 시 별도 연구 폴더에 생성·다운로드한다. 출처와 이용 조건은 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 참조한다.

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "base_config": "config/stateful-impact.json",
+  "frames": 40,
+  "render_width": 256,
+  "observation_frames": [12, 14, 16],
+  "reimpact_frame": 18,
+  "render_stride": 2,
+  "history_strengths": [0.0, 0.1, 0.25, 0.5, 1.0, 1.5, 2.0, 3.0],
+  "prior_load": {
+    "id": "prior-local-impulse", "frame": 2, "kind": "momentum_impulse", "region": "sphere",
+    "center": [1.0, 1.2, 0.82], "radius": 0.4, "delta_velocity": [0.5, 0.0, -1.0]
+  },
+  "future_load": {
+    "id": "common-reimpact", "frame": 18, "kind": "momentum_impulse", "region": "all",
+    "delta_velocity": [0.0, 0.0, -3.0]
+  },
+  "repeat_indices": [0, 7],
+  "pilot_thresholds": {
+    "rgb_mae_255_max": 2.0,
+    "depth_rms_dx_max": 0.25,
+    "mask_iou_min": 0.98,
+    "future_position_rms_dx_min": 0.5,
+    "repeatability_multiplier": 3.0
+  },
+  "notes": [
+    "Eight-point one-dimensional strength sweep, not the eventual 4-8D inverse search.",
+    "Impulse adds external momentum without resetting positions or constitutive state; no resolved striker contact.",
+    "Thresholds are pilot conventions declared before rollout, not calibrated sensor noise.",
+    "Expected Gaussian-center depth is synthetic and differs from physical surface RGB-D.",
+    "Future action is shared; its response and internal states are evaluation data only."
+  ]
+}

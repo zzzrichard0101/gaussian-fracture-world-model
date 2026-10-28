@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "law": {"area": 0.01, "tensile_stiffness": 10000000.0, "compressive_stiffness": 100000000.0,
+          "peak_traction": 1000.0, "fracture_energy": 2.0},
+  "mass_left": 1.0, "mass_right": 1.0, "width": 0.1,
+  "dt_levels": [0.00002, 0.00001, 0.000005, 0.0000025],
+  "duration": 0.18, "sample_interval": 0.0004,
+  "prehistory_duration": 1.0, "prehistory_samples": 4000,
+  "observation_times": [0.0, 0.004, 0.008],
+  "render_interval": 0.002,
+  "cases": [
+    {"id": "pristine", "prehistory_peak": 0.0,
+     "impulses": [{"id": "common-impact", "time": 0.012, "left": 0.245, "right": 0.0}]},
+    {"id": "preloaded", "prehistory_peak": 0.002,
+     "impulses": [{"id": "common-impact", "time": 0.012, "left": 0.245, "right": 0.0}]},
+    {"id": "break-recontact", "prehistory_peak": 0.0,
+     "impulses": [{"id": "strong-impact", "time": 0.012, "left": 0.6, "right": 0.0},
+                  {"id": "closing-impulse", "time": 0.07, "left": 0.55, "right": -0.55}]}
+  ],
+  "render": {"width": 384, "fps": 15, "camera_eye": [1.28, 0.5, 1.05],
+             "camera_target": [1.03, 1.0, 0.75], "vertical_fov_degrees": 40.0,
+             "background": [1.0, 1.0, 1.0], "gaussians_per_axis": 15},
+  "thresholds": {"maximum_relative_energy_residual": 0.002,
+                 "maximum_momentum_residual": 0.0000000001,
+                 "finest_pair_max_position_difference_m": 0.000002,
+                 "finest_pair_failure_time_difference_s": 0.00001,
+                 "future_pair_final_gap_difference_min_m": 0.005,
+                 "raw_observation_max_difference": 0.0},
+  "sources": [
+    "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEITNRefMap/simaitn-c-cohesivebehavior.htm",
+    "https://mooseframework.inl.gov/docs/doxygen/modules/classBilinearMixedModeCohesiveZoneModel.html"
+  ],
+  "scope": "Mode-I, two rigid blocks, one prescribed bonded interface, 1D translations, compression penalty contact. Illustrative SI parameters, no material calibration. Existing cohesive law; no new fracture/world model."
+}

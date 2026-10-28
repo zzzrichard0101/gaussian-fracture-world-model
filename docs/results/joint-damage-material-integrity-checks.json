@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "run_directory": "<WM_RESEARCH_ROOT>/runs/20261028T060646512016Z-joint-damage-material",
+  "public_input_hashes_unchanged": true,
+  "public_material_energy_absent": true,
+  "public_cases_exclude_pair_and_truth": true,
+  "identical_clips_have_same_known_probe_in_this_run": true,
+  "evaluation_counts": [
+    49
+  ],
+  "distinct_locations": [
+    49
+  ],
+  "identical_observation_pairs_with_identical_hypotheses": 14,
+  "selection_unchanged_after_new_branch": true,
+  "branch": {
+    "selection_sha256": "eefb35ca48e4e33e2c30f7f79d6336b4e0fe2764d9e3cf5fd0ddb6de9b1a3f90",
+    "case": "case-000",
+    "method": "directL49",
+    "impact": 0.23,
+    "impact_time": 0.044,
+    "representative_index": 4,
+    "uniquely_identified": false,
+    "material_and_state_preserved": true,
+    "hypotheses": 49,
+    "test_reference_available": false
+  },
+  "independent_scalar_branch_candidates_checked": [
+    0,
+    4,
+    48
+  ],
+  "maximum_scalar_branch_gap_difference_m": 0.0
+}
