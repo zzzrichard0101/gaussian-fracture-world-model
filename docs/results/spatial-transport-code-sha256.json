@@ -1,0 +1,8 @@
+{
+  "wmfracture/spatial_transport.py": "97d0a74be6e96d7ae319da600de5918167a2f9a8ac84dc93a8a58cbf91e0c141",
+  "scripts/spatial_transport_evaluate.py": "a66748460522effb14667287dcd5e4fa019828294c70371d0e7c0c340d111bb7",
+  "tests/test_spatial_transport.py": "413a1e6830e90a77f24fb691bab73d77c59a15b05fa91d3af5c2552a760cde8a",
+  "wmfracture/spatial_observation.py": "c939e08d3a340cd29b51e2ee03d46fc64268f7e50a65cc43e92775dcfc792d56",
+  "wmfracture/response_quadrature.py": "fc4e81a0db4634c4a917b462c2fdc57b85d65de49113248a6b784a21f179408f",
+  "config/spatial-transport.json": "d4f7c5845566d51fa404c844e52a9cd9d50f0b12a3fb602517311eb576e7654b"
+}

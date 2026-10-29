@@ -1,0 +1,213 @@
+{
+  "response_cases": [
+    {
+      "id": "s-29-0-0-0-endpoints-finite_guard_tilt",
+      "sigma_m": 1e-06,
+      "method": "response_chart",
+      "available": true,
+      "primary_ess": 440.6620392967566,
+      "screen_passed": true,
+      "max_mean_range_m": 2.62762928928675e-06,
+      "max_event_range": 0.008783245621649546,
+      "primary_mse_mm2": 0.061379213403390365,
+      "minimum_screen_ess": 212.7013329837747,
+      "failed_screens": []
+    },
+    {
+      "id": "s-29-1-0-0-endpoints-finite_guard_tilt",
+      "sigma_m": 2e-05,
+      "method": "response_chart",
+      "available": true,
+      "primary_ess": 38.579132861933644,
+      "screen_passed": false,
+      "max_mean_range_m": 6.109229674798947e-05,
+      "max_event_range": 0.10058868364830736,
+      "primary_mse_mm2": 0.01844576796514409,
+      "minimum_screen_ess": 12.099949076745668,
+      "failed_screens": [
+        "ess",
+        "mean_change",
+        "event_change"
+      ]
+    },
+    {
+      "id": "s-30-0-0-0-endpoints-finite_guard_tilt",
+      "sigma_m": 1e-06,
+      "method": "response_chart",
+      "available": true,
+      "primary_ess": 156.86931725631797,
+      "screen_passed": false,
+      "max_mean_range_m": 4.6570410094432056e-05,
+      "max_event_range": 0.027364832403548117,
+      "primary_mse_mm2": 0.004571018494985722,
+      "minimum_screen_ess": 22.654822539864394,
+      "failed_screens": [
+        "ess",
+        "mean_change",
+        "event_change"
+      ]
+    },
+    {
+      "id": "s-30-1-0-0-endpoints-finite_guard_tilt",
+      "sigma_m": 2e-05,
+      "method": "response_chart",
+      "available": true,
+      "primary_ess": 27.28777503886322,
+      "screen_passed": false,
+      "max_mean_range_m": 5.575644995712637e-05,
+      "max_event_range": 0.13492120283967254,
+      "primary_mse_mm2": 0.00034382879245612916,
+      "minimum_screen_ess": 11.519908732338187,
+      "failed_screens": [
+        "ess",
+        "mean_change",
+        "event_change"
+      ]
+    },
+    {
+      "id": "s-31-0-0-0-endpoints-finite_guard_tilt",
+      "sigma_m": 1e-06,
+      "method": "response_chart",
+      "available": true,
+      "primary_ess": 67.58124936515061,
+      "screen_passed": false,
+      "max_mean_range_m": 5.0193937167568835e-06,
+      "max_event_range": 0.04954910739547458,
+      "primary_mse_mm2": 0.0001409100579347212,
+      "minimum_screen_ess": 33.20862459883451,
+      "failed_screens": [
+        "ess",
+        "mean_change",
+        "event_change"
+      ]
+    },
+    {
+      "id": "s-31-1-0-0-endpoints-finite_guard_tilt",
+      "sigma_m": 2e-05,
+      "method": "response_chart",
+      "available": true,
+      "primary_ess": 13.31757920280407,
+      "screen_passed": false,
+      "max_mean_range_m": 1.9480780120470742e-05,
+      "max_event_range": 0.06295786332458608,
+      "primary_mse_mm2": 0.00025886619377712023,
+      "minimum_screen_ess": 3.6824041416873228,
+      "failed_screens": [
+        "ess",
+        "mean_change",
+        "event_change"
+      ]
+    },
+    {
+      "id": "s-32-0-0-0-endpoints-finite_guard_tilt",
+      "sigma_m": 1e-06,
+      "method": "response_chart",
+      "available": true,
+      "primary_ess": 443.8565960220884,
+      "screen_passed": true,
+      "max_mean_range_m": 2.5909929860464843e-06,
+      "max_event_range": 0.008766574476469377,
+      "primary_mse_mm2": 0.00011104556441152273,
+      "minimum_screen_ess": 214.5485274572307,
+      "failed_screens": []
+    },
+    {
+      "id": "s-32-1-0-0-endpoints-finite_guard_tilt",
+      "sigma_m": 2e-05,
+      "method": "response_chart",
+      "available": true,
+      "primary_ess": 15.721804083256616,
+      "screen_passed": false,
+      "max_mean_range_m": 1.0167376673985568e-05,
+      "max_event_range": 0.0029236566725164754,
+      "primary_mse_mm2": 0.002470809108381446,
+      "minimum_screen_ess": 7.941280241622484,
+      "failed_screens": [
+        "ess",
+        "mean_change"
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "method": "prior_qmc",
+      "fresh_main_parameter_evaluations_range": [
+        0,
+        0
+      ],
+      "fresh_main_endpoint_parameter_evaluations_range": [
+        0,
+        0
+      ],
+      "outside_cube_draws_range": [
+        0,
+        0
+      ]
+    },
+    {
+      "method": "physical_mixture",
+      "fresh_main_parameter_evaluations_range": [
+        1107,
+        1510
+      ],
+      "fresh_main_endpoint_parameter_evaluations_range": [
+        708480,
+        1352960
+      ],
+      "outside_cube_draws_range": [
+        128,
+        531
+      ]
+    },
+    {
+      "method": "projected_physical",
+      "fresh_main_parameter_evaluations_range": [
+        855,
+        1465
+      ],
+      "fresh_main_endpoint_parameter_evaluations_range": [
+        547200,
+        982912
+      ],
+      "outside_cube_draws_range": [
+        173,
+        783
+      ]
+    },
+    {
+      "method": "response_chart",
+      "fresh_main_parameter_evaluations_range": [
+        872,
+        1589
+      ],
+      "fresh_main_endpoint_parameter_evaluations_range": [
+        599040,
+        1081472
+      ],
+      "outside_cube_draws_range": [
+        49,
+        766
+      ]
+    }
+  ],
+  "adaptation_parameter_evaluations_per_fit": [
+    1920
+  ],
+  "adaptation_endpoint_parameter_evaluations_range": [
+    491520,
+    835584
+  ],
+  "shared_pilot_nodes_per_replica": 512,
+  "shared_prior_nodes_per_replica": 2048,
+  "rank_counts_all_fits": {
+    "0": 0,
+    "1": 0,
+    "2": 256,
+    "3": 256
+  },
+  "notes": [
+    "Zero fresh main evaluations for prior_qmc means its physical bank was already computed and cached, not zero total cost.",
+    "Fresh main counts exclude pilot, shared uniform bank and proposal adaptation. Endpoint counts count individual parameter/end-step solves, not vectorized Python calls.",
+    "Screened convergence is an empirical screen of two replicas and two final levels; neither posterior accuracy nor a risk bound is established."
+  ]
+}

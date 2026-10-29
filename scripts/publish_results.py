@@ -92,7 +92,7 @@ def main():
     # Keep the original publication intact and add explicit follow-up exports.
     followup_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
         "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
-        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture", "spatial-observation", "spatial-failure-search", "spatial-continuous", "spatial-risk", "spatial-risk-refinement"]
+        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture", "spatial-observation", "spatial-failure-search", "spatial-continuous", "spatial-risk", "spatial-risk-refinement", "spatial-transport"]
     for stage in followup_stages:
         names = ["report.json"]
         if stage == "risk-reuse":
@@ -125,6 +125,9 @@ def main():
             names += ["config.json", "code-sha256.json", "source-sha256.json", "inputs.json", "predictions.json", "evaluation-rows.json"]
         if stage in ("spatial-risk", "spatial-risk-refinement"):
             names += ["config.json", "code-sha256.json", "inputs.json", "proofs.json", "analysis-summary.json"]
+        if stage == "spatial-transport":
+            names += ["config.json", "inputs.json", "code-sha256.json", "source-sha256.json", "report-source-sha256.json",
+                "predictions.json", "adaptation.json", "evaluation-rows.json", "analysis-summary.json", "diagnostics.json"]
         for name in names:
             path = source/stage/name
             target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
@@ -161,6 +164,10 @@ def main():
             "[연속 추정·수렴 실패·구간 판정](SPATIAL_CONTINUOUS.md)을 구현했다. "
             "32개 고정 이력의 수렴 검사는 통과하지 못했다. 이전 위험점은 재확인했지만 "
             "넓은 파라미터 영역에서는 상한이 커서 보류했다. 좁은 대조 영역의 허용을 일반화하지 않는다.\n")
+        handle.write("\n## 반응 기반 중요도 제안과 원래 prior 보정\n\n"
+            "[국소 반응 제안·네 기준선·비용·실패](SPATIAL_TRANSPORT.md)를 추가했다. "
+            "이미 본 8개 개발 이력에서 낮은 잡음 2개만 수렴 검사를 통과했다. "
+            "높은 잡음은 모두 실패했고, 추가 적응 비용·정답 오차·전체 위험 상한의 문제는 남아 있다.\n")
     write_json(result/"publication-manifest.json", {"scope": "Selected reports, public replay inputs and media only. No weights, assets, observed clips or full execution data.", "files": manifest})
     print(f"Published {len(manifest)} selected artifacts to docs/")
 

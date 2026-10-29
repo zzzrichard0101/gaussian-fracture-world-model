@@ -1,0 +1,82 @@
+[
+  {
+    "sigma_m": 1e-06,
+    "method": "prior_qmc",
+    "histories": 4,
+    "available": 2,
+    "screen_passed": 0,
+    "median_ess": 0.9867169379091549,
+    "rmse_mm_on_available": 0.27237446324756065,
+    "rmse_mm_on_screened": null
+  },
+  {
+    "sigma_m": 1e-06,
+    "method": "physical_mixture",
+    "histories": 4,
+    "available": 4,
+    "screen_passed": 0,
+    "median_ess": 6.8980449994237425,
+    "rmse_mm_on_available": 0.09032456659287409,
+    "rmse_mm_on_screened": null
+  },
+  {
+    "sigma_m": 1e-06,
+    "method": "projected_physical",
+    "histories": 4,
+    "available": 4,
+    "screen_passed": 0,
+    "median_ess": 16.217852730831044,
+    "rmse_mm_on_available": 0.13695204234692215,
+    "rmse_mm_on_screened": null
+  },
+  {
+    "sigma_m": 1e-06,
+    "method": "response_chart",
+    "histories": 4,
+    "available": 4,
+    "screen_passed": 2,
+    "median_ess": 298.7656782765373,
+    "rmse_mm_on_available": 0.1286489287953094,
+    "rmse_mm_on_screened": 0.17534289117013255
+  },
+  {
+    "sigma_m": 2e-05,
+    "method": "prior_qmc",
+    "histories": 4,
+    "available": 4,
+    "screen_passed": 0,
+    "median_ess": 30.987314615384086,
+    "rmse_mm_on_available": 0.08133252618794913,
+    "rmse_mm_on_screened": null
+  },
+  {
+    "sigma_m": 2e-05,
+    "method": "physical_mixture",
+    "histories": 4,
+    "available": 4,
+    "screen_passed": 0,
+    "median_ess": 63.279685000711225,
+    "rmse_mm_on_available": 0.07745548095486089,
+    "rmse_mm_on_screened": null
+  },
+  {
+    "sigma_m": 2e-05,
+    "method": "projected_physical",
+    "histories": 4,
+    "available": 4,
+    "screen_passed": 0,
+    "median_ess": 45.15151189993833,
+    "rmse_mm_on_available": 0.07754243904738704,
+    "rmse_mm_on_screened": null
+  },
+  {
+    "sigma_m": 2e-05,
+    "method": "response_chart",
+    "histories": 4,
+    "available": 4,
+    "screen_passed": 0,
+    "median_ess": 21.50478956105992,
+    "rmse_mm_on_available": 0.07334724272213439,
+    "rmse_mm_on_screened": null
+  }
+]

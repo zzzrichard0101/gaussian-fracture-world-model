@@ -1,5 +1,19 @@
 # 환경과 재현 방법
 
+## 반응 기반 제안분포 개발 실험
+
+[세부 조건과 비용](SPATIAL_TRANSPORT.md). 기존 WSL CPU NumPy/SciPy/Matplotlib 환경을 사용한다. 기존 공개 관측 중 8개 개발 이력을 재사용하며 새로운 폐루프 실행은 아니다.
+
+```powershell
+.\scripts\run-wsl.ps1 python scripts/spatial_transport_evaluate.py
+.\scripts\run-wsl.ps1 python scripts/report_spatial_transport.py
+.\scripts\run-wsl.ps1 test -q tests/test_spatial_transport.py
+.\scripts\run-wsl.ps1 python scripts/publish_results.py
+.\scripts\run-wsl.ps1 python scripts/validate_public_docs.py
+```
+
+`config/spatial-transport.json`에 독립 pilot/본 샘플 seed·8개 이력 선택·네 제안·수렴 기준을 저장했다. 공개 `spatial-transport-*` JSON은 고정 예측·개별 평가·적응 비용·관측 출처 해시를 포함한다. 실행 시간은 머신에 따라 달라지며 새 실행은 이전 산출물을 덮어쓰므로 비교할 때 실행 폴더를 별도 보존한다. 전체 테스트는 264개를 통과했다. 위험 증거 재생은 아래의 기존 경로를 사용하며 이번 제안 변경의 성과로 세지 않는다.
+
 ## GPU 없이 최신 검증기 재현
 
 최신 연속 영역 검사와 공개 관측 재생에는 CUDA·Houdini·Unreal·촬영 데이터가 필요 없다. 저장소 루트에서 CPU Python 환경으로 실행할 수 있다.

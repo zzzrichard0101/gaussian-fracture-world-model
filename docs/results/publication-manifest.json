@@ -900,6 +900,88 @@
       "published": "docs/results/spatial-risk-refinement-analysis-summary.json",
       "published_sha256": "d4272f6c78217e4c1f1e8da7edb4dc78876ef2eeefbb0db6f41230a2c2ccf076",
       "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/report.json",
+      "source_sha256": "73e087d301effd477a5db2cfc1989de7c7820492525005f56c45ecb197a00863",
+      "published": "docs/results/spatial-transport.json",
+      "published_sha256": "73e087d301effd477a5db2cfc1989de7c7820492525005f56c45ecb197a00863",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/config.json",
+      "source_sha256": "6bb00d7ce490e617eb7a056f49e8c836e678d8636d3f4714f703b22a5a930440",
+      "published": "docs/results/spatial-transport-config.json",
+      "published_sha256": "6bb00d7ce490e617eb7a056f49e8c836e678d8636d3f4714f703b22a5a930440",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/inputs.json",
+      "source_sha256": "1f670bfaf6670fd8c260842b23ec0e9dbf9256edfdbab69e85b20359568773e1",
+      "published": "docs/results/spatial-transport-inputs.json",
+      "published_sha256": "1f670bfaf6670fd8c260842b23ec0e9dbf9256edfdbab69e85b20359568773e1",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/code-sha256.json",
+      "source_sha256": "da50012d20f8ea49bdf27b7afc9b0cc8a416bd3fd6ee461123379d219bf98781",
+      "published": "docs/results/spatial-transport-code-sha256.json",
+      "published_sha256": "da50012d20f8ea49bdf27b7afc9b0cc8a416bd3fd6ee461123379d219bf98781",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/source-sha256.json",
+      "source_sha256": "2b0633f593aeeddcda2d5ff282249184bbad99badf2b723fe5170956c0a94864",
+      "published": "docs/results/spatial-transport-source-sha256.json",
+      "published_sha256": "2b0633f593aeeddcda2d5ff282249184bbad99badf2b723fe5170956c0a94864",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/report-source-sha256.json",
+      "source_sha256": "011bd441ec40750bbfff27815f63fdd68aa2edb14af08a7ecc0fb401d5dafd41",
+      "published": "docs/results/spatial-transport-report-source-sha256.json",
+      "published_sha256": "011bd441ec40750bbfff27815f63fdd68aa2edb14af08a7ecc0fb401d5dafd41",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/predictions.json",
+      "source_sha256": "8b704a5631efbddd8166d29286639fe376ed9aae5eeb6353d04dd3dfb1104576",
+      "published": "docs/results/spatial-transport-predictions.json",
+      "published_sha256": "8b704a5631efbddd8166d29286639fe376ed9aae5eeb6353d04dd3dfb1104576",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/adaptation.json",
+      "source_sha256": "dc26ddf771a75b4560d5503e49c22ada7b950c9f2a030f9d7f269f7524c3ce76",
+      "published": "docs/results/spatial-transport-adaptation.json",
+      "published_sha256": "dc26ddf771a75b4560d5503e49c22ada7b950c9f2a030f9d7f269f7524c3ce76",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/evaluation-rows.json",
+      "source_sha256": "aae6b7100d3b3cefb353db7ba36243768c175c697655a896f8712d5af5501458",
+      "published": "docs/results/spatial-transport-evaluation-rows.json",
+      "published_sha256": "aae6b7100d3b3cefb353db7ba36243768c175c697655a896f8712d5af5501458",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/analysis-summary.json",
+      "source_sha256": "e4391c32a19054b6171fe276d422199e75c3471e3699d2fd2e360dea6e0453d4",
+      "published": "docs/results/spatial-transport-analysis-summary.json",
+      "published_sha256": "e4391c32a19054b6171fe276d422199e75c3471e3699d2fd2e360dea6e0453d4",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/diagnostics.json",
+      "source_sha256": "5ec5bc2c5ebe26073ffc0d6d6af690e38cdc2cd4bda64e5716f7abc6725dbecb",
+      "published": "docs/results/spatial-transport-diagnostics.json",
+      "published_sha256": "5ec5bc2c5ebe26073ffc0d6d6af690e38cdc2cd4bda64e5716f7abc6725dbecb",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-transport/comparison.png",
+      "published": "docs/media/spatial-transport-comparison.png",
+      "sha256": "4c62bedd9908eb29845c62b699dfbc65602192b203bdc4a88340f70bd9b3ef7a"
     }
   ]
 }
