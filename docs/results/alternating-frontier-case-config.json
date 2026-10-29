@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "seed": 2026102941,
+  "guard_config": "config/finite-damage-guard.json",
+  "law_config": "config/cohesive-probe.json",
+  "old_case_report": "artifacts/synthetic-filter-benchmark/report.json",
+  "fixture": {
+    "spring": 10000.0,
+    "mass": 0.02,
+    "damping": 18.0
+  },
+  "grid_side": 161,
+  "families": {
+    "uniform": 4,
+    "near_initiation": 4,
+    "matched_pairs": 2
+  },
+  "near_initiation_drive_m": [
+    0.0011,
+    0.00125
+  ],
+  "matched_ratios": [
+    0.06,
+    0.1
+  ],
+  "gap_noise_sigma_m": [
+    1e-06,
+    2e-05
+  ],
+  "actual_bias_m": [
+    0.0,
+    3e-05
+  ],
+  "noise_families": [
+    "bounded_normal",
+    "gaussian"
+  ],
+  "policies": [
+    "rest_only",
+    "fixed_probe",
+    "full_guard",
+    "witness_guard",
+    "continuous_guard",
+    "verified_filter"
+  ],
+  "cell_budget": 1023,
+  "backtracking_steps": 8,
+  "warm_point_count": 5,
+  "future_drives_m": [
+    0.0026,
+    0.0031,
+    0.0035
+  ],
+  "scope": "Prospectively frozen development evaluation on new synthetic parameter settings in the SAME known stable scalar law. Bounded-normal samples use rejection at 3 nominal sigmas; Gaussian samples are a separate bound-assumption stress condition. No real data, general dynamic safety, calibrated posterior theorem, novel method or independent publication test claim."
+}

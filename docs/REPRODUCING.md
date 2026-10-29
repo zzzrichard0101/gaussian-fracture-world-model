@@ -54,6 +54,18 @@ PYTHONPATH="$PWD" python scripts/report_task_aware_pilot.py --run RUN
 
 관측 횟수는 2·4·8회의 중첩 prefix다. 모든 정책은 같은 누적 손상 한도와 연속 위험 검증기를 사용하고, 최종 예측은 같은 guided 적분기로 계산한다. 시뮬레이터가 새 관측을 제공하기 전에 결정과 증거를 고정한다. 실제 입력·관측·선택 점수·원본 증거는 실행 폴더에 보관하고, 공개 저장소에는 설정·조건별 수치·선택 정밀도 검사·그림을 게시한다.
 
+## 단순 교대 규칙과 같은 데이터에서 비교
+
+이전 pilot의 공개 입력·관측과 설정을 참조하므로 개인 실행 폴더가 필요 없다. [교대 기준선](ALTERNATING_FRONTIER.md)은 같은 상태·잡음을 생성하고 미래 점수 정책의 정확한 재생을 검사한다.
+
+```bash
+PYTHONPATH="$PWD" python scripts/alternating_frontier_evaluate.py
+# 위 OUTPUT 경로를 RUN에 지정한다.
+PYTHONPATH="$PWD" python scripts/report_alternating_frontier.py --run RUN
+```
+
+세 정책의 실행 위치를 조건마다 회전시키고, 모든 실행 증거를 새 cold 검사기로 대조한다. 무하중 우선이 주 비교이고 큰 입력 우선은 미리 지정한 순서 민감도 검사다. 이전 상태를 재사용하는 개발 비교이며 새 독립 일반화 시험은 아니다.
+
 ## 기존 환경 분리
 
 | 환경 | 용도 | 검증한 버전 |

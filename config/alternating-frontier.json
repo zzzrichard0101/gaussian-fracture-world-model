@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "reference_report": "docs/results/task-aware-pilot.json",
+  "reference_case_config": "docs/results/task-aware-pilot-case-config.json",
+  "reference_episodes": "docs/results/task-aware-pilot-public-episodes.json",
+  "reference_rows": "docs/results/task-aware-pilot-evaluation-rows.json",
+  "policies": ["future_task", "alternating_zero_first", "alternating_probe_first"],
+  "primary_policy": "alternating_zero_first",
+  "primary_sigma_m": 0.00002,
+  "primary_budget": 8,
+  "bootstrap_seed": 2026102951,
+  "bootstrap_repetitions": 2000,
+  "order": "Rotate all three policy positions by public context index; fresh controller/session for every trajectory",
+  "scope": "Post-pilot stronger-baseline comparison on the SAME 12 development states and exact same noise streams. Zero-first is primary; probe-first is a predeclared phase sensitivity check. Future-task histories must exactly reproduce the earlier public reference. No new independent physical-state test, global safe maximum, noninferiority theorem, real-world safety or novelty claim."
+}

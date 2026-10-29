@@ -1,0 +1,819 @@
+{
+  "paired_task_vs_baseline": [
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.16171141503863737,
+      "right_rmse_mm": 0.20550895807897462,
+      "delta_rmse_mm": -0.043797543040337256,
+      "relative_reduction_fraction": 0.21311743998773225,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09250552340515862,
+        -0.0013563076831520618
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.16171141503863737,
+      "right_rmse_mm": 0.2057831094649701,
+      "delta_rmse_mm": -0.04407169442633274,
+      "relative_reduction_fraction": 0.21416575218888378,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09270709953496356,
+        -0.0026718384654695654
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.15311228175149755,
+      "right_rmse_mm": 0.16190770798114812,
+      "delta_rmse_mm": -0.008795426229650571,
+      "relative_reduction_fraction": 0.05432370292509281,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.02301864618602883,
+        -0.0022208389939189616
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.15311228175149755,
+      "right_rmse_mm": 0.1618452911229937,
+      "delta_rmse_mm": -0.008733009371496153,
+      "relative_reduction_fraction": 0.053958995723017544,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.02303602781681271,
+        -0.002512918024026172
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.15011233600167365,
+      "right_rmse_mm": 0.15233119334193998,
+      "delta_rmse_mm": -0.0022188573402663336,
+      "relative_reduction_fraction": 0.014566007733462949,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.011349163382936973,
+        0.000684000568032113
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.15011233600167365,
+      "right_rmse_mm": 0.15307025894591986,
+      "delta_rmse_mm": -0.0029579229442462107,
+      "relative_reduction_fraction": 0.019323955970383833,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.012100373180778641,
+        -0.00024009386471583608
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.20603108603220818,
+      "right_rmse_mm": 0.20581166148015526,
+      "delta_rmse_mm": 0.000219424552052927,
+      "relative_reduction_fraction": -0.0010661424647897544,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0003334763842722542,
+        0.000825646447317032
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.20603108603220818,
+      "right_rmse_mm": 0.2060400714926427,
+      "delta_rmse_mm": -8.985460434512982e-06,
+      "relative_reduction_fraction": 4.36102568273089e-05,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -7.084831150220086e-05,
+        2.514028395294713e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.20622856247980673,
+      "right_rmse_mm": 0.2058802066457927,
+      "delta_rmse_mm": 0.00034835583401401915,
+      "relative_reduction_fraction": -0.0016920316901243293,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -4.5602609941975536e-05,
+        0.0007737831196863102
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.20622856247980673,
+      "right_rmse_mm": 0.2062225995226905,
+      "delta_rmse_mm": 5.96295711621786e-06,
+      "relative_reduction_fraction": -2.8915148630792586e-05,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -6.970093298010876e-06,
+        2.295889058963121e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.20595129732271708,
+      "right_rmse_mm": 0.20590682330110918,
+      "delta_rmse_mm": 4.4474021607898706e-05,
+      "relative_reduction_fraction": -0.00021599100454694486,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00046177925522331785,
+        0.0005323363477297983
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.20595129732271708,
+      "right_rmse_mm": 0.20617464300788801,
+      "delta_rmse_mm": -0.00022334568517093367,
+      "relative_reduction_fraction": 0.0010832839669928651,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0005483407424665396,
+        3.2544597448023947e-06
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.16139046986095412,
+      "right_rmse_mm": 0.20552553081491623,
+      "delta_rmse_mm": -0.04413506095396211,
+      "relative_reduction_fraction": 0.21474247398347535,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09327651413365966,
+        -0.002832102369694571
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.16139046986095412,
+      "right_rmse_mm": 0.20583919300102804,
+      "delta_rmse_mm": -0.04444872314007392,
+      "relative_reduction_fraction": 0.21593906627807236,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09355908209585309,
+        -0.0029415736980949922
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.15247584229874186,
+      "right_rmse_mm": 0.16112288791512724,
+      "delta_rmse_mm": -0.00864704561638538,
+      "relative_reduction_fraction": 0.05366739467170101,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.022918251134102917,
+        -0.002336512207098179
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.15247584229874186,
+      "right_rmse_mm": 0.1615082454081967,
+      "delta_rmse_mm": -0.009032403109454828,
+      "relative_reduction_fraction": 0.05592533735120642,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.023104947882502072,
+        -0.002652036237149556
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.14970110934005929,
+      "right_rmse_mm": 0.15216118766973138,
+      "delta_rmse_mm": -0.0024600783296720996,
+      "relative_reduction_fraction": 0.01616758101948934,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.011407910569418613,
+        9.375018086670078e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.14970110934005929,
+      "right_rmse_mm": 0.15262902664644623,
+      "delta_rmse_mm": -0.0029279173063869457,
+      "relative_reduction_fraction": 0.019183227271502235,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.013046239722236416,
+        -5.669951826892818e-06
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.20609705083467014,
+      "right_rmse_mm": 0.20587889609470236,
+      "delta_rmse_mm": 0.00021815473996777968,
+      "relative_reduction_fraction": -0.001059626528536528,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0001738629207166234,
+        0.0007340945452566112
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.20609705083467014,
+      "right_rmse_mm": 0.20609780137424674,
+      "delta_rmse_mm": -7.505395765994294e-07,
+      "relative_reduction_fraction": 3.6416670706751475e-06,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -2.839984795312972e-06,
+        0.0
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.20615138504404265,
+      "right_rmse_mm": 0.20602051003920038,
+      "delta_rmse_mm": 0.000130875004842268,
+      "relative_reduction_fraction": -0.0006352523096722074,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -3.054753935779961e-05,
+        0.0003054895433328326
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.20615138504404265,
+      "right_rmse_mm": 0.2061627736546771,
+      "delta_rmse_mm": -1.1388610634460727e-05,
+      "relative_reduction_fraction": 5.524086833219588e-05,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -3.5513734422382844e-05,
+        2.8660137973493413e-07
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "alternating_zero_first",
+      "left_rmse_mm": 0.20615601570317674,
+      "right_rmse_mm": 0.20599644441168125,
+      "delta_rmse_mm": 0.00015957129149549165,
+      "relative_reduction_fraction": -0.0007746312901235619,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        6.806291537874848e-05,
+        0.00025935805454978185
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "alternating_probe_first",
+      "left_rmse_mm": 0.20615601570317674,
+      "right_rmse_mm": 0.20611993224996597,
+      "delta_rmse_mm": 3.608345321076678e-05,
+      "relative_reduction_fraction": -0.00017506047482584997,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -1.3823525970911576e-05,
+        8.397886335860378e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    }
+  ],
+  "zero_first_minus_probe_first": [
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "left_rmse_mm": 0.20550895807897462,
+      "right_rmse_mm": 0.2057831094649701,
+      "delta_rmse_mm": -0.00027415138599548583,
+      "relative_reduction_fraction": 0.0013322346363036086,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0009948342950929772,
+        0.000247401253348698
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "left_rmse_mm": 0.16190770798114812,
+      "right_rmse_mm": 0.1618452911229937,
+      "delta_rmse_mm": 6.241685815441822e-05,
+      "relative_reduction_fraction": -0.00038565754815178543,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0012634491114112728,
+        0.0010137467127046662
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "left_rmse_mm": 0.15233119334193998,
+      "right_rmse_mm": 0.15307025894591986,
+      "delta_rmse_mm": -0.0007390656039798771,
+      "relative_reduction_fraction": 0.004828276956407307,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0013340251295644145,
+        -0.00011524701528729231
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "left_rmse_mm": 0.20581166148015526,
+      "right_rmse_mm": 0.2060400714926427,
+      "delta_rmse_mm": -0.00022841001248743997,
+      "relative_reduction_fraction": 0.0011085708271829642,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.000821638362251724,
+        0.0003217511266041233
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "left_rmse_mm": 0.2058802066457927,
+      "right_rmse_mm": 0.2062225995226905,
+      "delta_rmse_mm": -0.0003423928768978013,
+      "relative_reduction_fraction": 0.0016603072490128934,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0007553348361858267,
+        4.8617354579099445e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "left_rmse_mm": 0.20590682330110918,
+      "right_rmse_mm": 0.20617464300788801,
+      "delta_rmse_mm": -0.0002678197067788324,
+      "relative_reduction_fraction": 0.0012989944004345721,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0005747280511772271,
+        -3.3024027653108604e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "left_rmse_mm": 0.20552553081491623,
+      "right_rmse_mm": 0.20583919300102804,
+      "delta_rmse_mm": -0.00031366218611181274,
+      "relative_reduction_fraction": 0.0015238214916157844,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0006492560175988503,
+        -3.704772954254368e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "left_rmse_mm": 0.16112288791512724,
+      "right_rmse_mm": 0.1615082454081967,
+      "delta_rmse_mm": -0.0003853574930694492,
+      "relative_reduction_fraction": 0.002385992690933536,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0015056477849262034,
+        0.00020738205345145197
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "left_rmse_mm": 0.15216118766973138,
+      "right_rmse_mm": 0.15262902664644623,
+      "delta_rmse_mm": -0.0004678389767148461,
+      "relative_reduction_fraction": 0.0030652031726479123,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.001802133257477539,
+        4.251690061959538e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "left_rmse_mm": 0.20587889609470236,
+      "right_rmse_mm": 0.20609780137424674,
+      "delta_rmse_mm": -0.0002189052795443791,
+      "relative_reduction_fraction": 0.0010621427210030232,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0007341330697847447,
+        0.00017283526648463398
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "left_rmse_mm": 0.20602051003920038,
+      "right_rmse_mm": 0.2061627736546771,
+      "delta_rmse_mm": -0.00014226361547672872,
+      "relative_reduction_fraction": 0.0006900548190869049,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00032623989408602297,
+        2.918798565150617e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "left_rmse_mm": 0.20599644441168125,
+      "right_rmse_mm": 0.20611993224996597,
+      "delta_rmse_mm": -0.00012348783828472487,
+      "relative_reduction_fraction": 0.0005991067284796259,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00023143348124217699,
+        -4.4723598751265974e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    }
+  ],
+  "timing": [
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 427.2274440415913,
+      "mean_baseline_ms": 183.23370083339796,
+      "median_paired_time_ratio_task_over_baseline": 3.1436654044864287,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 427.2274440415913,
+      "mean_baseline_ms": 195.95056825013066,
+      "median_paired_time_ratio_task_over_baseline": 2.957481100928719,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 982.3733182499836,
+      "mean_baseline_ms": 526.7315989998073,
+      "median_paired_time_ratio_task_over_baseline": 2.5313374444390657,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 982.3733182499836,
+      "mean_baseline_ms": 516.9049414165178,
+      "median_paired_time_ratio_task_over_baseline": 2.768431451301266,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 2262.896078957889,
+      "mean_baseline_ms": 1275.277275499775,
+      "median_paired_time_ratio_task_over_baseline": 1.987550386069368,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 2262.896078957889,
+      "mean_baseline_ms": 1172.7228570831965,
+      "median_paired_time_ratio_task_over_baseline": 2.0737126940242083,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 265.9634176252439,
+      "mean_baseline_ms": 106.30057562517929,
+      "median_paired_time_ratio_task_over_baseline": 3.199823641000937,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 265.9634176252439,
+      "mean_baseline_ms": 101.95672904167925,
+      "median_paired_time_ratio_task_over_baseline": 2.9685774786682035,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 592.4714077917391,
+      "mean_baseline_ms": 302.0999522922618,
+      "median_paired_time_ratio_task_over_baseline": 2.6609809588770466,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 592.4714077917391,
+      "mean_baseline_ms": 256.157995041652,
+      "median_paired_time_ratio_task_over_baseline": 2.7267628167311364,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 1342.9595127085274,
+      "mean_baseline_ms": 855.970216250474,
+      "median_paired_time_ratio_task_over_baseline": 2.473436071571102,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 1342.9595127085274,
+      "mean_baseline_ms": 698.2675281247642,
+      "median_paired_time_ratio_task_over_baseline": 2.3160266686753856,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 416.12040633306907,
+      "mean_baseline_ms": 167.36185466652387,
+      "median_paired_time_ratio_task_over_baseline": 3.1992568654247355,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 416.12040633306907,
+      "mean_baseline_ms": 190.54861487484231,
+      "median_paired_time_ratio_task_over_baseline": 2.867430419530919,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 906.3669186665114,
+      "mean_baseline_ms": 507.91221820819976,
+      "median_paired_time_ratio_task_over_baseline": 2.5927485082898665,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 906.3669186665114,
+      "mean_baseline_ms": 516.3272738749735,
+      "median_paired_time_ratio_task_over_baseline": 2.5598314872509187,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 1977.8040662082124,
+      "mean_baseline_ms": 1162.942870583341,
+      "median_paired_time_ratio_task_over_baseline": 2.1814295808421997,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 1977.8040662082124,
+      "mean_baseline_ms": 1164.8141184168708,
+      "median_paired_time_ratio_task_over_baseline": 2.3472339365105084,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 324.9195702916647,
+      "mean_baseline_ms": 116.36742291678577,
+      "median_paired_time_ratio_task_over_baseline": 2.8757143914472594,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 324.9195702916647,
+      "mean_baseline_ms": 124.52690020844177,
+      "median_paired_time_ratio_task_over_baseline": 2.6338710370022906,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 708.4053860416285,
+      "mean_baseline_ms": 284.8923266251404,
+      "median_paired_time_ratio_task_over_baseline": 2.7928667540819756,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 708.4053860416285,
+      "mean_baseline_ms": 304.88253399986814,
+      "median_paired_time_ratio_task_over_baseline": 2.649058768819729,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "alternating_zero_first",
+      "mean_task_ms": 1514.5864886665852,
+      "mean_baseline_ms": 711.3854761259214,
+      "median_paired_time_ratio_task_over_baseline": 2.6151123964619076,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    },
+    {
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "alternating_probe_first",
+      "mean_task_ms": 1514.5864886665852,
+      "mean_baseline_ms": 767.2917491670432,
+      "median_paired_time_ratio_task_over_baseline": 2.5314268541060683,
+      "scope": "Contemporaneous rotated-order single-run timing; no independent hardware replication."
+    }
+  ],
+  "forecast_refinement_failures": 0,
+  "maximum_forecast_refinement_mean_change_m": 1.284664345388431e-10,
+  "all_original_control_histories_and_losses_reproduced": true,
+  "primary_comparison_predeclared_zero_first": true,
+  "no_noninferiority_test": true,
+  "analysis_source_sha256": "103318e8d2e48470fa18c1ac6a07a5553e4da8248fd927ec4e234f11e8500500",
+  "original_raw_results_unchanged": true
+}

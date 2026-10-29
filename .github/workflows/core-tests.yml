@@ -43,5 +43,6 @@ jobs:
           tests/test_response_quadrature_io.py
           tests/test_guided_quadrature.py
           tests/test_task_design.py
+          tests/test_alternating_frontier.py
           tests/test_continuous_risk_evaluation.py
           tests/test_camera_measurement.py

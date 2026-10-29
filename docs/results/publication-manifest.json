@@ -473,9 +473,91 @@
       "transformation": "Runtime root replaced; numeric results unchanged"
     },
     {
+      "source": "artifacts/task-aware-pilot/public-episodes.json",
+      "source_sha256": "39f767f690f70928929d8cd66afb1bc7135ec72dce93c50e932943d97dbc1140",
+      "published": "docs/results/task-aware-pilot-public-episodes.json",
+      "published_sha256": "616d745fe93ce0456b8005f1b3751cc1d0691f2198eabc96901426b83e993432",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
       "source": "artifacts/task-aware-pilot/comparison.png",
       "published": "docs/media/task-aware-pilot-comparison.png",
       "sha256": "513dfa7f3a30540380a5434c890d91169e9905fed78ab063f170fc034331f815"
+    },
+    {
+      "source": "artifacts/alternating-frontier/report.json",
+      "source_sha256": "e2442cf2da30c9ebf4cfeb39ee2d10e01ca525a298ce62b8cec8accfafef937b",
+      "published": "docs/results/alternating-frontier.json",
+      "published_sha256": "974e11d8407a4fd95728405ce63651c6fef11dc7b8806636f9f105dd3e4590a9",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/config.json",
+      "source_sha256": "b261e9ed5f6260a2640b9dc3c4e7eb198f07f2ad59ecd93d2a4cef8dcd68bb11",
+      "published": "docs/results/alternating-frontier-config.json",
+      "published_sha256": "bad9d20a352e157f5eb015114826321b96e1918ce2f630699509510b33fe5593",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/comparison-config.json",
+      "source_sha256": "af18616204eb611480db99542a3ec96cb16e2e782a3dfb732b0f0039d2f74083",
+      "published": "docs/results/alternating-frontier-comparison-config.json",
+      "published_sha256": "bf2c72eb1920b09c7f8a5c5fe59bda9874bb49733185cb56d1ea39f97f86d015",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/case-config.json",
+      "source_sha256": "e183dc2906cdb1cf1de4a106f43ea02e34a8847aeb9753cf7e165db68a2116cc",
+      "published": "docs/results/alternating-frontier-case-config.json",
+      "published_sha256": "e85ee106fceaf66f440b26033f92b80d45e62915f75209932f1eff967e552534",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/reference-sha256.json",
+      "source_sha256": "bce2b5b38fed43f2101ae069123f9e439d8ca04a115046c826692f3028bde6d2",
+      "published": "docs/results/alternating-frontier-reference-sha256.json",
+      "published_sha256": "827e07d2edc44e51c0c2efbed71688e0ec7485e7f2c7479adc28e029400cb677",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/control-replay.json",
+      "source_sha256": "647619f2219ad9ec8b0b884313135d692c88bd1b29fb48fdbd99059f7e038bf6",
+      "published": "docs/results/alternating-frontier-control-replay.json",
+      "published_sha256": "29e385c795cc6a82109b4f27e4a7324d1080b2986ee9b289f6bf5e228a1fe6ca",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/refinement-checks.json",
+      "source_sha256": "a7c00f08fc98ed1eab860b9aa3ae0a33bf89ee07fb1748672b3211ff6f55221c",
+      "published": "docs/results/alternating-frontier-refinement-checks.json",
+      "published_sha256": "21b83c57f1c006cb5d5cc083956e8d1605235e5377c962378d7b0355f93cfabe",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/analysis-summary.json",
+      "source_sha256": "b0328b805dd15b6d1b39d22b41f99d4b144ac4c7ace30a61f69053850aef4cae",
+      "published": "docs/results/alternating-frontier-analysis-summary.json",
+      "published_sha256": "970566697371b20574591d66851e7a9b05bfd2378b5431d3ef95c1f3c26949c1",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/code-sha256.json",
+      "source_sha256": "5bb61c622f2452a36d4c892ff5f052280471f2c0b31015c93415824482e18d6d",
+      "published": "docs/results/alternating-frontier-code-sha256.json",
+      "published_sha256": "cf9f08c58affa9b037a07397af489c26da800ef50d7d31dab6e971c7e8c657aa",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/evaluation-rows.json",
+      "source_sha256": "7561acaf72a70a2b359429a5de51670782933f65fe2d673e0ada074b0f5318d4",
+      "published": "docs/results/alternating-frontier-evaluation-rows.json",
+      "published_sha256": "55b6bba7a7fea04febfbf71fea5695382ea4ed9df0c78d270cdeb3470a8daa81",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/alternating-frontier/comparison.png",
+      "published": "docs/media/alternating-frontier-comparison.png",
+      "sha256": "07403e24e41e77f1ccec62fdd5f96df4b546e861b230d2631a996d252d68521a"
     }
   ]
 }
