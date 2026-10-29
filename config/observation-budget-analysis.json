@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "bootstrap_seed": 2026102917,
+  "bootstrap_repetitions": 2000,
+  "cluster_field": "cluster",
+  "primary_noise_sigma_m": 0.00002,
+  "primary_budget": 8,
+  "primary_policy_contrast": ["adaptive_verified", "weak_repeat"],
+  "primary_grid_side": 321,
+  "noise_conditions": ["iid_bounded", "correlated_bounded"],
+  "secondary_contrasts": "Each policy's budget 8 versus 2, adaptive versus all simple baselines at every budget, and forecast grid 161 versus 321.",
+  "interpretation": "Exploratory paired development comparisons on 20 designed generation clusters. Resample whole clusters including both bias settings and matched-state pairs. Bootstrap intervals are descriptive resampling sensitivity, not a guarantee or independent publication test. No setting changes or policy selection from labels."
+}

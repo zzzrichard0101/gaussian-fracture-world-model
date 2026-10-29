@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "seed": 2026102913,
+  "case_config": "config/continuous-risk-evaluation.json",
+  "guard_config": "config/finite-damage-guard.json",
+  "law_config": "config/cohesive-probe.json",
+  "fixture": {
+    "spring": 10000.0,
+    "mass": 0.02,
+    "damping": 18.0
+  },
+  "budgets": [
+    2,
+    4,
+    8
+  ],
+  "policies": [
+    "rest_repeat",
+    "weak_repeat",
+    "fixed_ramp",
+    "adaptive_verified"
+  ],
+  "fixed_proposals_m": [
+    0.00105,
+    0.00115,
+    0.00125,
+    0.00135,
+    0.00145,
+    0.00155,
+    0.00165,
+    0.00185
+  ],
+  "gap_noise_sigma_m": [
+    1e-06,
+    2e-05
+  ],
+  "actual_bias_m": [
+    0.0,
+    3e-05
+  ],
+  "noise_conditions": [
+    {
+      "name": "iid_bounded",
+      "latent_rho": 0.0
+    },
+    {
+      "name": "correlated_bounded",
+      "latent_rho": 0.8
+    }
+  ],
+  "grid_side": 161,
+  "forecast_grid_sides": [
+    161,
+    321
+  ],
+  "primary_forecast_side": 321,
+  "cell_budget": 1023,
+  "backtracking_steps": 8,
+  "warm_point_count": 5,
+  "future_drives_m": [
+    0.0026,
+    0.0031,
+    0.0035
+  ],
+  "reference_count": 2,
+  "scope": "Development observation-budget experiment on the same regenerated 24 scalar states, with new shared noise streams. Nested budget-blind trajectories, not independent budget trials or a new-state publication test. All policies use the same cumulative conditional verifier; shared Gaussian weighting is approximate, especially under temporal correlation. No real data, novel method, calibrated posterior or general safety claim."
+}

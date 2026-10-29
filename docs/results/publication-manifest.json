@@ -258,6 +258,53 @@
       "source": "artifacts/risk-reuse/comparison.png",
       "published": "docs/media/risk-reuse-comparison.png",
       "sha256": "fa8a55dba3d621cc50f163fb434c4d0593f184ce4d7de3c3d474da4b5f3edd6a"
+    },
+    {
+      "source": "artifacts/observation-budget/report.json",
+      "source_sha256": "166d4248a501d50b9bacabd4d08b78c95d4f56781d228ec9b5e6d89210db8d2f",
+      "published": "docs/results/observation-budget.json",
+      "published_sha256": "dcf47029732e1cde0e53be9992c5d0a8270c93dad4f2997470918689951ab1e2",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/observation-budget/evaluation-rows.json",
+      "source_sha256": "d39202eb11fb7f020a6b6cebf72070bcaf8014c89e475cedc9dd17b557fb39fb",
+      "published": "docs/results/observation-budget-evaluation-rows.json",
+      "published_sha256": "ffc7641bcff713036ab74b4f2fde27d91a8d8dff8cc5e595bc528c345515bbc7",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/observation-budget/analysis-summary.json",
+      "source_sha256": "fcce1c73722c483c3f66af3d77ad3fa6aab5351dded8c06eb45c37f6158b291b",
+      "published": "docs/results/observation-budget-analysis-summary.json",
+      "published_sha256": "6669ea6c2aa75ef0c8bb53101c86dbae583642f3f7de8f95582b3760e0ff82be",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/observation-budget/config.json",
+      "source_sha256": "3a5e47aa96c31a046123e49de9717b3d6feb26a4ec6d6a5edca4aaa538be343b",
+      "published": "docs/results/observation-budget-config.json",
+      "published_sha256": "a5094dc506e54cfe8cc2176519f988f5a3b960febedf6ee3360277e99dbd9f4c",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/observation-budget/analysis-plan.json",
+      "source_sha256": "6b500e7095df58ed9cabeec4867f5787be86bc94d1e2b3c1ea375e651a87b806",
+      "published": "docs/results/observation-budget-analysis-plan.json",
+      "published_sha256": "f507b2c366b8c1e956aec2e119842b6449495c4cd9a721c9ded3aeeafe34c258",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/observation-budget/code-sha256.json",
+      "source_sha256": "93e7f1bc4581f3755df8aca8e82ba03bbf1868815b6e9433be06d1428eaf516d",
+      "published": "docs/results/observation-budget-code-sha256.json",
+      "published_sha256": "476dabdceb5821933611f97bb3c09faec4431c408ae331c826c0d17e281a5a1e",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/observation-budget/comparison.png",
+      "published": "docs/media/observation-budget-comparison.png",
+      "sha256": "0aba491580bacec163dcdb888e596225152b82229a166a7ef7c907cdd196145c"
     }
   ]
 }

@@ -17,6 +17,15 @@ PYTHONPATH="$PWD" python scripts/benchmark_risk_reuse.py \
 
 Windows에서는 `source` 대신 `.venv\Scripts\Activate.ps1`을 사용하고 환경 변수는 PowerShell 문법으로 지정한다. 위 재생 입력에는 공개 관측·알려진 상수·이전 판정만 있으며 숨은 정답은 없다. 과거 개인 실행 폴더를 요구하지 않는다. 재생은 같은 행동·상하한·위반 지지점·선택 증거 구조를 확인하고 새 증거를 저장한다. 예측 성능을 새로 평가하는 실험은 아니다. 전체 테스트에는 NumPy·SciPy·h5py·OpenCV가 필요하지만 독립 증거 재검사 CLI 자체는 표준 라이브러리만 사용한다.
 
+새로운 [관측 예산 비교](OBSERVATION_BUDGET.md)도 같은 CPU 환경에서 실행한다. 과거 개인 실행 파일 없이 설정에서 24개 개발 상태를 재생성하고, 새 잡음에서 2·4·8개 관측을 비교한다.
+
+```bash
+PYTHONPATH="$PWD" python scripts/observation_budget_evaluate.py
+# 위 명령이 출력한 OUTPUT 경로를 RUN에 지정한다.
+python -m pip install matplotlib
+PYTHONPATH="$PWD" python scripts/report_observation_budget.py --run RUN
+```
+
 ## 환경 분리
 
 | 환경 | 용도 | 검증한 버전 |

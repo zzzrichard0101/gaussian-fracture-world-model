@@ -92,13 +92,15 @@ def main():
     # Keep the original publication intact and add explicit scalar-stage exports.
     scalar_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
         "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
-        "continuous-risk-evaluation", "risk-reuse"]
+        "continuous-risk-evaluation", "risk-reuse", "observation-budget"]
     for stage in scalar_stages:
         names = ["report.json"]
         if stage == "risk-reuse":
             names += ["inputs.json", "config.json", "code-sha256.json", "analysis-summary.json"]
         if stage == "continuous-risk-evaluation":
             names += ["evaluation-rows.json", "analysis-summary.json"]
+        if stage == "observation-budget":
+            names += ["evaluation-rows.json", "analysis-summary.json", "config.json", "analysis-plan.json", "code-sha256.json"]
         for name in names:
             path = source/stage/name
             target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
@@ -115,6 +117,7 @@ def main():
         handle.write("\n## 후속 스칼라 관측·위험 검증 실험\n\n"
             "[새 상태의 손상·예측 비교](CONTINUOUS_RISK_EVALUATION.md) · "
             "[동일 판정의 계산 재사용](RISK_REUSE.md) · "
+            "[관측 횟수·입력 선택 비교](OBSERVATION_BUDGET.md) · "
             "[조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)\n\n"
             "후속 단계는 합성 gap 값과 알려진 준정적 법칙을 사용한다. "
             "이 페이지의 앞선 Gaussian 영상 실험과 관측·역학 조건이 다르다.\n")
