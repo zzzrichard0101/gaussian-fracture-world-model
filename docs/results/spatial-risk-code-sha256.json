@@ -1,0 +1,9 @@
+{
+  "wmfracture/spatial_intervals.py": "9be74c7c4d50f77d6f3be9621f74bf0469ad0de7f2fdf04667d6439ffc28ef0b",
+  "wmfracture/spatial_risk.py": "4034dc2b66ef8132377f497feb4b6b8f5af693debae07a6966a4e2ae1151cf87",
+  "wmfracture/spatial_observation.py": "c939e08d3a340cd29b51e2ee03d46fc64268f7e50a65cc43e92775dcfc792d56",
+  "scripts/spatial_risk_evaluate.py": "4397f82003423c9f9e5423bb011d5bb0e79d2cf2aed09178adbb05afe9e0882c",
+  "tests/test_spatial_intervals.py": "7ce7e1e1d96e08331eec68b1b370d91c1bdc9c61b7eb07a60f6235faa99ac25c",
+  "tests/test_spatial_risk.py": "0bd0b2c9eb9f4e109824c02a9e7f3530eb421bd53d06271a7e80733e4cce0cc4",
+  "config/spatial-continuous.json": "752217d4a48312b3b420dcbfa912d18ea34a8abbcb663b811ec3fab94b6ee5ca"
+}

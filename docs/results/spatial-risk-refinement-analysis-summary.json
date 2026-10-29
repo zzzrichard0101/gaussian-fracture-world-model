@@ -1,0 +1,24 @@
+[
+  {
+    "id": "broad-domain-low-budget",
+    "kind": "broad_budget_control",
+    "decision": "abstain",
+    "cells": 31,
+    "open_leaves": 16,
+    "max_unexcluded_upper": 1.0,
+    "point_lower": 0.0,
+    "search_seconds": 12.193906253000023,
+    "replay_seconds": 12.364563874998566
+  },
+  {
+    "id": "broad-domain-zero",
+    "kind": "broad_budget_control",
+    "decision": "abstain",
+    "cells": 31,
+    "open_leaves": 16,
+    "max_unexcluded_upper": 1.0,
+    "point_lower": 0.0,
+    "search_seconds": 7.923515620001126,
+    "replay_seconds": 8.012453932999051
+  }
+]

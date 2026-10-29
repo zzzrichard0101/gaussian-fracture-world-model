@@ -150,6 +150,18 @@ bash scripts/world-model.sh test -q
 
 ## 공개 결과 갱신
 
+[연속 prior·조건부 구간 판정](SPATIAL_CONTINUOUS.md)은 아래 명령으로 재현한다. QMC 재추정은 이전 공개 이력을 사용하고 새 행동을 실행하지 않는다. 구간 판정은 고정 증분 모형의 결과다.
+
+```powershell
+.\scripts\run-wsl.ps1 python scripts/spatial_continuous_evaluate.py
+.\scripts\run-wsl.ps1 python scripts/report_spatial_continuous.py
+.\scripts\run-wsl.ps1 python scripts/spatial_risk_evaluate.py
+.\scripts\run-wsl.ps1 python scripts/spatial_risk_evaluate.py --followup-cells 31
+.\scripts\run-wsl.ps1 python scripts/spatial_risk_evaluate.py --replay docs/results/spatial-risk-proofs.json
+```
+
+31개 상자 검사는 최초 7개 상자 결과를 본 뒤의 별도 예산 민감도 검사다. 넓은 영역은 두 경우 모두 보류했으며, 좁은 영역의 허용을 넓은 prior에서 얻은 성과로 바꾸지 않는다.
+
 [공간 관측·유한 후보 추정](SPATIAL_OBSERVATION.md)과 사후 반례 진단은 아래 순서로 실행한다. 공개 결정 재생만 실행할 때는 원본 raw run이나 참 상태 파일이 필요 없다.
 
 ```powershell

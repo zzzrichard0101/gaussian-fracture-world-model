@@ -47,6 +47,9 @@ jobs:
           tests/test_probe_identifiability.py
           tests/test_spatial_fixture.py
           tests/test_spatial_observation.py
+          tests/test_spatial_continuous.py
+          tests/test_spatial_intervals.py
+          tests/test_spatial_risk.py
           tests/test_continuous_risk_evaluation.py
           tests/test_camera_measurement.py
       - name: Replay published identifiability proof evidence
@@ -57,3 +60,7 @@ jobs:
         env:
           PYTHONPATH: .
         run: python scripts/spatial_policy_replay.py
+      - name: Replay conditional spatial interval decisions
+        env:
+          PYTHONPATH: .
+        run: python scripts/spatial_risk_evaluate.py --replay docs/results/spatial-risk-proofs.json

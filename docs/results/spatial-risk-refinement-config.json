@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "parameter_bounds": [
+    [
+      1.3,
+      2.8
+    ],
+    [
+      0.0008,
+      0.0018
+    ],
+    [
+      0.0008,
+      0.0018
+    ]
+  ],
+  "scramble_seeds": [
+    2026103037,
+    2026103039
+  ],
+  "nested_powers": [
+    10,
+    11,
+    12
+  ],
+  "cycle_increments": 64,
+  "selection": "All 32 off-catalog endpoints finite-guard public final histories from the previous development campaign; both noise levels, all four physical states and bias/noise repeats. Fixed-history re-estimation, not a new closed-loop policy or held-out-material test.",
+  "screen": {
+    "minimum_ess": 40.0,
+    "maximum_mean_change_m": 5e-06,
+    "maximum_event_change": 0.02
+  },
+  "risk_cell_budget": 7,
+  "scope": "Uniform continuous E/preparation prior with nested randomized QMC diagnostics, plus a separate replayable outward-interval verifier of a FIXED finite-increment quasistatic model. QMC is not set containment. Interval wrapping may force abstention. Neither is a continuous-loading, inertial, image-based or real-world safety result.",
+  "followup_cells": 31,
+  "followup_scope": "Post-hoc budget sensitivity after observing 7-cell abstention. Original primary cases and results remain separate."
+}

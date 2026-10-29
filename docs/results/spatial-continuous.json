@@ -1,0 +1,65 @@
+{
+  "config": {
+    "version": 1,
+    "parameter_bounds": [
+      [
+        1.3,
+        2.8
+      ],
+      [
+        0.0008,
+        0.0018
+      ],
+      [
+        0.0008,
+        0.0018
+      ]
+    ],
+    "scramble_seeds": [
+      2026103037,
+      2026103039
+    ],
+    "nested_powers": [
+      10,
+      11,
+      12
+    ],
+    "cycle_increments": 64,
+    "selection": "All 32 off-catalog endpoints finite-guard public final histories from the previous development campaign; both noise levels, all four physical states and bias/noise repeats. Fixed-history re-estimation, not a new closed-loop policy or held-out-material test.",
+    "screen": {
+      "minimum_ess": 40.0,
+      "maximum_mean_change_m": 5e-06,
+      "maximum_event_change": 0.02
+    },
+    "risk_cell_budget": 7,
+    "scope": "Uniform continuous E/preparation prior with nested randomized QMC diagnostics, plus a separate replayable outward-interval verifier of a FIXED finite-increment quasistatic model. QMC is not set containment. Interval wrapping may force abstention. Neither is a continuous-loading, inertial, image-based or real-world safety result."
+  },
+  "histories": 32,
+  "qmc_rows": 192,
+  "summaries": [
+    {
+      "sigma_m": 1e-06,
+      "histories": 16,
+      "qmc_available": 11,
+      "screen_passed": 0,
+      "qmc_rmse_mm_on_available": 0.19049327033045277,
+      "qmc_rmse_mm_on_screened": null,
+      "qmc_sample_coverage_on_available": 0.36363636363636365,
+      "median_primary_ess": 1.1457063097039677
+    },
+    {
+      "sigma_m": 2e-05,
+      "histories": 16,
+      "qmc_available": 16,
+      "screen_passed": 0,
+      "qmc_rmse_mm_on_available": 0.09846073031794171,
+      "qmc_rmse_mm_on_screened": null,
+      "qmc_sample_coverage_on_available": 1.0,
+      "median_primary_ess": 73.60720429932039
+    }
+  ],
+  "frozen_prediction_sha256": "c48469ac61e8bedd75e0d8f5d65d5c2fc1ef59de4189283c1a15ef4fcd81909e",
+  "elapsed_seconds": 72.27959347200158,
+  "scope": "Uniform continuous E/preparation prior with nested randomized QMC diagnostics, plus a separate replayable outward-interval verifier of a FIXED finite-increment quasistatic model. QMC is not set containment. Interval wrapping may force abstention. Neither is a continuous-loading, inertial, image-based or real-world safety result.",
+  "comparison_limit": "The continuous uniform prior differs from the old discrete prior. Fixed executed histories are unchanged; no new policy/safety improvement is inferred from re-estimation."
+}

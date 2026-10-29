@@ -762,6 +762,144 @@
       "published": "docs/results/spatial-failure-search-witnesses.json",
       "published_sha256": "a8f955d191fc8c9d8378d250faa1e444a99a18fca2497b5225001445af196b14",
       "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-continuous/report.json",
+      "source_sha256": "49493076125e392ae2412c63b06b5061c9ed945dca3fdf48c1b51ca5f46a0501",
+      "published": "docs/results/spatial-continuous.json",
+      "published_sha256": "49493076125e392ae2412c63b06b5061c9ed945dca3fdf48c1b51ca5f46a0501",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-continuous/config.json",
+      "source_sha256": "fc1567e3a48a71f97542afe685e6c427846d9d7b577babfd528e4249a70222b7",
+      "published": "docs/results/spatial-continuous-config.json",
+      "published_sha256": "fc1567e3a48a71f97542afe685e6c427846d9d7b577babfd528e4249a70222b7",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-continuous/code-sha256.json",
+      "source_sha256": "72f030508825ec7cb6d1172035dabfc3332ec7ac2996bb780172549ca1935215",
+      "published": "docs/results/spatial-continuous-code-sha256.json",
+      "published_sha256": "72f030508825ec7cb6d1172035dabfc3332ec7ac2996bb780172549ca1935215",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-continuous/source-sha256.json",
+      "source_sha256": "2b0633f593aeeddcda2d5ff282249184bbad99badf2b723fe5170956c0a94864",
+      "published": "docs/results/spatial-continuous-source-sha256.json",
+      "published_sha256": "2b0633f593aeeddcda2d5ff282249184bbad99badf2b723fe5170956c0a94864",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-continuous/inputs.json",
+      "source_sha256": "3ceb1023b2df996bb871bc0037acdc089c15db63174c5a044410f86a644ee343",
+      "published": "docs/results/spatial-continuous-inputs.json",
+      "published_sha256": "3ceb1023b2df996bb871bc0037acdc089c15db63174c5a044410f86a644ee343",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-continuous/predictions.json",
+      "source_sha256": "c48469ac61e8bedd75e0d8f5d65d5c2fc1ef59de4189283c1a15ef4fcd81909e",
+      "published": "docs/results/spatial-continuous-predictions.json",
+      "published_sha256": "c48469ac61e8bedd75e0d8f5d65d5c2fc1ef59de4189283c1a15ef4fcd81909e",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-continuous/evaluation-rows.json",
+      "source_sha256": "f282887da31f7d5142d7ff80f1acfa51100e51d7fc80cb7a3514e5c0cf9bcd78",
+      "published": "docs/results/spatial-continuous-evaluation-rows.json",
+      "published_sha256": "f282887da31f7d5142d7ff80f1acfa51100e51d7fc80cb7a3514e5c0cf9bcd78",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-continuous/comparison.png",
+      "published": "docs/media/spatial-continuous-comparison.png",
+      "sha256": "85a2b013d4f283928532d56640d91c9511c261050b034e4d988f57d118b66968"
+    },
+    {
+      "source": "artifacts/spatial-risk/report.json",
+      "source_sha256": "ca7a184f00c67b8fd09afe5d0521974721237c41c923cc8d43841e5da8df7482",
+      "published": "docs/results/spatial-risk.json",
+      "published_sha256": "ca7a184f00c67b8fd09afe5d0521974721237c41c923cc8d43841e5da8df7482",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk/config.json",
+      "source_sha256": "fc1567e3a48a71f97542afe685e6c427846d9d7b577babfd528e4249a70222b7",
+      "published": "docs/results/spatial-risk-config.json",
+      "published_sha256": "fc1567e3a48a71f97542afe685e6c427846d9d7b577babfd528e4249a70222b7",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk/code-sha256.json",
+      "source_sha256": "24bcad07848102b48ba321bfe71bc18b0651a07f8b69919fb6b4473d142dc6b2",
+      "published": "docs/results/spatial-risk-code-sha256.json",
+      "published_sha256": "24bcad07848102b48ba321bfe71bc18b0651a07f8b69919fb6b4473d142dc6b2",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk/inputs.json",
+      "source_sha256": "82541d82a9bd6538ec158562bb8e66c70657eb8cf7ca86548f46cb4d5d118fce",
+      "published": "docs/results/spatial-risk-inputs.json",
+      "published_sha256": "82541d82a9bd6538ec158562bb8e66c70657eb8cf7ca86548f46cb4d5d118fce",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk/proofs.json",
+      "source_sha256": "798948a6b7af16ae1515d996bab970aaae8370260f1ec7b157436bc4b2adb3db",
+      "published": "docs/results/spatial-risk-proofs.json",
+      "published_sha256": "798948a6b7af16ae1515d996bab970aaae8370260f1ec7b157436bc4b2adb3db",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk/analysis-summary.json",
+      "source_sha256": "5c7eb7066fa14a8de0193f448a585fc9bb01e161bf8a941ca3ea081dfb7e04e0",
+      "published": "docs/results/spatial-risk-analysis-summary.json",
+      "published_sha256": "5c7eb7066fa14a8de0193f448a585fc9bb01e161bf8a941ca3ea081dfb7e04e0",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk-refinement/report.json",
+      "source_sha256": "ae503cf3489103e6d640b7cac1865f3a5873fee3bef824ce67059b6a123eac4c",
+      "published": "docs/results/spatial-risk-refinement.json",
+      "published_sha256": "ae503cf3489103e6d640b7cac1865f3a5873fee3bef824ce67059b6a123eac4c",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk-refinement/config.json",
+      "source_sha256": "9e07622291e8358376115d243a5d95679c0f007663900d6ffc34d4c705c47403",
+      "published": "docs/results/spatial-risk-refinement-config.json",
+      "published_sha256": "9e07622291e8358376115d243a5d95679c0f007663900d6ffc34d4c705c47403",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk-refinement/code-sha256.json",
+      "source_sha256": "24bcad07848102b48ba321bfe71bc18b0651a07f8b69919fb6b4473d142dc6b2",
+      "published": "docs/results/spatial-risk-refinement-code-sha256.json",
+      "published_sha256": "24bcad07848102b48ba321bfe71bc18b0651a07f8b69919fb6b4473d142dc6b2",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk-refinement/inputs.json",
+      "source_sha256": "ce022020de0741bacaeab3eb96d74c938ce6c8b485f5c15f999627530e7b99b5",
+      "published": "docs/results/spatial-risk-refinement-inputs.json",
+      "published_sha256": "ce022020de0741bacaeab3eb96d74c938ce6c8b485f5c15f999627530e7b99b5",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk-refinement/proofs.json",
+      "source_sha256": "da8a6dedccba54060eca52f448a5ad43f70328804d2db2d6b298df8407b47026",
+      "published": "docs/results/spatial-risk-refinement-proofs.json",
+      "published_sha256": "da8a6dedccba54060eca52f448a5ad43f70328804d2db2d6b298df8407b47026",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-risk-refinement/analysis-summary.json",
+      "source_sha256": "d4272f6c78217e4c1f1e8da7edb4dc78876ef2eeefbb0db6f41230a2c2ccf076",
+      "published": "docs/results/spatial-risk-refinement-analysis-summary.json",
+      "published_sha256": "d4272f6c78217e4c1f1e8da7edb4dc78876ef2eeefbb0db6f41230a2c2ccf076",
+      "transformation": "Runtime root replaced; numeric results unchanged"
     }
   ]
 }

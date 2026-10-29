@@ -1,0 +1,167 @@
+{
+  "queries": 14,
+  "decisions": {
+    "allow": 3,
+    "reject": 8,
+    "abstain": 2,
+    "inconsistent": 1
+  },
+  "all_replayed": true,
+  "summaries": [
+    {
+      "id": "old-public-witness-0",
+      "kind": "selected_old_failure",
+      "decision": "reject",
+      "cells": 0,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": 0.14236880798317483,
+      "search_seconds": 0.37724195499686175,
+      "replay_seconds": 0.37481709699932253
+    },
+    {
+      "id": "old-public-witness-1",
+      "kind": "selected_old_failure",
+      "decision": "reject",
+      "cells": 0,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": 0.14236880798317483,
+      "search_seconds": 0.5012181810016045,
+      "replay_seconds": 0.50336409800002
+    },
+    {
+      "id": "old-public-witness-2",
+      "kind": "selected_old_failure",
+      "decision": "reject",
+      "cells": 0,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": 0.1780565873639864,
+      "search_seconds": 0.37746167899967986,
+      "replay_seconds": 0.373981647000619
+    },
+    {
+      "id": "old-public-witness-3",
+      "kind": "selected_old_failure",
+      "decision": "reject",
+      "cells": 0,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": 0.17464998365812842,
+      "search_seconds": 0.507125365002139,
+      "replay_seconds": 0.5013192899968999
+    },
+    {
+      "id": "old-public-witness-4",
+      "kind": "selected_old_failure",
+      "decision": "reject",
+      "cells": 0,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": 0.06173761635006069,
+      "search_seconds": 0.3777803129996755,
+      "replay_seconds": 0.3781734709991724
+    },
+    {
+      "id": "old-public-witness-5",
+      "kind": "selected_old_failure",
+      "decision": "reject",
+      "cells": 0,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": 0.20615655282131137,
+      "search_seconds": 0.4982435060010175,
+      "replay_seconds": 0.49596659800226917
+    },
+    {
+      "id": "old-public-witness-6",
+      "kind": "selected_old_failure",
+      "decision": "reject",
+      "cells": 0,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": 0.21574746273581688,
+      "search_seconds": 0.3737987710010202,
+      "replay_seconds": 0.3794579959976545
+    },
+    {
+      "id": "old-public-witness-7",
+      "kind": "selected_old_failure",
+      "decision": "reject",
+      "cells": 0,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": 0.21574746273581688,
+      "search_seconds": 0.5028101559983043,
+      "replay_seconds": 0.5041321730022901
+    },
+    {
+      "id": "explicit-narrow-control-0",
+      "kind": "designed_local_control",
+      "decision": "allow",
+      "cells": 1,
+      "open_leaves": 0,
+      "max_unexcluded_upper": 0.0,
+      "point_lower": 0.0,
+      "search_seconds": 0.5078460479999194,
+      "replay_seconds": 0.503250706999097
+    },
+    {
+      "id": "explicit-narrow-control-2",
+      "kind": "designed_local_control",
+      "decision": "allow",
+      "cells": 1,
+      "open_leaves": 0,
+      "max_unexcluded_upper": 0.0,
+      "point_lower": 0.0,
+      "search_seconds": 0.8981759849993978,
+      "replay_seconds": 0.7513281930005178
+    },
+    {
+      "id": "explicit-narrow-control-4",
+      "kind": "designed_local_control",
+      "decision": "allow",
+      "cells": 1,
+      "open_leaves": 0,
+      "max_unexcluded_upper": 0.0,
+      "point_lower": 0.0,
+      "search_seconds": 0.7525403010004084,
+      "replay_seconds": 0.755576118001045
+    },
+    {
+      "id": "broad-domain-low-budget",
+      "kind": "broad_budget_control",
+      "decision": "abstain",
+      "cells": 7,
+      "open_leaves": 4,
+      "max_unexcluded_upper": 1.0,
+      "point_lower": 0.0,
+      "search_seconds": 3.0444608529978723,
+      "replay_seconds": 3.023100506001356
+    },
+    {
+      "id": "broad-domain-zero",
+      "kind": "broad_budget_control",
+      "decision": "abstain",
+      "cells": 7,
+      "open_leaves": 4,
+      "max_unexcluded_upper": 1.0,
+      "point_lower": 0.0,
+      "search_seconds": 2.2546587889992225,
+      "replay_seconds": 2.0258213589986553
+    },
+    {
+      "id": "impossible-observations",
+      "kind": "empty_control",
+      "decision": "inconsistent",
+      "cells": 1,
+      "open_leaves": 0,
+      "max_unexcluded_upper": null,
+      "point_lower": null,
+      "search_seconds": 0.27365368499886245,
+      "replay_seconds": 0.2760810859981575
+    }
+  ],
+  "scope": "Conditional continuous-parameter coverage under the fixed 64-increment stable quasistatic real model. Narrow controls are designer-specified domains, not domains inferred from broad-prior observations. Broad-domain wrapping remains a failure of useful tightness. No closed-loop or real-world safety claim."
+}
