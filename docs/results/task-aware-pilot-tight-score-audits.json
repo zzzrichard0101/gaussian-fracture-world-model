@@ -1,0 +1,886 @@
+[
+  {
+    "trajectory_id": "t-000-0-0-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 4.114924609995366e-05,
+    "decision_tolerance_mm2": 1.1916982906360346e-06,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.4645425370541112e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0008064017055779702,
+        "score": 1.0966090641076885e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.466021677101926e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0014515230700403463,
+        "score": 5.395091929703236e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0016128034111559404,
+        "score": 0.010306685858489616,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-0-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 4.987600428563214e-08,
+    "maximum_score_difference_mm2": 4.745993185871437e-09,
+    "decision_tolerance_mm2": 6.511258253711857e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 8.534641353794969e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0009249999999990751,
+        "score": 3.669848566436926e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 7.681859904247525e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0016649999999983351,
+        "score": 1.1960620519636362e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0018499999999981502,
+        "score": 1.6948220948199576e-07,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-1-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 7.281784640061382e-09,
+    "decision_tolerance_mm2": 3.892970414925224e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 6.988248779741304e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0006903702468923775,
+        "score": 2.0101473075212924e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 8.75479033556035e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0012426664444062795,
+        "score": 1.4222622994018238e-06,
+        "stable": true
+      },
+      {
+        "action_m": 0.001380740493784755,
+        "score": 1.6868659842539546e-06,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-1-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 6.344420207049616e-09,
+    "decision_tolerance_mm2": 1.2884200018597732e-07,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 5.140043904911789e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0007637680485735248,
+        "score": 3.353200944247758e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 9.816211168842836e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013747824874323447,
+        "score": 4.696914020079712e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.001380740493784755,
+        "score": 4.772755222426309e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0015275360971470496,
+        "score": 6.527410899708239e-07,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-0-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 5.9057086422446836e-05,
+    "decision_tolerance_mm2": 1.5030094243514153e-06,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.4745043157023793e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0008064017055779702,
+        "score": 1.1010416030438324e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.47598943448997e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0014515230700403463,
+        "score": 5.416899091881466e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0016128034111559404,
+        "score": 0.010096783548031228,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-0-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 2.5100962377947824e-08,
+    "maximum_score_difference_mm2": 2.401515579453689e-09,
+    "decision_tolerance_mm2": 7.0429452935147e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.3512558334980283e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0009249999999990751,
+        "score": 4.882517041606986e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.243408635894267e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0016649999999983351,
+        "score": 1.046201547379303e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0018499999999981502,
+        "score": 1.6022654572775066e-07,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-1-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 9.095170229605801e-09,
+    "decision_tolerance_mm2": 4.931823277435465e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 7.980005278731479e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0007096882338428551,
+        "score": 2.673284215231092e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 9.996973544291408e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0012774388209171393,
+        "score": 1.7043634211769493e-06,
+        "stable": true
+      },
+      {
+        "action_m": 0.0014193764676857102,
+        "score": 2.002676993315452e-06,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-1-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 3.12839156006272e-09,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 4.770983691207548e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0007495307000791303,
+        "score": 3.0642900075968975e-12,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.118172274175025e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013491552601424346,
+        "score": 3.004410719498907e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0014990614001582606,
+        "score": 4.557156842129428e-08,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-0-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 2.0546969696351626e-10,
+    "maximum_score_difference_mm2": 4.489917256590159e-12,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 5.321728789503892e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 1.1693562638959577e-11,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.324922723243779e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 5.601596743822095e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 7.376425759139055e-10,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-0-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 5.987229842057279e-10,
+    "maximum_score_difference_mm2": 2.668920451436434e-12,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.458718370696414e-11,
+        "stable": true
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 2.0654630399618782e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.317042890774525e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 5.431353389143391e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 6.13310167912692e-10,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-1-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 1.5715619200167995e-07,
+    "decision_tolerance_mm2": 6.255148567904343e-07,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.2223067480267894e-05,
+        "stable": true
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 5.457676571841476e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 1.4926166046484495e-05,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.5299948923517746e-05,
+        "stable": true
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 1.818902613121739e-05,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-1-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 3.868958682826134e-10,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.782597270090825e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 6.71022003150154e-11,
+        "stable": true
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 8.715793675048298e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 9.090319089940537e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 1.3729451505266551e-08,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-0-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 2.05397005928575e-10,
+    "maximum_score_difference_mm2": 4.488328760188153e-12,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 5.319846068846299e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 1.1689425689727438e-11,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.323038872636645e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 5.599615011522241e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 7.373816128132049e-10,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-0-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 5.981019495344917e-10,
+    "maximum_score_difference_mm2": 2.6661520717014993e-12,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.457205292227821e-11,
+        "stable": true
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 2.0633206062756115e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.311527705707878e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 5.425719633757553e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 6.1267400245677e-10,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-1-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 2.688171549386464e-06,
+    "decision_tolerance_mm2": 8.216857347307531e-07,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.2357361940246674e-05,
+        "stable": true
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 1.0627324648482646e-06,
+        "stable": true
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 2.7071371178714804e-05,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.7717102737161944e-05,
+        "stable": true
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 3.000307615111538e-05,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-1-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 4.853154560326013e-10,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.731519397942972e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 1.0621376893303359e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 1.2893435162644277e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.346165239149015e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 2.0614143703331923e-08,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-0-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 4.0761629883555306e-05,
+    "decision_tolerance_mm2": 4.033021942810495e-06,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.9194858020445682e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.000758080107626191,
+        "score": 6.260147200174597e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.920637816509206e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013645441937271438,
+        "score": 3.834691241532399e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.001516160215252382,
+        "score": 0.008663448483005723,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-0-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 2.782792246670492e-09,
+    "decision_tolerance_mm2": 1.5867428975110056e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.1862579747830732e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0008183516757544955,
+        "score": 2.1841796907580836e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.945198694498378e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0014730330163580919,
+        "score": 9.522219842594261e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0016316321294085698,
+        "score": 1.4998513821391169e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.001636703351508991,
+        "score": 1.5576258587347442e-07,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-1-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 6.726443918651167e-09,
+    "decision_tolerance_mm2": 3.6552314074627675e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 6.056207679889969e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0006769959173591818,
+        "score": 1.5537758930897178e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 7.587178489820534e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0012185926512465273,
+        "score": 1.1891980094562582e-06,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013539918347183636,
+        "score": 1.4201492568578414e-06,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-1-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 1.3580651928589156e-09,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 4.719730252057393e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0007235429572703242,
+        "score": 2.2546499851629545e-12,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 6.10933275082871e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013023773230865835,
+        "score": 2.8480569406583634e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0014470859145406484,
+        "score": 4.525769746044234e-08,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-0-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 9.334875456845637e-05,
+    "decision_tolerance_mm2": 1.8492748557210342e-06,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.9241587808679437e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.000758080107626191,
+        "score": 6.275387502558423e-10,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.925313599905129e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013645441937271438,
+        "score": 3.8440267748656065e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.001516160215252382,
+        "score": 0.00851458915756673,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-0-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 2.802512123263469e-09,
+    "decision_tolerance_mm2": 1.5190258368471642e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.1521164992593029e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.000818494023549781,
+        "score": 2.1869025425727465e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.842889959994705e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0014732892423896058,
+        "score": 9.330527973765174e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.001636703351508991,
+        "score": 1.4879351308646262e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.001636988047099562,
+        "score": 1.4910664048283385e-07,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-1-1-future_task",
+    "round": 0,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 6.361283975768754e-09,
+    "decision_tolerance_mm2": 3.508365471786594e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 5.820087241119914e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0006716720779214064,
+        "score": 1.4231938323073999e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 7.291377523323235e-07,
+        "stable": true
+      },
+      {
+        "action_m": 0.0012090097402585316,
+        "score": 1.1259795621444933e-06,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013433441558428128,
+        "score": 1.348475844282289e-06,
+        "stable": true
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-1-1-future_task",
+    "round": 7,
+    "all_reference_scores_stable": true,
+    "reference_regret_mm2": 0.0,
+    "maximum_score_difference_mm2": 8.887306357094523e-10,
+    "decision_tolerance_mm2": 1e-08,
+    "selected_action_consistent_with_reference": true,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 4.048965379684916e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0006958077219130698,
+        "score": 8.94314335534584e-12,
+        "stable": true
+      },
+      {
+        "action_m": 0.001,
+        "score": 7.2300212968420596e-09,
+        "stable": true
+      },
+      {
+        "action_m": 0.0012524538994435257,
+        "score": 2.444488449647069e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013914261163107326,
+        "score": 3.7300111260529006e-08,
+        "stable": true
+      },
+      {
+        "action_m": 0.0013916154438261396,
+        "score": 3.7318917145864534e-08,
+        "stable": true
+      }
+    ]
+  }
+]

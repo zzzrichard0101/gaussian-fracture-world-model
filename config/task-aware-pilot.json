@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "seed": 2026102937,
+  "case_seed": 2026102941,
+  "case_families": {"uniform": 4, "near_initiation": 4, "matched_pairs": 2},
+  "base_config": "config/observation-budget.json",
+  "policies": ["rest_repeat", "weak_repeat", "fixed_ramp", "calibration_alternating", "observation_disagreement", "future_task"],
+  "budgets": [2, 4, 8],
+  "future_drives_m": [0.0026, 0.0031, 0.0035],
+  "maximum_drive_m": 0.00185,
+  "candidate_fractions": [0.5, 0.9, 1.0],
+  "belief_levels": [
+    {"energy_panels": 8, "energy_order": 6, "inner_order": 16},
+    {"energy_panels": 16, "energy_order": 8, "inner_order": 32},
+    {"energy_panels": 32, "energy_order": 10, "inner_order": 64}
+  ],
+  "mean_change_tolerance_m": 0.0000001,
+  "event_change_tolerance": 0.00001,
+  "log_integral_change_tolerance": 0.0001,
+  "posterior_trim_mass": 0.000000000001,
+  "acquisition_levels": [
+    {"bin_std": 0.25, "outcome_order": 8},
+    {"bin_std": 0.125, "outcome_order": 12},
+    {"bin_std": 0.0625, "outcome_order": 16}
+  ],
+  "acquisition_max_bins": 4096,
+  "acquisition_max_panels": 512,
+  "gain_absolute_tolerance_mm2": 0.00000001,
+  "gain_relative_tolerance": 0.001,
+  "minimum_gain_mm2": 0.00000001,
+  "primary_comparison": "future_task versus fixed_ramp at sigma 0.020mm and budget 8, then calibration_alternating and observation_disagreement; paired designed-cluster sensitivity only",
+  "scope": "Closed-loop development pilot on 12 new same-law scalar states. Stable Gaussian-proxy quadrature, one-step expected future-gap variance reduction and the unchanged cumulative risk proof filter. Candidate bank is finite; no global Bayes optimality, calibrated correlated-noise posterior, real data, new learned world model or novelty claim."
+}

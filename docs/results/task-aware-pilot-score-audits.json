@@ -1,0 +1,1558 @@
+[
+  {
+    "trajectory_id": "t-000-0-0-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.0004567366666708428,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0016128034111559404,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.14370349351334155
+      },
+      {
+        "action_m": 0.0008064017055779702,
+        "score": 0.058967048415593505
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.14380342097369425
+      },
+      {
+        "action_m": 0.0014515230700403463,
+        "score": 0.3957270341263477
+      },
+      {
+        "action_m": 0.0016128034111559404,
+        "score": 2.4589389329561544
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-0-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 9.266479268675576e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0018499999999981502,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.05440349890534733
+      },
+      {
+        "action_m": 0.0009249999999990751,
+        "score": 0.0009004133788961039
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.0017608838052023065
+      },
+      {
+        "action_m": 0.0016649999999983351,
+        "score": 0.043245880871532215
+      },
+      {
+        "action_m": 0.0018499999999981502,
+        "score": 0.06434883356628304
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-0-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 4.1441086170128025e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0016128034111559404,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.4485446761760566e-09
+      },
+      {
+        "action_m": 0.0008064017055779702,
+        "score": 1.076976912710138e-09
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.45001557827525e-09
+      },
+      {
+        "action_m": 0.0014515230700403463,
+        "score": 5.38837442105778e-09
+      },
+      {
+        "action_m": 0.0016128034111559404,
+        "score": 0.010306394018419441
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-0-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 1.850102922344974e-08,
+    "reference_score_regret": 4.010822358562322e-08,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0016649999999983351,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 7.89748499422929e-08
+      },
+      {
+        "action_m": 0.0009249999999990751,
+        "score": 3.0469251285963857e-09
+      },
+      {
+        "action_m": 0.001,
+        "score": 7.144740217731981e-09
+      },
+      {
+        "action_m": 0.0016649999999983351,
+        "score": 1.1561894985879424e-07
+      },
+      {
+        "action_m": 0.0018499999999981502,
+        "score": 1.5572717344441746e-07
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-1-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.00046386421456956484,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.001380740493784755,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.12081763498848595
+      },
+      {
+        "action_m": 0.0006903702468923775,
+        "score": 0.03193237308315326
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.15659903623258065
+      },
+      {
+        "action_m": 0.0012426664444062795,
+        "score": 0.2869763995951319
+      },
+      {
+        "action_m": 0.001380740493784755,
+        "score": 0.364778228620775
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-1-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 8.494727924704404e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.053758171133621545
+      },
+      {
+        "action_m": 0.0007520410947680785,
+        "score": 5.883744730731398e-06
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.006087273463113798
+      },
+      {
+        "action_m": 0.0013536739705825413,
+        "score": 0.03491102329010932
+      },
+      {
+        "action_m": 0.001504082189536157,
+        "score": 0.05355064359531504
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-1-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 2.638484056680939e-09,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.001380740493784755,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 6.932826189671755e-07
+      },
+      {
+        "action_m": 0.0006903702468923775,
+        "score": 1.9413046647999475e-07
+      },
+      {
+        "action_m": 0.001,
+        "score": 8.705492454983517e-07
+      },
+      {
+        "action_m": 0.0012426664444062795,
+        "score": 1.4194443574891242e-06
+      },
+      {
+        "action_m": 0.001380740493784755,
+        "score": 1.6846402174433133e-06
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-0-1-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 1.0784311855275255e-10,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0015275360971470496,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 5.038003706165517e-08
+      },
+      {
+        "action_m": 0.0007637680485735248,
+        "score": 1.64111964544049e-10
+      },
+      {
+        "action_m": 0.001,
+        "score": 8.75603510214096e-09
+      },
+      {
+        "action_m": 0.0013747824874323447,
+        "score": 4.59410725332485e-08
+      },
+      {
+        "action_m": 0.001380740493784755,
+        "score": 4.668376952351096e-08
+      },
+      {
+        "action_m": 0.0015275360971470496,
+        "score": 6.463878061328246e-07
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-0-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.00045673691119901827,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0016128034111559404,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.14370349588005
+      },
+      {
+        "action_m": 0.0008064017055779702,
+        "score": 0.058967049469604994
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.14380342334182247
+      },
+      {
+        "action_m": 0.0014515230700403463,
+        "score": 0.3957270393072295
+      },
+      {
+        "action_m": 0.0016128034111559404,
+        "score": 2.4362472890817384
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-0-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 9.242835919948122e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0018499999999981502,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.0544234294230929
+      },
+      {
+        "action_m": 0.0009249999999990751,
+        "score": 0.0012415620102260209
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.0021542682252745715
+      },
+      {
+        "action_m": 0.0016649999999983351,
+        "score": 0.04420180866354351
+      },
+      {
+        "action_m": 0.0018499999999981502,
+        "score": 0.06547346664602464
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-0-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 5.9947505452217706e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0016128034111559404,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.458441794060826e-09
+      },
+      {
+        "action_m": 0.0008064017055779702,
+        "score": 1.0813300979312364e-09
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.4599186416024483e-09
+      },
+      {
+        "action_m": 0.0014515230700403463,
+        "score": 5.410154432171469e-09
+      },
+      {
+        "action_m": 0.0016128034111559404,
+        "score": 0.010095893129001457
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-0-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 8.702892629422904e-09,
+    "reference_score_regret": 2.175696867347602e-08,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.3553139037388877e-07
+      },
+      {
+        "action_m": 0.0009249999999990751,
+        "score": 3.6651653931901905e-10
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.0368637136676209e-09
+      },
+      {
+        "action_m": 0.0016649999999983351,
+        "score": 9.577489314061897e-08
+      },
+      {
+        "action_m": 0.0018499999999981502,
+        "score": 1.572883590473648e-07
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-1-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.0004829814125370535,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0014193764676857102,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.12083749665256859
+      },
+      {
+        "action_m": 0.0007096882338428551,
+        "score": 0.037388093659684
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.15662391621683885
+      },
+      {
+        "action_m": 0.0012774388209171393,
+        "score": 0.30654261529447213
+      },
+      {
+        "action_m": 0.0014193764676857102,
+        "score": 0.38660688841519014
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-1-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 8.54365796979159e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.053695242936249526
+      },
+      {
+        "action_m": 0.0007495307000791303,
+        "score": 3.1916831559335564e-06
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.0059276979742640375
+      },
+      {
+        "action_m": 0.0013491552601424346,
+        "score": 0.033908801342011914
+      },
+      {
+        "action_m": 0.0014990614001582606,
+        "score": 0.05220334949680998
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-1-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 3.066834703444971e-09,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0014193764676857102,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 7.916725666427399e-07
+      },
+      {
+        "action_m": 0.0007096882338428551,
+        "score": 2.594798378340638e-07
+      },
+      {
+        "action_m": 0.001,
+        "score": 9.941058696769544e-07
+      },
+      {
+        "action_m": 0.0012774388209171393,
+        "score": 1.7010246344680963e-06
+      },
+      {
+        "action_m": 0.0014193764676857102,
+        "score": 2.0001844855991194e-06
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-000-1-1-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 1.2153329690653492e-09,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 4.611163268815926e-08
+      },
+      {
+        "action_m": 0.0007495307000791303,
+        "score": 1.938667924877349e-12
+      },
+      {
+        "action_m": 0.001,
+        "score": 4.467895480352674e-09
+      },
+      {
+        "action_m": 0.0013491552601424346,
+        "score": 2.9202340115518653e-08
+      },
+      {
+        "action_m": 0.0014990614001582606,
+        "score": 4.3658509830296906e-08
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-0-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.0002891154713176858,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.001130362820260316,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.14370294221099542
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 0.0028310734884118417
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.14380286934047387
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 0.15253572431181536
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 0.21250448982393091
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-0-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 9.228556846991448e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.058574633354837105
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 0.0003848463627081107
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.02408161510832718
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 0.02623200240092188
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 0.04227933112147185
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-0-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 1.3313917583816926e-12,
+    "reference_score_regret": 2.0621363409151737e-10,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 5.287208613531762e-10
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 8.056012364379242e-12
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.290358505994676e-10
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 5.57001148884001e-10
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 7.349344954446936e-10
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-0-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 9.657198150028223e-13,
+    "reference_score_regret": 6.003396504064948e-10,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.2099123626585768e-11
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 2.0437814303944586e-10
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.305977667225311e-10
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 5.421080814485538e-10
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 6.124387740330805e-10
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-1-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.00012181258677640416,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0011011045029725608,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.17752794781329223
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 0.007571156177083648
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 0.22057693463636277
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.22667535511723094
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 0.2897165363332644
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-1-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 8.855457097033115e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.055750421858383775
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 0.0002636193777009258
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 0.02652615924922073
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.02769827548812618
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 0.04240753023837751
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-1-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 3.069173894252053e-08,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0011011045029725608,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.2180728763793781e-05
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 4.872310502034197e-07
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 1.493056732367474e-05
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.530444498176037e-05
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 1.8322303222092975e-05
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-0-1-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 3.3953232820674295e-11,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.7492880584958476e-08
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 3.5689532991669765e-11
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 8.351481979184031e-09
+      },
+      {
+        "action_m": 0.001,
+        "score": 8.726554761715748e-09
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 1.3371993639098743e-08
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-0-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.00028911546637122587,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.001130362820260316,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.14370294213792054
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 0.0028310734867600796
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.14380286926735492
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 0.152535724234898
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 0.21250448972264221
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-0-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 9.228556752732126e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.05857463333563954
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 0.0003848463625745352
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.02408161510016109
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 0.02623200239204547
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 0.04227933110739116
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-0-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 1.3309207095856163e-12,
+    "reference_score_regret": 2.061406799179288e-10,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 5.285338105308736e-10
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 8.053162306359948e-12
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.288486883240304e-10
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 5.568040931016216e-10
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 7.346744904488024e-10
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-0-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 9.647180586208542e-13,
+    "reference_score_regret": 5.997169388182268e-10,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.2086573617346126e-11
+      },
+      {
+        "action_m": 0.000565181410130158,
+        "score": 2.041661486237492e-10
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.300473959888939e-10
+      },
+      {
+        "action_m": 0.0010173265382342844,
+        "score": 5.415457714363401e-10
+      },
+      {
+        "action_m": 0.001130362820260316,
+        "score": 6.11803512435573e-10
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-1-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.00012289194119685654,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0011011045029725608,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.16154537907440197
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 0.006779567160942165
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 0.20144131480514915
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.20711309201630337
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 0.2614911898835761
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-1-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 8.728846290829984e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.05637244464010839
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 0.00026716088123868707
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 0.026823647156989774
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.028008641950920937
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 0.04287708838059756
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-1-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 2.8818303471428205e-08,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0011011045029725608,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.2231487603787795e-05
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 7.604720293445827e-07
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 2.7038754000632605e-05
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.7686753821468163e-05
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 3.2671007692332705e-05
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-004-1-1-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 7.21993301898172e-11,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.6934676830437046e-08
+      },
+      {
+        "action_m": 0.0005505522514862804,
+        "score": 3.9748854721300023e-11
+      },
+      {
+        "action_m": 0.0009909940526753047,
+        "score": 1.246471765538682e-08
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.3033802601516428e-08
+      },
+      {
+        "action_m": 0.0011011045029725608,
+        "score": 2.0198386499660345e-08
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-0-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.0004167916088400059,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.001516160215252382,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.14370335955643168
+      },
+      {
+        "action_m": 0.000758080107626191,
+        "score": 0.042544323571846274
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.14380328693638705
+      },
+      {
+        "action_m": 0.0013645441937271438,
+        "score": 0.3456009708205289
+      },
+      {
+        "action_m": 0.001516160215252382,
+        "score": 2.068620285734627
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-0-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 2.198474244464836e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.08760369210388311
+      },
+      {
+        "action_m": 0.0008183516757544955,
+        "score": 0.014037044847593126
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.014327292530495375
+      },
+      {
+        "action_m": 0.0014730330163580919,
+        "score": 0.04461586761809927
+      },
+      {
+        "action_m": 0.001636703351508991,
+        "score": 0.06405218663218544
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-0-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 4.08740944857159e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.001516160215252382,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.9070258724464927e-09
+      },
+      {
+        "action_m": 0.000758080107626191,
+        "score": 6.097213031423764e-10
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.9081714707721013e-09
+      },
+      {
+        "action_m": 0.0013645441937271438,
+        "score": 3.8292460977315546e-09
+      },
+      {
+        "action_m": 0.001516160215252382,
+        "score": 0.008663336018403562
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-0-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 3.090750285322126e-10,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.1596979102600595e-07
+      },
+      {
+        "action_m": 0.0008183516757544955,
+        "score": 2.011195441915939e-09
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.713530035669248e-09
+      },
+      {
+        "action_m": 0.0014730330163580919,
+        "score": 9.290311631051282e-08
+      },
+      {
+        "action_m": 0.0016316321294085698,
+        "score": 1.475114209957734e-07
+      },
+      {
+        "action_m": 0.001636703351508991,
+        "score": 1.5315203159057612e-07
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-1-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.00044789478942081073,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0013539918347183636,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.12079432021507613
+      },
+      {
+        "action_m": 0.0006769959173591818,
+        "score": 0.028382241852035882
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.15656983034523492
+      },
+      {
+        "action_m": 0.0012185926512465273,
+        "score": 0.27347583723603386
+      },
+      {
+        "action_m": 0.0013539918347183636,
+        "score": 0.3496242463515471
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-1-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 8.636817056801444e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.054107023417019715
+      },
+      {
+        "action_m": 0.0007152651922357365,
+        "score": 1.1378566405935263e-05
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.008114129245653467
+      },
+      {
+        "action_m": 0.0012874773460243257,
+        "score": 0.033162163018324746
+      },
+      {
+        "action_m": 0.001430530384471473,
+        "score": 0.051245659708185905
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-1-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 2.7468807417977918e-09,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0013539918347183636,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 6.008164860679798e-07
+      },
+      {
+        "action_m": 0.0006769959173591818,
+        "score": 1.492770630433897e-07
+      },
+      {
+        "action_m": 0.001,
+        "score": 7.544439363320502e-07
+      },
+      {
+        "action_m": 0.0012185926512465273,
+        "score": 1.1862589082804158e-06
+      },
+      {
+        "action_m": 0.0013539918347183636,
+        "score": 1.4180973828499112e-06
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-0-1-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 1.8369347092222855e-09,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 4.5642085690632373e-08
+      },
+      {
+        "action_m": 0.0007235429572703242,
+        "score": 9.017999225191245e-13
+      },
+      {
+        "action_m": 0.001,
+        "score": 5.465601380696343e-09
+      },
+      {
+        "action_m": 0.0013023773230865835,
+        "score": 2.828977707250219e-08
+      },
+      {
+        "action_m": 0.0014470859145406484,
+        "score": 4.351841836672249e-08
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-0-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.0004167917219080053,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.001516160215252382,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.14370336074727644
+      },
+      {
+        "action_m": 0.000758080107626191,
+        "score": 0.04254432396071359
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.1438032881279457
+      },
+      {
+        "action_m": 0.0013645441937271438,
+        "score": 0.34560097319954974
+      },
+      {
+        "action_m": 0.001516160215252382,
+        "score": 2.049843779545757
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-0-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 2.1983376249479214e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.08759128927489168
+      },
+      {
+        "action_m": 0.000818494023549781,
+        "score": 0.014068101936403657
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.014279310869553596
+      },
+      {
+        "action_m": 0.0014732892423896058,
+        "score": 0.04425039281461195
+      },
+      {
+        "action_m": 0.001636988047099562,
+        "score": 0.0635483653375336
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-0-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 9.268946223173896e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.001516160215252382,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 1.911668518970688e-09
+      },
+      {
+        "action_m": 0.000758080107626191,
+        "score": 6.112056672353039e-10
+      },
+      {
+        "action_m": 0.001,
+        "score": 1.9128169062502274e-09
+      },
+      {
+        "action_m": 0.0013645441937271438,
+        "score": 3.838568375051742e-09
+      },
+      {
+        "action_m": 0.001516160215252382,
+        "score": 0.008515248449903447
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-0-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 3.880227721135881e-10,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 2.1266140699913247e-07
+      },
+      {
+        "action_m": 0.000818494023549781,
+        "score": 2.0051494941407853e-09
+      },
+      {
+        "action_m": 0.001,
+        "score": 2.6272863241511104e-09
+      },
+      {
+        "action_m": 0.0014732892423896058,
+        "score": 9.097597504940372e-08
+      },
+      {
+        "action_m": 0.001636703351508991,
+        "score": 1.4636838366769573e-07
+      },
+      {
+        "action_m": 0.001636988047099562,
+        "score": 1.4669215113168397e-07
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-1-1-observation_disagreement",
+    "round": 0,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 0.0004418718265375432,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0013433441558428128,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.12078824958704926
+      },
+      {
+        "action_m": 0.0006716720779214064,
+        "score": 0.027023355471222425
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.15656222575085943
+      },
+      {
+        "action_m": 0.0012090097402585316,
+        "score": 0.26812679678778606
+      },
+      {
+        "action_m": 0.0013433441558428128,
+        "score": 0.34359886043886934
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-1-1-observation_disagreement",
+    "round": 7,
+    "policy": "observation_disagreement",
+    "reference_scores_stable": true,
+    "maximum_score_change": 8.673091624194357e-05,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 0.05433343955675357
+      },
+      {
+        "action_m": 0.0006958077219130698,
+        "score": 2.8025628284896697e-05
+      },
+      {
+        "action_m": 0.001,
+        "score": 0.009345954697070613
+      },
+      {
+        "action_m": 0.0012524538994435257,
+        "score": 0.03211723178988488
+      },
+      {
+        "action_m": 0.0013914261163107326,
+        "score": 0.049836843968182054
+      },
+      {
+        "action_m": 0.0013916154438261396,
+        "score": 0.04986326423050574
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-1-1-future_task",
+    "round": 0,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 2.5432408998061923e-09,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0013433441558428128,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 5.77391453993976e-07
+      },
+      {
+        "action_m": 0.0006716720779214064,
+        "score": 1.364733812553499e-07
+      },
+      {
+        "action_m": 0.001,
+        "score": 7.25030064737903e-07
+      },
+      {
+        "action_m": 0.0012090097402585316,
+        "score": 1.1232003421133687e-06
+      },
+      {
+        "action_m": 0.0013433441558428128,
+        "score": 1.3464493275398529e-06
+      }
+    ]
+  },
+  {
+    "trajectory_id": "t-008-1-1-1-future_task",
+    "round": 7,
+    "policy": "future_task",
+    "reference_scores_stable": true,
+    "maximum_score_change": 7.297280289333103e-11,
+    "reference_score_regret": 0.0,
+    "selected_action_still_best_or_near_tied": true,
+    "action_m": 0.0,
+    "reference_scores": [
+      {
+        "action_m": 0.0,
+        "score": 3.9669616179050795e-08
+      },
+      {
+        "action_m": 0.0006958077219130698,
+        "score": 8.943143355345805e-12
+      },
+      {
+        "action_m": 0.001,
+        "score": 6.372249554395601e-09
+      },
+      {
+        "action_m": 0.0012524538994435257,
+        "score": 2.3593273078256903e-08
+      },
+      {
+        "action_m": 0.0013914261163107326,
+        "score": 3.648388700271187e-08
+      },
+      {
+        "action_m": 0.0013916154438261396,
+        "score": 3.650230151360458e-08
+      }
+    ]
+  }
+]

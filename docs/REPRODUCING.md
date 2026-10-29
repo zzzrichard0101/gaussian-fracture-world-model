@@ -41,6 +41,19 @@ PYTHONPATH="$PWD" python scripts/report_response_quadrature.py --run GUIDED_RUN 
 
 그림 보고서는 앞서 설치한 matplotlib를 사용한다. 적분과 기존 스크립트 의존성에는 NumPy·SciPy·h5py가 필요하며 GPU는 사용하지 않는다. 환경과 환경 변수는 위 CPU 안내처럼 준비한다.
 
+## 목표 미래를 고려한 입력 선택
+
+[폐루프 pilot](TASK_AWARE_PILOT.md)은 설정에서 새 물리 상태와 잡음을 생성하므로 이전 개인 실행 데이터가 필요 없다. 준비 명령은 공개 이전 보고서 사본을 무결성 점검의 참조용으로 배치하며 기존 보고서는 유지한다.
+
+```bash
+python scripts/prepare_task_references.py
+PYTHONPATH="$PWD" python scripts/task_aware_pilot.py
+# 위 OUTPUT 경로를 RUN에 지정한다.
+PYTHONPATH="$PWD" python scripts/report_task_aware_pilot.py --run RUN
+```
+
+관측 횟수는 2·4·8회의 중첩 prefix다. 모든 정책은 같은 누적 손상 한도와 연속 위험 검증기를 사용하고, 최종 예측은 같은 guided 적분기로 계산한다. 시뮬레이터가 새 관측을 제공하기 전에 결정과 증거를 고정한다. 실제 입력·관측·선택 점수·원본 증거는 실행 폴더에 보관하고, 공개 저장소에는 설정·조건별 수치·선택 정밀도 검사·그림을 게시한다.
+
 ## 기존 환경 분리
 
 | 환경 | 용도 | 검증한 버전 |

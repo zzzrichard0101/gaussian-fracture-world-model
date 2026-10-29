@@ -1,5 +1,13 @@
 # 구현 진행 기록
 
+## 2026-10-29: 안정화한 상태 적분과 목표 미래용 입력 선택의 폐루프
+
+`wmfracture/task_design.py`에 public-prefix 상태 적분, shared-bias 조건부 가상 관측, 한 단계 미래 분산 감소 점수와 수치 검사를 구현했다. 모든 후보는 실제 값에서 연속 위험 증거를 통과한 뒤 점수를 비교한다. 관측 불일치 점수의 기준선도 같은 적분·후보 검증을 쓴다. 기존 fixed/rest/weak 기준선과 zero/weak 교대 계획을 포함했다. 손상 기준은 최초 두 관측에 고정한다.
+
+`scripts/task_aware_pilot.py`와 고정 설정으로 이전 24개와 겹치지 않는 새 상태 12개(10 cluster)를 만들었다. 576개 실행이 모두 8회 추가 관측을 완료했다. 증거 4,608개가 새 cold 검사를 통과했고 실제 한도 위반은 0이었다. 최종 1,728개 예측의 적분 해상도 비교, posterior를 높인 점수 대조 48개, 더 세밀한 가상 관측 대조 24개도 선언한 판정 기준 안에서 유지됐다.
+
+주 비교 0.020mm·8회에서 task/fixed RMSE는 독립 0.20595/0.20536mm, 상관 0.20616/0.20539mm로 우위를 확보하지 못했다. 저잡음 점 추정은 조금 개선됐으나 작은 개발 표본의 결과다. 같은 공개 이력 451쌍 중 68쌍에서 두 적응 점수가 실제로 다른 입력을 골랐다. 다음은 zero/검증 상한 입력의 단순 교대 기준선과 비교할 필요가 있다. [보고서](docs/TASK_AWARE_PILOT.md), 테스트 210개, 실행 `20261029T041131768466Z-task-aware-pilot`을 기록했다.
+
 ## 2026-10-29: 관측 반응 좌표와 Gaussian 구조를 이용한 적분 안정화
 
 `wmfracture/response_quadrature.py`에 uniform E/H 사전 측도를 보존하는 q 좌표 적분, `wmfracture/guided_quadrature.py`에 공개 Gaussian 우도 구조를 이용한 E 구간 배치를 구현했다. H≤U0의 elastic 질량과 dH/dq Jacobian을 유지한다. 기존 shared-bias Gaussian target과 실제 입력은 바꾸지 않는다. 물리 모드별로 affine인 q·t=1/(2E/S−U0) 구조를 이용해 좁은 우도와 CDF 전이 구간을 찾는다.

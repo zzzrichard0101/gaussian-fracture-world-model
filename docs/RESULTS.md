@@ -118,6 +118,6 @@ DIRECT가 두 시험 모두 가장 작았다. 적응형 세분화의 새로운 �
 
 ## 후속 스칼라 관측·위험 검증 실험
 
-[새 상태의 손상·예측 비교](CONTINUOUS_RISK_EVALUATION.md) · [동일 판정의 계산 재사용](RISK_REUSE.md) · [관측 횟수·입력 선택 비교](OBSERVATION_BUDGET.md) · [관측식 기반 적분 안정화](RESPONSE_QUADRATURE.md) · [조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)
+[새 상태의 손상·예측 비교](CONTINUOUS_RISK_EVALUATION.md) · [동일 판정의 계산 재사용](RISK_REUSE.md) · [관측 횟수·입력 선택 비교](OBSERVATION_BUDGET.md) · [관측식 기반 적분 안정화](RESPONSE_QUADRATURE.md) · [목표 미래를 고려한 폐루프 관측](TASK_AWARE_PILOT.md) · [조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)
 
 후속 단계는 합성 gap 값과 알려진 준정적 법칙을 사용한다. 이 페이지의 앞선 Gaussian 영상 실험과 관측·역학 조건이 다르다.

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "bootstrap_seed": 2026102947,
+  "bootstrap_repetitions": 2000,
+  "primary_sigma_m": 2e-05,
+  "primary_budget": 8,
+  "primary_contrast": [
+    "future_task",
+    "fixed_ramp"
+  ],
+  "tight_audit_case_indices": [
+    0,
+    4,
+    8
+  ],
+  "tight_audit_turns": [
+    0,
+    7
+  ],
+  "tight_audit_bias_index": 1,
+  "tight_acquisition_levels": [
+    {
+      "bin_std": 0.0625,
+      "outcome_order": 16
+    },
+    {
+      "bin_std": 0.03125,
+      "outcome_order": 20
+    }
+  ],
+  "scope": "Analysis items fixed before aggregate outcomes. Whole designed generation clusters are resampled, retaining matched pairs and both biases. Ten clusters in a small same-law development pilot are not an independent population validation. Fine-score checks are read-only and cannot change executed actions."
+}

@@ -401,6 +401,81 @@
       "source": "artifacts/guided-quadrature/comparison.png",
       "published": "docs/media/guided-quadrature-comparison.png",
       "sha256": "1285002d57dde1523946368022a746526f4a96cc85e26f9c7e8bb748718115b1"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/report.json",
+      "source_sha256": "085a62e638b79c8411dbf8f710e381b7869f06e5dcc8e98177e0f4edd24b6d94",
+      "published": "docs/results/task-aware-pilot.json",
+      "published_sha256": "6bf17cdc7c8912971acc460714cf16a0482c03bf12143134eef54dd1827ca8b2",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/config.json",
+      "source_sha256": "97ef0d211c730a09131265c1ff4325f912753ff034d664e8cd8abb239874a8d0",
+      "published": "docs/results/task-aware-pilot-config.json",
+      "published_sha256": "3ce22a8a97c5f08584332aee50e262a038eb5897f0f2eb82dadcb3d627ceb6d6",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/case-config.json",
+      "source_sha256": "e183dc2906cdb1cf1de4a106f43ea02e34a8847aeb9753cf7e165db68a2116cc",
+      "published": "docs/results/task-aware-pilot-case-config.json",
+      "published_sha256": "e85ee106fceaf66f440b26033f92b80d45e62915f75209932f1eff967e552534",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/analysis-plan.json",
+      "source_sha256": "9d1791ea4351dea30b18f865593a6ea257c586777299c2fe64be7b83790a2f9f",
+      "published": "docs/results/task-aware-pilot-analysis-plan.json",
+      "published_sha256": "adc3c6d4b291a055baa2c3c6ddc2370d214c7a0d41f4181abaebbe9756d3e60f",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/score-audits.json",
+      "source_sha256": "626c9aed821616dc1d56acf324e0d39727123ba9b4c57d9b55c8a99f17a8ad46",
+      "published": "docs/results/task-aware-pilot-score-audits.json",
+      "published_sha256": "9949cad31e724a7ca4d60aed1c84e99f52fe41261b0a4d28ddad592c7515109f",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/tight-score-audits.json",
+      "source_sha256": "9876946c2115f1643397dd4c8b150c462f8e4b001e7ccb865b190caa9cb9e971",
+      "published": "docs/results/task-aware-pilot-tight-score-audits.json",
+      "published_sha256": "6e5ae3e11541ca743b61e1d1a76b280abff5a6156e6cb745b08356065b90bad6",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/refinement-checks.json",
+      "source_sha256": "bf5ec6ed701ba56d0461d0185c7fdb0e2101fc2733d6283c525d53b0c6cdff88",
+      "published": "docs/results/task-aware-pilot-refinement-checks.json",
+      "published_sha256": "68ce73b71eb261b94e6d0a410c2296081d11fc7b241c22ea842f2980781a2676",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/analysis-summary.json",
+      "source_sha256": "fa4498e3f90afe33b4ac41d4f89aec6c2dc8dd18b529e6a562af30bb71c35a54",
+      "published": "docs/results/task-aware-pilot-analysis-summary.json",
+      "published_sha256": "052804fe8a4ba79b4ddc63ae97b238c33d78d306a31fec497a7fefb987f854c2",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/code-sha256.json",
+      "source_sha256": "ff54cd49e2e687f8279d80d2e70a5aba08533f6a237a0c6e2085f93cf646ea7a",
+      "published": "docs/results/task-aware-pilot-code-sha256.json",
+      "published_sha256": "698caf0d3d440548ea607d3f5281e7d24ad35dbf1d158da93fe2dc9ced2b7f0a",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/evaluation-rows.json",
+      "source_sha256": "c2cb13fcbc11793d81496ee68844636c277b2adcb9f5628ada795928644ca86e",
+      "published": "docs/results/task-aware-pilot-evaluation-rows.json",
+      "published_sha256": "2eaf4777b62fb35153fe786e5fd5199afd08da2f8aab438a73ad0c4ee3e56aa6",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/task-aware-pilot/comparison.png",
+      "published": "docs/media/task-aware-pilot-comparison.png",
+      "sha256": "513dfa7f3a30540380a5434c890d91169e9905fed78ab063f170fc034331f815"
     }
   ]
 }

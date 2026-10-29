@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "seed": 2026102937,
+  "case_config": "config/continuous-risk-evaluation.json",
+  "guard_config": "config/finite-damage-guard.json",
+  "law_config": "config/cohesive-probe.json",
+  "fixture": {
+    "spring": 10000.0,
+    "mass": 0.02,
+    "damping": 18.0
+  },
+  "budgets": [
+    2,
+    4,
+    8
+  ],
+  "policies": [
+    "rest_repeat",
+    "weak_repeat",
+    "fixed_ramp",
+    "calibration_alternating",
+    "observation_disagreement",
+    "future_task"
+  ],
+  "fixed_proposals_m": [
+    0.00105,
+    0.00115,
+    0.00125,
+    0.00135,
+    0.00145,
+    0.00155,
+    0.00165,
+    0.00185
+  ],
+  "gap_noise_sigma_m": [
+    1e-06,
+    2e-05
+  ],
+  "actual_bias_m": [
+    0.0,
+    3e-05
+  ],
+  "noise_conditions": [
+    {
+      "name": "iid_bounded",
+      "latent_rho": 0.0
+    },
+    {
+      "name": "correlated_bounded",
+      "latent_rho": 0.8
+    }
+  ],
+  "grid_side": 161,
+  "forecast_grid_sides": [
+    161,
+    321
+  ],
+  "primary_forecast_side": 321,
+  "cell_budget": 1023,
+  "backtracking_steps": 8,
+  "warm_point_count": 5,
+  "future_drives_m": [
+    0.0026,
+    0.0031,
+    0.0035
+  ],
+  "reference_count": 2,
+  "scope": "Closed-loop development pilot on 12 new same-law scalar states. Stable Gaussian-proxy quadrature, one-step expected future-gap variance reduction and the unchanged cumulative risk proof filter. Candidate bank is finite; no global Bayes optimality, calibrated correlated-noise posterior, real data, new learned world model or novelty claim.",
+  "case_seed": 2026102941,
+  "case_families": {
+    "uniform": 4,
+    "near_initiation": 4,
+    "matched_pairs": 2
+  },
+  "base_config": "config/observation-budget.json",
+  "maximum_drive_m": 0.00185,
+  "candidate_fractions": [
+    0.5,
+    0.9,
+    1.0
+  ],
+  "belief_levels": [
+    {
+      "energy_panels": 8,
+      "energy_order": 6,
+      "inner_order": 16
+    },
+    {
+      "energy_panels": 16,
+      "energy_order": 8,
+      "inner_order": 32
+    },
+    {
+      "energy_panels": 32,
+      "energy_order": 10,
+      "inner_order": 64
+    }
+  ],
+  "mean_change_tolerance_m": 1e-07,
+  "event_change_tolerance": 1e-05,
+  "log_integral_change_tolerance": 0.0001,
+  "posterior_trim_mass": 1e-12,
+  "acquisition_levels": [
+    {
+      "bin_std": 0.25,
+      "outcome_order": 8
+    },
+    {
+      "bin_std": 0.125,
+      "outcome_order": 12
+    },
+    {
+      "bin_std": 0.0625,
+      "outcome_order": 16
+    }
+  ],
+  "acquisition_max_bins": 4096,
+  "acquisition_max_panels": 512,
+  "gain_absolute_tolerance_mm2": 1e-08,
+  "gain_relative_tolerance": 0.001,
+  "minimum_gain_mm2": 1e-08,
+  "primary_comparison": "future_task versus fixed_ramp at sigma 0.020mm and budget 8, then calibration_alternating and observation_disagreement; paired designed-cluster sensitivity only",
+  "levels": [
+    {
+      "name": "guided_32",
+      "energy_panels": 16,
+      "energy_order": 8,
+      "inner_order": 32
+    },
+    {
+      "name": "guided_64",
+      "energy_panels": 32,
+      "energy_order": 10,
+      "inner_order": 64
+    }
+  ],
+  "primary_level": "guided_64",
+  "event_mass_change_tolerance": 1e-05,
+  "adaptive_audit_case_indices": [],
+  "adaptive_audit_budget": 8,
+  "adaptive_audit_actual_bias_m": 0.0
+}

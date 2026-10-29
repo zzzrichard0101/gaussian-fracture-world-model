@@ -1,0 +1,1140 @@
+{
+  "paired_contrasts": [
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.16171141503863737,
+      "right_rmse_mm": 0.20609313186514844,
+      "delta_rmse_mm": -0.04438171682651107,
+      "relative_reduction_fraction": 0.21534786930964334,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09101750195088536,
+        -0.0035950208711519526
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.16171141503863737,
+      "right_rmse_mm": 0.20611428488900327,
+      "delta_rmse_mm": -0.0444028698503659,
+      "relative_reduction_fraction": 0.21542839631070576,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09104673836737079,
+        -0.0036100647433847644
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.16171141503863737,
+      "right_rmse_mm": 0.20611619323939973,
+      "delta_rmse_mm": -0.04440477820076236,
+      "relative_reduction_fraction": 0.21543566035681205,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09104954025556417,
+        -0.003612343313127898
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.16171141503863737,
+      "right_rmse_mm": 0.20611257629280966,
+      "delta_rmse_mm": -0.04440116125417229,
+      "relative_reduction_fraction": 0.21542189250545618,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09104374469536934,
+        -0.0036122390198981232
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.16171141503863737,
+      "right_rmse_mm": 0.16204986084576198,
+      "delta_rmse_mm": -0.0003384458071246099,
+      "relative_reduction_fraction": 0.002088528835249903,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.001343086790206776,
+        0.0002222372700863027
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.15311228175149755,
+      "right_rmse_mm": 0.20609662018425734,
+      "delta_rmse_mm": -0.05298433843275979,
+      "relative_reduction_fraction": 0.2570849458151716,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11175643458169814,
+        -0.008104473805836777
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.15311228175149755,
+      "right_rmse_mm": 0.20611176628335537,
+      "delta_rmse_mm": -0.05299948453185782,
+      "relative_reduction_fraction": 0.2571395388412515,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11177279512627172,
+        -0.008117278276140939
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.15311228175149755,
+      "right_rmse_mm": 0.20502091185498159,
+      "delta_rmse_mm": -0.05190863010348404,
+      "relative_reduction_fraction": 0.2531870024078364,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11049075468960896,
+        -0.0048386124553491325
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.15311228175149755,
+      "right_rmse_mm": 0.20611084125903803,
+      "delta_rmse_mm": -0.05299855950754048,
+      "relative_reduction_fraction": 0.25713620488760425,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.1117732124575996,
+        -0.00811968210893031
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.15311228175149755,
+      "right_rmse_mm": 0.1539170203447398,
+      "delta_rmse_mm": -0.0008047385932422602,
+      "relative_reduction_fraction": 0.005228392489926237,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0041477038209452675,
+        0.0005943520949794105
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.15011233600167365,
+      "right_rmse_mm": 0.20610029892700404,
+      "delta_rmse_mm": -0.0559879629253304,
+      "relative_reduction_fraction": 0.271653962739569,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11751628719669636,
+        -0.01079374620444864
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.15011233600167365,
+      "right_rmse_mm": 0.20610873476491212,
+      "delta_rmse_mm": -0.055996398763238475,
+      "relative_reduction_fraction": 0.27168377326224447,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11751348736906746,
+        -0.01080123591856647
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.15011233600167365,
+      "right_rmse_mm": 0.15179446839048283,
+      "delta_rmse_mm": -0.0016821323888091821,
+      "relative_reduction_fraction": 0.01108164484941565,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.007897608009730146,
+        0.0022778331857571245
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.15011233600167365,
+      "right_rmse_mm": 0.20611306416873568,
+      "delta_rmse_mm": -0.05600072816706203,
+      "relative_reduction_fraction": 0.271699071540738,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.1175289706622266,
+        -0.010805848026447388
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.15011233600167365,
+      "right_rmse_mm": 0.1520721020086441,
+      "delta_rmse_mm": -0.0019597660069704537,
+      "relative_reduction_fraction": 0.01288708435725483,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.007905399161915985,
+        -0.00019960633542569635
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.20603108603220818,
+      "right_rmse_mm": 0.20590602756554455,
+      "delta_rmse_mm": 0.00012505846666363563,
+      "relative_reduction_fraction": -0.0006073569974722748,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0003244262302457536,
+        0.0005036495271152353
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.20603108603220818,
+      "right_rmse_mm": 0.2050565455188974,
+      "delta_rmse_mm": 0.0009745405133107787,
+      "relative_reduction_fraction": -0.004752545259380403,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00014004259985766696,
+        0.0028613902759806412
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.20603108603220818,
+      "right_rmse_mm": 0.20512000590765836,
+      "delta_rmse_mm": 0.0009110801245498235,
+      "relative_reduction_fraction": -0.00444169314698617,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00021602340288973397,
+        0.00278393606860581
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.20603108603220818,
+      "right_rmse_mm": 0.2058082443903977,
+      "delta_rmse_mm": 0.00022284164181049504,
+      "relative_reduction_fraction": -0.0010827634357921667,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0003105573304026346,
+        0.0008073429011161147
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.20603108603220818,
+      "right_rmse_mm": 0.2060400714926427,
+      "delta_rmse_mm": -8.985460434512982e-06,
+      "relative_reduction_fraction": 4.36102568273089e-05,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -6.72402338948587e-05,
+        2.49063094624663e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.20622856247980673,
+      "right_rmse_mm": 0.2060535816057814,
+      "delta_rmse_mm": 0.0001749808740253156,
+      "relative_reduction_fraction": -0.0008492008372855686,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0002563411434669045,
+        0.000525980717703278
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.20622856247980673,
+      "right_rmse_mm": 0.20529100662561592,
+      "delta_rmse_mm": 0.000937555854190808,
+      "relative_reduction_fraction": -0.004566960187888824,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -3.057049700096251e-05,
+        0.0024075686889924335
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.20622856247980673,
+      "right_rmse_mm": 0.20533477847267217,
+      "delta_rmse_mm": 0.0008937840071345515,
+      "relative_reduction_fraction": -0.004352813555417834,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -5.115088682622891e-05,
+        0.0023684544006140136
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.20622856247980673,
+      "right_rmse_mm": 0.2058656817558187,
+      "delta_rmse_mm": 0.0003628807239880183,
+      "relative_reduction_fraction": -0.0017627062504688151,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -3.290050214849946e-05,
+        0.0007374670561805128
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.20622856247980673,
+      "right_rmse_mm": 0.2062225995226905,
+      "delta_rmse_mm": 5.96295711621786e-06,
+      "relative_reduction_fraction": -2.8915148630792586e-05,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -6.605417948590125e-06,
+        2.278062406766145e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.20595129732271708,
+      "right_rmse_mm": 0.2060267938014459,
+      "delta_rmse_mm": -7.549647872881482e-05,
+      "relative_reduction_fraction": 0.00036644009905606456,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0003295828643987607,
+        0.00023040453890629166
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.20595129732271708,
+      "right_rmse_mm": 0.20533427182427766,
+      "delta_rmse_mm": 0.0006170254984394219,
+      "relative_reduction_fraction": -0.0030049805760992143,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0005629474842993948,
+        0.002299011830922149
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.20595129732271708,
+      "right_rmse_mm": 0.20535667069281124,
+      "delta_rmse_mm": 0.0005946266299058367,
+      "relative_reduction_fraction": -0.00289557981194255,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0005367423746118614,
+        0.002279328518565562
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.20595129732271708,
+      "right_rmse_mm": 0.2059375748489017,
+      "delta_rmse_mm": 1.3722473815369618e-05,
+      "relative_reduction_fraction": -6.663414301844028e-05,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0003863109160417537,
+        0.0003944350606243108
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "iid_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.20595129732271708,
+      "right_rmse_mm": 0.20623112595723486,
+      "delta_rmse_mm": -0.0002798286345177814,
+      "relative_reduction_fraction": 0.0013568690624120583,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0006889141433436441,
+        3.239764844706323e-06
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.16139046986095412,
+      "right_rmse_mm": 0.2060999625930897,
+      "delta_rmse_mm": -0.044709492732135564,
+      "relative_reduction_fraction": 0.21693110551605033,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09129969188707351,
+        -0.004327610243088385
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.16139046986095412,
+      "right_rmse_mm": 0.20611407899945133,
+      "delta_rmse_mm": -0.04472360913849721,
+      "relative_reduction_fraction": 0.2169847365866563,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09131934619894536,
+        -0.004337243047402187
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.16139046986095412,
+      "right_rmse_mm": 0.20611531372269237,
+      "delta_rmse_mm": -0.04472484386173825,
+      "relative_reduction_fraction": 0.21698942719952907,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.09132111700917295,
+        -0.004337986629690809
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.16139046986095412,
+      "right_rmse_mm": 0.20611408881725674,
+      "delta_rmse_mm": -0.04472361895630261,
+      "relative_reduction_fraction": 0.2169847738839198,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0913190338157561,
+        -0.004337892143890161
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 2,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.16139046986095412,
+      "right_rmse_mm": 0.16154575635853705,
+      "delta_rmse_mm": -0.0001552864975829238,
+      "relative_reduction_fraction": 0.0009612539572891876,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00047190818081565417,
+        4.6950720485813696e-07
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.15247584229874186,
+      "right_rmse_mm": 0.20609681562623866,
+      "delta_rmse_mm": -0.053620973327496796,
+      "relative_reduction_fraction": 0.26017371090652697,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11234835841817156,
+        -0.008708045384762539
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.15247584229874186,
+      "right_rmse_mm": 0.2061175377517047,
+      "delta_rmse_mm": -0.05364169545296282,
+      "relative_reduction_fraction": 0.2602480896971572,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11238610085995775,
+        -0.008728556305803454
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.15247584229874186,
+      "right_rmse_mm": 0.2052226832513053,
+      "delta_rmse_mm": -0.052746840952563434,
+      "relative_reduction_fraction": 0.25702247001600853,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11145025067579341,
+        -0.0070963131248482775
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.15247584229874186,
+      "right_rmse_mm": 0.2061116693258897,
+      "delta_rmse_mm": -0.05363582702714784,
+      "relative_reduction_fraction": 0.26022702742920645,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11237241342109267,
+        -0.008720204181770802
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 4,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.15247584229874186,
+      "right_rmse_mm": 0.15284338877359283,
+      "delta_rmse_mm": -0.0003675464748509605,
+      "relative_reduction_fraction": 0.002404726025771464,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0015331315073128613,
+        -3.1814284967828738e-06
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.14970110934005929,
+      "right_rmse_mm": 0.2060971394276916,
+      "delta_rmse_mm": -0.056396030087632304,
+      "relative_reduction_fraction": 0.2736381021310519,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11803174630051425,
+        -0.01135983191185326
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.14970110934005929,
+      "right_rmse_mm": 0.20611742519074716,
+      "delta_rmse_mm": -0.056416315850687876,
+      "relative_reduction_fraction": 0.2737095895627386,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11806846030193477,
+        -0.011369696821688131
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.14970110934005929,
+      "right_rmse_mm": 0.15227702841577095,
+      "delta_rmse_mm": -0.002575919075711669,
+      "relative_reduction_fraction": 0.016916005667502843,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.011135012643516195,
+        0.0020399310268492074
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.14970110934005929,
+      "right_rmse_mm": 0.2061105017411827,
+      "delta_rmse_mm": -0.056409392401123415,
+      "relative_reduction_fraction": 0.2736851927708074,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.11805235678253129,
+        -0.01136993201112123
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 1e-06,
+      "budget": 8,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.14970110934005929,
+      "right_rmse_mm": 0.15023058085734614,
+      "delta_rmse_mm": -0.0005294715172868558,
+      "relative_reduction_fraction": 0.0035243923991056247,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0025699037755452735,
+        7.811774555169856e-07
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.20609705083467014,
+      "right_rmse_mm": 0.20582449917731552,
+      "delta_rmse_mm": 0.00027255165735462494,
+      "relative_reduction_fraction": -0.0013241944396513716,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -4.6486081567678056e-05,
+        0.0007779965402578018
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.20609705083467014,
+      "right_rmse_mm": 0.20563655665331107,
+      "delta_rmse_mm": 0.0004604941813590724,
+      "relative_reduction_fraction": -0.0022393595227108154,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00012486215358270685,
+        0.0013610692663640067
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.20609705083467014,
+      "right_rmse_mm": 0.20566004173045163,
+      "delta_rmse_mm": 0.0004370091042185109,
+      "relative_reduction_fraction": -0.002124910121292567,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00012408250138761374,
+        0.001306698863211763
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.20609705083467014,
+      "right_rmse_mm": 0.20585931341844305,
+      "delta_rmse_mm": 0.0002377374162270962,
+      "relative_reduction_fraction": -0.0011548538284680276,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0001426366123444156,
+        0.0007608272581846292
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 2,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.20609705083467014,
+      "right_rmse_mm": 0.20609780137424674,
+      "delta_rmse_mm": -7.505395765994294e-07,
+      "relative_reduction_fraction": 3.6416670706751475e-06,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -2.7205929084984924e-06,
+        0.0
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.20615138504404265,
+      "right_rmse_mm": 0.2057786749861918,
+      "delta_rmse_mm": 0.0003727100578508613,
+      "relative_reduction_fraction": -0.0018112180860134774,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -6.5598944174413e-05,
+        0.0010561982027101605
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.20615138504404265,
+      "right_rmse_mm": 0.20554783671512553,
+      "delta_rmse_mm": 0.0006035483289171251,
+      "relative_reduction_fraction": -0.0029362913206116836,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00010364736709823352,
+        0.0016051842854208288
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.20615138504404265,
+      "right_rmse_mm": 0.2055806022259782,
+      "delta_rmse_mm": 0.0005707828180644414,
+      "relative_reduction_fraction": -0.002776442971195392,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -7.875426937270224e-05,
+        0.001529007778731965
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.20615138504404265,
+      "right_rmse_mm": 0.2060020566079608,
+      "delta_rmse_mm": 0.00014932843608184143,
+      "relative_reduction_fraction": -0.0007248880838408578,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -7.455376341045092e-07,
+        0.00030452116211658527
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 4,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.20615138504404265,
+      "right_rmse_mm": 0.2061627736546771,
+      "delta_rmse_mm": -1.1388610634460727e-05,
+      "relative_reduction_fraction": 5.524086833219588e-05,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -3.379823835380144e-05,
+        2.76884414017464e-07
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "rest_repeat",
+      "left_rmse_mm": 0.20615601570317674,
+      "right_rmse_mm": 0.20569468983826816,
+      "delta_rmse_mm": 0.00046132586490857386,
+      "relative_reduction_fraction": -0.0022427699289238046,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.00012391956025966378,
+        0.0013009215821191873
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "weak_repeat",
+      "left_rmse_mm": 0.20615601570317674,
+      "right_rmse_mm": 0.20531532588526005,
+      "delta_rmse_mm": 0.0008406898179166844,
+      "relative_reduction_fraction": -0.004094627686909824,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.000314966754827177,
+        0.002402137378750861
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "fixed_ramp",
+      "left_rmse_mm": 0.20615601570317674,
+      "right_rmse_mm": 0.2053907858270242,
+      "delta_rmse_mm": 0.0007652298761525456,
+      "relative_reduction_fraction": -0.0037257264149961333,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -0.0002870394832260183,
+        0.0022595790838906824
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "calibration_alternating",
+      "left_rmse_mm": 0.20615601570317674,
+      "right_rmse_mm": 0.20606737802707914,
+      "delta_rmse_mm": 8.86376760975971e-05,
+      "relative_reduction_fraction": -0.0004301392920422753,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -8.785512910676474e-06,
+        0.00015863117184911413
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    },
+    {
+      "kind": "task_vs_baseline",
+      "noise_condition": "correlated_bounded",
+      "sigma_m": 2e-05,
+      "budget": 8,
+      "baseline": "observation_disagreement",
+      "left_rmse_mm": 0.20615601570317674,
+      "right_rmse_mm": 0.2061099686384502,
+      "delta_rmse_mm": 4.60470647265232e-05,
+      "relative_reduction_fraction": -0.0002234101777351949,
+      "cluster_bootstrap_95_percentile_delta_mm": [
+        -4.407033380409569e-06,
+        9.27732962960864e-05
+      ],
+      "paired_contexts": 24,
+      "designed_clusters": 10
+    }
+  ],
+  "tight_audits": 24,
+  "tight_audit_selection_changes": 0,
+  "tight_audit_reference_instabilities": 0,
+  "maximum_tight_reference_regret_mm2": 4.987600428563214e-08,
+  "analysis_plan": {
+    "version": 1,
+    "bootstrap_seed": 2026102947,
+    "bootstrap_repetitions": 2000,
+    "primary_sigma_m": 2e-05,
+    "primary_budget": 8,
+    "primary_contrast": [
+      "future_task",
+      "fixed_ramp"
+    ],
+    "tight_audit_case_indices": [
+      0,
+      4,
+      8
+    ],
+    "tight_audit_turns": [
+      0,
+      7
+    ],
+    "tight_audit_bias_index": 1,
+    "tight_acquisition_levels": [
+      {
+        "bin_std": 0.0625,
+        "outcome_order": 16
+      },
+      {
+        "bin_std": 0.03125,
+        "outcome_order": 20
+      }
+    ],
+    "scope": "Analysis items fixed before aggregate outcomes. Whole designed generation clusters are resampled, retaining matched pairs and both biases. Ten clusters in a small same-law development pilot are not an independent population validation. Fine-score checks are read-only and cannot change executed actions."
+  },
+  "analysis_source_sha256": "a71e6240464bd090090387ddd06dadae9dc0ec076426475774f58d510490ab8f",
+  "frontier_diagnostics": [
+    {
+      "policy": "observation_disagreement",
+      "sigma_m": 1e-06,
+      "rounds": 384,
+      "first_status": {
+        "allow": 60,
+        "reject": 324,
+        "abstain": 0,
+        "inconsistent": 0
+      },
+      "all_query_status": {
+        "allow": 2794,
+        "reject": 488,
+        "abstain": 18,
+        "inconsistent": 0
+      },
+      "mean_ceiling_to_hint_ratio": 0.9946085611979166
+    },
+    {
+      "policy": "observation_disagreement",
+      "sigma_m": 2e-05,
+      "rounds": 384,
+      "first_status": {
+        "allow": 124,
+        "reject": 257,
+        "abstain": 3,
+        "inconsistent": 0
+      },
+      "all_query_status": {
+        "allow": 2333,
+        "reject": 363,
+        "abstain": 28,
+        "inconsistent": 0
+      },
+      "mean_ceiling_to_hint_ratio": 0.9958394368489584
+    },
+    {
+      "policy": "future_task",
+      "sigma_m": 1e-06,
+      "rounds": 384,
+      "first_status": {
+        "allow": 60,
+        "reject": 323,
+        "abstain": 1,
+        "inconsistent": 0
+      },
+      "all_query_status": {
+        "allow": 2816,
+        "reject": 477,
+        "abstain": 7,
+        "inconsistent": 0
+      },
+      "mean_ceiling_to_hint_ratio": 0.9950358072916666
+    },
+    {
+      "policy": "future_task",
+      "sigma_m": 2e-05,
+      "rounds": 384,
+      "first_status": {
+        "allow": 124,
+        "reject": 257,
+        "abstain": 3,
+        "inconsistent": 0
+      },
+      "all_query_status": {
+        "allow": 2324,
+        "reject": 372,
+        "abstain": 28,
+        "inconsistent": 0
+      },
+      "mean_ceiling_to_hint_ratio": 0.9957478841145834
+    }
+  ],
+  "paired_adaptive_rounds": 768,
+  "identical_public_prefix_pairs": 451,
+  "different_actions_at_identical_prefix": 68,
+  "same_action_across_all_paired_rounds": 552,
+  "raw_decisions_observations_forecasts_unchanged": true
+}

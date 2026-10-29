@@ -92,7 +92,7 @@ def main():
     # Keep the original publication intact and add explicit scalar-stage exports.
     scalar_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
         "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
-        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature"]
+        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot"]
     for stage in scalar_stages:
         names = ["report.json"]
         if stage == "risk-reuse":
@@ -106,6 +106,9 @@ def main():
         if stage == "guided-quadrature":
             names += ["config.json", "inputs.json", "refinement-checks.json", "adaptive-checks.json",
                 "analysis-summary.json", "code-sha256.json", "evaluation-rows.json"]
+        if stage == "task-aware-pilot":
+            names += ["config.json", "case-config.json", "analysis-plan.json", "score-audits.json", "tight-score-audits.json",
+                "refinement-checks.json", "analysis-summary.json", "code-sha256.json", "evaluation-rows.json"]
         for name in names:
             path = source/stage/name
             target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
@@ -124,6 +127,7 @@ def main():
             "[동일 판정의 계산 재사용](RISK_REUSE.md) · "
             "[관측 횟수·입력 선택 비교](OBSERVATION_BUDGET.md) · "
             "[관측식 기반 적분 안정화](RESPONSE_QUADRATURE.md) · "
+            "[목표 미래를 고려한 폐루프 관측](TASK_AWARE_PILOT.md) · "
             "[조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)\n\n"
             "후속 단계는 합성 gap 값과 알려진 준정적 법칙을 사용한다. "
             "이 페이지의 앞선 Gaussian 영상 실험과 관측·역학 조건이 다르다.\n")
