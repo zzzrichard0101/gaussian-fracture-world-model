@@ -89,11 +89,11 @@ def main():
         "## 데이터와 검증", "", "[전체 원시 요약 JSON](results/active-probe.json) · [독립 물리 감사](results/active-probe-integrity-checks.json) · [사후 실패 진단](results/active-probe-failure-diagnostics.json)", "",
         "사후 진단은 방법/임계값을 바꾸는 데 쓰지 않았다. 관측 잔차가 낮다는 이유로 정답 미래에 가까운 후보를 제거하는 경우와, 8개 압축 집합이 전체 집합의 최악 손상을 과소평가하는 경우를 기록한다. 가설 집합 안의 손상 제약은 참 물체의 안전 보장이 아니다."]
     (project/"docs/RESULTS.md").write_text("\n".join(lines)+"\n", encoding="utf-8")
-    # Keep the original publication intact and add explicit scalar-stage exports.
-    scalar_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
+    # Keep the original publication intact and add explicit follow-up exports.
+    followup_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
         "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
-        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability"]
-    for stage in scalar_stages:
+        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture"]
+    for stage in followup_stages:
         names = ["report.json"]
         if stage == "risk-reuse":
             names += ["inputs.json", "config.json", "code-sha256.json", "analysis-summary.json"]
@@ -114,6 +114,8 @@ def main():
                 "refinement-checks.json", "analysis-summary.json", "code-sha256.json", "evaluation-rows.json"]
         if stage == "probe-identifiability":
             names += ["config.json", "code-sha256.json", "proofs.json"]
+        if stage == "spatial-fixture":
+            names += ["config.json", "code-sha256.json", "analysis-summary.json", "evaluation-rows.json", "preparations.json"]
         for name in names:
             path = source/stage/name
             target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
@@ -138,6 +140,10 @@ def main():
             "[조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)\n\n"
             "후속 단계는 합성 gap 값과 알려진 준정적 법칙을 사용한다. "
             "이 페이지의 앞선 Gaussian 영상 실험과 관측·역학 조건이 다르다.\n")
+        handle.write("\n## 후속 공간 순방향 모형\n\n"
+            "[세 구역 접합면·이동과 회전·준비 이력](SPATIAL_FIXTURE.md)을 구현했다. "
+            "다섯 설계 사례에서 증분·평형·일과 소산을 검사한 순방향 단계이며 "
+            "영상 관측·상태 추정·공간 위험 인증은 아직 포함하지 않는다.\n")
     write_json(result/"publication-manifest.json", {"scope": "Selected reports, public replay inputs and media only. No weights, assets, observed clips or full execution data.", "files": manifest})
     print(f"Published {len(manifest)} selected artifacts to docs/")
 

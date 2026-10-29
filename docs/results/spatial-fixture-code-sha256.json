@@ -1,0 +1,7 @@
+{
+  "wmfracture/spatial_fixture.py": "89b14c7420203e77edfa41302ffe9d555a49e3ab0cb312d96ae4ddfb988958e2",
+  "wmfracture/cohesive.py": "d0514880c04471048b7ff80ae1036c4a04385e2210e0fdd10e27d9a19e221a39",
+  "scripts/spatial_fixture_evaluate.py": "7eba50044541fac9676c7f4310e5e5c4f4ab1aee7dde9d77f94142a5ee14a26e",
+  "tests/test_spatial_fixture.py": "44dda68f8c480d5a504c520f7b9735d1db1ff4da889c3fa195f55a230e51cad2",
+  "config/spatial-fixture.json": "4565ce2bb4876ba3bb3ee68e32f56e1f5f03dd3cad8e4960ee2136508be8ab41"
+}

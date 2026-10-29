@@ -1,0 +1,1502 @@
+[
+  {
+    "case_id": "virgin",
+    "resolution_m": 8e-06,
+    "preparation_drive_m": [
+      0.0,
+      0.0
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 1,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "damage": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0,
+        "accounted_j": 0.0,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 676666.6666666667,
+        "modes": [
+          "contact",
+          "contact",
+          "contact"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 2,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "damage": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0,
+        "accounted_j": 0.0
+      },
+      "audit": {
+        "max_force_residual_n": 0.0,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 676666.6666666667,
+        "max_segment_accounted_change_j": 0.0
+      },
+      "max_added_damage_from_preparation": 0.0,
+      "max_accounted_residual_j": 0.0,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "virgin",
+    "resolution_m": 4e-06,
+    "preparation_drive_m": [
+      0.0,
+      0.0
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 1,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "damage": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0,
+        "accounted_j": 0.0,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 676666.6666666667,
+        "modes": [
+          "contact",
+          "contact",
+          "contact"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 2,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "damage": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0,
+        "accounted_j": 0.0
+      },
+      "audit": {
+        "max_force_residual_n": 0.0,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 676666.6666666667,
+        "max_segment_accounted_change_j": 0.0
+      },
+      "max_added_damage_from_preparation": 0.0,
+      "max_accounted_residual_j": 0.0,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "virgin",
+    "resolution_m": 2e-06,
+    "preparation_drive_m": [
+      0.0,
+      0.0
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 1,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "damage": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0,
+        "accounted_j": 0.0,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 676666.6666666667,
+        "modes": [
+          "contact",
+          "contact",
+          "contact"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 2,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "damage": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0,
+        "accounted_j": 0.0
+      },
+      "audit": {
+        "max_force_residual_n": 0.0,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 676666.6666666667,
+        "max_segment_accounted_change_j": 0.0
+      },
+      "max_added_damage_from_preparation": 0.0,
+      "max_accounted_residual_j": 0.0,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "left_prepared",
+    "resolution_m": 8e-06,
+    "preparation_drive_m": [
+      0.00183,
+      0.00081
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 229,
+        "q_m": [
+          0.0005468701471251474,
+          -0.0004797144041248671
+        ],
+        "rotation_rad": -0.011992860103121677,
+        "drive_m": [
+          0.00183,
+          0.00081
+        ],
+        "gaps_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "maximum_opening_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "damage": [
+          0.9257329348371888,
+          0.8380935738313522,
+          0.0
+        ],
+        "drive_forces_n": [
+          4.017077243749927,
+          3.714221284998598
+        ],
+        "actuator_work_j": 0.007527627799482361,
+        "elastic_j": 0.005179885298455615,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 4.330816156476042e-08,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": -1.0658141036401502e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "modes": [
+          "softening",
+          "softening",
+          "unloading"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 458,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "damage": [
+          0.9257329348371888,
+          0.8380935738313522,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.002347742501026749,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 4.330816156172465e-08
+      },
+      "audit": {
+        "max_force_residual_n": 7.105427357601002e-15,
+        "max_moment_residual_nm": 2.1316282072803005e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "max_segment_accounted_change_j": 4.3308161568229864e-08
+      },
+      "max_added_damage_from_preparation": 0.9257329348371888,
+      "max_accounted_residual_j": 4.3308161568229864e-08,
+      "max_rotation_rad": 0.011992860103121677,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "left_prepared",
+    "resolution_m": 4e-06,
+    "preparation_drive_m": [
+      0.00183,
+      0.00081
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 458,
+        "q_m": [
+          0.0005468701471251474,
+          -0.0004797144041248671
+        ],
+        "rotation_rad": -0.011992860103121677,
+        "drive_m": [
+          0.00183,
+          0.00081
+        ],
+        "gaps_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "maximum_opening_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "damage": [
+          0.9257329348371888,
+          0.8380935738313522,
+          0.0
+        ],
+        "drive_forces_n": [
+          4.017077243749927,
+          3.714221284998598
+        ],
+        "actuator_work_j": 0.007527664012642645,
+        "elastic_j": 0.005179885298455615,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 7.095001280932323e-09,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": -1.0658141036401502e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "modes": [
+          "softening",
+          "softening",
+          "unloading"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 916,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "damage": [
+          0.9257329348371888,
+          0.8380935738313522,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0023477787141870277,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 7.095001283100727e-09
+      },
+      "audit": {
+        "max_force_residual_n": 7.993605777301127e-15,
+        "max_moment_residual_nm": 2.486899575160351e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "max_segment_accounted_change_j": 7.095001286136493e-09
+      },
+      "max_added_damage_from_preparation": 0.9257329348371888,
+      "max_accounted_residual_j": 7.095001286136493e-09,
+      "max_rotation_rad": 0.011992860103121677,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "left_prepared",
+    "resolution_m": 2e-06,
+    "preparation_drive_m": [
+      0.00183,
+      0.00081
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 915,
+        "q_m": [
+          0.0005468701471251474,
+          -0.0004797144041248671
+        ],
+        "rotation_rad": -0.011992860103121677,
+        "drive_m": [
+          0.00183,
+          0.00081
+        ],
+        "gaps_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "maximum_opening_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "damage": [
+          0.9257329348371888,
+          0.8380935738313522,
+          0.0
+        ],
+        "drive_forces_n": [
+          4.017077243749927,
+          3.714221284998598
+        ],
+        "actuator_work_j": 0.007527668311490837,
+        "elastic_j": 0.005179885298455615,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 2.796153088582831e-09,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": -1.0658141036401502e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "modes": [
+          "softening",
+          "softening",
+          "unloading"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 1830,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0010265845512500145,
+          0.0005468701471251474,
+          6.715574300028034e-05
+        ],
+        "damage": [
+          0.9257329348371888,
+          0.8380935738313522,
+          0.0
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.002347783013035219,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 2.7961530916185973e-09
+      },
+      "audit": {
+        "max_force_residual_n": 8.881784197001252e-15,
+        "max_moment_residual_nm": 3.1974423109204507e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "max_segment_accounted_change_j": 2.79615309291964e-09
+      },
+      "max_added_damage_from_preparation": 0.9257329348371888,
+      "max_accounted_residual_j": 2.796153095521725e-09,
+      "max_rotation_rad": 0.011992860103121677,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "right_prepared",
+    "resolution_m": 8e-06,
+    "preparation_drive_m": [
+      0.00081,
+      0.00183
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 229,
+        "q_m": [
+          0.0005468701471251474,
+          0.0004797144041248671
+        ],
+        "rotation_rad": 0.011992860103121677,
+        "drive_m": [
+          0.00081,
+          0.00183
+        ],
+        "gaps_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "maximum_opening_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "damage": [
+          0.0,
+          0.8380935738313522,
+          0.9257329348371888
+        ],
+        "drive_forces_n": [
+          3.714221284998598,
+          4.017077243749927
+        ],
+        "actuator_work_j": 0.007527627799482361,
+        "elastic_j": 0.005179885298455615,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 4.330816156476042e-08,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": 1.0658141036401502e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "modes": [
+          "unloading",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 458,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "damage": [
+          0.0,
+          0.8380935738313522,
+          0.9257329348371888
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.002347742501026749,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 4.330816156172465e-08
+      },
+      "audit": {
+        "max_force_residual_n": 7.105427357601002e-15,
+        "max_moment_residual_nm": 2.1316282072803005e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "max_segment_accounted_change_j": 4.3308161568229864e-08
+      },
+      "max_added_damage_from_preparation": 0.9257329348371888,
+      "max_accounted_residual_j": 4.3308161568229864e-08,
+      "max_rotation_rad": 0.011992860103121677,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "right_prepared",
+    "resolution_m": 4e-06,
+    "preparation_drive_m": [
+      0.00081,
+      0.00183
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 458,
+        "q_m": [
+          0.0005468701471251474,
+          0.0004797144041248671
+        ],
+        "rotation_rad": 0.011992860103121677,
+        "drive_m": [
+          0.00081,
+          0.00183
+        ],
+        "gaps_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "maximum_opening_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "damage": [
+          0.0,
+          0.8380935738313522,
+          0.9257329348371888
+        ],
+        "drive_forces_n": [
+          3.714221284998598,
+          4.017077243749927
+        ],
+        "actuator_work_j": 0.007527664012642645,
+        "elastic_j": 0.005179885298455615,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 7.095001280932323e-09,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": 1.0658141036401502e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "modes": [
+          "unloading",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 916,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "damage": [
+          0.0,
+          0.8380935738313522,
+          0.9257329348371888
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0023477787141870285,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 7.095001282233365e-09
+      },
+      "audit": {
+        "max_force_residual_n": 8.881784197001252e-15,
+        "max_moment_residual_nm": 2.486899575160351e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "max_segment_accounted_change_j": 7.095001286136493e-09
+      },
+      "max_added_damage_from_preparation": 0.9257329348371888,
+      "max_accounted_residual_j": 7.095001286136493e-09,
+      "max_rotation_rad": 0.011992860103121677,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "right_prepared",
+    "resolution_m": 2e-06,
+    "preparation_drive_m": [
+      0.00081,
+      0.00183
+    ],
+    "minimum_global_tangent_bound_n_m": 7435.897435897436,
+    "prepared": {
+      "peak": {
+        "step": 915,
+        "q_m": [
+          0.0005468701471251474,
+          0.0004797144041248671
+        ],
+        "rotation_rad": 0.011992860103121677,
+        "drive_m": [
+          0.00081,
+          0.00183
+        ],
+        "gaps_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "maximum_opening_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "damage": [
+          0.0,
+          0.8380935738313522,
+          0.9257329348371888
+        ],
+        "drive_forces_n": [
+          3.714221284998598,
+          4.017077243749927
+        ],
+        "actuator_work_j": 0.007527668311490837,
+        "elastic_j": 0.005179885298455615,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 2.796153088582831e-09,
+        "force_residual_n": 0.0,
+        "moment_residual_nm": 1.0658141036401502e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "modes": [
+          "unloading",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 1830,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          6.715574300028034e-05,
+          0.0005468701471251474,
+          0.0010265845512500145
+        ],
+        "damage": [
+          0.0,
+          0.8380935738313522,
+          0.9257329348371888
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.002347783013035219,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0023477858091883108,
+        "accounted_j": 2.7961530916185973e-09
+      },
+      "audit": {
+        "max_force_residual_n": 8.881784197001252e-15,
+        "max_moment_residual_nm": 3.1974423109204507e-16,
+        "minimum_tangent_eigenvalue_n_m": 7860.577027402378,
+        "max_segment_accounted_change_j": 2.79615309291964e-09
+      },
+      "max_added_damage_from_preparation": 0.9257329348371888,
+      "max_accounted_residual_j": 2.796153095521725e-09,
+      "max_rotation_rad": 0.011992860103121677,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "matched_low_energy",
+    "resolution_m": 8e-06,
+    "preparation_drive_m": [
+      0.0014857142857142873,
+      0.0014857142857142873
+    ],
+    "minimum_global_tangent_bound_n_m": 6000.0,
+    "prepared": {
+      "peak": {
+        "step": 186,
+        "q_m": [
+          0.0007428571428571456,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0014857142857142873,
+          0.0014857142857142873
+        ],
+        "gaps_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "maximum_opening_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "damage": [
+          0.9000000000000004,
+          0.9000000000000004,
+          0.9000000000000004
+        ],
+        "drive_forces_n": [
+          3.714285714285708,
+          3.714285714285708
+        ],
+        "actuator_work_j": 0.008861121311009822,
+        "elastic_j": 0.005518367346938778,
+        "dissipated_j": 0.0033428571428571574,
+        "accounted_j": 1.0317878611394715e-07,
+        "force_residual_n": -1.2434497875801753e-14,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 6000.0,
+        "modes": [
+          "softening",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 372,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "damage": [
+          0.9000000000000004,
+          0.9000000000000004,
+          0.9000000000000004
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0033427539640710413,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0033428571428571574,
+        "accounted_j": 1.0317878611611556e-07
+      },
+      "audit": {
+        "max_force_residual_n": 2.1316282072803006e-14,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 6000.0,
+        "max_segment_accounted_change_j": 1.0317878611568188e-07
+      },
+      "max_added_damage_from_preparation": 0.9000000000000004,
+      "max_accounted_residual_j": 1.031787861174166e-07,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "matched_low_energy",
+    "resolution_m": 4e-06,
+    "preparation_drive_m": [
+      0.0014857142857142873,
+      0.0014857142857142873
+    ],
+    "minimum_global_tangent_bound_n_m": 6000.0,
+    "prepared": {
+      "peak": {
+        "step": 372,
+        "q_m": [
+          0.0007428571428571456,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0014857142857142873,
+          0.0014857142857142873
+        ],
+        "gaps_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "maximum_opening_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "damage": [
+          0.9000000000000004,
+          0.9000000000000004,
+          0.9000000000000004
+        ],
+        "drive_forces_n": [
+          3.714285714285708,
+          3.714285714285708
+        ],
+        "actuator_work_j": 0.008861193815021684,
+        "elastic_j": 0.005518367346938778,
+        "dissipated_j": 0.0033428571428571574,
+        "accounted_j": 3.067477425192089e-08,
+        "force_residual_n": -1.2434497875801753e-14,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 6000.0,
+        "modes": [
+          "softening",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 744,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "damage": [
+          0.9000000000000004,
+          0.9000000000000004,
+          0.9000000000000004
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.003342826468082901,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0033428571428571574,
+        "accounted_j": 3.06747742562577e-08
+      },
+      "audit": {
+        "max_force_residual_n": 2.1316282072803006e-14,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 6000.0,
+        "max_segment_accounted_change_j": 3.067477425365561e-08
+      },
+      "max_added_damage_from_preparation": 0.9000000000000004,
+      "max_accounted_residual_j": 3.067477425755874e-08,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "matched_low_energy",
+    "resolution_m": 2e-06,
+    "preparation_drive_m": [
+      0.0014857142857142873,
+      0.0014857142857142873
+    ],
+    "minimum_global_tangent_bound_n_m": 6000.0,
+    "prepared": {
+      "peak": {
+        "step": 743,
+        "q_m": [
+          0.0007428571428571456,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0014857142857142873,
+          0.0014857142857142873
+        ],
+        "gaps_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "maximum_opening_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "damage": [
+          0.9000000000000004,
+          0.9000000000000004,
+          0.9000000000000004
+        ],
+        "drive_forces_n": [
+          3.714285714285708,
+          3.714285714285708
+        ],
+        "actuator_work_j": 0.008861221510172821,
+        "elastic_j": 0.005518367346938778,
+        "dissipated_j": 0.0033428571428571574,
+        "accounted_j": 2.9796231142131813e-09,
+        "force_residual_n": -1.2434497875801753e-14,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 6000.0,
+        "modes": [
+          "softening",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 1486,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0007428571428571456,
+          0.0007428571428571456,
+          0.0007428571428571456
+        ],
+        "damage": [
+          0.9000000000000004,
+          0.9000000000000004,
+          0.9000000000000004
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.003342854163234043,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0033428571428571574,
+        "accounted_j": 2.9796231142131813e-09
+      },
+      "audit": {
+        "max_force_residual_n": 2.042810365310288e-14,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 6000.0,
+        "max_segment_accounted_change_j": 2.9796231142131813e-09
+      },
+      "max_added_damage_from_preparation": 0.9000000000000004,
+      "max_accounted_residual_j": 2.9796231176826282e-09,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "matched_high_energy",
+    "resolution_m": 8e-06,
+    "preparation_drive_m": [
+      0.001723076923076923,
+      0.001723076923076923
+    ],
+    "minimum_global_tangent_bound_n_m": 8181.818181818182,
+    "prepared": {
+      "peak": {
+        "step": 216,
+        "q_m": [
+          0.0008615384615384614,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.001723076923076923,
+          0.001723076923076923
+        ],
+        "gaps_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "maximum_opening_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "damage": [
+          0.8999999999999999,
+          0.8999999999999999,
+          0.8999999999999999
+        ],
+        "drive_forces_n": [
+          4.307692307692308,
+          4.307692307692308
+        ],
+        "actuator_work_j": 0.011299373849041467,
+        "elastic_j": 0.007422485207100596,
+        "dissipated_j": 0.0038769230769230764,
+        "accounted_j": 3.443498220595531e-08,
+        "force_residual_n": -7.105427357601002e-15,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 8181.818181818182,
+        "modes": [
+          "softening",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 432,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "damage": [
+          0.8999999999999999,
+          0.8999999999999999,
+          0.8999999999999999
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0038768886419408765,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0038769230769230764,
+        "accounted_j": 3.443498219988378e-08
+      },
+      "audit": {
+        "max_force_residual_n": 1.4210854715202004e-14,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 8181.818181818182,
+        "max_segment_accounted_change_j": 3.4434982207690035e-08
+      },
+      "max_added_damage_from_preparation": 0.8999999999999999,
+      "max_accounted_residual_j": 3.443498220942476e-08,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "matched_high_energy",
+    "resolution_m": 4e-06,
+    "preparation_drive_m": [
+      0.001723076923076923,
+      0.001723076923076923
+    ],
+    "minimum_global_tangent_bound_n_m": 8181.818181818182,
+    "prepared": {
+      "peak": {
+        "step": 431,
+        "q_m": [
+          0.0008615384615384614,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.001723076923076923,
+          0.001723076923076923
+        ],
+        "gaps_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "maximum_opening_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "damage": [
+          0.8999999999999999,
+          0.8999999999999999,
+          0.8999999999999999
+        ],
+        "drive_forces_n": [
+          4.307692307692308,
+          4.307692307692308
+        ],
+        "actuator_work_j": 0.011299396927147388,
+        "elastic_j": 0.007422485207100596,
+        "dissipated_j": 0.0038769230769230764,
+        "accounted_j": 1.1356876284882023e-08,
+        "force_residual_n": -7.105427357601002e-15,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 8181.818181818182,
+        "modes": [
+          "softening",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 862,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "damage": [
+          0.8999999999999999,
+          0.8999999999999999,
+          0.8999999999999999
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0038769117200467993,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0038769230769230764,
+        "accounted_j": 1.1356876277075767e-08
+      },
+      "audit": {
+        "max_force_residual_n": 1.4210854715202004e-14,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 8181.818181818182,
+        "max_segment_accounted_change_j": 1.1356876286616746e-08
+      },
+      "max_added_damage_from_preparation": 0.8999999999999999,
+      "max_accounted_residual_j": 1.135687628835147e-08,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  },
+  {
+    "case_id": "matched_high_energy",
+    "resolution_m": 2e-06,
+    "preparation_drive_m": [
+      0.001723076923076923,
+      0.001723076923076923
+    ],
+    "minimum_global_tangent_bound_n_m": 8181.818181818182,
+    "prepared": {
+      "peak": {
+        "step": 862,
+        "q_m": [
+          0.0008615384615384614,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.001723076923076923,
+          0.001723076923076923
+        ],
+        "gaps_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "maximum_opening_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "damage": [
+          0.8999999999999999,
+          0.8999999999999999,
+          0.8999999999999999
+        ],
+        "drive_forces_n": [
+          4.307692307692308,
+          4.307692307692308
+        ],
+        "actuator_work_j": 0.01129940358667694,
+        "elastic_j": 0.007422485207100596,
+        "dissipated_j": 0.0038769230769230764,
+        "accounted_j": 4.697346733806285e-09,
+        "force_residual_n": -7.105427357601002e-15,
+        "moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 8181.818181818182,
+        "modes": [
+          "softening",
+          "softening",
+          "softening"
+        ],
+        "segment": "up"
+      },
+      "final": {
+        "step": 1724,
+        "q_m": [
+          0.0,
+          0.0
+        ],
+        "rotation_rad": 0.0,
+        "drive_m": [
+          0.0,
+          0.0
+        ],
+        "gaps_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "maximum_opening_m": [
+          0.0008615384615384614,
+          0.0008615384615384614,
+          0.0008615384615384614
+        ],
+        "damage": [
+          0.8999999999999999,
+          0.8999999999999999,
+          0.8999999999999999
+        ],
+        "drive_forces_n": [
+          0.0,
+          0.0
+        ],
+        "actuator_work_j": 0.0038769183795763443,
+        "elastic_j": 0.0,
+        "dissipated_j": 0.0038769230769230764,
+        "accounted_j": 4.697346732071561e-09
+      },
+      "audit": {
+        "max_force_residual_n": 1.4210854715202004e-14,
+        "max_moment_residual_nm": 0.0,
+        "minimum_tangent_eigenvalue_n_m": 8181.818181818182,
+        "max_segment_accounted_change_j": 4.697346733806285e-09
+      },
+      "max_added_damage_from_preparation": 0.8999999999999999,
+      "max_accounted_residual_j": 4.697346737275732e-09,
+      "max_rotation_rad": 0.0,
+      "first_separation_sample": null
+    }
+  }
+]

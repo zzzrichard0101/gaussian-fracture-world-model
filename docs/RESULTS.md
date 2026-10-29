@@ -121,3 +121,7 @@ DIRECT가 두 시험 모두 가장 작았다. 적응형 세분화의 새로운 �
 [새 상태의 손상·예측 비교](CONTINUOUS_RISK_EVALUATION.md) · [동일 판정의 계산 재사용](RISK_REUSE.md) · [관측 횟수·입력 선택 비교](OBSERVATION_BUDGET.md) · [관측식 기반 적분 안정화](RESPONSE_QUADRATURE.md) · [목표 미래를 고려한 폐루프 관측](TASK_AWARE_PILOT.md) · [무하중/검증 입력 교대 기준선](ALTERNATING_FRONTIER.md) · [손상 한도·식별 가능성 진단](PROBE_IDENTIFIABILITY.md) · [조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)
 
 후속 단계는 합성 gap 값과 알려진 준정적 법칙을 사용한다. 이 페이지의 앞선 Gaussian 영상 실험과 관측·역학 조건이 다르다.
+
+## 후속 공간 순방향 모형
+
+[세 구역 접합면·이동과 회전·준비 이력](SPATIAL_FIXTURE.md)을 구현했다. 다섯 설계 사례에서 증분·평형·일과 소산을 검사한 순방향 단계이며 영상 관측·상태 추정·공간 위험 인증은 아직 포함하지 않는다.

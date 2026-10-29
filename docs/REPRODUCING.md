@@ -150,6 +150,13 @@ bash scripts/world-model.sh test -q
 
 ## 공개 결과 갱신
 
+[세 구역 공간 순방향 모형](SPATIAL_FIXTURE.md)은 다음과 같이 실행한다. 다섯 설계 사례를 세 변위 증분에서 반복하며 준비 하중·평형·외부 일·이력 수렴을 검사한다. 합성 순방향 단계로 영상·추정·공간 위험 인증을 포함하지 않는다.
+
+```powershell
+.\scripts\run-wsl.ps1 python scripts/spatial_fixture_evaluate.py
+.\scripts\run-wsl.ps1 test -q tests/test_spatial_fixture.py
+```
+
 외부 평가를 반영한 새 [식별 가능성 진단](PROBE_IDENTIFIABILITY.md)은 다음 명령으로 실행한다. 기존 WSL 의존성만 쓰며 GPU·외부 엔진·촬영 데이터가 필요 없다. 두 상태만 고려한 계산과 전체 가능 집합의 위험 검사를 구분한다.
 
 ```powershell

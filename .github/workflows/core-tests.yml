@@ -45,6 +45,7 @@ jobs:
           tests/test_task_design.py
           tests/test_alternating_frontier.py
           tests/test_probe_identifiability.py
+          tests/test_spatial_fixture.py
           tests/test_continuous_risk_evaluation.py
           tests/test_camera_measurement.py
       - name: Replay published identifiability proof evidence

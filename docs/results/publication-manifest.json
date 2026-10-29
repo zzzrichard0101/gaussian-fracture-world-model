@@ -591,6 +591,53 @@
       "source": "artifacts/probe-identifiability/comparison.png",
       "published": "docs/media/probe-identifiability-comparison.png",
       "sha256": "a3dfb4aca48c5ff1541a4edbe9b31212cff15117c81208d8f54438513dbf8ad7"
+    },
+    {
+      "source": "artifacts/spatial-fixture/report.json",
+      "source_sha256": "b4a8d5de63dda77067ba62c8a9ab5b8684d6c808c41a0da9cfc67acdaa021660",
+      "published": "docs/results/spatial-fixture.json",
+      "published_sha256": "b4a8d5de63dda77067ba62c8a9ab5b8684d6c808c41a0da9cfc67acdaa021660",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-fixture/config.json",
+      "source_sha256": "f5e7c3314cf98000a90834ceabef11e282caccd3ffadc530b111390713d31792",
+      "published": "docs/results/spatial-fixture-config.json",
+      "published_sha256": "f5e7c3314cf98000a90834ceabef11e282caccd3ffadc530b111390713d31792",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-fixture/code-sha256.json",
+      "source_sha256": "64b58bce0be67ef86920fd81d8b031b751be811448a4dcaff6b2a51d26f1aabd",
+      "published": "docs/results/spatial-fixture-code-sha256.json",
+      "published_sha256": "64b58bce0be67ef86920fd81d8b031b751be811448a4dcaff6b2a51d26f1aabd",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-fixture/analysis-summary.json",
+      "source_sha256": "8e39a2eecef53ecdb4bb27de3d64998cc7c4255fcf27e27f2a20ba860b8b56cc",
+      "published": "docs/results/spatial-fixture-analysis-summary.json",
+      "published_sha256": "8e39a2eecef53ecdb4bb27de3d64998cc7c4255fcf27e27f2a20ba860b8b56cc",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-fixture/evaluation-rows.json",
+      "source_sha256": "55d3b7a0cd9636a96beb6ec7b0eb37d7118ebcd88e024af35c68900af49bc1e0",
+      "published": "docs/results/spatial-fixture-evaluation-rows.json",
+      "published_sha256": "55d3b7a0cd9636a96beb6ec7b0eb37d7118ebcd88e024af35c68900af49bc1e0",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-fixture/preparations.json",
+      "source_sha256": "b1d75b13532e30f02793f1167f8d276017c05fb6d9c718129ddb1c3eac9341f7",
+      "published": "docs/results/spatial-fixture-preparations.json",
+      "published_sha256": "b1d75b13532e30f02793f1167f8d276017c05fb6d9c718129ddb1c3eac9341f7",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-fixture/comparison.png",
+      "published": "docs/media/spatial-fixture-comparison.png",
+      "sha256": "7a4a6ab0e813d7e6047548fbeff86e0e73e4887fde62b8b786da203423426cae"
     }
   ]
 }

@@ -1,0 +1,675 @@
+{
+  "metrics": {
+    "max_force_residual_n": 6.394884621840902e-14,
+    "max_moment_residual_nm": 1.4921397450962103e-15,
+    "max_unloaded_gap_m": 0.0,
+    "max_accounted_residual_j": 1.793692623128923e-07,
+    "max_rotation_rad": 0.03488805970149252,
+    "max_finest_gap_change_m": 0.0,
+    "max_finest_history_change_m": 1.3641362850037452e-09,
+    "max_finest_damage_change": 0.0,
+    "max_mirror_error_m": 0.0,
+    "minimum_global_tangent_bound_n_m": 6000.0
+  },
+  "checks": {
+    "force_balance": true,
+    "moment_balance": true,
+    "complete_unloading": true,
+    "work_balance": true,
+    "small_rotation": true,
+    "displacement_refinement": true,
+    "history_refinement": true,
+    "damage_refinement": true,
+    "separation_refinement": true,
+    "mirror_symmetry": true,
+    "matched_weak_observations": true,
+    "stable_incremental_mechanics": true
+  },
+  "all_checks_passed": true,
+  "refinements": [
+    {
+      "case_id": "virgin",
+      "kind": "probe",
+      "query_id": "center_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "probe",
+      "query_id": "left_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 1.3641362850037452e-09,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "probe",
+      "query_id": "right_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 1.3641362850037452e-09,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "probe",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "probe",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "probe",
+      "query_id": "left_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "probe",
+      "query_id": "right_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "probe",
+      "query_id": "center_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "future",
+      "query_id": "future_center",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "future",
+      "query_id": "future_left",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "future",
+      "query_id": "future_right",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "sequential",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "virgin",
+      "kind": "sequential",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "probe",
+      "query_id": "center_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "probe",
+      "query_id": "left_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "probe",
+      "query_id": "right_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "probe",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "probe",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "probe",
+      "query_id": "left_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "probe",
+      "query_id": "right_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "probe",
+      "query_id": "center_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "future",
+      "query_id": "future_center",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "future",
+      "query_id": "future_left",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "future",
+      "query_id": "future_right",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "sequential",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "left_prepared",
+      "kind": "sequential",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "probe",
+      "query_id": "center_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "probe",
+      "query_id": "left_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "probe",
+      "query_id": "right_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "probe",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "probe",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "probe",
+      "query_id": "left_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "probe",
+      "query_id": "right_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "probe",
+      "query_id": "center_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "future",
+      "query_id": "future_center",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "future",
+      "query_id": "future_left",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "future",
+      "query_id": "future_right",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "sequential",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "right_prepared",
+      "kind": "sequential",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "probe",
+      "query_id": "center_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "probe",
+      "query_id": "left_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "probe",
+      "query_id": "right_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "probe",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "probe",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "probe",
+      "query_id": "left_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "probe",
+      "query_id": "right_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "probe",
+      "query_id": "center_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "future",
+      "query_id": "future_center",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "future",
+      "query_id": "future_left",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "future",
+      "query_id": "future_right",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "sequential",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_low_energy",
+      "kind": "sequential",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "probe",
+      "query_id": "center_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "probe",
+      "query_id": "left_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "probe",
+      "query_id": "right_weak",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "probe",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "probe",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "probe",
+      "query_id": "left_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "probe",
+      "query_id": "right_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "probe",
+      "query_id": "center_strong",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "future",
+      "query_id": "future_center",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "future",
+      "query_id": "future_left",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "future",
+      "query_id": "future_right",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "sequential",
+      "query_id": "left_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    },
+    {
+      "case_id": "matched_high_energy",
+      "kind": "sequential",
+      "query_id": "right_mid",
+      "max_gap_change_m": 0.0,
+      "max_history_change_m": 0.0,
+      "max_damage_change": 0.0,
+      "separation_masks_equal": true
+    }
+  ],
+  "matched_pair": [
+    {
+      "query_id": "center_weak",
+      "max_gap_difference_m": 9.215718466126788e-19,
+      "center_gap_difference_m": 9.215718466126788e-19,
+      "max_added_damage_both": 0.0,
+      "pair_only_within_diagnostic_cap": true
+    },
+    {
+      "query_id": "left_weak",
+      "max_gap_difference_m": 1.1926223897340549e-18,
+      "center_gap_difference_m": 8.131516293641283e-19,
+      "max_added_damage_both": 0.0,
+      "pair_only_within_diagnostic_cap": true
+    },
+    {
+      "query_id": "right_weak",
+      "max_gap_difference_m": 1.1926223897340549e-18,
+      "center_gap_difference_m": 8.131516293641283e-19,
+      "max_added_damage_both": 0.0,
+      "pair_only_within_diagnostic_cap": true
+    },
+    {
+      "query_id": "left_mid",
+      "max_gap_difference_m": 3.654109589041189e-05,
+      "center_gap_difference_m": 1.660958904109661e-05,
+      "max_added_damage_both": 0.012242322254942817,
+      "pair_only_within_diagnostic_cap": true
+    },
+    {
+      "query_id": "right_mid",
+      "max_gap_difference_m": 3.654109589041189e-05,
+      "center_gap_difference_m": 1.660958904109661e-05,
+      "max_added_damage_both": 0.012242322254942817,
+      "pair_only_within_diagnostic_cap": true
+    },
+    {
+      "query_id": "left_strong",
+      "max_gap_difference_m": 0.000156647864625303,
+      "center_gap_difference_m": 7.120357482968357e-05,
+      "max_added_damage_both": 0.05402038505096207,
+      "pair_only_within_diagnostic_cap": false
+    },
+    {
+      "query_id": "right_strong",
+      "max_gap_difference_m": 0.000156647864625303,
+      "center_gap_difference_m": 7.120357482968357e-05,
+      "max_added_damage_both": 0.05402038505096207,
+      "pair_only_within_diagnostic_cap": false
+    },
+    {
+      "query_id": "center_strong",
+      "max_gap_difference_m": 0.0003111111111111113,
+      "center_gap_difference_m": 0.0003111111111111113,
+      "max_added_damage_both": 0.05789473684210489,
+      "pair_only_within_diagnostic_cap": false
+    }
+  ],
+  "scope": "Five designed forward cases; branch copies are not sequentially available measurements. Pair damage flags are not full-uncertainty safety certification. Refinement is empirical, not a rigorous path error bound."
+}
