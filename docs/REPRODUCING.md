@@ -150,6 +150,16 @@ bash scripts/world-model.sh test -q
 
 ## 공개 결과 갱신
 
+외부 평가를 반영한 새 [식별 가능성 진단](PROBE_IDENTIFIABILITY.md)은 다음 명령으로 실행한다. 기존 WSL 의존성만 쓰며 GPU·외부 엔진·촬영 데이터가 필요 없다. 두 상태만 고려한 계산과 전체 가능 집합의 위험 검사를 구분한다.
+
+```powershell
+.\scripts\run-wsl.ps1 python scripts/probe_identifiability_evaluate.py
+.\scripts\run-wsl.ps1 python scripts/probe_identifiability_evaluate.py --replay-proofs docs/results/probe-identifiability-proofs.json
+.\scripts\run-wsl.ps1 test -q tests/test_probe_identifiability.py
+```
+
+공개 증거 재검사는 원본 raw run 없이 가능하다. Gaussian 이진 구분 점수는 별도의 확률 가정을 쓰는 oracle 진단이며 기존 정책 캠페인의 실측 성능이 아니다.
+
 ```bash
 bash scripts/wsl.sh python scripts/publish_results.py
 ```

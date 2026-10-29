@@ -1,5 +1,13 @@
 # 구현 진행 기록
 
+## 2026-10-29: 외부 평가 검토와 손상 한도 아래 식별 가능성 진단
+
+`wmfracture/probe_identifiability.py`에 두 상태의 입력별 gap 차이를 유리수 모드 경계에서 최대화하는 진단을 추가했다. 같은 초기 q의 4쌍·3손상 한도, 총 12행을 계산했다. cap=0.02의 pair-only 최대 신호는 0.0099~0.1625mm였다. 이를 실제 정책의 달성 성능으로 해석하지 않는다.
+
+별도로 전체 prior·편향·유계 오차를 사용하는 8개 공개 prefix를 검사했다. 높은 잡음의 네 prefix에서는 두 상태의 첫 구분 가능 입력 바로 아래에서 가능한 위반 지지점을 찾아 reject했다. 선택 허용 8개와 임계 입력 8개 증거를 공개하고 cold 재검사했다. Gaussian 반복·영점 보정 점수 112행은 별도 oracle 잡음 가정이다. 두 자유도 강체 관측의 네 강성 영역 비식별성도 모멘트 영공간으로 확인했다.
+
+새 단위 테스트 8개와 전체 223개가 통과했다. [진단·수치](docs/PROBE_IDENTIFIABILITY.md), [근접 선행연구·수정 계획](docs/RESEARCH_REVIEW_NEXT.md)을 기록했다. 다음 공간 접합면·시각 관측 파이프라인은 계획 단계이며 새 정책·새 3D 모델의 성능이나 novelty를 입증하지 않았다.
+
 ## 2026-10-29: 단순 무하중/검증 입력 교대 기준선
 
 `wmfracture/alternating_frontier.py`와 `scripts/alternating_frontier_evaluate.py`를 추가했다. 무하중 우선과 큰 입력 우선을 고정하고, 큰 입력은 같은 유한 상한 제안·연속 영역 필터·8회 bisection으로 정한다. 별도 posterior 적분이나 미래 점수는 사용하지 않는다. 과거 공개 관측을 참조용으로 추가 저장하고 같은 상태·잡음의 future_task를 재실행해 288개 checkpoint와 평가 576행을 대조했다.

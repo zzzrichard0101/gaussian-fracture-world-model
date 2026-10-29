@@ -92,7 +92,7 @@ def main():
     # Keep the original publication intact and add explicit scalar-stage exports.
     scalar_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
         "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
-        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier"]
+        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability"]
     for stage in scalar_stages:
         names = ["report.json"]
         if stage == "risk-reuse":
@@ -112,6 +112,8 @@ def main():
         if stage == "alternating-frontier":
             names += ["config.json", "comparison-config.json", "case-config.json", "reference-sha256.json", "control-replay.json",
                 "refinement-checks.json", "analysis-summary.json", "code-sha256.json", "evaluation-rows.json"]
+        if stage == "probe-identifiability":
+            names += ["config.json", "code-sha256.json", "proofs.json"]
         for name in names:
             path = source/stage/name
             target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
@@ -132,6 +134,7 @@ def main():
             "[관측식 기반 적분 안정화](RESPONSE_QUADRATURE.md) · "
             "[목표 미래를 고려한 폐루프 관측](TASK_AWARE_PILOT.md) · "
             "[무하중/검증 입력 교대 기준선](ALTERNATING_FRONTIER.md) · "
+            "[손상 한도·식별 가능성 진단](PROBE_IDENTIFIABILITY.md) · "
             "[조건별 수치](results/continuous-risk-evaluation-evaluation-rows.json)\n\n"
             "후속 단계는 합성 gap 값과 알려진 준정적 법칙을 사용한다. "
             "이 페이지의 앞선 Gaussian 영상 실험과 관측·역학 조건이 다르다.\n")

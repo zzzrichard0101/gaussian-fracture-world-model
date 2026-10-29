@@ -558,6 +558,39 @@
       "source": "artifacts/alternating-frontier/comparison.png",
       "published": "docs/media/alternating-frontier-comparison.png",
       "sha256": "07403e24e41e77f1ccec62fdd5f96df4b546e861b230d2631a996d252d68521a"
+    },
+    {
+      "source": "artifacts/probe-identifiability/report.json",
+      "source_sha256": "3049f63903d5836a0bb82bb387723ffe68e57739b6746147418e0f6b698f0ad7",
+      "published": "docs/results/probe-identifiability.json",
+      "published_sha256": "3049f63903d5836a0bb82bb387723ffe68e57739b6746147418e0f6b698f0ad7",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/probe-identifiability/config.json",
+      "source_sha256": "74d6d18929b29d2397f9058929889048f5bc275e2409281cafd6ff4b788c4aa7",
+      "published": "docs/results/probe-identifiability-config.json",
+      "published_sha256": "74d6d18929b29d2397f9058929889048f5bc275e2409281cafd6ff4b788c4aa7",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/probe-identifiability/code-sha256.json",
+      "source_sha256": "b85213ed41e9fe0a78887c9c6b07cf8fb7a7e9e389fafb7883937d9f44a66b46",
+      "published": "docs/results/probe-identifiability-code-sha256.json",
+      "published_sha256": "b85213ed41e9fe0a78887c9c6b07cf8fb7a7e9e389fafb7883937d9f44a66b46",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/probe-identifiability/proofs.json",
+      "source_sha256": "5cad8ba466419803f71f373e05622996886cc9edfc7a2e36ba0dd312fdbe1ae4",
+      "published": "docs/results/probe-identifiability-proofs.json",
+      "published_sha256": "5cad8ba466419803f71f373e05622996886cc9edfc7a2e36ba0dd312fdbe1ae4",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/probe-identifiability/comparison.png",
+      "published": "docs/media/probe-identifiability-comparison.png",
+      "sha256": "a3dfb4aca48c5ff1541a4edbe9b31212cff15117c81208d8f54438513dbf8ad7"
     }
   ]
 }

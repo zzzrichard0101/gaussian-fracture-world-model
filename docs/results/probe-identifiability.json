@@ -1,0 +1,2000 @@
+{
+  "created_utc": "2026-10-29T06:10:41.011653+00:00",
+  "config": {
+    "version": 1,
+    "guard_config": "config/finite-damage-guard.json",
+    "law_config": "config/cohesive-probe.json",
+    "energies_j_m2": [
+      "13/10",
+      "14/5"
+    ],
+    "matched_compliances": [
+      "1/5",
+      "1/3",
+      "1/2",
+      "5/8"
+    ],
+    "maximum_drive_m": 0.00185,
+    "filter_grid_side": 161,
+    "filter_cell_budget": 1023,
+    "filter_backtracking_steps": 8,
+    "damage_caps": [
+      0.0,
+      0.005,
+      0.02
+    ],
+    "gaussian_sigmas_m": [
+      1e-06,
+      2e-05
+    ],
+    "gaussian_bias_sigma_m": 5e-05,
+    "observation_counts": [
+      1,
+      8,
+      32,
+      128
+    ],
+    "future_drives_m": [
+      0.0026,
+      0.0031,
+      0.0035
+    ],
+    "scope": "Designed matched-response pairs, exact continuous single-cycle amplitude diagnostic under PAIR-ONLY cumulative constraints. Not the full feasible set, an achieved closed-loop policy, a population test, a global identifiability theorem or a novelty claim. Gaussian binary discrimination is illustrative and differs from the prior bounded/correlated campaign."
+  },
+  "pairs": [
+    {
+      "matched_compliance": "1/5",
+      "damage_cap": 0.0,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/12682136550675316760"
+        ],
+        [
+          "14/5",
+          "8070450532247929/6629298651489370118"
+        ]
+      ],
+      "preparation_m": [
+        0.0011818181818181819,
+        0.0012173913043478262
+      ],
+      "initial_damage": [
+        0.6,
+        0.6
+      ],
+      "pair_safe_ceiling_m": 0.0011818181818181819,
+      "max_difference_m": 0.0,
+      "max_difference_exact_m": "0",
+      "maximizing_action_m": 0.0,
+      "maximizing_action_exact_m": "0",
+      "damage_increments": [
+        0.0,
+        0.0
+      ],
+      "breakpoint_count": 3,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "1/5",
+      "damage_cap": 0.005,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/12682136550675316760"
+        ],
+        [
+          "14/5",
+          "8070450532247929/6629298651489370118"
+        ]
+      ],
+      "preparation_m": [
+        0.0011818181818181819,
+        0.0012173913043478262
+      ],
+      "initial_damage": [
+        0.6,
+        0.6
+      ],
+      "pair_safe_ceiling_m": 0.001183448275862069,
+      "max_difference_m": 2.3908045977011494e-06,
+      "max_difference_exact_m": "498061050781413910070397885190882558105892412475/208323612586456766982164098054851225013899583838748672",
+      "maximizing_action_m": 0.001183448275862069,
+      "maximizing_action_exact_m": "410900366894666458528114310078571223120605300643007/347206020977427944970273496758085375023165973064581120",
+      "damage_increments": [
+        0.005,
+        0.0
+      ],
+      "breakpoint_count": 4,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "1/5",
+      "damage_cap": 0.02,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/12682136550675316760"
+        ],
+        [
+          "14/5",
+          "8070450532247929/6629298651489370118"
+        ]
+      ],
+      "preparation_m": [
+        0.0011818181818181819,
+        0.0012173913043478262
+      ],
+      "initial_damage": [
+        0.6,
+        0.6
+      ],
+      "pair_safe_ceiling_m": 0.0011885714285714286,
+      "max_difference_m": 9.904761904761906e-06,
+      "max_difference_exact_m": "498061050781413910070397885190882558105892412475/50285009934661978164883261828369519049860523300487168",
+      "maximizing_action_m": 0.0011885714285714286,
+      "maximizing_action_exact_m": "99612210156282777694088590737199789791989497582783/83808349891103296941472103047282531749767538834145280",
+      "damage_increments": [
+        0.02,
+        0.0
+      ],
+      "breakpoint_count": 4,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "1/3",
+      "damage_cap": 0.0,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/11529215046068469800"
+        ],
+        [
+          "14/5",
+          "8070450532247929/5764607523034234890"
+        ]
+      ],
+      "preparation_m": [
+        0.0013,
+        0.0014
+      ],
+      "initial_damage": [
+        0.8,
+        0.8
+      ],
+      "pair_safe_ceiling_m": 0.0013,
+      "max_difference_m": 0.0,
+      "max_difference_exact_m": "0",
+      "maximizing_action_m": 0.0,
+      "maximizing_action_exact_m": "0",
+      "damage_increments": [
+        0.0,
+        0.0
+      ],
+      "breakpoint_count": 3,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "1/3",
+      "damage_cap": 0.005,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/11529215046068469800"
+        ],
+        [
+          "14/5",
+          "8070450532247929/5764607523034234890"
+        ]
+      ],
+      "preparation_m": [
+        0.0013,
+        0.0014
+      ],
+      "initial_damage": [
+        0.8,
+        0.8
+      ],
+      "pair_safe_ceiling_m": 0.001305531914893617,
+      "max_difference_m": 7.375886524822696e-06,
+      "max_difference_exact_m": "2490305253907069550351989425954412790529462062375/337627923847016140004302226573870703113185166106820608",
+      "maximizing_action_m": 0.001305531914893617,
+      "maximizing_action_exact_m": "85423261616579707703476951080176671632096583375891/65431768187406228683004307475556337812632784129228800",
+      "damage_increments": [
+        0.005,
+        0.0
+      ],
+      "breakpoint_count": 4,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "1/3",
+      "damage_cap": 0.02,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/11529215046068469800"
+        ],
+        [
+          "14/5",
+          "8070450532247929/5764607523034234890"
+        ]
+      ],
+      "preparation_m": [
+        0.0013,
+        0.0014
+      ],
+      "initial_damage": [
+        0.8,
+        0.8
+      ],
+      "pair_safe_ceiling_m": 0.0013236363636363636,
+      "max_difference_m": 3.151515151515152e-05,
+      "max_difference_exact_m": "2490305253907069550351989425954412790529462062375/79019301325897394259102268587437814167453173549105152",
+      "maximizing_action_m": 0.0013236363636363636,
+      "maximizing_action_exact_m": "871606838867474303743277422375253980222610857621297/658494177715811618825852238228648451395443112909209600",
+      "damage_increments": [
+        0.02,
+        0.0
+      ],
+      "breakpoint_count": 4,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "1/2",
+      "damage_cap": 0.0,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/10088063165309911100"
+        ],
+        [
+          "14/5",
+          "8070450532247929/4683743612465315855"
+        ]
+      ],
+      "preparation_m": [
+        0.0014857142857142857,
+        0.001723076923076923
+      ],
+      "initial_damage": [
+        0.9,
+        0.9
+      ],
+      "pair_safe_ceiling_m": 0.0014857142857142857,
+      "max_difference_m": 0.0,
+      "max_difference_exact_m": "0",
+      "maximizing_action_m": 0.0,
+      "maximizing_action_exact_m": "0",
+      "damage_increments": [
+        0.0,
+        0.0
+      ],
+      "breakpoint_count": 3,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "1/2",
+      "damage_cap": 0.005,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/10088063165309911100"
+        ],
+        [
+          "14/5",
+          "8070450532247929/4683743612465315855"
+        ]
+      ],
+      "preparation_m": [
+        0.0014857142857142857,
+        0.001723076923076923
+      ],
+      "initial_damage": [
+        0.9,
+        0.9
+      ],
+      "pair_safe_ceiling_m": 0.0015022222222222223,
+      "max_difference_m": 1.925925925925926e-05,
+      "max_difference_exact_m": "2490305253907069550351989425954412790529462062375/129304311260559373022138128519019478099285582268071936",
+      "maximizing_action_m": 0.0015022222222222223,
+      "maximizing_action_exact_m": "269783069173265856434822891009123460762854430324713/179589321195221351419636289609749275137896642038988800",
+      "damage_increments": [
+        0.005,
+        0.0
+      ],
+      "breakpoint_count": 4,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "1/2",
+      "damage_cap": 0.02,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/10088063165309911100"
+        ],
+        [
+          "14/5",
+          "8070450532247929/4683743612465315855"
+        ]
+      ],
+      "preparation_m": [
+        0.0014857142857142857,
+        0.001723076923076923
+      ],
+      "initial_damage": [
+        0.9,
+        0.9
+      ],
+      "pair_safe_ceiling_m": 0.00156,
+      "max_difference_m": 8.666666666666667e-05,
+      "max_difference_exact_m": "2490305253907069550351989425954412790529462062375/28734291391235416094219006759068295117592650248617984",
+      "maximizing_action_m": 0.00156,
+      "maximizing_action_exact_m": "186772894043030207636417234344627515631331684853691/119726214130147567059245861496117896323302709369241600",
+      "damage_increments": [
+        0.02,
+        0.0
+      ],
+      "breakpoint_count": 4,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "5/8",
+      "damage_cap": 0.0,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/9007199254740992075"
+        ],
+        [
+          "14/5",
+          "32281802128991716/15492382718154506315"
+        ]
+      ],
+      "preparation_m": [
+        0.0016640000000000001,
+        0.0020837209302325584
+      ],
+      "initial_damage": [
+        0.94,
+        0.94
+      ],
+      "pair_safe_ceiling_m": 0.0016640000000000001,
+      "max_difference_m": 0.0,
+      "max_difference_exact_m": "0",
+      "maximizing_action_m": 0.0,
+      "maximizing_action_exact_m": "0",
+      "damage_increments": [
+        0.0,
+        0.0
+      ],
+      "breakpoint_count": 3,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "5/8",
+      "damage_cap": 0.005,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/9007199254740992075"
+        ],
+        [
+          "14/5",
+          "32281802128991716/15492382718154506315"
+        ]
+      ],
+      "preparation_m": [
+        0.0016640000000000001,
+        0.0020837209302325584
+      ],
+      "initial_damage": [
+        0.94,
+        0.94
+      ],
+      "pair_safe_ceiling_m": 0.0016968421052631578,
+      "max_difference_m": 3.421052631578947e-05,
+      "max_difference_exact_m": "62257631347676738758799735648860319763236551559375/1819838454778243031263589056805234970176342084269637632",
+      "maximizing_action_m": 0.0016968421052631578,
+      "maximizing_action_exact_m": "9649932858889894092894824340679584267699522940130293/5686995171182009472698715802516359281801069013342617600",
+      "damage_increments": [
+        0.005,
+        0.0
+      ],
+      "breakpoint_count": 4,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    },
+    {
+      "matched_compliance": "5/8",
+      "damage_cap": 0.02,
+      "parameters_exact": [
+        [
+          "13/10",
+          "14987979559889011/9007199254740992075"
+        ],
+        [
+          "14/5",
+          "32281802128991716/15492382718154506315"
+        ]
+      ],
+      "preparation_m": [
+        0.0016640000000000001,
+        0.0020837209302325584
+      ],
+      "initial_damage": [
+        0.94,
+        0.94
+      ],
+      "pair_safe_ceiling_m": 0.00182,
+      "max_difference_m": 0.00016250000000000002,
+      "max_difference_exact_m": "4789048565205902981446133511450793827941273196875/29471068093574785737660519752890558030731585746108416",
+      "maximizing_action_m": 0.00182,
+      "maximizing_action_exact_m": "167616699782206596375246698191282297524057205129609/92097087792421205430189124227782993846036205456588800",
+      "damage_increments": [
+        0.02,
+        0.0
+      ],
+      "breakpoint_count": 4,
+      "future_gap_differences_m": [
+        0.0006666666666666666,
+        0.0005555555555555556,
+        0.00046666666666666666
+      ],
+      "scope": "Exact two-state continuous-amplitude maximum. Other feasible states may forbid these actions; not a full-belief safe policy or global inference limit."
+    }
+  ],
+  "gaussian_schedules": [
+    {
+      "matched_compliance": "1/5",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 98.1043083900227,
+      "kl_nats": 49.05215419501135,
+      "equal_prior_bayes_error": 3.665545322493775e-07
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.039226032942831945,
+      "kl_nats": 0.019613016471415973,
+      "equal_prior_bayes_error": 0.46055809254953634
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 0.2452607709750567,
+      "kl_nats": 0.12263038548752835,
+      "equal_prior_bayes_error": 0.40221458587407793
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.03382907185862851,
+      "kl_nats": 0.016914535929314255,
+      "equal_prior_bayes_error": 0.46336355723222794
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 784.8344671201816,
+      "kl_nats": 392.4172335600908,
+      "equal_prior_bayes_error": 7.017870159889384e-45
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.039239761367940676,
+      "kl_nats": 0.019619880683970338,
+      "equal_prior_bayes_error": 0.46055121370053465
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 1.9620861678004535,
+      "kl_nats": 0.9810430839002268,
+      "equal_prior_bayes_error": 0.241847374373168
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.0384722778000089,
+      "kl_nats": 0.01923613890000445,
+      "equal_prior_bayes_error": 0.4609376571640585
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 392.41723356009084,
+      "kl_nats": 196.20861678004542,
+      "equal_prior_bayes_error": 1.984571657518567e-23
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 196.21842672038744,
+      "kl_nats": 98.10921336019372,
+      "equal_prior_bayes_error": 1.244674527103961e-12
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 0.9810430839002269,
+      "kl_nats": 0.49052154195011344,
+      "equal_prior_bayes_error": 0.31021603135484443
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.5001396114001156,
+      "kl_nats": 0.2500698057000578,
+      "equal_prior_bayes_error": 0.3618183076113257
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 3139.3378684807262,
+      "kl_nats": 1569.6689342403631,
+      "equal_prior_bayes_error": 5.3497105744691506e-173
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.03924123284059857,
+      "kl_nats": 0.019620616420299285,
+      "equal_prior_bayes_error": 0.46055047646751307
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 7.848344671201814,
+      "kl_nats": 3.924172335600907,
+      "equal_prior_bayes_error": 0.08064519110759671
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.03904649090150157,
+      "kl_nats": 0.019523245450750785,
+      "equal_prior_bayes_error": 0.46064816713391266
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 1569.6689342403633,
+      "kl_nats": 784.8344671201817,
+      "equal_prior_bayes_error": 1.2320170211153132e-87
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 784.8442774283919,
+      "kl_nats": 392.42213871419597,
+      "equal_prior_bayes_error": 7.00922612934101e-45
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 3.9241723356009075,
+      "kl_nats": 1.9620861678004538,
+      "equal_prior_bayes_error": 0.16097071058491264
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 1.9718477905258291,
+      "kl_nats": 0.9859238952629146,
+      "equal_prior_bayes_error": 0.24130450709336665
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 12557.351473922905,
+      "kl_nats": 6278.6757369614525,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.03924160072600681,
+      "kl_nats": 0.019620800363003406,
+      "equal_prior_bayes_error": 0.46055029215279936
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 31.393378684807256,
+      "kl_nats": 15.696689342403628,
+      "equal_prior_bayes_error": 0.002543363059123993
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.03919273244045851,
+      "kl_nats": 0.019596366220229255,
+      "equal_prior_bayes_error": 0.4605747833557536
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 6278.675736961453,
+      "kl_nats": 3139.3378684807267,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 3139.347678880908,
+      "kl_nats": 1569.673839440454,
+      "equal_prior_bayes_error": 5.3431459176134896e-173
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 15.69668934240363,
+      "kl_nats": 7.848344671201815,
+      "equal_prior_bayes_error": 0.023798307013863425
+    },
+    {
+      "matched_compliance": "1/5",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 7.85814285431193,
+      "kl_nats": 3.929071427155965,
+      "equal_prior_bayes_error": 0.08051453082027954
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 993.204775022957,
+      "kl_nats": 496.6023875114785,
+      "equal_prior_bayes_error": 3.046279303893804e-56
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.39712306078486886,
+      "kl_nats": 0.19856153039243443,
+      "equal_prior_bayes_error": 0.37634722848155305
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 2.4830119375573925,
+      "kl_nats": 1.2415059687786962,
+      "equal_prior_bayes_error": 0.2153838049289052
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.34248440518032996,
+      "kl_nats": 0.17124220259016498,
+      "equal_prior_bayes_error": 0.38490981513297085
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 7945.638200183656,
+      "kl_nats": 3972.819100091828,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.3972620469068375,
+      "kl_nats": 0.19863102345341874,
+      "equal_prior_bayes_error": 0.3763262989914629
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 19.86409550045914,
+      "kl_nats": 9.93204775022957,
+      "equal_prior_bayes_error": 0.012925003387182903
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.38949206863645375,
+      "kl_nats": 0.19474603431822687,
+      "equal_prior_bayes_error": 0.37750259287415877
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 3972.819100091828,
+      "kl_nats": 1986.409550045914,
+      "equal_prior_bayes_error": 2.6932576344824465e-218
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 1986.5088655576408,
+      "kl_nats": 993.2544327788204,
+      "equal_prior_bayes_error": 2.5751045035261948e-110
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 9.93204775022957,
+      "kl_nats": 4.966023875114785,
+      "equal_prior_bayes_error": 0.05754084144967057
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 5.063396892273898,
+      "kl_nats": 2.531698446136949,
+      "equal_prior_bayes_error": 0.13027340475242627
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 31782.552800734626,
+      "kl_nats": 15891.276400367313,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.39727694404738223,
+      "kl_nats": 0.19863847202369111,
+      "equal_prior_bayes_error": 0.37632405591599055
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 79.45638200183656,
+      "kl_nats": 39.72819100091828,
+      "equal_prior_bayes_error": 4.157368518237534e-06
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.3953053830937142,
+      "kl_nats": 0.1976526915468571,
+      "equal_prior_bayes_error": 0.3766213183740496
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 15891.276400367313,
+      "kl_nats": 7945.638200183656,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 7945.737519419668,
+      "kl_nats": 3972.868759709834,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 39.72819100091828,
+      "kl_nats": 19.86409550045914,
+      "equal_prior_bayes_error": 0.0008121286767245804
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 19.962921846232568,
+      "kl_nats": 9.981460923116284,
+      "equal_prior_bayes_error": 0.012741724577188595
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 127130.2112029385,
+      "kl_nats": 63565.10560146925,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.39728066850709376,
+      "kl_nats": 0.19864033425354688,
+      "equal_prior_bayes_error": 0.3763234951280608
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 317.82552800734624,
+      "kl_nats": 158.91276400367312,
+      "equal_prior_bayes_error": 2.4649486919108925e-19
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 0.39678592759968323,
+      "kl_nats": 0.19839296379984162,
+      "equal_prior_bayes_error": 0.3763980130578908
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 63565.10560146926,
+      "kl_nats": 31782.55280073463,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 31782.65212090176,
+      "kl_nats": 15891.32606045088,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 158.91276400367312,
+      "kl_nats": 79.45638200183656,
+      "equal_prior_bayes_error": 1.4594089814794932e-10
+    },
+    {
+      "matched_compliance": "1/3",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 79.55557848373648,
+      "kl_nats": 39.77778924186824,
+      "equal_prior_bayes_error": 4.1037859572364986e-06
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 7511.111111111111,
+      "kl_nats": 3755.5555555555557,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 3.0032431471855703,
+      "kl_nats": 1.5016215735927851,
+      "equal_prior_bayes_error": 0.19310982611666078
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 18.777777777777775,
+      "kl_nats": 9.388888888888888,
+      "equal_prior_bayes_error": 0.015130140010235814
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 2.590038314176245,
+      "kl_nats": 1.2950191570881224,
+      "equal_prior_bayes_error": 0.21050223994026213
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 60088.88888888889,
+      "kl_nats": 30044.444444444445,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 3.0042942297329573,
+      "kl_nats": 1.5021471148664787,
+      "equal_prior_bayes_error": 0.19306827443179703
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 150.2222222222222,
+      "kl_nats": 75.1111111111111,
+      "equal_prior_bayes_error": 4.4423002086923444e-10
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 2.945533769063181,
+      "kl_nats": 1.4727668845315904,
+      "equal_prior_bayes_error": 0.1954109295847541
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 30044.444444444445,
+      "kl_nats": 15022.222222222223,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 15022.973295779657,
+      "kl_nats": 7511.486647889828,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 75.1111111111111,
+      "kl_nats": 37.55555555555555,
+      "equal_prior_bayes_error": 7.343423836894689e-06
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 38.29193899782135,
+      "kl_nats": 19.145969498910674,
+      "equal_prior_bayes_error": 0.0009873074336657231
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 240355.55555555556,
+      "kl_nats": 120177.77777777778,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 3.0044068893583273,
+      "kl_nats": 1.5022034446791637,
+      "equal_prior_bayes_error": 0.19306382149567364
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 600.8888888888888,
+      "kl_nats": 300.4444444444444,
+      "equal_prior_bayes_error": 7.750995401054654e-35
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 2.989496959646213,
+      "kl_nats": 1.4947484798231065,
+      "equal_prior_bayes_error": 0.1936544187024064
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 120177.77777777778,
+      "kl_nats": 60088.88888888889,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 60089.639990611235,
+      "kl_nats": 30044.819995305617,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 300.4444444444444,
+      "kl_nats": 150.2222222222222,
+      "equal_prior_bayes_error": 2.224775978510436e-18
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 150.96959646213375,
+      "kl_nats": 75.48479823106688,
+      "equal_prior_bayes_error": 4.0365332297237717e-10
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 961422.2222222227,
+      "kl_nats": 480711.11111111136,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 3.004435055584897,
+      "kl_nats": 1.5022175277924485,
+      "equal_prior_bayes_error": 0.19306270823230448
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 2403.555555555556,
+      "kl_nats": 1201.777777777778,
+      "equal_prior_bayes_error": 5.363260202534051e-133
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 3.0006935774726053,
+      "kl_nats": 1.5003467887363027,
+      "equal_prior_bayes_error": 0.19321066932169634
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 480711.11111111124,
+      "kl_nats": 240355.55555555562,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 240356.30666431945,
+      "kl_nats": 120178.15333215972,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 1201.7777777777778,
+      "kl_nats": 600.8888888888889,
+      "equal_prior_bayes_error": 1.317990059961979e-67
+    },
+    {
+      "matched_compliance": "1/2",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 601.6390622832569,
+      "kl_nats": 300.81953114162843,
+      "equal_prior_bayes_error": 7.052864216910075e-35
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 26406.250000000007,
+      "kl_nats": 13203.125000000004,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 10.558276689324273,
+      "kl_nats": 5.279138344662137,
+      "equal_prior_bayes_error": 0.052115903107005424
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 66.015625,
+      "kl_nats": 33.0078125,
+      "equal_prior_bayes_error": 2.427497385668886e-05
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 1,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 9.105603448275863,
+      "kl_nats": 4.5528017241379315,
+      "equal_prior_bayes_error": 0.06567819402889898
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 211250.00000000006,
+      "kl_nats": 105625.00000000003,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 10.561971901404931,
+      "kl_nats": 5.2809859507024655,
+      "equal_prior_bayes_error": 0.05208560751291765
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 528.125,
+      "kl_nats": 264.0625,
+      "equal_prior_bayes_error": 7.364118772341352e-31
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 8,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 10.355392156862747,
+      "kl_nats": 5.1776960784313735,
+      "equal_prior_bayes_error": 0.053809290658190304
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 105625.00000000003,
+      "kl_nats": 52812.500000000015,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 52815.14049297537,
+      "kl_nats": 26407.570246487685,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 264.0625,
+      "kl_nats": 132.03125,
+      "equal_prior_bayes_error": 2.236812064444105e-16
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 8,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 134.6200980392157,
+      "kl_nats": 67.31004901960785,
+      "equal_prior_bayes_error": 3.2902342115993745e-09
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 845000.0000000002,
+      "kl_nats": 422500.0000000001,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 10.562367970400372,
+      "kl_nats": 5.281183985200186,
+      "equal_prior_bayes_error": 0.05208236144329003
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 2112.5,
+      "kl_nats": 1056.25,
+      "equal_prior_bayes_error": 3.612739098113474e-117
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 32,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 10.50995024875622,
+      "kl_nats": 5.25497512437811,
+      "equal_prior_bayes_error": 0.05251389471602421
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 422500.0000000001,
+      "kl_nats": 211250.00000000006,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 211252.64059199268,
+      "kl_nats": 105626.32029599634,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 1056.25,
+      "kl_nats": 528.125,
+      "equal_prior_bayes_error": 1.1168221242476205e-59
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 32,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 530.752487562189,
+      "kl_nats": 265.3762437810945,
+      "equal_prior_bayes_error": 5.289576597966822e-31
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 3380000.000000001,
+      "kl_nats": 1690000.0000000005,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 10.562466992290652,
+      "kl_nats": 5.281233496145326,
+      "equal_prior_bayes_error": 0.052081549922464984
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 8450.0,
+      "kl_nats": 4225.0,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 128,
+      "schedule": "repeat",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 10.549313358302125,
+      "kl_nats": 5.274656679151063,
+      "equal_prior_bayes_error": 0.05218947016091166
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 1690000.0000000005,
+      "kl_nats": 845000.0000000002,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 1e-06,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 845002.6406167481,
+      "kl_nats": 422501.32030837407,
+      "equal_prior_bayes_error": 0.0
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 0.0,
+      "mahalanobis_squared": 4225.0,
+      "kl_nats": 2112.5,
+      "equal_prior_bayes_error": 5.331424359678804e-232
+    },
+    {
+      "matched_compliance": "5/8",
+      "count": 128,
+      "schedule": "zero_probe_alternating",
+      "sigma_m": 2e-05,
+      "bias_sigma_m": 5e-05,
+      "mahalanobis_squared": 2115.1373283395756,
+      "kl_nats": 1057.5686641697878,
+      "equal_prior_bayes_error": 2.5965371804830896e-117
+    }
+  ],
+  "filtered_prefix_diagnostics": [
+    {
+      "matched_compliance": "1/5",
+      "sigma_m": 1e-06,
+      "public_inputs": {
+        "parameter_bounds": [
+          [
+            1.2,
+            3.0
+          ],
+          [
+            0.0009,
+            0.0023
+          ]
+        ],
+        "spring": 10000.0,
+        "law": {
+          "area": 0.01,
+          "tensile_stiffness": 10000000.0,
+          "peak_traction": 1000.0
+        },
+        "actions_m": [
+          0.0,
+          0.001
+        ],
+        "observed_gaps_m": [
+          0.0,
+          0.0002
+        ],
+        "reference_count": 2,
+        "noise_radius_m": 3e-06,
+        "bias_bound_m": 0.00015,
+        "damage_cap": 0.02
+      },
+      "selected_action_m": 0.001170703125,
+      "pair_difference_at_selected_m": 0.0,
+      "selected_proof_sha256": "b045da30291ac8f39ff641419f514b511edbd800dca9f78d90b9f7e8a1c80a19",
+      "decision": "allow",
+      "proof_replayed": true,
+      "first_information_threshold_lower_m": 0.0011818181818181817,
+      "threshold_decision": "reject",
+      "threshold_proof_replayed": true,
+      "threshold_proof_sha256": "55a74f4762fc46fc2e86c47b380bb6c25e87d2a7006afac94261d61afc587d03",
+      "scope": "One designed noiseless prefix; unchanged full-prior verifier and finite backtracking search. Selected action is not the largest safe continuous action; not an observed closed-loop campaign or full-domain information bound."
+    },
+    {
+      "matched_compliance": "1/5",
+      "sigma_m": 2e-05,
+      "public_inputs": {
+        "parameter_bounds": [
+          [
+            1.2,
+            3.0
+          ],
+          [
+            0.0009,
+            0.0023
+          ]
+        ],
+        "spring": 10000.0,
+        "law": {
+          "area": 0.01,
+          "tensile_stiffness": 10000000.0,
+          "peak_traction": 1000.0
+        },
+        "actions_m": [
+          0.0,
+          0.001
+        ],
+        "observed_gaps_m": [
+          0.0,
+          0.0002
+        ],
+        "reference_count": 2,
+        "noise_radius_m": 6.000000000000001e-05,
+        "bias_bound_m": 0.00015,
+        "damage_cap": 0.02
+      },
+      "selected_action_m": 0.0010984375,
+      "pair_difference_at_selected_m": 0.0,
+      "selected_proof_sha256": "dcbc8f691217433eadc781fd194f1c0267b5a0a277dc4a18a92c3e14941c2c39",
+      "decision": "allow",
+      "proof_replayed": true,
+      "first_information_threshold_lower_m": 0.0011818181818181817,
+      "threshold_decision": "reject",
+      "threshold_proof_replayed": true,
+      "threshold_proof_sha256": "1bdeb2c2c15ec5bf5d7b1fddd73f6dec0f4808ea53ded77991559da950da2811",
+      "scope": "One designed noiseless prefix; unchanged full-prior verifier and finite backtracking search. Selected action is not the largest safe continuous action; not an observed closed-loop campaign or full-domain information bound."
+    },
+    {
+      "matched_compliance": "1/3",
+      "sigma_m": 1e-06,
+      "public_inputs": {
+        "parameter_bounds": [
+          [
+            1.2,
+            3.0
+          ],
+          [
+            0.0009,
+            0.0023
+          ]
+        ],
+        "spring": 10000.0,
+        "law": {
+          "area": 0.01,
+          "tensile_stiffness": 10000000.0,
+          "peak_traction": 1000.0
+        },
+        "actions_m": [
+          0.0,
+          0.001
+        ],
+        "observed_gaps_m": [
+          0.0,
+          0.0003333333333333333
+        ],
+        "reference_count": 2,
+        "noise_radius_m": 3e-06,
+        "bias_bound_m": 0.00015,
+        "damage_cap": 0.02
+      },
+      "selected_action_m": 0.00130078125,
+      "pair_difference_at_selected_m": 1.0416666666667315e-06,
+      "selected_proof_sha256": "389c5bf6543c54ee816769113a6028a64de59686f3065053f7d09e28b686ebbf",
+      "decision": "allow",
+      "proof_replayed": true,
+      "first_information_threshold_lower_m": 0.0013,
+      "threshold_decision": "allow",
+      "threshold_proof_replayed": true,
+      "threshold_proof_sha256": "87e0cf8a9ca23da078b4807d7dcdf391c9c594428d63f5cee06c5c89ef9ff1fd",
+      "scope": "One designed noiseless prefix; unchanged full-prior verifier and finite backtracking search. Selected action is not the largest safe continuous action; not an observed closed-loop campaign or full-domain information bound."
+    },
+    {
+      "matched_compliance": "1/3",
+      "sigma_m": 2e-05,
+      "public_inputs": {
+        "parameter_bounds": [
+          [
+            1.2,
+            3.0
+          ],
+          [
+            0.0009,
+            0.0023
+          ]
+        ],
+        "spring": 10000.0,
+        "law": {
+          "area": 0.01,
+          "tensile_stiffness": 10000000.0,
+          "peak_traction": 1000.0
+        },
+        "actions_m": [
+          0.0,
+          0.001
+        ],
+        "observed_gaps_m": [
+          0.0,
+          0.0003333333333333333
+        ],
+        "reference_count": 2,
+        "noise_radius_m": 6.000000000000001e-05,
+        "bias_bound_m": 0.00015,
+        "damage_cap": 0.02
+      },
+      "selected_action_m": 0.0011923828125,
+      "pair_difference_at_selected_m": 0.0,
+      "selected_proof_sha256": "03810cd23913a51840b721abf27cf2fe86114d7f02b5439d0c28043177b31137",
+      "decision": "allow",
+      "proof_replayed": true,
+      "first_information_threshold_lower_m": 0.0013,
+      "threshold_decision": "reject",
+      "threshold_proof_replayed": true,
+      "threshold_proof_sha256": "1d1a2c2ea5dc1c54cfb4698e76e118a15cdea572636e0d717bcce6c7b10780b9",
+      "scope": "One designed noiseless prefix; unchanged full-prior verifier and finite backtracking search. Selected action is not the largest safe continuous action; not an observed closed-loop campaign or full-domain information bound."
+    },
+    {
+      "matched_compliance": "1/2",
+      "sigma_m": 1e-06,
+      "public_inputs": {
+        "parameter_bounds": [
+          [
+            1.2,
+            3.0
+          ],
+          [
+            0.0009,
+            0.0023
+          ]
+        ],
+        "spring": 10000.0,
+        "law": {
+          "area": 0.01,
+          "tensile_stiffness": 10000000.0,
+          "peak_traction": 1000.0
+        },
+        "actions_m": [
+          0.0,
+          0.001
+        ],
+        "observed_gaps_m": [
+          0.0,
+          0.0005
+        ],
+        "reference_count": 2,
+        "noise_radius_m": 3e-06,
+        "bias_bound_m": 0.00015,
+        "damage_cap": 0.02
+      },
+      "selected_action_m": 0.0015103515625000002,
+      "pair_difference_at_selected_m": 2.8743489583333532e-05,
+      "selected_proof_sha256": "91fd786f3672b8c26a18674a1182c2e18ea53f1d04d533a518a41deae6721f59",
+      "decision": "allow",
+      "proof_replayed": true,
+      "first_information_threshold_lower_m": 0.0014857142857142855,
+      "threshold_decision": "allow",
+      "threshold_proof_replayed": true,
+      "threshold_proof_sha256": "b9bb1617c77c7fc97fe780817ac0d6c20f0fba5487c7741eb26993771e866c35",
+      "scope": "One designed noiseless prefix; unchanged full-prior verifier and finite backtracking search. Selected action is not the largest safe continuous action; not an observed closed-loop campaign or full-domain information bound."
+    },
+    {
+      "matched_compliance": "1/2",
+      "sigma_m": 2e-05,
+      "public_inputs": {
+        "parameter_bounds": [
+          [
+            1.2,
+            3.0
+          ],
+          [
+            0.0009,
+            0.0023
+          ]
+        ],
+        "spring": 10000.0,
+        "law": {
+          "area": 0.01,
+          "tensile_stiffness": 10000000.0,
+          "peak_traction": 1000.0
+        },
+        "actions_m": [
+          0.0,
+          0.001
+        ],
+        "observed_gaps_m": [
+          0.0,
+          0.0005
+        ],
+        "reference_count": 2,
+        "noise_radius_m": 6.000000000000001e-05,
+        "bias_bound_m": 0.00015,
+        "damage_cap": 0.02
+      },
+      "selected_action_m": 0.00135859375,
+      "pair_difference_at_selected_m": 0.0,
+      "selected_proof_sha256": "976eeb650ba470636a0a84b52859db320ba07c5322e63e37897472ff98a57bdb",
+      "decision": "allow",
+      "proof_replayed": true,
+      "first_information_threshold_lower_m": 0.0014857142857142855,
+      "threshold_decision": "reject",
+      "threshold_proof_replayed": true,
+      "threshold_proof_sha256": "ae8928f4e6f29a8190e18b7b9fa7918925847dbba9d0ee46dd944642e9b12a9a",
+      "scope": "One designed noiseless prefix; unchanged full-prior verifier and finite backtracking search. Selected action is not the largest safe continuous action; not an observed closed-loop campaign or full-domain information bound."
+    },
+    {
+      "matched_compliance": "5/8",
+      "sigma_m": 1e-06,
+      "public_inputs": {
+        "parameter_bounds": [
+          [
+            1.2,
+            3.0
+          ],
+          [
+            0.0009,
+            0.0023
+          ]
+        ],
+        "spring": 10000.0,
+        "law": {
+          "area": 0.01,
+          "tensile_stiffness": 10000000.0,
+          "peak_traction": 1000.0
+        },
+        "actions_m": [
+          0.0,
+          0.001
+        ],
+        "observed_gaps_m": [
+          0.0,
+          0.000625
+        ],
+        "reference_count": 2,
+        "noise_radius_m": 3e-06,
+        "bias_bound_m": 0.00015,
+        "damage_cap": 0.02
+      },
+      "selected_action_m": 0.001734375,
+      "pair_difference_at_selected_m": 7.330729166666667e-05,
+      "selected_proof_sha256": "da8d6195bbc6ce90e069f17bad981ebfbaca981cc4569395f42760993cef3afd",
+      "decision": "allow",
+      "proof_replayed": true,
+      "first_information_threshold_lower_m": 0.001664,
+      "threshold_decision": "allow",
+      "threshold_proof_replayed": true,
+      "threshold_proof_sha256": "fff6d52cbff9b2a6cc53eb767090b571fb908803fd572075d200152629ff6b74",
+      "scope": "One designed noiseless prefix; unchanged full-prior verifier and finite backtracking search. Selected action is not the largest safe continuous action; not an observed closed-loop campaign or full-domain information bound."
+    },
+    {
+      "matched_compliance": "5/8",
+      "sigma_m": 2e-05,
+      "public_inputs": {
+        "parameter_bounds": [
+          [
+            1.2,
+            3.0
+          ],
+          [
+            0.0009,
+            0.0023
+          ]
+        ],
+        "spring": 10000.0,
+        "law": {
+          "area": 0.01,
+          "tensile_stiffness": 10000000.0,
+          "peak_traction": 1000.0
+        },
+        "actions_m": [
+          0.0,
+          0.001
+        ],
+        "observed_gaps_m": [
+          0.0,
+          0.000625
+        ],
+        "reference_count": 2,
+        "noise_radius_m": 6.000000000000001e-05,
+        "bias_bound_m": 0.00015,
+        "damage_cap": 0.02
+      },
+      "selected_action_m": 0.0015248046875,
+      "pair_difference_at_selected_m": 0.0,
+      "selected_proof_sha256": "4e3a51c5ee681ac5e222fd5092d6d9310c04678c044f3f3516b8570c38da1bf6",
+      "decision": "allow",
+      "proof_replayed": true,
+      "first_information_threshold_lower_m": 0.001664,
+      "threshold_decision": "reject",
+      "threshold_proof_replayed": true,
+      "threshold_proof_sha256": "3a1004bff7abded1eaf9d8137a4377cc1eaee7cd97743a1622a322617cd8a076",
+      "scope": "One designed noiseless prefix; unchanged full-prior verifier and finite backtracking search. Selected action is not the largest safe continuous action; not an observed closed-loop campaign or full-domain information bound."
+    }
+  ],
+  "spatial_rank_counterexample": {
+    "positions": [
+      "-1",
+      "-1/3",
+      "1/3",
+      "1"
+    ],
+    "stiffness_null_direction": [
+      "-1",
+      "3",
+      "-3",
+      "1"
+    ],
+    "moment_changes_exact": [
+      "0",
+      "0",
+      "0"
+    ],
+    "scope": "Four stiffness zones cannot in general be identified from a 2-DOF rigid pose response below damage onset: B^T diag(k) B has only three moments. A richer visual renderer does not add mechanical observables."
+  },
+  "method": "Exact rational branch endpoints, not sampled input maxima. Gaussian scores use a distinct stated covariance model.",
+  "scope": "Designed matched-response pairs, exact continuous single-cycle amplitude diagnostic under PAIR-ONLY cumulative constraints. Not the full feasible set, an achieved closed-loop policy, a population test, a global identifiability theorem or a novelty claim. Gaussian binary discrimination is illustrative and differs from the prior bounded/correlated campaign."
+}
