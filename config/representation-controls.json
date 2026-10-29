@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "methods": ["grid_aug", "kernel_consistency"],
+  "representation": "uniform",
+  "controls": ["zero_actions", "shuffled_actions"],
+  "permutation_seed": 2026103123,
+  "scope": "Post-primary action-use sanity check of frozen checkpoints, not extra training or a new primary method comparison. Test future labels are used only after control predictions are frozen. No hyperparameter tuning."
+}

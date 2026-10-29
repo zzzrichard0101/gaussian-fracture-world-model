@@ -1085,6 +1085,131 @@
       "source": "artifacts/spatial-budget/comparison.png",
       "published": "docs/media/spatial-budget-comparison.png",
       "sha256": "a043c8e092a51642ba84035e1bad25b6c5aa1aa3c6657133b8f3fe78ab28109a"
+    },
+    {
+      "source": "artifacts/representation-pilot/report.json",
+      "source_sha256": "de0bd6a395978c302c595bdb9b8d02c06b8dff0ac81fa324574ebebc42b5146c",
+      "published": "docs/results/representation-pilot.json",
+      "published_sha256": "de0bd6a395978c302c595bdb9b8d02c06b8dff0ac81fa324574ebebc42b5146c",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/config.json",
+      "source_sha256": "6ee9f1914c582ab597ae9dc0f62c67e347ea8c797ffbe8874bc6bf6dc9a574c6",
+      "published": "docs/results/representation-pilot-config.json",
+      "published_sha256": "6ee9f1914c582ab597ae9dc0f62c67e347ea8c797ffbe8874bc6bf6dc9a574c6",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/code-sha256.json",
+      "source_sha256": "124a650e10e7039dc56168d81b2ef42d6f75415ae86bb940dd2cb2283addc376",
+      "published": "docs/results/representation-pilot-code-sha256.json",
+      "published_sha256": "124a650e10e7039dc56168d81b2ef42d6f75415ae86bb940dd2cb2283addc376",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/appearance-audit.json",
+      "source_sha256": "0c9823556fe8b9598b0c183a21022553a55756c5b6c736c8c18ac8e495782e94",
+      "published": "docs/results/representation-pilot-appearance-audit.json",
+      "published_sha256": "0c9823556fe8b9598b0c183a21022553a55756c5b6c736c8c18ac8e495782e94",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/initial-geometry.json",
+      "source_sha256": "dadbcb375065ee449cef00f8ac2a2baa135631eaca356b03ff867522de13bbad",
+      "published": "docs/results/representation-pilot-initial-geometry.json",
+      "published_sha256": "dadbcb375065ee449cef00f8ac2a2baa135631eaca356b03ff867522de13bbad",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/training.json",
+      "source_sha256": "22a9ea69690b16231ebb8d6f8ad39e565c83f6436ec1ba93ed0d89f07c877de8",
+      "published": "docs/results/representation-pilot-training.json",
+      "published_sha256": "22a9ea69690b16231ebb8d6f8ad39e565c83f6436ec1ba93ed0d89f07c877de8",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/evaluation-rows.json",
+      "source_sha256": "93d9402b92f3df16005bba9251b7a2baa80fb4afed7377e947b9d26fa09e5a52",
+      "published": "docs/results/representation-pilot-evaluation-rows.json",
+      "published_sha256": "93d9402b92f3df16005bba9251b7a2baa80fb4afed7377e947b9d26fa09e5a52",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/analysis-summary.json",
+      "source_sha256": "efc3ba8ec2bf87a5e24c696f37e93a5840902fb65b3dcc5bd087ba613f5e6e46",
+      "published": "docs/results/representation-pilot-analysis-summary.json",
+      "published_sha256": "efc3ba8ec2bf87a5e24c696f37e93a5840902fb65b3dcc5bd087ba613f5e6e46",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/diagnostics.json",
+      "source_sha256": "7d4dfe2991c6cef5d527407efd0cc266fde308eef44e40efa9497be034d078b2",
+      "published": "docs/results/representation-pilot-diagnostics.json",
+      "published_sha256": "7d4dfe2991c6cef5d527407efd0cc266fde308eef44e40efa9497be034d078b2",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/inputs.json",
+      "source_sha256": "0d2de43017598005f50f7af5293db2ce51a0d69bab466a139cb929382c5b111c",
+      "published": "docs/results/representation-pilot-inputs.json",
+      "published_sha256": "0d2de43017598005f50f7af5293db2ce51a0d69bab466a139cb929382c5b111c",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/integrity.json",
+      "source_sha256": "eb4f99c77fbfb40bdd003eef82e972b7e2c51b6072cd1eced0f124b3bd068c32",
+      "published": "docs/results/representation-pilot-integrity.json",
+      "published_sha256": "eb4f99c77fbfb40bdd003eef82e972b7e2c51b6072cd1eced0f124b3bd068c32",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/demo-forecast.json",
+      "source_sha256": "52aaf4f8930aae55682b2b39f2f0d570375c03b7260404772ebcd64297fc3e4f",
+      "published": "docs/results/representation-pilot-demo-forecast.json",
+      "published_sha256": "52aaf4f8930aae55682b2b39f2f0d570375c03b7260404772ebcd64297fc3e4f",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/action-controls.json",
+      "source_sha256": "31351f7609ebc519f606257e667aaddf53fbcf3155c7d914733ea195298fef07",
+      "published": "docs/results/representation-pilot-action-controls.json",
+      "published_sha256": "31351f7609ebc519f606257e667aaddf53fbcf3155c7d914733ea195298fef07",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/linear-controls.json",
+      "source_sha256": "c72d81c99f26fdd8790445a15291d29b05b3e853fa912b1c27c6235194b5f048",
+      "published": "docs/results/representation-pilot-linear-controls.json",
+      "published_sha256": "c72d81c99f26fdd8790445a15291d29b05b3e853fa912b1c27c6235194b5f048",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/report-source-sha256.json",
+      "source_sha256": "5ee36ff62266d6e883a34195a0b42a2476a286724c0ecd2a913c342328c8fb79",
+      "published": "docs/results/representation-pilot-report-source-sha256.json",
+      "published_sha256": "5ee36ff62266d6e883a34195a0b42a2476a286724c0ecd2a913c342328c8fb79",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/representation-pilot/comparison.png",
+      "published": "docs/media/representation-pilot-comparison.png",
+      "sha256": "554662172ddb922ef88b9b9362bd5aa2afe911a55cb90968732fcb45ab38111e"
+    },
+    {
+      "source": "artifacts/representation-pilot/forecast.mp4",
+      "published": "docs/media/representation-pilot-forecast.mp4",
+      "sha256": "fc59252ee94c840b57f806bcc3f792cc2ba152865d0ff1d3ef6269a834b72f66"
+    },
+    {
+      "source": "artifacts/representation-pilot/forecast-end.png",
+      "published": "docs/media/representation-pilot-forecast-end.png",
+      "sha256": "405d0588edcdd0dd3eb1267fc3d6ec650149072dbf9e3cdc3d8f3187cc46c7df"
+    },
+    {
+      "source": "artifacts/representation-pilot/forecast-centerline.png",
+      "published": "docs/media/representation-pilot-forecast-centerline.png",
+      "sha256": "7a1823f7eaf03ba02cfcc8cb54b10ec3d317481a0073d715e2fcb6950e083b72"
     }
   ]
 }

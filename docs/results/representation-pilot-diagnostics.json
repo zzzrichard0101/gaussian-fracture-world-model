@@ -1,0 +1,408 @@
+{
+  "heldout_representation_aggregate": [
+    {
+      "method": "point",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.07998610706841178,
+      "disagreement_rmse_mm": 0.0755426198371678,
+      "seed_rollout_rmse_mm": [
+        0.0798866405002142,
+        0.08008545009868148
+      ]
+    },
+    {
+      "method": "point_aug",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.1570903286090109,
+      "disagreement_rmse_mm": 0.07442674066773959,
+      "seed_rollout_rmse_mm": [
+        0.12997189354744515,
+        0.18017227748093115
+      ]
+    },
+    {
+      "method": "density_aug",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.037856422482780455,
+      "disagreement_rmse_mm": 0.01569786704546555,
+      "seed_rollout_rmse_mm": [
+        0.03452456199956986,
+        0.040917869753047856
+      ]
+    },
+    {
+      "method": "weight_aug",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.03428744202853576,
+      "disagreement_rmse_mm": 0.012927780075910405,
+      "seed_rollout_rmse_mm": [
+        0.03163041230819544,
+        0.03675288259353214
+      ]
+    },
+    {
+      "method": "kernel_aug",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.06326793191868178,
+      "disagreement_rmse_mm": 0.052035523833045334,
+      "seed_rollout_rmse_mm": [
+        0.06116014676267222,
+        0.06530772440150016
+      ]
+    },
+    {
+      "method": "kernel_consistency",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.06326786170350862,
+      "disagreement_rmse_mm": 0.05203492261514682,
+      "seed_rollout_rmse_mm": [
+        0.061160286994233176,
+        0.06530745703096712
+      ]
+    },
+    {
+      "method": "grid_aug",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.07709215507553485,
+      "disagreement_rmse_mm": 0.0578860098210786,
+      "seed_rollout_rmse_mm": [
+        0.07720560211842166,
+        0.07697854084037055
+      ]
+    },
+    {
+      "method": "grid_ridge",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.056044306458963404,
+      "disagreement_rmse_mm": 0.05605168097945259,
+      "seed_rollout_rmse_mm": [
+        0.056044306458963404,
+        0.056044306458963404
+      ]
+    },
+    {
+      "method": "grid_cv",
+      "action_group": "seen_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 1.2463563757128227,
+      "disagreement_rmse_mm": 0.01803453819318013,
+      "seed_rollout_rmse_mm": [
+        1.2463563757128229,
+        1.2463563757128229
+      ]
+    },
+    {
+      "method": "point",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.1279103134645526,
+      "disagreement_rmse_mm": 0.08888745507188572,
+      "seed_rollout_rmse_mm": [
+        0.129437108411959,
+        0.12636507249691656
+      ]
+    },
+    {
+      "method": "point_aug",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.18202470446138294,
+      "disagreement_rmse_mm": 0.0871328579189262,
+      "seed_rollout_rmse_mm": [
+        0.16280612398704272,
+        0.19939947858713994
+      ]
+    },
+    {
+      "method": "density_aug",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.09045538858197447,
+      "disagreement_rmse_mm": 0.019870114875748874,
+      "seed_rollout_rmse_mm": [
+        0.09527070321689529,
+        0.08536889220079083
+      ]
+    },
+    {
+      "method": "weight_aug",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.08944797761205739,
+      "disagreement_rmse_mm": 0.01575147509986286,
+      "seed_rollout_rmse_mm": [
+        0.09405989486318292,
+        0.08458497251936192
+      ]
+    },
+    {
+      "method": "kernel_aug",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.11188490616826002,
+      "disagreement_rmse_mm": 0.06182912579681344,
+      "seed_rollout_rmse_mm": [
+        0.116997025514269,
+        0.10652774510602477
+      ]
+    },
+    {
+      "method": "kernel_consistency",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.11188451607394902,
+      "disagreement_rmse_mm": 0.061827984784955096,
+      "seed_rollout_rmse_mm": [
+        0.1169970284396319,
+        0.1065269224679821
+      ]
+    },
+    {
+      "method": "grid_aug",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.12693734314427627,
+      "disagreement_rmse_mm": 0.0703145792397265,
+      "seed_rollout_rmse_mm": [
+        0.12580826914971338,
+        0.12805646247889543
+      ]
+    },
+    {
+      "method": "grid_ridge",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 0.10986780874300725,
+      "disagreement_rmse_mm": 0.06925317945313539,
+      "seed_rollout_rmse_mm": [
+        0.10986780874300726,
+        0.10986780874300726
+      ]
+    },
+    {
+      "method": "grid_cv",
+      "action_group": "novel_positions",
+      "representations": [
+        "dense",
+        "right_dense",
+        "coarse",
+        "refit_jitter",
+        "wide_support"
+      ],
+      "physical_episodes": 12,
+      "seed_representation_episode_rows": 120,
+      "all_finite": true,
+      "rollout_rmse_mm": 1.7122019972792824,
+      "disagreement_rmse_mm": 0.024306071365112775,
+      "seed_rollout_rmse_mm": [
+        1.7122019972792821,
+        1.7122019972792821
+      ]
+    }
+  ],
+  "paired_candidate_vs_weight": [
+    {
+      "action_group": "seen_positions",
+      "physical_episodes": 12,
+      "kernel_consistency_lower_mse_cases": 0,
+      "paired_mse_difference_m2": [
+        2.37189562618709e-09,
+        2.2089067330241182e-09,
+        3.541246165157179e-09,
+        2.60961029446652e-09,
+        3.8485583126546e-09,
+        2.0704285432791333e-09,
+        7.180629179967353e-10,
+        1.894790199296234e-09,
+        3.945036817667178e-09,
+        4.831410291398869e-09,
+        3.344153458280787e-09,
+        2.542224364680669e-09
+      ]
+    },
+    {
+      "action_group": "novel_positions",
+      "physical_episodes": 12,
+      "kernel_consistency_lower_mse_cases": 0,
+      "paired_mse_difference_m2": [
+        3.4541034413516924e-09,
+        7.2137461224882824e-09,
+        3.541846968909796e-09,
+        4.347465454739119e-09,
+        5.278984228102411e-09,
+        3.87031830715359e-09,
+        7.060195286813468e-09,
+        1.5851812929592906e-09,
+        3.5563896827842967e-09,
+        5.7487378720684515e-09,
+        2.748945577182986e-09,
+        5.800536624022218e-09
+      ]
+    }
+  ],
+  "all_prediction_rows_finite": true,
+  "maximum_predicted_absolute_position_m": 0.010975671480560643,
+  "equivalence_scope": "Three analytic pose fields and three fixed cameras; not a guarantee for arbitrary poses, independent real refits or general 3D assets.",
+  "statistical_scope": "Rows reuse the same physical episodes across layouts, checkpoints and two forecast windows; no independence/significance claim."
+}

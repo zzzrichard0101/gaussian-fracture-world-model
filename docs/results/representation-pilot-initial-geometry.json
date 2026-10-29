@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "representation": "uniform",
+      "initial_position_reconstruction_rmse_mm": 0.014716958487625574,
+      "initial_velocity_reconstruction_rmse_mm_s": 0.13078829060786928
+    },
+    {
+      "representation": "left_dense",
+      "initial_position_reconstruction_rmse_mm": 0.0074633056183681466,
+      "initial_velocity_reconstruction_rmse_mm_s": 0.0635310020435372
+    },
+    {
+      "representation": "dense",
+      "initial_position_reconstruction_rmse_mm": 0.007358479243812787,
+      "initial_velocity_reconstruction_rmse_mm_s": 0.06539414530393467
+    },
+    {
+      "representation": "right_dense",
+      "initial_position_reconstruction_rmse_mm": 0.007342286155880144,
+      "initial_velocity_reconstruction_rmse_mm_s": 0.06211177304811657
+    },
+    {
+      "representation": "coarse",
+      "initial_position_reconstruction_rmse_mm": 0.029433916975251148,
+      "initial_velocity_reconstruction_rmse_mm_s": 0.2615765812157385
+    },
+    {
+      "representation": "refit_jitter",
+      "initial_position_reconstruction_rmse_mm": 0.013805887686328608,
+      "initial_velocity_reconstruction_rmse_mm_s": 0.12312911152900048
+    },
+    {
+      "representation": "wide_support",
+      "initial_position_reconstruction_rmse_mm": 0.014716958487625574,
+      "initial_velocity_reconstruction_rmse_mm_s": 0.13078829060786928
+    }
+  ],
+  "scope": "Known-input geometric interpolation floor at 48 forecast starts, not independent physical episodes or future-state estimation accuracy."
+}

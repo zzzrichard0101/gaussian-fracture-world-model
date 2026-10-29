@@ -1,0 +1,660 @@
+[
+  {
+    "method": "point",
+    "seed": 2026103111,
+    "parameters": 35258,
+    "seconds": 2.75295034100418,
+    "cuda_peak_allocated_bytes": 73754112,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.2589453035616316e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.7228987871931167e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.3251247992229764e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.6575618246861268e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.2035234249196947e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.4767992979614064e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 8.650466156723269e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2916259493067628e-06
+      },
+      {
+        "step": 1000,
+        "training_supervised": 8.006360872059304e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2620415645869798e-06
+      },
+      {
+        "step": 1200,
+        "training_supervised": 6.754347054993559e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.1430809081502957e-06
+      }
+    ],
+    "checkpoint_sha256": "0488fd3deb1cf1487c47ddb79588b59b958e0e5074b48c1a6ce6aaac760a21fd",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "point_aug",
+    "seed": 2026103111,
+    "parameters": 35258,
+    "seconds": 2.328448347005178,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.598269250280282e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.5144803455768852e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.3320700418262277e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.45593526212906e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.391260752825474e-06,
+        "pair_consistency": 6.312926075224823e-07,
+        "validation_mse": 1.3657884210260818e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 9.307599384555942e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.1367694696673425e-06
+      },
+      {
+        "step": 1000,
+        "training_supervised": 9.505715183877328e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.0197888968832558e-06
+      },
+      {
+        "step": 1200,
+        "training_supervised": 9.357723342873214e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 9.951568245014641e-07
+      }
+    ],
+    "checkpoint_sha256": "e7eb34ab990dd80fc8521d34d5b165a5b9ed552061c9d23d13a6b61f569527c9",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "density_aug",
+    "seed": 2026103111,
+    "parameters": 35258,
+    "seconds": 2.598795098994742,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.380671392325894e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2663783763855463e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.1869583431689534e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.204094587592408e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.1383883702364983e-06,
+        "pair_consistency": 1.3279946031730105e-08,
+        "validation_mse": 1.0340693279431434e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 8.295680800074479e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.10111487226095e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.773081165396434e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.542729463239084e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 7.391892609120987e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 6.52267999612377e-07
+      }
+    ],
+    "checkpoint_sha256": "7810587957234f08243be3e90c0e8dd941c3ad76dc182b9508a89c528919d0d2",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "weight_aug",
+    "seed": 2026103111,
+    "parameters": 35258,
+    "seconds": 2.646388189998106,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.377558305648563e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2668094768741867e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.188128976536973e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2050239774907823e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.1440948810559348e-06,
+        "pair_consistency": 1.6059266139123451e-09,
+        "validation_mse": 1.0313767688785447e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 8.318989443978353e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.048338031585445e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.739876650703081e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.558588777101249e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 7.143219136196421e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 6.257902782635938e-07
+      }
+    ],
+    "checkpoint_sha256": "09d89245b5dedc2af07394bdd6dcd8402cdb1cbac83693e5e9c7c81f76856566",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "kernel_aug",
+    "seed": 2026103111,
+    "parameters": 35258,
+    "seconds": 2.6167495749978116,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.448131115466822e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.3262928177937283e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.2341622550593456e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2542218428279739e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.1630492053882335e-06,
+        "pair_consistency": 1.5766380423443138e-09,
+        "validation_mse": 1.06649372355605e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 8.622323548479471e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.385594583160128e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.814340960976551e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.197329179893131e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 7.297218189705745e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 6.516983717119729e-07
+      }
+    ],
+    "checkpoint_sha256": "e17ced00d1e95c755293cfb2cb5e798231ee2b03f241191da3f52a6e36a42711",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "kernel_consistency",
+    "seed": 2026103111,
+    "parameters": 35258,
+    "seconds": 2.7300603039984708,
+    "cuda_peak_allocated_bytes": 75238912,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.4481316839010105e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.3262931588542415e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.2341627098066965e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.254222638635838e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.1630498875092599e-06,
+        "pair_consistency": 1.5766193905975001e-09,
+        "validation_mse": 1.0664950877981028e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 8.622343443676073e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.385610499317409e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.814368245817604e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.197299621315324e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 7.297047091014974e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 6.516891062346986e-07
+      }
+    ],
+    "checkpoint_sha256": "3faa023cac082c91391d55c85392e665959ebe1c66ffb1d93c409e4a276de78d",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "grid_aug",
+    "seed": 2026103111,
+    "parameters": 35258,
+    "seconds": 2.6929371849983,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.40970325901435e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.3282672171044396e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.2167228078396874e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2524672001745785e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.182155529022566e-06,
+        "pair_consistency": 8.005536500377275e-08,
+        "validation_mse": 1.0044121836472186e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 7.936658334983804e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.085323770501418e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.489306312891131e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 6.840276682851254e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 6.344445182548952e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 5.410884114098735e-07
+      }
+    ],
+    "checkpoint_sha256": "2749ed36cbcf321c374cacb976a856b4db371a47fd1b40abd080e8cff2770985",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "point",
+    "seed": 2026103113,
+    "parameters": 35258,
+    "seconds": 2.7321888849983225,
+    "cuda_peak_allocated_bytes": 73754112,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.2844941466028104e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.7040507600540877e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.268356299988227e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.6611903674856876e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.0046471743407892e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.436497086615418e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 8.500812782585854e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2713364867522614e-06
+      },
+      {
+        "step": 1000,
+        "training_supervised": 8.675182812112325e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2912189504277194e-06
+      },
+      {
+        "step": 1200,
+        "training_supervised": 7.40600910376088e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2030754987790715e-06
+      }
+    ],
+    "checkpoint_sha256": "d9c0b9306494a3156e42aa8ce0d57f2574b3b7813d996774f0af4d1f483cb65c",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "point_aug",
+    "seed": 2026103113,
+    "parameters": 35258,
+    "seconds": 2.760789357002068,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.464064894207695e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.4952165656723082e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.5653776017643395e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.448759576305747e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.2916591458633775e-06,
+        "pair_consistency": 6.734136945851787e-07,
+        "validation_mse": 1.2730961316265166e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 1.0055879329229356e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.1037020613002824e-06
+      },
+      {
+        "step": 1000,
+        "training_supervised": 9.101347586693009e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.0513308552617673e-06
+      },
+      {
+        "step": 1200,
+        "training_supervised": 7.513210675824666e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.0028302313003223e-06
+      }
+    ],
+    "checkpoint_sha256": "7deb3a5de3b3b2948ac3c647322b274acab8fced28af6724f83ac17d644a6957",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "density_aug",
+    "seed": 2026103113,
+    "parameters": 35258,
+    "seconds": 2.7570097770003485,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.311311507379287e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.259320470126113e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.365259436170163e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2070189541191212e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.0780593129311455e-06,
+        "pair_consistency": 1.4384225366370629e-08,
+        "validation_mse": 9.814656323214876e-07
+      },
+      {
+        "step": 800,
+        "training_supervised": 7.917286666270229e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.058452749537537e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.471952017112926e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.643780577382131e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 6.643435881414916e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 6.859265795355896e-07
+      }
+    ],
+    "checkpoint_sha256": "a2f12bad14102101b32216655d8c107454f8a16bf12f9c3d8ebef36f57c45744",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "weight_aug",
+    "seed": 2026103113,
+    "parameters": 35258,
+    "seconds": 2.758693782001501,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.3146133142072358e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2582122508320026e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.3656716646437417e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2053119462507311e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.0697201560105896e-06,
+        "pair_consistency": 1.6525038004644443e-09,
+        "validation_mse": 9.738005246617831e-07
+      },
+      {
+        "step": 800,
+        "training_supervised": 7.782811053402838e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.997172701834643e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.483639592464897e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.549407428086852e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 6.608310627598257e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 6.788486075492983e-07
+      }
+    ],
+    "checkpoint_sha256": "2d7954d7315973d1193c7dda6918e3c4fb57d54c1e34fa383fc6a72feab540ea",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "kernel_aug",
+    "seed": 2026103113,
+    "parameters": 35258,
+    "seconds": 2.704616306000389,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.3689200386579614e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.313393795498996e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.4133934200799558e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2519971051005996e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.1240770163567504e-06,
+        "pair_consistency": 1.6214632969635545e-09,
+        "validation_mse": 1.0235967238259036e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 8.121559176288429e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.247162668340025e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.599629725518753e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.648278597116587e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 6.814839821345231e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.003043265285669e-07
+      }
+    ],
+    "checkpoint_sha256": "a4508e83397b39e97eafb8f7508421f7615d1cdee0b57f85a0774df2605d70fd",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "kernel_consistency",
+    "seed": 2026103113,
+    "parameters": 35258,
+    "seconds": 2.7252159809941077,
+    "cuda_peak_allocated_bytes": 75238912,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.368919811284286e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.313394250246347e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.4133952390693594e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2519979009084636e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 1.124078380598803e-06,
+        "pair_consistency": 1.6214436460160186e-09,
+        "validation_mse": 1.0235978606942808e-06
+      },
+      {
+        "step": 800,
+        "training_supervised": 8.121577366182464e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.247176310760551e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 7.599653599754674e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.648301334484131e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 6.814841526647797e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 7.003046675890801e-07
+      }
+    ],
+    "checkpoint_sha256": "9065eb9132e9f0ec492f5077ff2be6f746ba000f91a56194b7a62059ae488467",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  },
+  {
+    "method": "grid_aug",
+    "seed": 2026103113,
+    "parameters": 35258,
+    "seconds": 2.7350784170048428,
+    "cuda_peak_allocated_bytes": 75357696,
+    "curves": [
+      {
+        "step": 200,
+        "training_supervised": 1.4236687775337487e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.331535372628423e-06
+      },
+      {
+        "step": 400,
+        "training_supervised": 1.3801951581626781e-06,
+        "pair_consistency": 0.0,
+        "validation_mse": 1.2176266181995743e-06
+      },
+      {
+        "step": 600,
+        "training_supervised": 9.572815997671569e-07,
+        "pair_consistency": 8.235396364852932e-08,
+        "validation_mse": 9.098193345380423e-07
+      },
+      {
+        "step": 800,
+        "training_supervised": 7.310780461011746e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 8.014437753445236e-07
+      },
+      {
+        "step": 1000,
+        "training_supervised": 6.176813940328429e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 6.207400815583242e-07
+      },
+      {
+        "step": 1200,
+        "training_supervised": 4.480776283344312e-07,
+        "pair_consistency": 0.0,
+        "validation_mse": 4.54014752904186e-07
+      }
+    ],
+    "checkpoint_sha256": "59b8ad94ab30a9bbeab0e94fbb347851185e8567445ff601f18648b3e94abc3b",
+    "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+  }
+]

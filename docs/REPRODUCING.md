@@ -1,5 +1,21 @@
 # 환경과 재현 방법
 
+## GPU 학습을 포함한 Gaussian 표현 pilot
+
+[제한된 beam·표현 감사·모델·수치·한계](REPRESENTATION_PILOT.md). 기존 GaussianFluent CUDA renderer와 Torch 2.0 환경을 사용한다. 아래 주 실행과 두 대조는 CUDA가 필요하다. 첫 CPU 단위 테스트는 CUDA renderer를 import하지 않는다.
+
+```powershell
+.\scripts\run-wsl.ps1 python scripts/representation_pilot_evaluate.py
+.\scripts\run-wsl.ps1 python scripts/representation_action_controls.py
+.\scripts\run-wsl.ps1 python scripts/representation_linear_controls.py
+.\scripts\run-wsl.ps1 python scripts/report_representation_pilot.py
+.\scripts\run-wsl.ps1 test -q tests/test_representation_pilot.py
+.\scripts\run-wsl.ps1 python scripts/publish_results.py
+.\scripts\run-wsl.ps1 python scripts/validate_public_docs.py
+```
+
+`config/representation-pilot.json`에 물리·분리 seed·표현·MLP·학습 예산·감사 허용치를 저장했다. 주 예측 고정 이후 행동·선형 최적화의 사후 대조를 별도로 실행한다. 가중치와 전체 NPZ는 로컬 `artifacts/representation-pilot`에 남고, 선택한 입력·점수·감사·영상은 공개한다. 전체 실행을 다시 하면 해당 폴더를 덮어쓰므로 별도 보존 후 비교한다. 실제 독립 Gaussian 재구성이나 영상 상태 추정은 포함하지 않는다. 전체 테스트는 276개를 통과했다.
+
 ## 전체 물리 예산을 맞춘 제안 비교
 
 [비용 정의·방법·해석](SPATIAL_BUDGET.md). 같은 8개 공개 개발 이력을 사용하며 외부 데이터는 필요하지 않다.

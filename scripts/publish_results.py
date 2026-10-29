@@ -92,7 +92,7 @@ def main():
     # Keep the original publication intact and add explicit follow-up exports.
     followup_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
         "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
-        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture", "spatial-observation", "spatial-failure-search", "spatial-continuous", "spatial-risk", "spatial-risk-refinement", "spatial-transport", "spatial-budget"]
+        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture", "spatial-observation", "spatial-failure-search", "spatial-continuous", "spatial-risk", "spatial-risk-refinement", "spatial-transport", "spatial-budget", "representation-pilot"]
     for stage in followup_stages:
         names = ["report.json"]
         if stage == "risk-reuse":
@@ -132,6 +132,10 @@ def main():
             names += ["config.json", "proposal-config.json", "inputs.json", "code-sha256.json", "source-sha256.json",
                 "evaluation-source-sha256.json", "report-source-sha256.json", "predictions.json", "costs.json",
                 "adaptation.json", "evaluation-rows.json", "analysis-summary.json", "diagnostics.json"]
+        if stage == "representation-pilot":
+            names += ["config.json", "code-sha256.json", "appearance-audit.json", "initial-geometry.json",
+                "training.json", "evaluation-rows.json", "analysis-summary.json", "diagnostics.json", "inputs.json",
+                "integrity.json", "demo-forecast.json", "action-controls.json", "linear-controls.json", "report-source-sha256.json"]
         for name in names:
             path = source/stage/name
             target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
@@ -144,6 +148,12 @@ def main():
             target = media/(stage+"-comparison.png");shutil.copy2(figure,target)
             manifest.append({"source": str(figure.relative_to(project)).replace("\\", "/"),
                 "published": str(target.relative_to(project)).replace("\\", "/"), "sha256": sha(target)})
+        if stage == "representation-pilot":
+            for name in ("forecast.mp4", "forecast-end.png", "forecast-centerline.png"):
+                path = source/stage/name; target = media/(stage+"-"+name)
+                shutil.copy2(path,target)
+                manifest.append({"source": str(path.relative_to(project)).replace("\\", "/"),
+                    "published": str(target.relative_to(project)).replace("\\", "/"), "sha256": sha(target)})
     with (project/"docs/RESULTS.md").open("a",encoding="utf-8") as handle:
         handle.write("\n## 후속 스칼라 관측·위험 검증 실험\n\n"
             "[새 상태의 손상·예측 비교](CONTINUOUS_RISK_EVALUATION.md) · "
@@ -175,6 +185,10 @@ def main():
         handle.write("\n## 전체 물리 계산 예산을 맞춘 제안 비교\n\n"
             "[pilot·적응·준비·미래 계산의 비용 회계와 혼합 제안 비교](SPATIAL_BUDGET.md)를 추가했다. "
             "이전에 본 8개 개발 이력의 두 예산·두 적응 반복을 비교하며, 물리 계산 예산과 실제 시간을 구분한다.\n")
+        handle.write("\n## Gaussian 표현 변화와 작은 학습 동역학\n\n"
+            "[탄성 띠의 표현 감사·MLP 학습·반복 예측·native Gaussian 영상](REPRESENTATION_PILOT.md)을 구현했다. "
+            "표준 밀도/가중치 보정이 강한 기준선이었고, 커널과 일관성 추가의 이득은 확보하지 못했다. "
+            "알려진 상태와 material 좌표를 사용한 제한된 beam pilot이며 영상만의 상태 추정 결과는 아니다.\n")
     write_json(result/"publication-manifest.json", {"scope": "Selected reports, public replay inputs and media only. No weights, assets, observed clips or full execution data.", "files": manifest})
     print(f"Published {len(manifest)} selected artifacts to docs/")
 

@@ -52,6 +52,7 @@ jobs:
           tests/test_spatial_risk.py
           tests/test_spatial_transport.py
           tests/test_spatial_budget.py
+          tests/test_representation_pilot.py
           tests/test_continuous_risk_evaluation.py
           tests/test_camera_measurement.py
       - name: Replay published identifiability proof evidence

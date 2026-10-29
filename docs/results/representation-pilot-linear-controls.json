@@ -1,0 +1,94 @@
+{
+  "scope": "Post-primary optimizer sanity control because fixed-step neural validation losses were still decreasing. Same exposed test cohort; no additional holdout, no retuning of primary models. Ridge=1e-5 as in the pre-existing grid_ridge diagnostic; exact quadratic solve, same encoders, paired full-prediction consistency for its ablation.",
+  "rows": [
+    {
+      "method": "point",
+      "action_group": "seen_positions",
+      "rollout_rmse_mm": 0.07205381851385459,
+      "disagreement_rmse_mm": 0.07204811245757431
+    },
+    {
+      "method": "point",
+      "action_group": "novel_positions",
+      "rollout_rmse_mm": 0.12188278582961379,
+      "disagreement_rmse_mm": 0.08139876708732532
+    },
+    {
+      "method": "point_aug",
+      "action_group": "seen_positions",
+      "rollout_rmse_mm": 0.16122737963118144,
+      "disagreement_rmse_mm": 0.12719030637626783
+    },
+    {
+      "method": "point_aug",
+      "action_group": "novel_positions",
+      "rollout_rmse_mm": 0.21363881890756642,
+      "disagreement_rmse_mm": 0.1747885340847344
+    },
+    {
+      "method": "density_aug",
+      "action_group": "seen_positions",
+      "rollout_rmse_mm": 0.01813166748894259,
+      "disagreement_rmse_mm": 0.017423005842614987
+    },
+    {
+      "method": "density_aug",
+      "action_group": "novel_positions",
+      "rollout_rmse_mm": 0.09024365833807992,
+      "disagreement_rmse_mm": 0.021779287098459114
+    },
+    {
+      "method": "weight_aug",
+      "action_group": "seen_positions",
+      "rollout_rmse_mm": 0.014007762504609575,
+      "disagreement_rmse_mm": 0.012958840047962937
+    },
+    {
+      "method": "weight_aug",
+      "action_group": "novel_positions",
+      "rollout_rmse_mm": 0.08974392792595606,
+      "disagreement_rmse_mm": 0.01572825661908306
+    },
+    {
+      "method": "kernel_aug",
+      "action_group": "seen_positions",
+      "rollout_rmse_mm": 0.054819791383749296,
+      "disagreement_rmse_mm": 0.05262948268392269
+    },
+    {
+      "method": "kernel_aug",
+      "action_group": "novel_positions",
+      "rollout_rmse_mm": 0.11356590913522609,
+      "disagreement_rmse_mm": 0.061947938208545814
+    },
+    {
+      "method": "kernel_consistency",
+      "action_group": "seen_positions",
+      "rollout_rmse_mm": 0.05343122212889006,
+      "disagreement_rmse_mm": 0.051312540920483665
+    },
+    {
+      "method": "kernel_consistency",
+      "action_group": "novel_positions",
+      "rollout_rmse_mm": 0.11184861004171631,
+      "disagreement_rmse_mm": 0.05932456705949048
+    },
+    {
+      "method": "grid_aug",
+      "action_group": "seen_positions",
+      "rollout_rmse_mm": 0.05604430645896341,
+      "disagreement_rmse_mm": 0.05605168097945259
+    },
+    {
+      "method": "grid_aug",
+      "action_group": "novel_positions",
+      "rollout_rmse_mm": 0.10986780874300725,
+      "disagreement_rmse_mm": 0.0692531794531354
+    }
+  ],
+  "control_predictions_sha256": "2b8b1b0b5de6e2406f7c0f3dbaaab8a4ced9312cb421b2ee70ec7e05b818abac",
+  "original_grid_ridge_replay_max_abs": 0.0,
+  "source_sha256": {
+    "scripts/representation_linear_controls.py": "048017e12bff7bd895a902a895918d47857d7c867a3274e3fef5bf3b335ce0ee"
+  }
+}

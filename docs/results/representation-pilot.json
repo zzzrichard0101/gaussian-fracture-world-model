@@ -1,0 +1,338 @@
+{
+  "config": {
+    "version": 1,
+    "physical_nodes": 33,
+    "bending": 0.002,
+    "damping": 1.5,
+    "dt": 0.025,
+    "frames": 48,
+    "train_episodes": 96,
+    "validation_episodes": 16,
+    "test_episodes_per_action_group": 12,
+    "data_seeds": [
+      2026103101,
+      2026103103,
+      2026103107
+    ],
+    "train_action_centers": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "novel_action_centers": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "maximum_total_force": 0.02,
+    "force_width": 0.07,
+    "action_hold_frames": 4,
+    "representations": {
+      "uniform": [
+        64,
+        "uniform",
+        1.0,
+        11
+      ],
+      "left_dense": [
+        128,
+        "left",
+        1.0,
+        13
+      ],
+      "dense": [
+        128,
+        "uniform",
+        1.0,
+        17
+      ],
+      "right_dense": [
+        128,
+        "right",
+        1.0,
+        19
+      ],
+      "coarse": [
+        32,
+        "uniform",
+        1.0,
+        23
+      ],
+      "refit_jitter": [
+        64,
+        "jitter",
+        1.0,
+        29
+      ],
+      "wide_support": [
+        64,
+        "uniform",
+        1.4,
+        31
+      ]
+    },
+    "train_representation_names": [
+      "uniform",
+      "left_dense"
+    ],
+    "methods": [
+      "point",
+      "point_aug",
+      "density_aug",
+      "weight_aug",
+      "kernel_aug",
+      "kernel_consistency",
+      "grid_aug"
+    ],
+    "training_seeds": [
+      2026103111,
+      2026103113
+    ],
+    "steps": 1200,
+    "batch_size": 256,
+    "hidden_width": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-06,
+    "validation_every": 200,
+    "consistency_weight": 0.25,
+    "state_scales": [
+      0.04,
+      0.2
+    ],
+    "force_scale": 1.0,
+    "anchor_width": 0.035,
+    "density_bandwidth": 0.035,
+    "rollout_starts": [
+      8,
+      24
+    ],
+    "rollout_horizon": 16,
+    "render_width": 128,
+    "opacity_calibration_bounds": [
+      0.6,
+      1.4
+    ],
+    "opacity_calibration_iterations": 14,
+    "audit_foreground_rgb_rmse": 0.025,
+    "audit_silhouette_iou": 0.97,
+    "audit_depth_rmse": 0.003,
+    "audit_surface_rmse": 0.0015,
+    "scope": "First controlled known-state learned-dynamics pilot: one linear clamped beam centerline embedded as a narrow 3D Gaussian strip, not a general deformable sheet, image-only inference, fracture, physical parameter identification or a novelty claim. Physical solver resolution is fixed. Gaussian variants are procedural and may fail the declared appearance-equivalence gate."
+  },
+  "scope": "First controlled known-state learned-dynamics pilot: one linear clamped beam centerline embedded as a narrow 3D Gaussian strip, not a general deformable sheet, image-only inference, fracture, physical parameter identification or a novelty claim. Physical solver resolution is fixed. Gaussian variants are procedural and may fail the declared appearance-equivalence gate.",
+  "appearance_audit": [
+    {
+      "representation": "uniform",
+      "gaussians": 256,
+      "opacity_scale_fit_on_rest_only": 1.0,
+      "maximum_rgb_foreground_rmse": 0.0,
+      "minimum_silhouette_iou": 1.0,
+      "maximum_depth_rmse_m": 0.0,
+      "maximum_surface_rmse_m": 3.75711623366083e-05,
+      "admissible": true
+    },
+    {
+      "representation": "left_dense",
+      "gaussians": 512,
+      "opacity_scale_fit_on_rest_only": 1.035465095640553,
+      "maximum_rgb_foreground_rmse": 0.010211871936917305,
+      "minimum_silhouette_iou": 0.9748110831234257,
+      "maximum_depth_rmse_m": 0.000918291974812746,
+      "maximum_surface_rmse_m": 1.9064540652626254e-05,
+      "admissible": true
+    },
+    {
+      "representation": "dense",
+      "gaussians": 512,
+      "opacity_scale_fit_on_rest_only": 1.044339827332314,
+      "maximum_rgb_foreground_rmse": 0.0018950463272631168,
+      "minimum_silhouette_iou": 0.9890756302521009,
+      "maximum_depth_rmse_m": 0.0005369656719267368,
+      "maximum_surface_rmse_m": 1.8785581168304237e-05,
+      "admissible": true
+    },
+    {
+      "representation": "right_dense",
+      "gaussians": 512,
+      "opacity_scale_fit_on_rest_only": 1.0386441308671368,
+      "maximum_rgb_foreground_rmse": 0.01087029930204153,
+      "minimum_silhouette_iou": 0.9748110831234257,
+      "maximum_depth_rmse_m": 0.000913514057174325,
+      "maximum_surface_rmse_m": 1.9064540652626177e-05,
+      "admissible": true
+    },
+    {
+      "representation": "coarse",
+      "gaussians": 128,
+      "opacity_scale_fit_on_rest_only": 0.9385048641247612,
+      "maximum_rgb_foreground_rmse": 0.00397449592128396,
+      "minimum_silhouette_iou": 0.9899497487437185,
+      "maximum_depth_rmse_m": 0.0007490547723136842,
+      "maximum_surface_rmse_m": 9.203017676796345e-05,
+      "admissible": true
+    },
+    {
+      "representation": "refit_jitter",
+      "gaussians": 256,
+      "opacity_scale_fit_on_rest_only": 0.9992014856495983,
+      "maximum_rgb_foreground_rmse": 0.00304769491776824,
+      "minimum_silhouette_iou": 0.9908103592314118,
+      "maximum_depth_rmse_m": 0.000548231415450573,
+      "maximum_surface_rmse_m": 3.381021910782694e-05,
+      "admissible": true
+    },
+    {
+      "representation": "wide_support",
+      "gaussians": 256,
+      "opacity_scale_fit_on_rest_only": 1.0548866915907957,
+      "maximum_rgb_foreground_rmse": 0.010632985271513462,
+      "minimum_silhouette_iou": 0.9753896636587367,
+      "maximum_depth_rmse_m": 0.0012065733317285776,
+      "maximum_surface_rmse_m": 3.75711623366083e-05,
+      "admissible": true
+    }
+  ],
+  "train_episodes": 96,
+  "validation_episodes": 16,
+  "test_episodes": 24,
+  "prediction_arrays": 126,
+  "evaluation_rows": 3024,
+  "frozen_predictions_sha256": "c575a86df4acf1b77a0fe42fffbd9b887e44376cdffbf2415e396823842e5548",
+  "training_records": [
+    {
+      "method": "point",
+      "seed": 2026103111,
+      "parameters": 35258,
+      "seconds": 2.75295034100418,
+      "cuda_peak_allocated_bytes": 73754112,
+      "checkpoint_sha256": "0488fd3deb1cf1487c47ddb79588b59b958e0e5074b48c1a6ce6aaac760a21fd",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "point_aug",
+      "seed": 2026103111,
+      "parameters": 35258,
+      "seconds": 2.328448347005178,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "e7eb34ab990dd80fc8521d34d5b165a5b9ed552061c9d23d13a6b61f569527c9",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "density_aug",
+      "seed": 2026103111,
+      "parameters": 35258,
+      "seconds": 2.598795098994742,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "7810587957234f08243be3e90c0e8dd941c3ad76dc182b9508a89c528919d0d2",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "weight_aug",
+      "seed": 2026103111,
+      "parameters": 35258,
+      "seconds": 2.646388189998106,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "09d89245b5dedc2af07394bdd6dcd8402cdb1cbac83693e5e9c7c81f76856566",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "kernel_aug",
+      "seed": 2026103111,
+      "parameters": 35258,
+      "seconds": 2.6167495749978116,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "e17ced00d1e95c755293cfb2cb5e798231ee2b03f241191da3f52a6e36a42711",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "kernel_consistency",
+      "seed": 2026103111,
+      "parameters": 35258,
+      "seconds": 2.7300603039984708,
+      "cuda_peak_allocated_bytes": 75238912,
+      "checkpoint_sha256": "3faa023cac082c91391d55c85392e665959ebe1c66ffb1d93c409e4a276de78d",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "grid_aug",
+      "seed": 2026103111,
+      "parameters": 35258,
+      "seconds": 2.6929371849983,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "2749ed36cbcf321c374cacb976a856b4db371a47fd1b40abd080e8cff2770985",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "point",
+      "seed": 2026103113,
+      "parameters": 35258,
+      "seconds": 2.7321888849983225,
+      "cuda_peak_allocated_bytes": 73754112,
+      "checkpoint_sha256": "d9c0b9306494a3156e42aa8ce0d57f2574b3b7813d996774f0af4d1f483cb65c",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "point_aug",
+      "seed": 2026103113,
+      "parameters": 35258,
+      "seconds": 2.760789357002068,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "7deb3a5de3b3b2948ac3c647322b274acab8fced28af6724f83ac17d644a6957",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "density_aug",
+      "seed": 2026103113,
+      "parameters": 35258,
+      "seconds": 2.7570097770003485,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "a2f12bad14102101b32216655d8c107454f8a16bf12f9c3d8ebef36f57c45744",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "weight_aug",
+      "seed": 2026103113,
+      "parameters": 35258,
+      "seconds": 2.758693782001501,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "2d7954d7315973d1193c7dda6918e3c4fb57d54c1e34fa383fc6a72feab540ea",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "kernel_aug",
+      "seed": 2026103113,
+      "parameters": 35258,
+      "seconds": 2.704616306000389,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "a4508e83397b39e97eafb8f7508421f7615d1cdee0b57f85a0774df2605d70fd",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "kernel_consistency",
+      "seed": 2026103113,
+      "parameters": 35258,
+      "seconds": 2.7252159809941077,
+      "cuda_peak_allocated_bytes": 75238912,
+      "checkpoint_sha256": "9065eb9132e9f0ec492f5077ff2be6f746ba000f91a56194b7a62059ae488467",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    },
+    {
+      "method": "grid_aug",
+      "seed": 2026103113,
+      "parameters": 35258,
+      "seconds": 2.7350784170048428,
+      "cuda_peak_allocated_bytes": 75357696,
+      "checkpoint_sha256": "59b8ad94ab30a9bbeab0e94fbb347851185e8567445ff601f18648b3e94abc3b",
+      "selection": "Final fixed-step checkpoint; no test-based or best-validation selection."
+    }
+  ],
+  "runtime": {
+    "torch": "2.0.0+cu118",
+    "device": "NVIDIA GeForce RTX 4090",
+    "cuda": "11.8"
+  },
+  "elapsed_seconds": 43.36996435800393,
+  "memory_scope": "CUDA peak allocated is Torch allocator memory during each tiny cached-input training, not whole-device VRAM or a general image pipeline.",
+  "encoding_scope": "Known material coordinates; fixed rest supports allow cached linear Gaussian-to-control matrices. Not an online learned image encoder; setup and raw Gaussian encoding are not included in training timings."
+}

@@ -1,0 +1,7 @@
+{
+  "primary_code_hashes_match": true,
+  "primary_predictions_freeze_matches": true,
+  "raw_predictions_sha256": "c575a86df4acf1b77a0fe42fffbd9b887e44376cdffbf2415e396823842e5548",
+  "checkpoint_hashes_match": true,
+  "raw_scope": "Full NPZ arrays and checkpoint weights remain local artifacts; public exports contain selected inputs, episode metrics, training records, audit and a preselected forecast."
+}
