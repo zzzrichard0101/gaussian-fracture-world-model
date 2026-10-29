@@ -305,6 +305,102 @@
       "source": "artifacts/observation-budget/comparison.png",
       "published": "docs/media/observation-budget-comparison.png",
       "sha256": "0aba491580bacec163dcdb888e596225152b82229a166a7ef7c907cdd196145c"
+    },
+    {
+      "source": "artifacts/response-quadrature/report.json",
+      "source_sha256": "ef0b6f03a4f9143feb760375a2e75b334496481bdf8a27a70276e07824081d48",
+      "published": "docs/results/response-quadrature.json",
+      "published_sha256": "4ba868885ebf62aa0f8a5473aff504d36fbc5673d8b05f3a9ced51a43f9fe57d",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/response-quadrature/config.json",
+      "source_sha256": "dffd0c91550332a4597ed1ead9826112f3ba932620be840c879f2ee0af4337c8",
+      "published": "docs/results/response-quadrature-config.json",
+      "published_sha256": "ed009b460ea4dfa09ffe88d3766d6a9693c116eb02a49fe0c35722639d1d4a77",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/response-quadrature/refinement-checks.json",
+      "source_sha256": "0232ca82fd61fbed87f6498ad066cfd81e664ca20644bec74ce8931797232a87",
+      "published": "docs/results/response-quadrature-refinement-checks.json",
+      "published_sha256": "c96d1f57219a636cf54d9c06b07c6c68916be1fcfeb8cf040819938840fbe9bb",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/response-quadrature/adaptive-checks.json",
+      "source_sha256": "a0e9b3a714d1a9690a82aa82f94352bae66daed965fb695b3cb1473bf2214ab9",
+      "published": "docs/results/response-quadrature-adaptive-checks.json",
+      "published_sha256": "fa1c4388a56f69dcd59fbe45d77e394a2185fab99e867128887b58431814c91b",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/response-quadrature/code-sha256.json",
+      "source_sha256": "9f862daa00be587fc5a33bb9172265765236cb2c705a4693ec4d69f721c12945",
+      "published": "docs/results/response-quadrature-code-sha256.json",
+      "published_sha256": "4026ac621df2ce32f5b38248d7aebb2af803554c7c5586218570c5876a95e927",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/report.json",
+      "source_sha256": "d9d167f71a55aabc294e977e8bf39b254f8e2d28a41180914a8df0fbb1deef3e",
+      "published": "docs/results/guided-quadrature.json",
+      "published_sha256": "e3d18d2651aa81e3d094331b5c5b0c55e1ed528895f23e58741cf757735b06a2",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/config.json",
+      "source_sha256": "0dab110ae4601d8b8a9985093cd79df5fcdec7fd0e14d7b0a27bd9c9fe5b82a0",
+      "published": "docs/results/guided-quadrature-config.json",
+      "published_sha256": "ac01851ff50be6aa78e51c69a421c0575ea22141d8533687ee19ee95074f4381",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/inputs.json",
+      "source_sha256": "3d47300bf43628fcd0ae6333f8c0e5f49c4041d18883ade5fbab43aa2e29e37a",
+      "published": "docs/results/guided-quadrature-inputs.json",
+      "published_sha256": "5efdbc68b2843c0a6595aebe53417f06a0e45d5b9f21543657317b9b15dd1c1f",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/refinement-checks.json",
+      "source_sha256": "7526f23fc39d10eafe822f31874d521e1cf49cc41281089ec6ffb46ae38d0c62",
+      "published": "docs/results/guided-quadrature-refinement-checks.json",
+      "published_sha256": "13f55d97399e69be9610f210ad2c8d9f92c36e6384b6c41af9afaf3a339c81f3",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/adaptive-checks.json",
+      "source_sha256": "adc147fdd8321e19752c1150e65da81cf302c46c02d03b724d07c0cb6f715137",
+      "published": "docs/results/guided-quadrature-adaptive-checks.json",
+      "published_sha256": "f488cde6ceae26f41d1907add3b4b1454dc53afee9a26ac80c3d976e373d5e48",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/analysis-summary.json",
+      "source_sha256": "7c88b8996ffca879fff7653a3316e085b19381adc58efd24937adc0bfb63292e",
+      "published": "docs/results/guided-quadrature-analysis-summary.json",
+      "published_sha256": "abe29102ad73f6726f0d44144149daf3fc3d0430a87291462a299a4c585fe1b7",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/code-sha256.json",
+      "source_sha256": "da012b2b3d887bf6baac8788f8018a42eb0a20eb89f6c73a7e4bb224bd299c50",
+      "published": "docs/results/guided-quadrature-code-sha256.json",
+      "published_sha256": "119310e115dd0799fae1c6a8fc7fe111ae636085c10a705fecd678b093805a76",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/evaluation-rows.json",
+      "source_sha256": "cc4015ebbad726bd94b044bbf7b51bc7a1b92c01b79913046a36f100a24a1a3b",
+      "published": "docs/results/guided-quadrature-evaluation-rows.json",
+      "published_sha256": "d920c49327bcad5d346a18c4d753492109ba88902cfc86148235a0e5fa22c221",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/guided-quadrature/comparison.png",
+      "published": "docs/media/guided-quadrature-comparison.png",
+      "sha256": "1285002d57dde1523946368022a746526f4a96cc85e26f9c7e8bb748718115b1"
     }
   ]
 }

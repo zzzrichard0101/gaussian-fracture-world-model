@@ -26,7 +26,22 @@ python -m pip install matplotlib
 PYTHONPATH="$PWD" python scripts/report_observation_budget.py --run RUN
 ```
 
-## 환경 분리
+## 예측 적분 안정화 재현
+
+공개된 [관측식 기반 적분](RESPONSE_QUADRATURE.md) 입력으로 과거 개인 실행 폴더 없이 재생한다. 같은 입력과 관측에서 적분만 비교하고, 모든 예측을 고정한 뒤 합성 정답을 재생성한다.
+
+```bash
+PYTHONPATH="$PWD" python scripts/response_quadrature_evaluate.py \
+  --inputs docs/results/guided-quadrature-inputs.json
+PYTHONPATH="$PWD" python scripts/response_quadrature_evaluate.py \
+  --config config/guided-quadrature.json \
+  --inputs docs/results/guided-quadrature-inputs.json
+PYTHONPATH="$PWD" python scripts/report_response_quadrature.py --run GUIDED_RUN --coordinate-run INITIAL_RUN
+```
+
+그림 보고서는 앞서 설치한 matplotlib를 사용한다. 적분과 기존 스크립트 의존성에는 NumPy·SciPy·h5py가 필요하며 GPU는 사용하지 않는다. 환경과 환경 변수는 위 CPU 안내처럼 준비한다.
+
+## 기존 환경 분리
 
 | 환경 | 용도 | 검증한 버전 |
 | --- | --- | --- |

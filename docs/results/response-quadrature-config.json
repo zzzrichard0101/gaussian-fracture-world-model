@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "source_report": "artifacts/observation-budget/report.json",
+  "levels": [
+    {
+      "name": "response_8",
+      "energy_panels": 8,
+      "energy_order": 8,
+      "inner_order": 8
+    },
+    {
+      "name": "response_16",
+      "energy_panels": 16,
+      "energy_order": 8,
+      "inner_order": 16
+    },
+    {
+      "name": "response_32",
+      "energy_panels": 32,
+      "energy_order": 8,
+      "inner_order": 32
+    },
+    {
+      "name": "response_64",
+      "energy_panels": 64,
+      "energy_order": 8,
+      "inner_order": 64
+    }
+  ],
+  "mean_change_tolerance_m": 1e-07,
+  "event_mass_change_tolerance": 1e-05,
+  "log_integral_change_tolerance": 0.0001,
+  "adaptive_audit_case_indices": [
+    0,
+    8,
+    16
+  ],
+  "adaptive_audit_budget": 8,
+  "adaptive_audit_actual_bias_m": 0.0,
+  "adaptive_reference": {
+    "inner_order": 96,
+    "panels": 32,
+    "rtol": 1e-07
+  },
+  "primary_level": "response_64",
+  "scope": "Read-only replay of existing public histories. Same uniform continuous E/H prior and shared Gaussian proxy; standard coordinate transformation and Gaussian quadrature, no novel inference claim, new observations, changed actions or safety certificates. Adaptive outer checks share the inner response integration, so they are not an independent full solver."
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "parent_config": "config/response-quadrature.json",
+  "quadrature_kind": "guided",
+  "levels": [
+    {"name": "guided_8", "energy_panels": 4, "energy_order": 4, "inner_order": 8},
+    {"name": "guided_16", "energy_panels": 8, "energy_order": 6, "inner_order": 16},
+    {"name": "guided_32", "energy_panels": 16, "energy_order": 8, "inner_order": 32},
+    {"name": "guided_64", "energy_panels": 32, "energy_order": 10, "inner_order": 64}
+  ],
+  "primary_level": "guided_64",
+  "scope": "Numerical refinement after the coordinate-only baseline failed predefined stability checks. Same histories, prior, Gaussian target and unchanged tolerances; analytic public likelihood structure guides E partitions. Not a new-state test or novel method claim."
+}

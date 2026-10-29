@@ -1,5 +1,13 @@
 # 구현 진행 기록
 
+## 2026-10-29: 관측 반응 좌표와 Gaussian 구조를 이용한 적분 안정화
+
+`wmfracture/response_quadrature.py`에 uniform E/H 사전 측도를 보존하는 q 좌표 적분, `wmfracture/guided_quadrature.py`에 공개 Gaussian 우도 구조를 이용한 E 구간 배치를 구현했다. H≤U0의 elastic 질량과 dH/dq Jacobian을 유지한다. 기존 shared-bias Gaussian target과 실제 입력은 바꾸지 않는다. 물리 모드별로 affine인 q·t=1/(2E/S−U0) 구조를 이용해 좁은 우도와 CDF 전이 구간을 찾는다.
+
+초기 좌표 변환만 사용한 실행 `20261029T033625187304Z-response-quadrature`는 마지막 해상도 검사 171/2,304개, adaptive outer 대조 8/48개가 미달이었다. 보완 실행 `20261029T034401273351Z-guided-quadrature`에서는 같은 기준·입력으로 모두 통과했다. 최고 두 해상도 차이는 평균 벌어짐 최대 8.30639e-10m, 분리 가중치 2.04921e-6, log 분모 5.21985e-6이었다. 공유 H 적분을 쓰는 별도 adaptive outer와의 평균 차이는 최대 1.30285e-10m다. 수치 기준 통과이며 형식 오차 증명이 아니다.
+
+기존 24개 개발 상태의 2,304개 공개 이력을 재사용하고 모든 예측을 고정한 후 합성 정답을 재생성해 평가했다. 안정화한 저잡음 8회 RMSE는 독립 fixed/adaptive 0.1413/0.1448mm, 상관 0.1427/0.1411mm였다. 적응 선택의 우위와 고잡음 문제 해결은 확보하지 못했다. 입력 제안기는 아직 이 적분 상태를 사용하지 않는다. 테스트 200개와 [전체 수치·한계](docs/RESPONSE_QUADRATURE.md)를 기록했다.
+
 ## 2026-10-29: 추가 관측 2·4·8회와 네 입력 정책 비교
 
 `wmfracture/observation_budget.py`, `scripts/observation_budget_evaluate.py`, `scripts/report_observation_budget.py`와 실험/분석 설정을 추가했다. 같은 24개 개발 상태·새 잡음에서 무하중 반복, 약한 입력 반복, 고정 제안, 현재 정보 proxy의 적응 제안을 비교했다. 전부 같은 누적 손상 검증기를 사용하고 reference_count=2를 유지한다. iid와 상관 latent rho=0.8 잡음은 동일한 잘린 정규 주변분포·동일 오차 한도를 갖는다. 동일 조건의 정책은 동일한 잡음을 공유한다.

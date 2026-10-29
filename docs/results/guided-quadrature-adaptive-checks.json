@@ -1,0 +1,386 @@
+[
+  {
+    "episode_id": "b-000-0-0-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 9.702889533502734e-13,
+    "maximum_event_mass_difference": 1.1487761297779286e-09,
+    "adaptive_success": true,
+    "log_integral_change": 2.390896369774964e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-0-0-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 9.835396386215223e-13,
+    "maximum_event_mass_difference": 1.1296333313204343e-09,
+    "adaptive_success": true,
+    "log_integral_change": 2.419033862111064e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-0-0-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 4.2074893916166367e-13,
+    "maximum_event_mass_difference": 4.5772421963796717e-10,
+    "adaptive_success": true,
+    "log_integral_change": 9.87968817867113e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-0-0-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 1.194712731522607e-13,
+    "maximum_event_mass_difference": 9.876985340717681e-11,
+    "adaptive_success": true,
+    "log_integral_change": 3.5938363396326167e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-0-1-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 1.3028545083060283e-10,
+    "maximum_event_mass_difference": 2.7193999058150453e-07,
+    "adaptive_success": true,
+    "log_integral_change": 4.3759132495324593e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-0-1-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 1.2255575937772378e-10,
+    "maximum_event_mass_difference": 2.439258088848817e-07,
+    "adaptive_success": true,
+    "log_integral_change": 4.043078245530296e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-0-1-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 8.298654341834522e-11,
+    "maximum_event_mass_difference": 1.330805508570343e-07,
+    "adaptive_success": true,
+    "log_integral_change": 2.0449741100492247e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-0-1-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 3.86396461701799e-11,
+    "maximum_event_mass_difference": 5.6316433766356866e-08,
+    "adaptive_success": true,
+    "log_integral_change": 9.316316162966132e-08,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-1-0-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 9.742220051511818e-13,
+    "maximum_event_mass_difference": 1.1433095026269768e-09,
+    "adaptive_success": true,
+    "log_integral_change": 2.3991884035012845e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-1-0-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 9.767056954879116e-13,
+    "maximum_event_mass_difference": 1.1390126619659213e-09,
+    "adaptive_success": true,
+    "log_integral_change": 2.4043442792276437e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-1-0-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 4.099910515253935e-13,
+    "maximum_event_mass_difference": 4.2367373498386485e-10,
+    "adaptive_success": true,
+    "log_integral_change": 1.0301732800144237e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-1-0-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 1.1546362824188527e-13,
+    "maximum_event_mass_difference": 8.23561496776648e-11,
+    "adaptive_success": true,
+    "log_integral_change": 3.802647086104116e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-1-1-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 1.295233369343063e-10,
+    "maximum_event_mass_difference": 2.7969816779327417e-07,
+    "adaptive_success": true,
+    "log_integral_change": 4.409230274227127e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-1-1-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 1.1725177469570913e-10,
+    "maximum_event_mass_difference": 2.910206666761894e-07,
+    "adaptive_success": true,
+    "log_integral_change": 4.103154251922092e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-1-1-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 7.935681192033917e-11,
+    "maximum_event_mass_difference": 1.5597556579649563e-07,
+    "adaptive_success": true,
+    "log_integral_change": 1.9386426508560817e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-000-1-1-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 3.750603300156641e-11,
+    "maximum_event_mass_difference": 5.73192510677778e-08,
+    "adaptive_success": true,
+    "log_integral_change": 1.0531451000161951e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-0-0-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 3.339776372124348e-14,
+    "maximum_event_mass_difference": 6.096290139367966e-11,
+    "adaptive_success": true,
+    "log_integral_change": 8.22728551952423e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-0-0-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 3.331623171787257e-14,
+    "maximum_event_mass_difference": 6.082218062530842e-11,
+    "adaptive_success": true,
+    "log_integral_change": 8.211813451453054e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-0-0-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 1.7525520965011587e-13,
+    "maximum_event_mass_difference": 3.8998361484576805e-10,
+    "adaptive_success": true,
+    "log_integral_change": 1.0391847382607011e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-0-0-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 3.2621474965743857e-15,
+    "maximum_event_mass_difference": 1.520741865768116e-11,
+    "adaptive_success": true,
+    "log_integral_change": 2.469402460292258e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-0-1-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 1.7935440459193597e-11,
+    "maximum_event_mass_difference": 3.305730739144863e-08,
+    "adaptive_success": true,
+    "log_integral_change": 6.160214560679833e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-0-1-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 1.2674795241141013e-11,
+    "maximum_event_mass_difference": 2.3244268843036764e-08,
+    "adaptive_success": true,
+    "log_integral_change": 3.5903726747221754e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-0-1-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 9.738833437605843e-12,
+    "maximum_event_mass_difference": 1.7807597452179635e-08,
+    "adaptive_success": true,
+    "log_integral_change": 2.450452756264099e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-0-1-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 4.017282600327077e-12,
+    "maximum_event_mass_difference": 7.333097351569506e-09,
+    "adaptive_success": true,
+    "log_integral_change": 9.875269313397439e-08,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-1-0-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 3.3451106468129765e-14,
+    "maximum_event_mass_difference": 6.105788097343634e-11,
+    "adaptive_success": true,
+    "log_integral_change": 8.23729529031425e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-1-0-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 3.3262021609248293e-14,
+    "maximum_event_mass_difference": 6.073141989304531e-11,
+    "adaptive_success": true,
+    "log_integral_change": 8.202247769872884e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-1-0-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 1.8521816025351967e-13,
+    "maximum_event_mass_difference": 4.102944650696827e-10,
+    "adaptive_success": true,
+    "log_integral_change": 1.0556338025935474e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-1-0-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 7.269792406949804e-15,
+    "maximum_event_mass_difference": 1.2482515021616791e-11,
+    "adaptive_success": true,
+    "log_integral_change": 2.32672547895163e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-1-1-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 1.4031015932447488e-11,
+    "maximum_event_mass_difference": 2.5557543303911245e-08,
+    "adaptive_success": true,
+    "log_integral_change": 3.393874115076301e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-1-1-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 1.747516714667441e-11,
+    "maximum_event_mass_difference": 3.230591461012011e-08,
+    "adaptive_success": true,
+    "log_integral_change": 6.473448057597864e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-1-1-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 1.1180199561283688e-11,
+    "maximum_event_mass_difference": 2.055124453947954e-08,
+    "adaptive_success": true,
+    "log_integral_change": 3.5547820198544855e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-008-1-1-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 4.06960055931993e-12,
+    "maximum_event_mass_difference": 7.428045623036894e-09,
+    "adaptive_success": true,
+    "log_integral_change": 9.999551497941184e-08,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-0-0-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 9.750880658465633e-14,
+    "maximum_event_mass_difference": 1.6703602390144567e-10,
+    "adaptive_success": true,
+    "log_integral_change": 1.869839394430528e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-0-0-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 9.788784366415726e-14,
+    "maximum_event_mass_difference": 1.6763304633293785e-10,
+    "adaptive_success": true,
+    "log_integral_change": 1.875452682043033e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-0-0-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 2.6020852139652106e-18,
+    "maximum_event_mass_difference": 1.2212453270876722e-15,
+    "adaptive_success": true,
+    "log_integral_change": 2.5084467836222757e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-0-0-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 4.7704895589362195e-18,
+    "maximum_event_mass_difference": 8.881784197001252e-16,
+    "adaptive_success": true,
+    "log_integral_change": 9.981686588389493e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-0-1-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 4.098918383529937e-11,
+    "maximum_event_mass_difference": 7.000871621309912e-08,
+    "adaptive_success": true,
+    "log_integral_change": 7.674253992284719e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-0-1-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 3.653851873841596e-11,
+    "maximum_event_mass_difference": 6.232456850607804e-08,
+    "adaptive_success": true,
+    "log_integral_change": 6.827983058954601e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-0-1-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 1.4245648931321409e-11,
+    "maximum_event_mass_difference": 2.258998160753478e-08,
+    "adaptive_success": true,
+    "log_integral_change": 3.4582878738476097e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-0-1-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 7.2278892940258466e-12,
+    "maximum_event_mass_difference": 1.2406215443849788e-08,
+    "adaptive_success": true,
+    "log_integral_change": 1.389786925543035e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-1-0-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 9.700313469140909e-14,
+    "maximum_event_mass_difference": 1.6623488696687616e-10,
+    "adaptive_success": true,
+    "log_integral_change": 1.8621761910253554e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-1-0-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 9.785011342855476e-14,
+    "maximum_event_mass_difference": 1.6757262244482263e-10,
+    "adaptive_success": true,
+    "log_integral_change": 1.8748753660702278e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-1-0-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 5.204170427930421e-18,
+    "maximum_event_mass_difference": 1.1102230246251565e-15,
+    "adaptive_success": true,
+    "log_integral_change": 2.502851259578165e-10,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-1-0-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 6.032500887709347e-16,
+    "maximum_event_mass_difference": 7.771561172376096e-16,
+    "adaptive_success": true,
+    "log_integral_change": 9.440469739274704e-09,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-1-1-0-rest_repeat-k8",
+    "maximum_mean_difference_m": 4.069334712947237e-11,
+    "maximum_event_mass_difference": 6.953978742840761e-08,
+    "adaptive_success": true,
+    "log_integral_change": 7.63063018549559e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-1-1-0-weak_repeat-k8",
+    "maximum_mean_difference_m": 3.682734802876175e-11,
+    "maximum_event_mass_difference": 6.278171482687611e-08,
+    "adaptive_success": true,
+    "log_integral_change": 6.870654658541753e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-1-1-0-fixed_ramp-k8",
+    "maximum_mean_difference_m": 1.512870211051176e-11,
+    "maximum_event_mass_difference": 2.44034024932116e-08,
+    "adaptive_success": true,
+    "log_integral_change": 3.4745492216714524e-07,
+    "empirical_tolerance_pass": true
+  },
+  {
+    "episode_id": "b-016-1-1-0-adaptive_verified-k8",
+    "maximum_mean_difference_m": 6.774287727995265e-12,
+    "maximum_event_mass_difference": 1.1402321253850545e-08,
+    "adaptive_success": true,
+    "log_integral_change": 1.3832363388033286e-07,
+    "empirical_tolerance_pass": true
+  }
+]

@@ -39,5 +39,8 @@ jobs:
           tests/test_verified_policy.py
           tests/test_risk_reuse.py
           tests/test_observation_budget.py
+          tests/test_response_quadrature.py
+          tests/test_response_quadrature_io.py
+          tests/test_guided_quadrature.py
           tests/test_continuous_risk_evaluation.py
           tests/test_camera_measurement.py

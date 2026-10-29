@@ -1,0 +1,187 @@
+{
+  "source_run_id": "20261029T033625187304Z-response-quadrature",
+  "law": {
+    "area": 0.01,
+    "tensile_stiffness": 10000000.0,
+    "compressive_stiffness": 100000000.0,
+    "peak_traction": 1000.0,
+    "fracture_energy": 2.0
+  },
+  "fixture": {
+    "spring": 10000.0,
+    "mass": 0.02,
+    "damping": 18.0
+  },
+  "guard": {
+    "version": 1,
+    "source_report": "artifacts/synthetic-filter-benchmark/report.json",
+    "parameter_bounds": [
+      [
+        1.2,
+        3.0
+      ],
+      [
+        0.0009,
+        0.0023
+      ]
+    ],
+    "grid_side": 161,
+    "subset_size": 8,
+    "damage_cap": 0.02,
+    "noise_multiple": 3.0,
+    "bias_bound_m": 0.00015,
+    "bias_sigma_m": 5e-05,
+    "weak_drive_m": 0.001,
+    "actions_m": [
+      0.0,
+      0.001,
+      0.0012,
+      0.00135,
+      0.0015,
+      0.00165,
+      0.00185
+    ],
+    "fixed_probes_m": [
+      0.00165,
+      0.00185
+    ],
+    "decision_rounds": 2,
+    "gap_noise_sigma_m": [
+      5e-06,
+      2e-05,
+      5e-05
+    ],
+    "actual_bias_m": [
+      0.0,
+      3e-05,
+      -3e-05
+    ],
+    "minimum_information_score": 1e-08,
+    "seed": 20261030,
+    "policies": [
+      "rest_only",
+      "fixed_probe",
+      "top8_guard",
+      "full_guard",
+      "witness_guard",
+      "full_guard_info8"
+    ],
+    "scope": "Standard finite-grid set estimation, cumulative damage guard, simple full-scan witnesses, and disagreement-based sequential design. Same known stable scalar law; synthetic zero/weak observations initialize all policies. Gaussian data can violate the assumed bounded error set. No continuous safety, real-world safety, new algorithm or novelty claim."
+  },
+  "cases": [
+    {
+      "episode": {
+        "id": "b-000-0-0-0-adaptive_verified-k8",
+        "trajectory_id": "b-000-0-0-0-adaptive_verified",
+        "context_id": "b-000-0-0-0",
+        "policy": "adaptive_verified",
+        "sigma_m": 1e-06,
+        "noise_condition": "iid_bounded",
+        "budget": 8,
+        "actions_m": [
+          0.0,
+          0.001,
+          0.00185,
+          0.0,
+          0.00185,
+          0.0,
+          0.00185,
+          0.0,
+          0.00185,
+          0.0
+        ],
+        "observed_gaps_m": [
+          1.049536688023257e-06,
+          0.0006940445271790004,
+          0.0012814287086298152,
+          4.252582938533786e-07,
+          0.0012823448662658242,
+          -5.73949297755101e-07,
+          0.001280534297213692,
+          -3.408217057371174e-07,
+          0.00128436733569956,
+          6.530640500374452e-07
+        ],
+        "delivered_observations": 8,
+        "budget_fulfilled": true,
+        "stopped": false,
+        "decisions_used": 8,
+        "policy_seconds": 0.17868699300015578
+      },
+      "reference": [
+        {
+          "drive_m": 0.0026,
+          "mean_gap_m": 0.002121906181034693,
+          "separation_mass": 0.0
+        },
+        {
+          "drive_m": 0.0031,
+          "mean_gap_m": 0.0027901088326069945,
+          "separation_mass": 0.07967610397554782
+        },
+        {
+          "drive_m": 0.0035,
+          "mean_gap_m": 0.0032997032211042267,
+          "separation_mass": 0.21645939155538008
+        }
+      ]
+    },
+    {
+      "episode": {
+        "id": "b-016-1-0-0-adaptive_verified-k8",
+        "trajectory_id": "b-016-1-0-0-adaptive_verified",
+        "context_id": "b-016-1-0-0",
+        "policy": "adaptive_verified",
+        "sigma_m": 1e-06,
+        "noise_condition": "correlated_bounded",
+        "budget": 8,
+        "actions_m": [
+          0.0,
+          0.001,
+          0.001607317662339531,
+          0.0017037743467056524,
+          0.0,
+          0.0017037743467056524,
+          0.0,
+          0.0017037743467056524,
+          0.0,
+          0.0017037743467056524
+        ],
+        "observed_gaps_m": [
+          -1.300433241473782e-06,
+          0.0005596191924738695,
+          0.0009060143959253922,
+          0.0010596556716741567,
+          2.810054960053315e-07,
+          0.0010588509716145228,
+          1.7109176337827718e-07,
+          0.0010596426777714984,
+          9.816862341608364e-07,
+          0.0010602327910661006
+        ],
+        "delivered_observations": 8,
+        "budget_fulfilled": true,
+        "stopped": false,
+        "decisions_used": 8,
+        "policy_seconds": 0.6577457270000195
+      },
+      "reference": [
+        {
+          "drive_m": 0.0026,
+          "mean_gap_m": 0.002483799527893345,
+          "separation_mass": 0.0
+        },
+        {
+          "drive_m": 0.0031,
+          "mean_gap_m": 0.0031,
+          "separation_mass": 1.0000000000000004
+        },
+        {
+          "drive_m": 0.0035,
+          "mean_gap_m": 0.0035000000000000022,
+          "separation_mass": 1.0000000000000004
+        }
+      ]
+    }
+  ]
+}
