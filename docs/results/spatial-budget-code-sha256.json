@@ -1,0 +1,10 @@
+{
+  "config/spatial-budget.json": "d7c0c592259e133485b7851851c9c7a583d3d1b7d7e2c1a712d6f26d2977a50f",
+  "config/spatial-transport.json": "d4f7c5845566d51fa404c844e52a9cd9d50f0b12a3fb602517311eb576e7654b",
+  "wmfracture/spatial_budget.py": "e22031cf47c41cd16254bf419ee8d6e8bf52fce85e0d8442da23d17a794253b9",
+  "wmfracture/spatial_transport.py": "97d0a74be6e96d7ae319da600de5918167a2f9a8ac84dc93a8a58cbf91e0c141",
+  "wmfracture/spatial_observation.py": "c939e08d3a340cd29b51e2ee03d46fc64268f7e50a65cc43e92775dcfc792d56",
+  "wmfracture/response_quadrature.py": "fc4e81a0db4634c4a917b462c2fdc57b85d65de49113248a6b784a21f179408f",
+  "scripts/spatial_budget_evaluate.py": "be0c8e3e3bddfd9451c2d1f65681273165f54bbf2001927a90c843286a906513",
+  "tests/test_spatial_budget.py": "d578ae48f2df7b66958d2742227ab9747a1bba88214eae0034686554eda28887"
+}

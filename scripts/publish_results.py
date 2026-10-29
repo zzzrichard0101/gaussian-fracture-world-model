@@ -92,7 +92,7 @@ def main():
     # Keep the original publication intact and add explicit follow-up exports.
     followup_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
         "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
-        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture", "spatial-observation", "spatial-failure-search", "spatial-continuous", "spatial-risk", "spatial-risk-refinement", "spatial-transport"]
+        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture", "spatial-observation", "spatial-failure-search", "spatial-continuous", "spatial-risk", "spatial-risk-refinement", "spatial-transport", "spatial-budget"]
     for stage in followup_stages:
         names = ["report.json"]
         if stage == "risk-reuse":
@@ -128,6 +128,10 @@ def main():
         if stage == "spatial-transport":
             names += ["config.json", "inputs.json", "code-sha256.json", "source-sha256.json", "report-source-sha256.json",
                 "predictions.json", "adaptation.json", "evaluation-rows.json", "analysis-summary.json", "diagnostics.json"]
+        if stage == "spatial-budget":
+            names += ["config.json", "proposal-config.json", "inputs.json", "code-sha256.json", "source-sha256.json",
+                "evaluation-source-sha256.json", "report-source-sha256.json", "predictions.json", "costs.json",
+                "adaptation.json", "evaluation-rows.json", "analysis-summary.json", "diagnostics.json"]
         for name in names:
             path = source/stage/name
             target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
@@ -168,6 +172,9 @@ def main():
             "[국소 반응 제안·네 기준선·비용·실패](SPATIAL_TRANSPORT.md)를 추가했다. "
             "이미 본 8개 개발 이력에서 낮은 잡음 2개만 수렴 검사를 통과했다. "
             "높은 잡음은 모두 실패했고, 추가 적응 비용·정답 오차·전체 위험 상한의 문제는 남아 있다.\n")
+        handle.write("\n## 전체 물리 계산 예산을 맞춘 제안 비교\n\n"
+            "[pilot·적응·준비·미래 계산의 비용 회계와 혼합 제안 비교](SPATIAL_BUDGET.md)를 추가했다. "
+            "이전에 본 8개 개발 이력의 두 예산·두 적응 반복을 비교하며, 물리 계산 예산과 실제 시간을 구분한다.\n")
     write_json(result/"publication-manifest.json", {"scope": "Selected reports, public replay inputs and media only. No weights, assets, observed clips or full execution data.", "files": manifest})
     print(f"Published {len(manifest)} selected artifacts to docs/")
 

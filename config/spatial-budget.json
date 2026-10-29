@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "proposal_config": "config/spatial-transport.json",
+  "public_inputs": "docs/results/spatial-transport-inputs.json",
+  "pilot_seeds": [2026103061, 2026103067],
+  "scramble_seeds": [2026103071, 2026103073],
+  "endpoint_budgets": [1572864, 3145728],
+  "methods": ["prior_qmc", "physical_mixture", "response_chart", "hybrid_equal"],
+  "maximum_draw_power": 15,
+  "draw_chunk": 1024,
+  "primary_replica": 0,
+  "selection": "Same eight previously exposed development histories as spatial-transport; no new observation, physical state, holdout or closed-loop rollout.",
+  "comparison": "Primary: hybrid_equal versus physical_mixture at equal total endpoint-parameter operation budget. Controls: prior_qmc and response_chart. Hybrid has 20% uniform, 40% projected physical Gaussians and 40% response Gaussians. All proposal settings inherited unchanged; no sweep or post-result tuning.",
+  "accounting": "Charge pilot, all finite-difference/projection physics, fresh preparation/prefix replay, and every future branch. No shared physics cache across histories, replicas or methods. Nested lower-budget estimates reuse maximum-run prefixes but are each charged full setup; time measured only for each maximum-budget run. Budget counts scalar parameter/end-step solves, not CPU time, vectorized calls, proposal density arithmetic or memory.",
+  "stopping": "Preallocate K=floor((budget-setup_cost)/full_path_cost) inside-cube physical evaluations. Stop proposal stream at K-th inside-cube draw, independent of likelihood/future outputs. Whole-mixture cube-conditioning contributes one common normalizer which cancels in self-normalized weights; no evidence estimate. Outside draws retain zero target weight and count as draws, with no physics cost. No component-wise clipping or rejection normalization.",
+  "screen": {"minimum_ess": 40.0, "maximum_mean_change_m": 0.000005, "maximum_event_change": 0.02},
+  "scope": "Empirical sampling/budget development diagnostic under the same known fixed-64-increment synthetic law. No validated posterior reference, safety bound, policy benefit, learned world model, Gaussian-image result or novelty claim."
+}

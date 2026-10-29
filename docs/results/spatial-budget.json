@@ -1,0 +1,351 @@
+{
+  "config": {
+    "version": 1,
+    "proposal_config": "config/spatial-transport.json",
+    "public_inputs": "docs/results/spatial-transport-inputs.json",
+    "pilot_seeds": [
+      2026103061,
+      2026103067
+    ],
+    "scramble_seeds": [
+      2026103071,
+      2026103073
+    ],
+    "endpoint_budgets": [
+      1572864,
+      3145728
+    ],
+    "methods": [
+      "prior_qmc",
+      "physical_mixture",
+      "response_chart",
+      "hybrid_equal"
+    ],
+    "maximum_draw_power": 15,
+    "draw_chunk": 1024,
+    "primary_replica": 0,
+    "selection": "Same eight previously exposed development histories as spatial-transport; no new observation, physical state, holdout or closed-loop rollout.",
+    "comparison": "Primary: hybrid_equal versus physical_mixture at equal total endpoint-parameter operation budget. Controls: prior_qmc and response_chart. Hybrid has 20% uniform, 40% projected physical Gaussians and 40% response Gaussians. All proposal settings inherited unchanged; no sweep or post-result tuning.",
+    "accounting": "Charge pilot, all finite-difference/projection physics, fresh preparation/prefix replay, and every future branch. No shared physics cache across histories, replicas or methods. Nested lower-budget estimates reuse maximum-run prefixes but are each charged full setup; time measured only for each maximum-budget run. Budget counts scalar parameter/end-step solves, not CPU time, vectorized calls, proposal density arithmetic or memory.",
+    "stopping": "Preallocate K=floor((budget-setup_cost)/full_path_cost) inside-cube physical evaluations. Stop proposal stream at K-th inside-cube draw, independent of likelihood/future outputs. Whole-mixture cube-conditioning contributes one common normalizer which cancels in self-normalized weights; no evidence estimate. Outside draws retain zero target weight and count as draws, with no physics cost. No component-wise clipping or rejection normalization.",
+    "screen": {
+      "minimum_ess": 40.0,
+      "maximum_mean_change_m": 5e-06,
+      "maximum_event_change": 0.02
+    },
+    "scope": "Empirical sampling/budget development diagnostic under the same known fixed-64-increment synthetic law. No validated posterior reference, safety bound, policy benefit, learned world model, Gaussian-image result or novelty claim."
+  },
+  "histories": 8,
+  "prediction_rows": 128,
+  "summaries": [
+    {
+      "sigma_m": 1e-06,
+      "method": "prior_qmc",
+      "budget": 1572864,
+      "histories": 4,
+      "available": 2,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 0.9906888977819556,
+      "rmse_mm_on_available": 0.097432527186775,
+      "main_physics_nodes_range": [
+        2457,
+        2457
+      ],
+      "used_endpoint_cost_range": [
+        1572480,
+        1572480
+      ],
+      "median_maximum_budget_seconds": null
+    },
+    {
+      "sigma_m": 1e-06,
+      "method": "prior_qmc",
+      "budget": 3145728,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 1.5266244589126294,
+      "rmse_mm_on_available": 0.06847631819161847,
+      "main_physics_nodes_range": [
+        4915,
+        4915
+      ],
+      "used_endpoint_cost_range": [
+        3145600,
+        3145600
+      ],
+      "median_maximum_budget_seconds": 6.700986529500369
+    },
+    {
+      "sigma_m": 1e-06,
+      "method": "physical_mixture",
+      "budget": 1572864,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 9.716705799421517,
+      "rmse_mm_on_available": 0.14265084948025628,
+      "main_physics_nodes_range": [
+        2252,
+        2252
+      ],
+      "used_endpoint_cost_range": [
+        1572352,
+        1572352
+      ],
+      "median_maximum_budget_seconds": null
+    },
+    {
+      "sigma_m": 1e-06,
+      "method": "physical_mixture",
+      "budget": 3145728,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 19.00884352007929,
+      "rmse_mm_on_available": 0.13034260829813277,
+      "main_physics_nodes_range": [
+        4710,
+        4710
+      ],
+      "used_endpoint_cost_range": [
+        3145472,
+        3145472
+      ],
+      "median_maximum_budget_seconds": 6.248182139999699
+    },
+    {
+      "sigma_m": 1e-06,
+      "method": "response_chart",
+      "budget": 1572864,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 191.11423541989538,
+      "rmse_mm_on_available": 0.13642183203318373,
+      "main_physics_nodes_range": [
+        1484,
+        1484
+      ],
+      "used_endpoint_cost_range": [
+        1572352,
+        1572352
+      ],
+      "median_maximum_budget_seconds": null
+    },
+    {
+      "sigma_m": 1e-06,
+      "method": "response_chart",
+      "budget": 3145728,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 528.3017094436552,
+      "rmse_mm_on_available": 0.13015266517692428,
+      "main_physics_nodes_range": [
+        3942,
+        3942
+      ],
+      "used_endpoint_cost_range": [
+        3145472,
+        3145472
+      ],
+      "median_maximum_budget_seconds": 5.402776760998677
+    },
+    {
+      "sigma_m": 1e-06,
+      "method": "hybrid_equal",
+      "budget": 1572864,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 101.48400977609133,
+      "rmse_mm_on_available": 0.14153716881147838,
+      "main_physics_nodes_range": [
+        1484,
+        1484
+      ],
+      "used_endpoint_cost_range": [
+        1572352,
+        1572352
+      ],
+      "median_maximum_budget_seconds": null
+    },
+    {
+      "sigma_m": 1e-06,
+      "method": "hybrid_equal",
+      "budget": 3145728,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 283.2381289516827,
+      "rmse_mm_on_available": 0.13333491869588363,
+      "main_physics_nodes_range": [
+        3942,
+        3942
+      ],
+      "used_endpoint_cost_range": [
+        3145472,
+        3145472
+      ],
+      "median_maximum_budget_seconds": 5.363495417499507
+    },
+    {
+      "sigma_m": 2e-05,
+      "method": "prior_qmc",
+      "budget": 1572864,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 27.760892987623762,
+      "rmse_mm_on_available": 0.09057384167673488,
+      "main_physics_nodes_range": [
+        1755,
+        1755
+      ],
+      "used_endpoint_cost_range": [
+        1572480,
+        1572480
+      ],
+      "median_maximum_budget_seconds": null
+    },
+    {
+      "sigma_m": 2e-05,
+      "method": "prior_qmc",
+      "budget": 3145728,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 58.63268505644264,
+      "rmse_mm_on_available": 0.09273660648869271,
+      "main_physics_nodes_range": [
+        3510,
+        3510
+      ],
+      "used_endpoint_cost_range": [
+        3144960,
+        3144960
+      ],
+      "median_maximum_budget_seconds": 5.014066691001062
+    },
+    {
+      "sigma_m": 2e-05,
+      "method": "physical_mixture",
+      "budget": 1572864,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 1,
+      "median_ess": 63.47806975539761,
+      "rmse_mm_on_available": 0.08040590997431175,
+      "main_physics_nodes_range": [
+        1462,
+        1462
+      ],
+      "used_endpoint_cost_range": [
+        1572096,
+        1572096
+      ],
+      "median_maximum_budget_seconds": null
+    },
+    {
+      "sigma_m": 2e-05,
+      "method": "physical_mixture",
+      "budget": 3145728,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 1,
+      "median_ess": 119.42899357340983,
+      "rmse_mm_on_available": 0.08352536827652426,
+      "main_physics_nodes_range": [
+        3218,
+        3218
+      ],
+      "used_endpoint_cost_range": [
+        3145472,
+        3145472
+      ],
+      "median_maximum_budget_seconds": 4.824530960000629
+    },
+    {
+      "sigma_m": 2e-05,
+      "method": "response_chart",
+      "budget": 1572864,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 16.449619519859272,
+      "rmse_mm_on_available": 0.07961812675030026,
+      "main_physics_nodes_range": [
+        530,
+        530
+      ],
+      "used_endpoint_cost_range": [
+        1572608,
+        1572608
+      ],
+      "median_maximum_budget_seconds": null
+    },
+    {
+      "sigma_m": 2e-05,
+      "method": "response_chart",
+      "budget": 3145728,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 39.49725746311489,
+      "rmse_mm_on_available": 0.08868448279667496,
+      "main_physics_nodes_range": [
+        2285,
+        2285
+      ],
+      "used_endpoint_cost_range": [
+        3145088,
+        3145088
+      ],
+      "median_maximum_budget_seconds": 4.86232961099995
+    },
+    {
+      "sigma_m": 2e-05,
+      "method": "hybrid_equal",
+      "budget": 1572864,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 16.239971721453948,
+      "rmse_mm_on_available": 0.08107741241176955,
+      "main_physics_nodes_range": [
+        530,
+        530
+      ],
+      "used_endpoint_cost_range": [
+        1572608,
+        1572608
+      ],
+      "median_maximum_budget_seconds": null
+    },
+    {
+      "sigma_m": 2e-05,
+      "method": "hybrid_equal",
+      "budget": 3145728,
+      "histories": 4,
+      "available": 4,
+      "screen_passed_across_both_budgets": 0,
+      "median_ess": 74.31709522724174,
+      "rmse_mm_on_available": 0.088910366114601,
+      "main_physics_nodes_range": [
+        2285,
+        2285
+      ],
+      "used_endpoint_cost_range": [
+        3145088,
+        3145088
+      ],
+      "median_maximum_budget_seconds": 4.847049118499854
+    }
+  ],
+  "frozen_prediction_sha256": "0fee1a9828b4153a79d7cc95b07c876fa03981c0a5a918d68e90722b6b556eb1",
+  "elapsed_seconds": 347.2850379880001,
+  "scope": "Empirical sampling/budget development diagnostic under the same known fixed-64-increment synthetic law. No validated posterior reference, safety bound, policy benefit, learned world model, Gaussian-image result or novelty claim.",
+  "accounting": "Charge pilot, all finite-difference/projection physics, fresh preparation/prefix replay, and every future branch. No shared physics cache across histories, replicas or methods. Nested lower-budget estimates reuse maximum-run prefixes but are each charged full setup; time measured only for each maximum-budget run. Budget counts scalar parameter/end-step solves, not CPU time, vectorized calls, proposal density arithmetic or memory.",
+  "stopping": "Preallocate K=floor((budget-setup_cost)/full_path_cost) inside-cube physical evaluations. Stop proposal stream at K-th inside-cube draw, independent of likelihood/future outputs. Whole-mixture cube-conditioning contributes one common normalizer which cancels in self-normalized weights; no evidence estimate. Outside draws retain zero target weight and count as draws, with no physics cost. No component-wise clipping or rejection normalization."
+}

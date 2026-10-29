@@ -1,5 +1,19 @@
 # 환경과 재현 방법
 
+## 전체 물리 예산을 맞춘 제안 비교
+
+[비용 정의·방법·해석](SPATIAL_BUDGET.md). 같은 8개 공개 개발 이력을 사용하며 외부 데이터는 필요하지 않다.
+
+```powershell
+.\scripts\run-wsl.ps1 python scripts/spatial_budget_evaluate.py
+.\scripts\run-wsl.ps1 python scripts/report_spatial_budget.py
+.\scripts\run-wsl.ps1 test -q tests/test_spatial_budget.py
+.\scripts\run-wsl.ps1 python scripts/publish_results.py
+.\scripts\run-wsl.ps1 python scripts/validate_public_docs.py
+```
+
+`config/spatial-budget.json`에 두 예산·독립 seed·방법·혼합 비율·회계 규칙을 고정했다. 방법마다 새 물리 bank를 사용하고 pilot과 적응도 비용으로 계산한다. 작은 예산 결과는 최대 예산 흐름의 앞부분이며 setup 전체를 청구한다. 시간은 최대 예산의 fresh-bank 실행만 측정한다. 공개 `spatial-budget-*` JSON에서 추출 수·범위 밖 추출·실제 물리 평가 수·예산 잔액을 따로 확인할 수 있다. 실행 파일은 이전 산출물을 덮어쓰므로 비교 시 별도 보존한다.
+
 ## 반응 기반 제안분포 개발 실험
 
 [세부 조건과 비용](SPATIAL_TRANSPORT.md). 기존 WSL CPU NumPy/SciPy/Matplotlib 환경을 사용한다. 기존 공개 관측 중 8개 개발 이력을 재사용하며 새로운 폐루프 실행은 아니다.

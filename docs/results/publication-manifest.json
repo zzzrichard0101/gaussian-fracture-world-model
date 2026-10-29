@@ -982,6 +982,109 @@
       "source": "artifacts/spatial-transport/comparison.png",
       "published": "docs/media/spatial-transport-comparison.png",
       "sha256": "4c62bedd9908eb29845c62b699dfbc65602192b203bdc4a88340f70bd9b3ef7a"
+    },
+    {
+      "source": "artifacts/spatial-budget/report.json",
+      "source_sha256": "64a655eefbb89ad449097d13bcb6d47a47d90670667202c840c8e807cc029656",
+      "published": "docs/results/spatial-budget.json",
+      "published_sha256": "64a655eefbb89ad449097d13bcb6d47a47d90670667202c840c8e807cc029656",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/config.json",
+      "source_sha256": "bbe8830f109cd4a652d843241175282b908d915e9c2e62ae28f2d896d85593ee",
+      "published": "docs/results/spatial-budget-config.json",
+      "published_sha256": "bbe8830f109cd4a652d843241175282b908d915e9c2e62ae28f2d896d85593ee",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/proposal-config.json",
+      "source_sha256": "6bb00d7ce490e617eb7a056f49e8c836e678d8636d3f4714f703b22a5a930440",
+      "published": "docs/results/spatial-budget-proposal-config.json",
+      "published_sha256": "6bb00d7ce490e617eb7a056f49e8c836e678d8636d3f4714f703b22a5a930440",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/inputs.json",
+      "source_sha256": "1f670bfaf6670fd8c260842b23ec0e9dbf9256edfdbab69e85b20359568773e1",
+      "published": "docs/results/spatial-budget-inputs.json",
+      "published_sha256": "1f670bfaf6670fd8c260842b23ec0e9dbf9256edfdbab69e85b20359568773e1",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/code-sha256.json",
+      "source_sha256": "6c2ebc6db667e44dba106f8b2fc8ecf64a9c4e53b39b3b9568f4ad5c23ce140b",
+      "published": "docs/results/spatial-budget-code-sha256.json",
+      "published_sha256": "6c2ebc6db667e44dba106f8b2fc8ecf64a9c4e53b39b3b9568f4ad5c23ce140b",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/source-sha256.json",
+      "source_sha256": "6c85dc30cbc104da356bbce01bcad143892c33683e36aa67a1a2748ae59c4a42",
+      "published": "docs/results/spatial-budget-source-sha256.json",
+      "published_sha256": "6c85dc30cbc104da356bbce01bcad143892c33683e36aa67a1a2748ae59c4a42",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/evaluation-source-sha256.json",
+      "source_sha256": "bea2d35ef32bf130663b6388f7d8fcd75c46ac801f5f735b1d7eeeff6a4db9a1",
+      "published": "docs/results/spatial-budget-evaluation-source-sha256.json",
+      "published_sha256": "bea2d35ef32bf130663b6388f7d8fcd75c46ac801f5f735b1d7eeeff6a4db9a1",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/report-source-sha256.json",
+      "source_sha256": "40f2db0449d15dff16c7af14d7b1f3c4258643ab70cd132b3d7a0f959a7c0eed",
+      "published": "docs/results/spatial-budget-report-source-sha256.json",
+      "published_sha256": "40f2db0449d15dff16c7af14d7b1f3c4258643ab70cd132b3d7a0f959a7c0eed",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/predictions.json",
+      "source_sha256": "0fee1a9828b4153a79d7cc95b07c876fa03981c0a5a918d68e90722b6b556eb1",
+      "published": "docs/results/spatial-budget-predictions.json",
+      "published_sha256": "0fee1a9828b4153a79d7cc95b07c876fa03981c0a5a918d68e90722b6b556eb1",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/costs.json",
+      "source_sha256": "263f08e3c13b9dbd8b9dffea4e7a84cf9bb714a33ee516dff621020baaeb3aa5",
+      "published": "docs/results/spatial-budget-costs.json",
+      "published_sha256": "263f08e3c13b9dbd8b9dffea4e7a84cf9bb714a33ee516dff621020baaeb3aa5",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/adaptation.json",
+      "source_sha256": "ea07500b017ab7602d0ac5cad8287f54a34d863a3bbd697512e7f696ed480768",
+      "published": "docs/results/spatial-budget-adaptation.json",
+      "published_sha256": "ea07500b017ab7602d0ac5cad8287f54a34d863a3bbd697512e7f696ed480768",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/evaluation-rows.json",
+      "source_sha256": "8a3c2a4ea9f3216d1b2238b7355598a14e2d516722cc2e4c15e31d1359ffd8ee",
+      "published": "docs/results/spatial-budget-evaluation-rows.json",
+      "published_sha256": "8a3c2a4ea9f3216d1b2238b7355598a14e2d516722cc2e4c15e31d1359ffd8ee",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/analysis-summary.json",
+      "source_sha256": "8c9c6f8c12c05b17c43eda0aa2a1fd5a520c5a02cc50cc2b3decd1a44be2a6f5",
+      "published": "docs/results/spatial-budget-analysis-summary.json",
+      "published_sha256": "8c9c6f8c12c05b17c43eda0aa2a1fd5a520c5a02cc50cc2b3decd1a44be2a6f5",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/diagnostics.json",
+      "source_sha256": "11476bfb412db43d3626f143a83b8b750600c41112030b004e8603bc0cac7437",
+      "published": "docs/results/spatial-budget-diagnostics.json",
+      "published_sha256": "11476bfb412db43d3626f143a83b8b750600c41112030b004e8603bc0cac7437",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-budget/comparison.png",
+      "published": "docs/media/spatial-budget-comparison.png",
+      "sha256": "a043c8e092a51642ba84035e1bad25b6c5aa1aa3c6657133b8f3fe78ab28109a"
     }
   ]
 }
