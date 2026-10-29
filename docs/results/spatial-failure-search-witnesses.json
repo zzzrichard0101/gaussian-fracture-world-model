@@ -1,0 +1,1014 @@
+[
+  {
+    "input": {
+      "trajectory_id": "s-29-1-0-0-endpoints-finite_guard_tilt",
+      "turn": 0,
+      "public_actions": [
+        0,
+        1
+      ],
+      "public_observed_m": [
+        [
+          3.440736224996403e-05,
+          -1.3619406567742176e-05
+        ],
+        [
+          0.00025850556927447545,
+          0.00032288264841943585
+        ]
+      ],
+      "positions_m": [
+        -0.04,
+        0.04
+      ],
+      "sigma_m": 2e-05,
+      "action": 5
+    },
+    "sampled_feasible_points": 407,
+    "sampled_feasible_violating_points": 154,
+    "witness": {
+      "parameter_point": [
+        1.3803881930187345,
+        0.0014446525566279888,
+        0.001244484293460846
+      ],
+      "independent_replays": [
+        {
+          "parameters": [
+            1.3803881930187345,
+            0.0014446525566279888,
+            0.001244484293460846
+          ],
+          "resolution_m": 4e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00034121356291843164,
+              0.0002362366795160218
+            ]
+          ],
+          "bias_lower_m": [
+            -2.5592637750035976e-05,
+            2.664596890341403e-05
+          ],
+          "bias_upper_m": [
+            -2.2707993643956176e-05,
+            4.638059343225783e-05
+          ],
+          "minimum_bias_interval_width_m": 2.8846441060798007e-06,
+          "damage_increment": 0.14236880798319185,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.8716690105895333,
+            0.8266192333585624,
+            0.7479866091839619
+          ],
+          "final_damage": [
+            0.8716690105895333,
+            0.8266192333585624,
+            0.8903554171671537
+          ],
+          "accounted_residual_j": 1.6360064766882815e-08
+        },
+        {
+          "parameters": [
+            1.3803881930187345,
+            0.0014446525566279888,
+            0.001244484293460846
+          ],
+          "resolution_m": 2e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00034121356291843164,
+              0.0002362366795160218
+            ]
+          ],
+          "bias_lower_m": [
+            -2.5592637750035976e-05,
+            2.664596890341403e-05
+          ],
+          "bias_upper_m": [
+            -2.2707993643956176e-05,
+            4.638059343225783e-05
+          ],
+          "minimum_bias_interval_width_m": 2.8846441060798007e-06,
+          "damage_increment": 0.14236880798319185,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.8716690105895333,
+            0.8266192333585624,
+            0.7479866091839619
+          ],
+          "final_damage": [
+            0.8716690105895333,
+            0.8266192333585624,
+            0.8903554171671537
+          ],
+          "accounted_residual_j": 7.205462693084946e-09
+        }
+      ]
+    },
+    "conclusion": "numerical_counterexample_found"
+  },
+  {
+    "input": {
+      "trajectory_id": "s-29-1-0-0-endpoints-finite_guard_tilt",
+      "turn": 1,
+      "public_actions": [
+        0,
+        1,
+        5
+      ],
+      "public_observed_m": [
+        [
+          3.440736224996403e-05,
+          -1.3619406567742176e-05
+        ],
+        [
+          0.00025850556927447545,
+          0.00032288264841943585
+        ],
+        [
+          6.031872896785445e-05,
+          0.0007105874792408565
+        ]
+      ],
+      "positions_m": [
+        -0.04,
+        0.04
+      ],
+      "sigma_m": 2e-05,
+      "action": 5
+    },
+    "sampled_feasible_points": 349,
+    "sampled_feasible_violating_points": 110,
+    "witness": {
+      "parameter_point": [
+        1.3803881930187345,
+        0.0014446525566279888,
+        0.001244484293460846
+      ],
+      "independent_replays": [
+        {
+          "parameters": [
+            1.3803881930187345,
+            0.0014446525566279888,
+            0.001244484293460846
+          ],
+          "resolution_m": 4e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00034121356291843164,
+              0.0002362366795160218
+            ],
+            [
+              9.155971273227474e-05,
+              0.0007047476340098088
+            ]
+          ],
+          "bias_lower_m": [
+            -2.5592637750035976e-05,
+            2.664596890341403e-05
+          ],
+          "bias_upper_m": [
+            -2.2707993643956176e-05,
+            4.638059343225783e-05
+          ],
+          "minimum_bias_interval_width_m": 2.8846441060798007e-06,
+          "damage_increment": 0.14236880798319185,
+          "damage_increment_before_action": 0.14236880798319185,
+          "new_budget_crossing": false,
+          "reference_damage": [
+            0.8716690105895333,
+            0.8266192333585624,
+            0.7479866091839619
+          ],
+          "final_damage": [
+            0.8716690105895333,
+            0.8266192333585624,
+            0.8903554171671537
+          ],
+          "accounted_residual_j": 1.63600647694849e-08
+        },
+        {
+          "parameters": [
+            1.3803881930187345,
+            0.0014446525566279888,
+            0.001244484293460846
+          ],
+          "resolution_m": 2e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00034121356291843164,
+              0.0002362366795160218
+            ],
+            [
+              9.155971273227474e-05,
+              0.0007047476340098088
+            ]
+          ],
+          "bias_lower_m": [
+            -2.5592637750035976e-05,
+            2.664596890341403e-05
+          ],
+          "bias_upper_m": [
+            -2.2707993643956176e-05,
+            4.638059343225783e-05
+          ],
+          "minimum_bias_interval_width_m": 2.8846441060798007e-06,
+          "damage_increment": 0.14236880798319185,
+          "damage_increment_before_action": 0.14236880798319185,
+          "new_budget_crossing": false,
+          "reference_damage": [
+            0.8716690105895333,
+            0.8266192333585624,
+            0.7479866091839619
+          ],
+          "final_damage": [
+            0.8716690105895333,
+            0.8266192333585624,
+            0.8903554171671537
+          ],
+          "accounted_residual_j": 7.205462687013414e-09
+        }
+      ]
+    },
+    "conclusion": "numerical_counterexample_found"
+  },
+  {
+    "input": {
+      "trajectory_id": "s-29-1-0-1-endpoints-finite_guard_tilt",
+      "turn": 0,
+      "public_actions": [
+        0,
+        1
+      ],
+      "public_observed_m": [
+        [
+          -3.201415242020212e-05,
+          9.319684689791173e-06
+        ],
+        [
+          0.000234777486237528,
+          0.00034009118262231787
+        ]
+      ],
+      "positions_m": [
+        -0.04,
+        0.04
+      ],
+      "sigma_m": 2e-05,
+      "action": 5
+    },
+    "sampled_feasible_points": 483,
+    "sampled_feasible_violating_points": 202,
+    "witness": {
+      "parameter_point": [
+        1.629311512876302,
+        0.0015517052320763469,
+        0.0012247599355876446
+      ],
+      "independent_replays": [
+        {
+          "parameters": [
+            1.629311512876302,
+            0.0015517052320763469,
+            0.0012247599355876446
+          ],
+          "resolution_m": 4e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0003686019592883611,
+              0.0002146154111294601
+            ]
+          ],
+          "bias_lower_m": [
+            -9.201415242020213e-05,
+            6.547577149285776e-05
+          ],
+          "bias_upper_m": [
+            -7.382447305083311e-05,
+            6.931968468979118e-05
+          ],
+          "minimum_bias_interval_width_m": 3.84391319693342e-06,
+          "damage_increment": 0.17805658736400298,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.8901354683102756,
+            0.8339320761158504,
+            0.7036826781157642
+          ],
+          "final_damage": [
+            0.8901354683102756,
+            0.8339320761158504,
+            0.8817392654797672
+          ],
+          "accounted_residual_j": 2.0950678714451443e-08
+        },
+        {
+          "parameters": [
+            1.629311512876302,
+            0.0015517052320763469,
+            0.0012247599355876446
+          ],
+          "resolution_m": 2e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0003686019592883611,
+              0.0002146154111294601
+            ]
+          ],
+          "bias_lower_m": [
+            -9.201415242020213e-05,
+            6.547577149285776e-05
+          ],
+          "bias_upper_m": [
+            -7.382447305083311e-05,
+            6.931968468979118e-05
+          ],
+          "minimum_bias_interval_width_m": 3.84391319693342e-06,
+          "damage_increment": 0.17805658736400298,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.8901354683102756,
+            0.8339320761158504,
+            0.7036826781157642
+          ],
+          "final_damage": [
+            0.8901354683102756,
+            0.8339320761158504,
+            0.8817392654797672
+          ],
+          "accounted_residual_j": 4.594628304124132e-09
+        }
+      ]
+    },
+    "conclusion": "numerical_counterexample_found"
+  },
+  {
+    "input": {
+      "trajectory_id": "s-29-1-0-1-endpoints-finite_guard_tilt",
+      "turn": 1,
+      "public_actions": [
+        0,
+        1,
+        5
+      ],
+      "public_observed_m": [
+        [
+          -3.201415242020212e-05,
+          9.319684689791173e-06
+        ],
+        [
+          0.000234777486237528,
+          0.00034009118262231787
+        ],
+        [
+          6.536128489863165e-05,
+          0.0006910494005068483
+        ]
+      ],
+      "positions_m": [
+        -0.04,
+        0.04
+      ],
+      "sigma_m": 2e-05,
+      "action": 5
+    },
+    "sampled_feasible_points": 433,
+    "sampled_feasible_violating_points": 198,
+    "witness": {
+      "parameter_point": [
+        2.072842643316835,
+        0.0016477233406156301,
+        0.001239958023838699
+      ],
+      "independent_replays": [
+        {
+          "parameters": [
+            2.072842643316835,
+            0.0016477233406156301,
+            0.001239958023838699
+          ],
+          "resolution_m": 4e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0003805437316232434,
+              0.00021270500215384323
+            ],
+            [
+              0.00011376844278066834,
+              0.0006691977000017421
+            ]
+          ],
+          "bias_lower_m": [
+            -9.201415242020213e-05,
+            6.738618046847463e-05
+          ],
+          "bias_upper_m": [
+            -8.576624538571537e-05,
+            6.931968468979118e-05
+          ],
+          "minimum_bias_interval_width_m": 1.9335042213165516e-06,
+          "damage_increment": 0.17464998365814588,
+          "damage_increment_before_action": 0.17464998365814588,
+          "new_budget_crossing": false,
+          "reference_damage": [
+            0.8967627994155258,
+            0.8406592758939444,
+            0.696941405606721
+          ],
+          "final_damage": [
+            0.8967627994155258,
+            0.8406592758939444,
+            0.8715913892648669
+          ],
+          "accounted_residual_j": 1.4469386936440815e-08
+        },
+        {
+          "parameters": [
+            2.072842643316835,
+            0.0016477233406156301,
+            0.001239958023838699
+          ],
+          "resolution_m": 2e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0003805437316232434,
+              0.00021270500215384323
+            ],
+            [
+              0.00011376844278066834,
+              0.0006691977000017421
+            ]
+          ],
+          "bias_lower_m": [
+            -9.201415242020213e-05,
+            6.738618046847463e-05
+          ],
+          "bias_upper_m": [
+            -8.576624538571537e-05,
+            6.931968468979118e-05
+          ],
+          "minimum_bias_interval_width_m": 1.9335042213165516e-06,
+          "damage_increment": 0.17464998365814588,
+          "damage_increment_before_action": 0.17464998365814588,
+          "new_budget_crossing": false,
+          "reference_damage": [
+            0.8967627994155258,
+            0.8406592758939444,
+            0.696941405606721
+          ],
+          "final_damage": [
+            0.8967627994155258,
+            0.8406592758939444,
+            0.8715913892648669
+          ],
+          "accounted_residual_j": 4.122590070102655e-09
+        }
+      ]
+    },
+    "conclusion": "numerical_counterexample_found"
+  },
+  {
+    "input": {
+      "trajectory_id": "s-29-1-1-0-endpoints-finite_guard_tilt",
+      "turn": 0,
+      "public_actions": [
+        0,
+        1
+      ],
+      "public_observed_m": [
+        [
+          4.224051929893017e-05,
+          -2.218028063763071e-05
+        ],
+        [
+          0.00032228662740039555,
+          0.0002926435389703458
+        ]
+      ],
+      "positions_m": [
+        -0.04,
+        0.04
+      ],
+      "sigma_m": 2e-05,
+      "action": 2
+    },
+    "sampled_feasible_points": 508,
+    "sampled_feasible_violating_points": 6,
+    "witness": {
+      "parameter_point": [
+        2.0031808095052837,
+        0.0011555053370073437,
+        0.0017300696514546872
+      ],
+      "independent_replays": [
+        {
+          "parameters": [
+            2.0031808095052837,
+            0.0011555053370073437,
+            0.0017300696514546872
+          ],
+          "resolution_m": 4e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00016170651400159808,
+              0.0004105715736291856
+            ]
+          ],
+          "bias_lower_m": [
+            0.00010058011339879746,
+            -8.218028063763072e-05
+          ],
+          "bias_upper_m": [
+            0.00010224051929893018,
+            -5.7928034658839755e-05
+          ],
+          "minimum_bias_interval_width_m": 1.6604059001327132e-06,
+          "damage_increment": 0.061737616350101665,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.5470897940539582,
+            0.8426954110114392,
+            0.9125395572378965
+          ],
+          "final_damage": [
+            0.6088274104040599,
+            0.8426954110114392,
+            0.9125395572378965
+          ],
+          "accounted_residual_j": 1.5098451658628748e-08
+        },
+        {
+          "parameters": [
+            2.0031808095052837,
+            0.0011555053370073437,
+            0.0017300696514546872
+          ],
+          "resolution_m": 2e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00016170651400159808,
+              0.0004105715736291856
+            ]
+          ],
+          "bias_lower_m": [
+            0.00010058011339879746,
+            -8.218028063763072e-05
+          ],
+          "bias_upper_m": [
+            0.00010224051929893018,
+            -5.7928034658839755e-05
+          ],
+          "minimum_bias_interval_width_m": 1.6604059001327132e-06,
+          "damage_increment": 0.061737616350101665,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.5470897940539582,
+            0.8426954110114392,
+            0.9125395572378965
+          ],
+          "final_damage": [
+            0.6088274104040599,
+            0.8426954110114392,
+            0.9125395572378965
+          ],
+          "accounted_residual_j": 3.094125706516737e-09
+        }
+      ]
+    },
+    "conclusion": "numerical_counterexample_found"
+  },
+  {
+    "input": {
+      "trajectory_id": "s-29-1-1-0-endpoints-finite_guard_tilt",
+      "turn": 1,
+      "public_actions": [
+        0,
+        1,
+        2
+      ],
+      "public_observed_m": [
+        [
+          4.224051929893017e-05,
+          -2.218028063763071e-05
+        ],
+        [
+          0.00032228662740039555,
+          0.0002926435389703458
+        ],
+        [
+          0.0004151674096456353,
+          8.924801425655249e-05
+        ]
+      ],
+      "positions_m": [
+        -0.04,
+        0.04
+      ],
+      "sigma_m": 2e-05,
+      "action": 5
+    },
+    "sampled_feasible_points": 400,
+    "sampled_feasible_violating_points": 191,
+    "witness": {
+      "parameter_point": [
+        1.7184384713880718,
+        0.001575103638879955,
+        0.0012085342986509204
+      ],
+      "independent_replays": [
+        {
+          "parameters": [
+            1.7184384713880718,
+            0.001575103638879955,
+            0.0012085342986509204
+          ],
+          "resolution_m": 4e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00037111425692608926,
+              0.0002003815148336478
+            ],
+            [
+              0.0004885435766033711,
+              7.55400019710644e-05
+            ]
+          ],
+          "bias_lower_m": [
+            -1.775948070106984e-05,
+            3.226202413669802e-05
+          ],
+          "bias_upper_m": [
+            -1.3376166957735765e-05,
+            3.78197193623693e-05
+          ],
+          "minimum_bias_interval_width_m": 4.383313743334076e-06,
+          "damage_increment": 0.20615655282132928,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.8918545008867154,
+            0.8306302435572017,
+            0.6719046269723368
+          ],
+          "final_damage": [
+            0.8918545008867154,
+            0.8306302435572017,
+            0.878061179793666
+          ],
+          "accounted_residual_j": 1.2173569481892937e-08
+        },
+        {
+          "parameters": [
+            1.7184384713880718,
+            0.001575103638879955,
+            0.0012085342986509204
+          ],
+          "resolution_m": 2e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00037111425692608926,
+              0.0002003815148336478
+            ],
+            [
+              0.0004885435766033711,
+              7.55400019710644e-05
+            ]
+          ],
+          "bias_lower_m": [
+            -1.775948070106984e-05,
+            3.226202413669802e-05
+          ],
+          "bias_upper_m": [
+            -1.3376166957735765e-05,
+            3.78197193623693e-05
+          ],
+          "minimum_bias_interval_width_m": 4.383313743334076e-06,
+          "damage_increment": 0.20615655282132928,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.8918545008867154,
+            0.8306302435572017,
+            0.6719046269723368
+          ],
+          "final_damage": [
+            0.8918545008867154,
+            0.8306302435572017,
+            0.878061179793666
+          ],
+          "accounted_residual_j": 4.421199482039506e-09
+        }
+      ]
+    },
+    "conclusion": "numerical_counterexample_found"
+  },
+  {
+    "input": {
+      "trajectory_id": "s-29-1-1-1-endpoints-finite_guard_tilt",
+      "turn": 0,
+      "public_actions": [
+        0,
+        1
+      ],
+      "public_observed_m": [
+        [
+          7.29862504313026e-06,
+          -5.8317668424814716e-05
+        ],
+        [
+          0.0002700590889586164,
+          0.0002478003338135669
+        ]
+      ],
+      "positions_m": [
+        -0.04,
+        0.04
+      ],
+      "sigma_m": 2e-05,
+      "action": 5
+    },
+    "sampled_feasible_points": 485,
+    "sampled_feasible_violating_points": 237,
+    "witness": {
+      "parameter_point": [
+        2.616279560793191,
+        0.0016263072464615107,
+        0.0012217073563486338
+      ],
+      "independent_replays": [
+        {
+          "parameters": [
+            2.616279560793191,
+            0.0016263072464615107,
+            0.0012217073563486338
+          ],
+          "resolution_m": 4e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00035357384387830576,
+              0.00018730971449985222
+            ]
+          ],
+          "bias_lower_m": [
+            -5.270137495686975e-05,
+            4.906193137146816e-07
+          ],
+          "bias_upper_m": [
+            -2.3514754919689334e-05,
+            1.6823315751852925e-06
+          ],
+          "minimum_bias_interval_width_m": 1.191712261470611e-06,
+          "damage_increment": 0.21574746273583567,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.8807612489396113,
+            0.8165651776071016,
+            0.6417733958027521
+          ],
+          "final_damage": [
+            0.8807612489396113,
+            0.8165651776071016,
+            0.8575208585385877
+          ],
+          "accounted_residual_j": 1.2423559759503627e-08
+        },
+        {
+          "parameters": [
+            2.616279560793191,
+            0.0016263072464615107,
+            0.0012217073563486338
+          ],
+          "resolution_m": 2e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00035357384387830576,
+              0.00018730971449985222
+            ]
+          ],
+          "bias_lower_m": [
+            -5.270137495686975e-05,
+            4.906193137146816e-07
+          ],
+          "bias_upper_m": [
+            -2.3514754919689334e-05,
+            1.6823315751852925e-06
+          ],
+          "minimum_bias_interval_width_m": 1.191712261470611e-06,
+          "damage_increment": 0.21574746273583567,
+          "damage_increment_before_action": 0.0,
+          "new_budget_crossing": true,
+          "reference_damage": [
+            0.8807612489396113,
+            0.8165651776071016,
+            0.6417733958027521
+          ],
+          "final_damage": [
+            0.8807612489396113,
+            0.8165651776071016,
+            0.8575208585385877
+          ],
+          "accounted_residual_j": 2.1591168492852975e-09
+        }
+      ]
+    },
+    "conclusion": "numerical_counterexample_found"
+  },
+  {
+    "input": {
+      "trajectory_id": "s-29-1-1-1-endpoints-finite_guard_tilt",
+      "turn": 1,
+      "public_actions": [
+        0,
+        1,
+        5
+      ],
+      "public_observed_m": [
+        [
+          7.29862504313026e-06,
+          -5.8317668424814716e-05
+        ],
+        [
+          0.0002700590889586164,
+          0.0002478003338135669
+        ],
+        [
+          8.896297367351479e-05,
+          0.0006661148842321632
+        ]
+      ],
+      "positions_m": [
+        -0.04,
+        0.04
+      ],
+      "sigma_m": 2e-05,
+      "action": 5
+    },
+    "sampled_feasible_points": 431,
+    "sampled_feasible_violating_points": 185,
+    "witness": {
+      "parameter_point": [
+        2.616279560793191,
+        0.0016263072464615107,
+        0.0012217073563486338
+      ],
+      "independent_replays": [
+        {
+          "parameters": [
+            2.616279560793191,
+            0.0016263072464615107,
+            0.0012217073563486338
+          ],
+          "resolution_m": 4e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00035357384387830576,
+              0.00018730971449985222
+            ],
+            [
+              9.880739268743342e-05,
+              0.000629456097562387
+            ]
+          ],
+          "bias_lower_m": [
+            -5.270137495686975e-05,
+            4.906193137146816e-07
+          ],
+          "bias_upper_m": [
+            -2.3514754919689334e-05,
+            1.6823315751852925e-06
+          ],
+          "minimum_bias_interval_width_m": 1.191712261470611e-06,
+          "damage_increment": 0.21574746273583556,
+          "damage_increment_before_action": 0.21574746273583567,
+          "new_budget_crossing": false,
+          "reference_damage": [
+            0.8807612489396113,
+            0.8165651776071016,
+            0.6417733958027521
+          ],
+          "final_damage": [
+            0.8807612489396113,
+            0.8165651776071016,
+            0.8575208585385876
+          ],
+          "accounted_residual_j": 1.2423559763840436e-08
+        },
+        {
+          "parameters": [
+            2.616279560793191,
+            0.0016263072464615107,
+            0.0012217073563486338
+          ],
+          "resolution_m": 2e-06,
+          "predicted_prefix_m": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00035357384387830576,
+              0.00018730971449985222
+            ],
+            [
+              9.880739268743342e-05,
+              0.000629456097562387
+            ]
+          ],
+          "bias_lower_m": [
+            -5.270137495686975e-05,
+            4.906193137146816e-07
+          ],
+          "bias_upper_m": [
+            -2.3514754919689334e-05,
+            1.6823315751852925e-06
+          ],
+          "minimum_bias_interval_width_m": 1.191712261470611e-06,
+          "damage_increment": 0.21574746273583556,
+          "damage_increment_before_action": 0.21574746273583567,
+          "new_budget_crossing": false,
+          "reference_damage": [
+            0.8807612489396113,
+            0.8165651776071016,
+            0.6417733958027521
+          ],
+          "final_damage": [
+            0.8807612489396113,
+            0.8165651776071016,
+            0.8575208585385876
+          ],
+          "accounted_residual_j": 2.1591168527547444e-09
+        }
+      ]
+    },
+    "conclusion": "numerical_counterexample_found"
+  }
+]

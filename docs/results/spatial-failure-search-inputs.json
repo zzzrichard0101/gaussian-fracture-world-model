@@ -1,0 +1,214 @@
+[
+  {
+    "trajectory_id": "s-29-1-0-0-endpoints-finite_guard_tilt",
+    "turn": 0,
+    "public_actions": [
+      0,
+      1
+    ],
+    "public_observed_m": [
+      [
+        3.440736224996403e-05,
+        -1.3619406567742176e-05
+      ],
+      [
+        0.00025850556927447545,
+        0.00032288264841943585
+      ]
+    ],
+    "positions_m": [
+      -0.04,
+      0.04
+    ],
+    "sigma_m": 2e-05,
+    "action": 5
+  },
+  {
+    "trajectory_id": "s-29-1-0-0-endpoints-finite_guard_tilt",
+    "turn": 1,
+    "public_actions": [
+      0,
+      1,
+      5
+    ],
+    "public_observed_m": [
+      [
+        3.440736224996403e-05,
+        -1.3619406567742176e-05
+      ],
+      [
+        0.00025850556927447545,
+        0.00032288264841943585
+      ],
+      [
+        6.031872896785445e-05,
+        0.0007105874792408565
+      ]
+    ],
+    "positions_m": [
+      -0.04,
+      0.04
+    ],
+    "sigma_m": 2e-05,
+    "action": 5
+  },
+  {
+    "trajectory_id": "s-29-1-0-1-endpoints-finite_guard_tilt",
+    "turn": 0,
+    "public_actions": [
+      0,
+      1
+    ],
+    "public_observed_m": [
+      [
+        -3.201415242020212e-05,
+        9.319684689791173e-06
+      ],
+      [
+        0.000234777486237528,
+        0.00034009118262231787
+      ]
+    ],
+    "positions_m": [
+      -0.04,
+      0.04
+    ],
+    "sigma_m": 2e-05,
+    "action": 5
+  },
+  {
+    "trajectory_id": "s-29-1-0-1-endpoints-finite_guard_tilt",
+    "turn": 1,
+    "public_actions": [
+      0,
+      1,
+      5
+    ],
+    "public_observed_m": [
+      [
+        -3.201415242020212e-05,
+        9.319684689791173e-06
+      ],
+      [
+        0.000234777486237528,
+        0.00034009118262231787
+      ],
+      [
+        6.536128489863165e-05,
+        0.0006910494005068483
+      ]
+    ],
+    "positions_m": [
+      -0.04,
+      0.04
+    ],
+    "sigma_m": 2e-05,
+    "action": 5
+  },
+  {
+    "trajectory_id": "s-29-1-1-0-endpoints-finite_guard_tilt",
+    "turn": 0,
+    "public_actions": [
+      0,
+      1
+    ],
+    "public_observed_m": [
+      [
+        4.224051929893017e-05,
+        -2.218028063763071e-05
+      ],
+      [
+        0.00032228662740039555,
+        0.0002926435389703458
+      ]
+    ],
+    "positions_m": [
+      -0.04,
+      0.04
+    ],
+    "sigma_m": 2e-05,
+    "action": 2
+  },
+  {
+    "trajectory_id": "s-29-1-1-0-endpoints-finite_guard_tilt",
+    "turn": 1,
+    "public_actions": [
+      0,
+      1,
+      2
+    ],
+    "public_observed_m": [
+      [
+        4.224051929893017e-05,
+        -2.218028063763071e-05
+      ],
+      [
+        0.00032228662740039555,
+        0.0002926435389703458
+      ],
+      [
+        0.0004151674096456353,
+        8.924801425655249e-05
+      ]
+    ],
+    "positions_m": [
+      -0.04,
+      0.04
+    ],
+    "sigma_m": 2e-05,
+    "action": 5
+  },
+  {
+    "trajectory_id": "s-29-1-1-1-endpoints-finite_guard_tilt",
+    "turn": 0,
+    "public_actions": [
+      0,
+      1
+    ],
+    "public_observed_m": [
+      [
+        7.29862504313026e-06,
+        -5.8317668424814716e-05
+      ],
+      [
+        0.0002700590889586164,
+        0.0002478003338135669
+      ]
+    ],
+    "positions_m": [
+      -0.04,
+      0.04
+    ],
+    "sigma_m": 2e-05,
+    "action": 5
+  },
+  {
+    "trajectory_id": "s-29-1-1-1-endpoints-finite_guard_tilt",
+    "turn": 1,
+    "public_actions": [
+      0,
+      1,
+      5
+    ],
+    "public_observed_m": [
+      [
+        7.29862504313026e-06,
+        -5.8317668424814716e-05
+      ],
+      [
+        0.0002700590889586164,
+        0.0002478003338135669
+      ],
+      [
+        8.896297367351479e-05,
+        0.0006661148842321632
+      ]
+    ],
+    "positions_m": [
+      -0.04,
+      0.04
+    ],
+    "sigma_m": 2e-05,
+    "action": 5
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "case_index": 0,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 0.0,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 0,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 0.0,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 0,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 0.0,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 0,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 1.6263032587282567e-19,
+    "maximum_error_m": 1.0842021724855044e-19,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 13,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 2.710505431213761e-20,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 13,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 2.710505431213761e-20,
+    "maximum_error_m": 2.710505431213761e-20,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 13,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 2.710505431213761e-20,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 13,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 2.710505431213761e-19,
+    "maximum_error_m": 3.2526065174565133e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 26,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 2.168404344971009e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 26,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 1.0842021724855044e-19,
+    "maximum_error_m": 2.168404344971009e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 26,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 3.7947076036992655e-19,
+    "maximum_error_m": 2.168404344971009e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 26,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 3.7947076036992655e-19,
+    "maximum_error_m": 2.168404344971009e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 27,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 27,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 0.0
+  },
+  {
+    "case_index": 27,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 3.2526065174565133e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 27,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 2.710505431213761e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 28,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 2.168404344971009e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 28,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 3.2526065174565133e-19,
+    "maximum_error_m": 2.168404344971009e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 28,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 6.505213034913027e-19,
+    "maximum_error_m": 2.168404344971009e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 28,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 6.505213034913027e-19,
+    "maximum_error_m": 2.168404344971009e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 29,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 29,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 2.541098841762901e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 29,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 1.6263032587282567e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 29,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 2.168404344971009e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 30,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 30,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 1.0842021724855044e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 30,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 2.168404344971009e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 30,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 5.421010862427522e-20,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 31,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 31,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 3.1170812458958252e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 31,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 5.421010862427522e-20,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 31,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 1.6263032587282567e-19,
+    "maximum_error_m": 4.336808689942018e-19,
+    "damage_error": 2.220446049250313e-16
+  },
+  {
+    "case_index": 32,
+    "path": [
+      0
+    ],
+    "gap_error_m": 0.0,
+    "maximum_error_m": 2.439454888092385e-19,
+    "damage_error": 3.3306690738754696e-16
+  },
+  {
+    "case_index": 32,
+    "path": [
+      0,
+      1
+    ],
+    "gap_error_m": 1.3552527156068805e-19,
+    "maximum_error_m": 2.439454888092385e-19,
+    "damage_error": 3.3306690738754696e-16
+  },
+  {
+    "case_index": 32,
+    "path": [
+      0,
+      1,
+      4
+    ],
+    "gap_error_m": 2.168404344971009e-19,
+    "maximum_error_m": 2.439454888092385e-19,
+    "damage_error": 1.1102230246251565e-16
+  },
+  {
+    "case_index": 32,
+    "path": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "gap_error_m": 1.6263032587282567e-19,
+    "maximum_error_m": 2.439454888092385e-19,
+    "damage_error": 1.1102230246251565e-16
+  }
+]

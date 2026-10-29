@@ -638,6 +638,130 @@
       "source": "artifacts/spatial-fixture/comparison.png",
       "published": "docs/media/spatial-fixture-comparison.png",
       "sha256": "7a4a6ab0e813d7e6047548fbeff86e0e73e4887fde62b8b786da203423426cae"
+    },
+    {
+      "source": "artifacts/spatial-observation/report.json",
+      "source_sha256": "3026b7d6e3b0c45d4a14c14e0cdccd32ae844b235290c576d1fd3136031320f0",
+      "published": "docs/results/spatial-observation.json",
+      "published_sha256": "3026b7d6e3b0c45d4a14c14e0cdccd32ae844b235290c576d1fd3136031320f0",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/config.json",
+      "source_sha256": "5e26ed9841bec67cc7081ba6c90a36b9857179a821d61a147e1c60c68c06fd9c",
+      "published": "docs/results/spatial-observation-config.json",
+      "published_sha256": "5e26ed9841bec67cc7081ba6c90a36b9857179a821d61a147e1c60c68c06fd9c",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/catalog.json",
+      "source_sha256": "8dfdb24b94d187935aef5b9209acf2f7e5a405bbfdb00d1d4f17d2471e0312a0",
+      "published": "docs/results/spatial-observation-catalog.json",
+      "published_sha256": "8dfdb24b94d187935aef5b9209acf2f7e5a405bbfdb00d1d4f17d2471e0312a0",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/case-config.json",
+      "source_sha256": "53e64f1ff571849ce8c421562946adf0b4e57808f2116eb3f51d4e8cec2be4ee",
+      "published": "docs/results/spatial-observation-case-config.json",
+      "published_sha256": "53e64f1ff571849ce8c421562946adf0b4e57808f2116eb3f51d4e8cec2be4ee",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/code-sha256.json",
+      "source_sha256": "d686f1c49209173cbdd984825012bc7f6099ba9b35453fcac994e8b0a30260b8",
+      "published": "docs/results/spatial-observation-code-sha256.json",
+      "published_sha256": "d686f1c49209173cbdd984825012bc7f6099ba9b35453fcac994e8b0a30260b8",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/analysis-summary.json",
+      "source_sha256": "17b8842937a796bf721257ee27f460a475bfbef7b457e02c05a77f6b2d0dde41",
+      "published": "docs/results/spatial-observation-analysis-summary.json",
+      "published_sha256": "17b8842937a796bf721257ee27f460a475bfbef7b457e02c05a77f6b2d0dde41",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/evaluation-rows.json",
+      "source_sha256": "133dcf73dee79ab695b453ba2e26595f0315b50e0a74226f189c1a8660d91bfa",
+      "published": "docs/results/spatial-observation-evaluation-rows.json",
+      "published_sha256": "133dcf73dee79ab695b453ba2e26595f0315b50e0a74226f189c1a8660d91bfa",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/public-episodes.json",
+      "source_sha256": "2aed2d732b58b1ce49e5341c59976ec5d11dd5ac8bed8dd969c87a80b01289e7",
+      "published": "docs/results/spatial-observation-public-episodes.json",
+      "published_sha256": "2aed2d732b58b1ce49e5341c59976ec5d11dd5ac8bed8dd969c87a80b01289e7",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/decisions.json",
+      "source_sha256": "e3f81a076c8ffc63bf759d786b4f296b78b6299e9e9306779f2036fef7aff1a6",
+      "published": "docs/results/spatial-observation-decisions.json",
+      "published_sha256": "e3f81a076c8ffc63bf759d786b4f296b78b6299e9e9306779f2036fef7aff1a6",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/reference-audit.json",
+      "source_sha256": "0711fcedc0889eed45534d4ace68094c3f319f171a920457ffe360e4cc9adc11",
+      "published": "docs/results/spatial-observation-reference-audit.json",
+      "published_sha256": "0711fcedc0889eed45534d4ace68094c3f319f171a920457ffe360e4cc9adc11",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/refinement-audit.json",
+      "source_sha256": "92a9e80e0a92d29af9c584bd1b5058bbcf3fad982a1ae01a64061ae829c2153f",
+      "published": "docs/results/spatial-observation-refinement-audit.json",
+      "published_sha256": "92a9e80e0a92d29af9c584bd1b5058bbcf3fad982a1ae01a64061ae829c2153f",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-observation/comparison.png",
+      "published": "docs/media/spatial-observation-comparison.png",
+      "sha256": "f404a6d0880b57bb8cd1b5387b46f9d5d9d85d7358a63455054947321fee5a8f"
+    },
+    {
+      "source": "artifacts/spatial-failure-search/report.json",
+      "source_sha256": "42aace6c6f8bdf24f0c2ce938c765516f0ef44ff958bb15d023b71a8cd04ae2b",
+      "published": "docs/results/spatial-failure-search.json",
+      "published_sha256": "42aace6c6f8bdf24f0c2ce938c765516f0ef44ff958bb15d023b71a8cd04ae2b",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-failure-search/config.json",
+      "source_sha256": "5dfc4fbfa492115226ab5452e5dc1134065bd934af80f7444801c0086d826b11",
+      "published": "docs/results/spatial-failure-search-config.json",
+      "published_sha256": "5dfc4fbfa492115226ab5452e5dc1134065bd934af80f7444801c0086d826b11",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-failure-search/code-sha256.json",
+      "source_sha256": "5f47ea717db83c88a3060a7e16634acf61ded4e276e295281fd12bb9c36879f5",
+      "published": "docs/results/spatial-failure-search-code-sha256.json",
+      "published_sha256": "5f47ea717db83c88a3060a7e16634acf61ded4e276e295281fd12bb9c36879f5",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-failure-search/source-sha256.json",
+      "source_sha256": "867322e3163aae5b6e5212b887153026a08d516c420e6c06f54635959709571d",
+      "published": "docs/results/spatial-failure-search-source-sha256.json",
+      "published_sha256": "867322e3163aae5b6e5212b887153026a08d516c420e6c06f54635959709571d",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-failure-search/inputs.json",
+      "source_sha256": "67dd10f563562d83d0389292eaceb2070ad39df0a3bf1255b699097ff6da5746",
+      "published": "docs/results/spatial-failure-search-inputs.json",
+      "published_sha256": "67dd10f563562d83d0389292eaceb2070ad39df0a3bf1255b699097ff6da5746",
+      "transformation": "Runtime root replaced; numeric results unchanged"
+    },
+    {
+      "source": "artifacts/spatial-failure-search/witnesses.json",
+      "source_sha256": "a8f955d191fc8c9d8378d250faa1e444a99a18fca2497b5225001445af196b14",
+      "published": "docs/results/spatial-failure-search-witnesses.json",
+      "published_sha256": "a8f955d191fc8c9d8378d250faa1e444a99a18fca2497b5225001445af196b14",
+      "transformation": "Runtime root replaced; numeric results unchanged"
     }
   ]
 }

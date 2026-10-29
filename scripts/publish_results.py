@@ -92,7 +92,7 @@ def main():
     # Keep the original publication intact and add explicit follow-up exports.
     followup_stages = ["compliant-pilot", "synthetic-filter-benchmark", "bias-aware-filter",
         "finite-damage-guard", "action-ceiling-diagnostic", "continuous-risk-probe",
-        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture"]
+        "continuous-risk-evaluation", "risk-reuse", "observation-budget", "response-quadrature", "guided-quadrature", "task-aware-pilot", "alternating-frontier", "probe-identifiability", "spatial-fixture", "spatial-observation", "spatial-failure-search"]
     for stage in followup_stages:
         names = ["report.json"]
         if stage == "risk-reuse":
@@ -116,6 +116,11 @@ def main():
             names += ["config.json", "code-sha256.json", "proofs.json"]
         if stage == "spatial-fixture":
             names += ["config.json", "code-sha256.json", "analysis-summary.json", "evaluation-rows.json", "preparations.json"]
+        if stage == "spatial-observation":
+            names += ["config.json", "catalog.json", "case-config.json", "code-sha256.json", "analysis-summary.json",
+                "evaluation-rows.json", "public-episodes.json", "decisions.json", "reference-audit.json", "refinement-audit.json"]
+        if stage == "spatial-failure-search":
+            names += ["config.json", "code-sha256.json", "source-sha256.json", "inputs.json", "witnesses.json"]
         for name in names:
             path = source/stage/name
             target = result/(stage+("" if name == "report.json" else "-"+name[:-5])+".json")
@@ -144,6 +149,10 @@ def main():
             "[세 구역 접합면·이동과 회전·준비 이력](SPATIAL_FIXTURE.md)을 구현했다. "
             "다섯 설계 사례에서 증분·평형·일과 소산을 검사한 순방향 단계이며 "
             "영상 관측·상태 추정·공간 위험 인증은 아직 포함하지 않는다.\n")
+        handle.write("\n## 공간 관측과 유한 후보 추정의 연결\n\n"
+            "[관측·추정·탐침 규칙·목록 밖 실패](SPATIAL_OBSERVATION.md)를 연결했다. "
+            "29개 이산 후보 안의 조건부 결과와 네 목록 밖 상태의 stress를 분리한다. "
+            "유한 검사로 놓친 위험의 공개 관측 기반 수치 반례도 함께 기록했다.\n")
     write_json(result/"publication-manifest.json", {"scope": "Selected reports, public replay inputs and media only. No weights, assets, observed clips or full execution data.", "files": manifest})
     print(f"Published {len(manifest)} selected artifacts to docs/")
 

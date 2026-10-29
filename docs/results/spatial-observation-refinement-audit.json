@@ -1,0 +1,9 @@
+{
+  "max_peak_coordinate_change_m": 0.0,
+  "max_history_change_m": 0.0,
+  "max_posterior_mean_change_m": 0.0,
+  "max_weight_l1_change": 0.0,
+  "changed_feasible_masks": 0,
+  "changed_guard_actions_on_fixed_prefix": 0,
+  "scope": "64/128 increments of the same discrete catalog, not continuous parameter-grid convergence or an independent physical solver."
+}

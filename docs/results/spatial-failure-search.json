@@ -1,0 +1,37 @@
+{
+  "config": {
+    "version": 1,
+    "seed": 2026103023,
+    "sobol_power": 11,
+    "parameter_bounds": [
+      [
+        1.3,
+        2.8
+      ],
+      [
+        0.0008,
+        0.0018
+      ],
+      [
+        0.0008,
+        0.0018
+      ]
+    ],
+    "cycle_increments": 128,
+    "reference_drive_increments_m": [
+      4e-06,
+      2e-06
+    ],
+    "minimum_bias_interval_width_m": 4e-07,
+    "minimum_damage_margin": 0.0001,
+    "selection": "Post-hoc diagnosis of all off-catalog endpoints finite-guard violations at sigma=0.020mm. Search every executed nonzero command in these selected trajectories, using ONLY its public prefix and proposed command. Selection uses evaluation outcomes; search does not receive true parameters or true future labels.",
+    "scope": "Standard finite Sobol counterexample search over a continuous parameter box, followed by independent small-increment forward replay. A found feasible violating point is numerical evidence against a finite-catalog allow decision. Failure to find a point is NOT a risk upper bound, an allow decision or a safety certificate. No changes to the earlier executed policies or result tables."
+  },
+  "selected_failed_trajectories": 4,
+  "public_queries": 8,
+  "sobol_points": 2048,
+  "counterexample_queries": 8,
+  "trajectories_with_counterexamples": 4,
+  "new_budget_crossing_queries": 5,
+  "scope": "Standard finite Sobol counterexample search over a continuous parameter box, followed by independent small-increment forward replay. A found feasible violating point is numerical evidence against a finite-catalog allow decision. Failure to find a point is NOT a risk upper bound, an allow decision or a safety certificate. No changes to the earlier executed policies or result tables."
+}

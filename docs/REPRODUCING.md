@@ -150,6 +150,17 @@ bash scripts/world-model.sh test -q
 
 ## 공개 결과 갱신
 
+[공간 관측·유한 후보 추정](SPATIAL_OBSERVATION.md)과 사후 반례 진단은 아래 순서로 실행한다. 공개 결정 재생만 실행할 때는 원본 raw run이나 참 상태 파일이 필요 없다.
+
+```powershell
+.\scripts\run-wsl.ps1 python scripts/spatial_observation_evaluate.py
+.\scripts\run-wsl.ps1 python scripts/spatial_policy_replay.py
+.\scripts\run-wsl.ps1 python scripts/spatial_failure_search.py
+.\scripts\run-wsl.ps1 test -q tests/test_spatial_observation.py
+```
+
+29개 후보의 균일 **이산 prior**이며 연속 prior의 격자 수렴 실험이 아니다. 목록 밖 stress·예측 기권·실제 손상 위반도 함께 저장한다. 반례 검색은 실패 조건을 보고 선택한 사후 분석이며 원래 실행을 바꾸지 않는다.
+
 [세 구역 공간 순방향 모형](SPATIAL_FIXTURE.md)은 다음과 같이 실행한다. 다섯 설계 사례를 세 변위 증분에서 반복하며 준비 하중·평형·외부 일·이력 수렴을 검사한다. 합성 순방향 단계로 영상·추정·공간 위험 인증을 포함하지 않는다.
 
 ```powershell
